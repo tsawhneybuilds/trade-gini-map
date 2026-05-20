@@ -195,6 +195,32 @@ main { max-width: 1160px; margin: 0 auto; padding: 24px 22px 56px; }
   background: #f8faf9;
 }
 .evidence-links a:hover { border-color: var(--accent); }
+.evidence-note {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  background: #f8fafc;
+  padding: 12px 14px;
+  margin: 12px 0 18px;
+}
+.evidence-note dl {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 6px 14px;
+  margin: 0;
+}
+.evidence-note dt {
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.evidence-note dd {
+  margin: 0;
+  color: var(--ink);
+  font-size: 14px;
+}
 .result-ladder {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -442,6 +468,7 @@ figcaption {
   .hero h1, .page-title h1 { font-size: 32px; }
   .hero p, .page-title p { font-size: 16px; }
   .hypothesis-card dl { grid-template-columns: 1fr; gap: 4px; }
+  .evidence-note dl { grid-template-columns: 1fr; }
   .tool-section { padding: 14px; }
   .controls { align-items: stretch; }
   .controls label, .year-control { width: 100%; min-width: 0; }
