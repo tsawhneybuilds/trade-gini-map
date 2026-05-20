@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Methods and Downloads</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="methods">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Trade Concentration Brief</a>
+      <nav aria-label="Primary navigation"><a class="" href="index.html">Overview</a><a class="" href="extension.html">Extending 2001</a><a class="" href="imports.html">Import concentration</a><a class="active" href="methods.html">Methods</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-title">
+      <div class="eyebrow">Definitions and caveats</div>
+      <h1>Methods, Coverage, and Downloads</h1>
+      <p>The site is static, but it is generated from a reproducible Python script and a fixed set of local result artifacts.</p>
+    </section>
+
+    <section class="section two-col">
+      <article>
+        <h2>Coverage</h2>
+        <p>The core panel covers 33 countries, annual observations from 1988 through 2025, and two flows: exports and imports. The empirical sample follows the local Exercise 1 output, which is the extension of the Panagariya-Bagaria country set.</p>
+        <table><thead><tr><th>Country</th><th>ISO3</th></tr></thead><tbody><tr><td>Australia</td><td>AUS</td></tr><tr><td>Austria</td><td>AUT</td></tr><tr><td>Belgium</td><td>BEL</td></tr><tr><td>Brazil</td><td>BRA</td></tr><tr><td>Canada</td><td>CAN</td></tr><tr><td>China</td><td>CHN</td></tr><tr><td>Czech Republic</td><td>CZE</td></tr><tr><td>Denmark</td><td>DNK</td></tr><tr><td>Finland</td><td>FIN</td></tr><tr><td>France</td><td>FRA</td></tr><tr><td>Germany</td><td>DEU</td></tr><tr><td>Greece</td><td>GRC</td></tr><tr><td>Hungary</td><td>HUN</td></tr><tr><td>Iceland</td><td>ISL</td></tr><tr><td>India</td><td>IND</td></tr><tr><td>Ireland</td><td>IRL</td></tr><tr><td>Italy</td><td>ITA</td></tr><tr><td>Japan</td><td>JPN</td></tr><tr><td>Korea</td><td>KOR</td></tr><tr><td>Luxembourg</td><td>LUX</td></tr><tr><td>Mexico</td><td>MEX</td></tr><tr><td>Netherlands</td><td>NLD</td></tr><tr><td>New Zealand</td><td>NZL</td></tr><tr><td>Norway</td><td>NOR</td></tr><tr><td>Poland</td><td>POL</td></tr><tr><td>Russia</td><td>RUS</td></tr><tr><td>Slovakia</td><td>SVK</td></tr><tr><td>Spain</td><td>ESP</td></tr><tr><td>Sweden</td><td>SWE</td></tr><tr><td>Switzerland</td><td>CHE</td></tr><tr><td>Turkey</td><td>TUR</td></tr><tr><td>United Kingdom</td><td>GBR</td></tr><tr><td>United States</td><td>USA</td></tr></tbody></table>
+      </article>
+      <article>
+        <h2>Definitions</h2>
+        <ul class="callout-list">
+          <li><strong>Product Gini:</strong> concentration over HS6 product totals in a country-year-flow.</li>
+          <li><strong>Partner Gini:</strong> concentration over trade partner totals in a country-year-flow.</li>
+          <li><strong>Product-partner-cell Gini:</strong> concentration over HS6-by-partner cells.</li>
+          <li><strong>Lumpy-product exclusions:</strong> HS27 oil/mineral fuels, HS71 precious stones/metals, HS88 aircraft, HS89 ships, and HS93 arms.</li>
+          <li><strong>HS2-preserving benchmark:</strong> randomizes within broad HS2 sectors while preserving HS2 totals and active HS6 counts; it is a conditional benchmark, not complete randomization.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <h2>Source Artifacts Used</h2>
+        <p>All numeric claims on the site come from these tables. The public-paper/draft PDF context informed editorial framing only.</p>
+      </div>
+      <table><thead><tr><th>Artifact</th><th>Local source</th><th>Rows</th></tr></thead><tbody><tr><td>exercise_1_panel</td><td>results/exercise_01_tables/concentration_all_years.csv</td><td>2,258</td></tr><tr><td>exercise_1_top5_summary</td><td>results/exercise_01_tables/top5_trade_concentration_summary.csv</td><td>4,516</td></tr><tr><td>exercise_1_top5_latest</td><td>results/exercise_01_tables/top5_trade_concentration_latest_summary.csv</td><td>132</td></tr><tr><td>exercise_1_top5_frequency</td><td>results/exercise_01_tables/top5_item_frequency_latest.csv</td><td>185</td></tr><tr><td>exercise_2_growth</td><td>results/exercise_02_tables/bucket_growth_summary.csv</td><td>12</td></tr><tr><td>exercise_3_bins</td><td>results/exercise_03_tables/import_bin_concentration.csv</td><td>5,650</td></tr><tr><td>exercise_3_decomposition</td><td>results/exercise_03_tables/import_bin_decomposition.csv</td><td>5,650</td></tr><tr><td>exercise_3_total</td><td>results/exercise_03_tables/import_total_concentration.csv</td><td>1,130</td></tr><tr><td>exercise_4_suppliers</td><td>results/exercise_04_tables/dominant_supplier_importer_summary.csv</td><td>1,130</td></tr><tr><td>exercise_6_exclusions</td><td>results/exercise_06_tables/concentration_exclusions_all_years.csv</td><td>5,640</td></tr><tr><td>exercise_10_hs2</td><td>results/exercise_10_tables/random_benchmark_hs2_product_all_years.csv</td><td>2,258</td></tr><tr><td>exercise_10_active</td><td>results/exercise_10_tables/random_benchmark_active_count_null_all_years.csv</td><td>6,774</td></tr><tr><td>exercise_11_io_summary</td><td>results/exercise_11_tables/country_year_input_output_linkage_summary.csv</td><td>1,128</td></tr><tr><td>exercise_11_coefficients</td><td>results/exercise_11_product_export_linkage_tables/selected_regression_coefficients.csv</td><td>22</td></tr></tbody></table>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <h2>Downloadable Tables</h2>
+        <p>These CSVs are copied into the site so the small public brief can be inspected without the raw Comtrade files or large Parquet checkpoints.</p>
+      </div>
+      <div class="download-grid">
+        <a href="assets/downloads/exercise_01_concentration_all_years.csv">exercise_01_concentration_all_years.csv</a><a href="assets/downloads/exercise_01_top5_latest_summary.csv">exercise_01_top5_latest_summary.csv</a><a href="assets/downloads/exercise_03_import_bin_concentration.csv">exercise_03_import_bin_concentration.csv</a><a href="assets/downloads/exercise_04_dominant_supplier_importer_summary.csv">exercise_04_dominant_supplier_importer_summary.csv</a><a href="assets/downloads/exercise_06_concentration_exclusions_all_years.csv">exercise_06_concentration_exclusions_all_years.csv</a><a href="assets/downloads/exercise_10_hs2_product_benchmark_all_years.csv">exercise_10_hs2_product_benchmark_all_years.csv</a><a href="assets/downloads/exercise_11_country_year_input_output_linkage_summary.csv">exercise_11_country_year_input_output_linkage_summary.csv</a><a href="assets/downloads/exercise_11_selected_regression_coefficients.csv">exercise_11_selected_regression_coefficients.csv</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <h2>Caveats</h2>
+        <p>This is a preliminary research brief. The import linkage and growth-bucket results are descriptive. The lumpy-product exclusion currently focuses on export-side outputs. Transition dynamics are left for a later version.</p>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="site-footer">
+    <p>Preliminary empirical follow-up. Generated from local research outputs on 2026-05-20T12:18:47+00:00.</p>
+  </footer>
+  <script src="assets/vendor/plotly.min.js"></script>
+  <script src="assets/site-data.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
