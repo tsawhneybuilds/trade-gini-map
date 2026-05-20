@@ -83,6 +83,31 @@
 
     <section class="section">
       <div class="section-heading">
+        <h2>Which Top-Five Items Actually Raise Gini?</h2>
+        <p>The frequency tables show what appears often. The leave-one-out charts ask a different question: if the item is removed from a country's latest-year trade basket, how much does the Gini fall?</p>
+      </div>
+      
+          <div class="interpretation-grid">
+            <article class="note">
+              <h3>All-reporter average</h3>
+              <p>This is the broader panel comparison because the contribution is averaged across all latest-year reporters, including countries where the item is not in the top five. Positive values mean removing the item lowers Gini, so the item is concentration-raising.</p>
+              <p>The largest partner-side signals are <strong>USA (USA)</strong> for export destinations (0.010) and <strong>China (CHN)</strong> for import suppliers (0.006). On the product side, <strong>Crude petroleum oil (HS 270900)</strong> is the largest import contributor (0.005), while <strong>Refined petroleum oils (HS 271019)</strong> leads exported products (0.002).</p>
+            </article>
+            <article class="note">
+              <h3>Conditional on being top five</h3>
+              <p>This view asks how much the item raises concentration in countries where it actually appears in that country's top five. It is useful for mechanism spotting, but rare items can look large because the average is over fewer reporters.</p>
+              <p>The conditional partner signals remain large for <strong>USA (USA)</strong> as an export destination (0.015) and <strong>China (CHN)</strong> as an import supplier (0.008). The product panels reinforce the lumpy-goods story: oil, gold, aircraft, pharmaceuticals, vehicles, and chips repeatedly show positive contributions where they enter top-five baskets.</p>
+            </article>
+          </div>
+        
+      <div class="figure-row full-width">
+        <figure><img src="assets/figures/ex1_loo_all_reporters.png" alt="Mean item leave-one-out Gini contribution across all reporters"><figcaption>All-reporter average: best for identifying broad, system-wide top-five items that raise concentration across the full latest-year reporter sample.</figcaption></figure>
+        <figure><img src="assets/figures/ex1_loo_top5_reporters.png" alt="Mean item leave-one-out Gini contribution where item is top five"><figcaption>Conditional average where the item is actually in a reporter's top five: best for mechanism spotting, but rare items can have large conditional effects.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
         <h2>Lumpy-Product Exclusions</h2>
         <p>The full exclusion lowers the median export product Gini from 0.910 to 0.904, while the median removed trade share is 8.3%. This is currently an export-side test.</p>
       </div>
@@ -117,7 +142,7 @@
     
   </main>
   <footer class="site-footer">
-    <p>Preliminary empirical follow-up. Generated from local research outputs on 2026-05-20T12:18:47+00:00.</p>
+    <p>Preliminary empirical follow-up. Generated from local research outputs on 2026-05-20T12:27:18+00:00.</p>
   </footer>
   <script src="assets/vendor/plotly.min.js"></script>
   <script src="assets/site-data.js"></script>
