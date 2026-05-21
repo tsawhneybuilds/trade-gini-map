@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Import Concentration Mechanisms</title>
-  <link rel="stylesheet" href="assets/site.css?v=202605210352250000">
+  <link rel="stylesheet" href="assets/site.css?v=202605210802430000">
 </head>
 <body data-page="imports">
   <header class="site-header">
@@ -41,9 +41,9 @@
           <dt>Question</dt><dd>Imports are concentrated because each product has one dominant global source.</dd>
           <dt>Supports yes if</dt><dd>For many products, country imports come mostly from the top source country.</dd>
           <dt>Weakens yes if</dt><dd>Import concentration remains high even when supplier shares within products are diffuse.</dd>
-          <dt>Current answer</dt><dd>Supports product-level supplier dominance mechanically, but not the stronger claim that more supplier concentration maps to more import value. The median product top-supplier share is 50.2%; products above 75% top-supplier share are 21.8% of rows but only 11.2% of value. The value regression did not show that more concentrated supplier sourcing is associated with higher import value, so this should be read as evidence that suppliers are often concentrated within products, not that those concentrated products dominate the import bill.</dd>
+          <dt>Current answer</dt><dd>Supports product-level supplier dominance mechanically, with a value-weight caveat. The median product top-supplier share is 50.2%; products above 75% top-supplier share are 21.8% of rows but only 11.2% of value. In the latest-country decomposition, median weighted supplier HHI is 0.293, and the top-supplier component explains 77.9% of it. But median product-weight amplification is -0.121, so large products are not generally more supplier-concentrated than the typical product.</dd>
         </dl>
-        <div class="evidence-links"><a href="#supplier-dominance">Supplier dominance</a><a href="assets/downloads/exercise_04_dominant_supplier_importer_summary.csv">Supplier CSV</a></div>
+        <div class="evidence-links"><a href="#supplier-dominance">Supplier dominance</a><a href="#supplier-hhi-decomposition">Supplier HHI decomposition</a><a href="assets/downloads/exercise_04_dominant_supplier_importer_summary.csv">Supplier CSV</a></div>
       </article>
     
       <article class="hypothesis-card">
@@ -103,6 +103,37 @@
         <figure><a class="figure-link" href="assets/figures/ex4_supplier_time.png"><img src="assets/figures/ex4_supplier_time.png" alt="Dominant supplier summary over time"></a><figcaption>Dominant supplier metrics over time.</figcaption></figure>
         <figure><a class="figure-link" href="assets/figures/ex4_supplier_distribution.png"><img src="assets/figures/ex4_supplier_distribution.png" alt="Latest-year distribution of top supplier shares"></a><figcaption>Top-supplier-share distribution across all available 2025 importer-HS6 product rows.</figcaption></figure>
       </div>
+    </section>
+
+    <section class="section" id="supplier-hhi-decomposition">
+      <div class="section-heading">
+        <h2>How Product Concentration and Supplier Dominance Combine</h2>
+        <p>This decomposition asks whether Product-Gini concentration across HS6 imports and supplier dominance within each HS6 product combine into supplier-country exposure. Across latest available country-years, the median weighted supplier HHI is 0.293; the top-supplier component accounts for 77.9% of that weighted HHI. The median product-weight amplification is -0.121, so the evidence does not say that high-value products are systematically more supplier-concentrated than ordinary products.</p>
+      </div>
+      
+          <div class="note">
+            <p><strong>Product Gini</strong> is unevenness of imports across HS6 products. <strong>Within-product supplier HHI</strong> is concentration across source countries inside one HS6 product. <strong>Weighted supplier HHI</strong> is the import-value-weighted average of those within-product HHIs across all products. <strong>Aggregate partner concentration</strong> is concentration across total supplier countries after summing all products; it is related, but it is not the same object.</p>
+          </div>
+        
+      <div class="note">
+        <p><strong>Interpretation rule:</strong> if weighted supplier HHI is above the equal-product-weight benchmark, high-value products are more supplier-concentrated than the typical product. If the top-supplier component share is high, the weighted HHI mostly comes from one dominant source country within products.</p>
+      </div>
+      <h3 class="subsection-title">All countries: latest available year</h3>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex4_supplier_hhi_scatter.png"><img src="assets/figures/ex4_supplier_hhi_scatter.png" alt="Latest-year import Product Gini versus weighted supplier HHI"></a><figcaption>Product Gini across HS6 imports compared with weighted within-product supplier HHI.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex4_supplier_hhi_decomposition.png"><img src="assets/figures/ex4_supplier_hhi_decomposition.png" alt="Weighted supplier HHI decomposition by country"></a><figcaption>Weighted supplier HHI split into top-supplier and residual supplier components.</figcaption></figure>
+      </div>
+      <table><thead><tr><th>Country</th><th>ISO3</th><th>Year</th><th>Import Product Gini</th><th>Weighted supplier HHI</th><th>Equal-weight HHI</th><th>Product-weight amplification</th><th>Top-supplier component share</th><th>Value share in >=75% top-supplier products</th></tr></thead><tbody><tr><td>Luxembourg</td><td>LUX</td><td>2025</td><td>0.899</td><td>0.439</td><td>0.473</td><td>-0.034</td><td>85.2%</td><td>27.0%</td></tr><tr><td>Canada</td><td>CAN</td><td>2025</td><td>0.859</td><td>0.421</td><td>0.479</td><td>-0.058</td><td>86.8%</td><td>23.4%</td></tr><tr><td>Mexico</td><td>MEX</td><td>2025</td><td>0.898</td><td>0.401</td><td>0.614</td><td>-0.213</td><td>87.4%</td><td>23.0%</td></tr><tr><td>Brazil</td><td>BRA</td><td>2025</td><td>0.875</td><td>0.377</td><td>0.508</td><td>-0.132</td><td>82.2%</td><td>18.0%</td></tr><tr><td>Japan</td><td>JPN</td><td>2025</td><td>0.895</td><td>0.375</td><td>0.484</td><td>-0.109</td><td>82.0%</td><td>15.6%</td></tr><tr><td>Ireland</td><td>IRL</td><td>2024</td><td>0.911</td><td>0.367</td><td>0.447</td><td>-0.081</td><td>80.8%</td><td>16.8%</td></tr><tr><td>New Zealand</td><td>NZL</td><td>2025</td><td>0.869</td><td>0.365</td><td>0.486</td><td>-0.121</td><td>81.1%</td><td>12.2%</td></tr><tr><td>Australia</td><td>AUS</td><td>2025</td><td>0.885</td><td>0.349</td><td>0.470</td><td>-0.121</td><td>84.0%</td><td>17.9%</td></tr><tr><td>Belgium</td><td>BEL</td><td>2024</td><td>0.880</td><td>0.342</td><td>0.398</td><td>-0.056</td><td>80.8%</td><td>15.9%</td></tr><tr><td>Korea</td><td>KOR</td><td>2024</td><td>0.903</td><td>0.333</td><td>0.506</td><td>-0.173</td><td>79.9%</td><td>15.0%</td></tr><tr><td>Turkey</td><td>TUR</td><td>2025</td><td>0.895</td><td>0.326</td><td>0.441</td><td>-0.115</td><td>75.4%</td><td>7.8%</td></tr><tr><td>Finland</td><td>FIN</td><td>2025</td><td>0.873</td><td>0.325</td><td>0.434</td><td>-0.109</td><td>82.8%</td><td>18.3%</td></tr><tr><td>Russia</td><td>RUS</td><td>2021</td><td>0.837</td><td>0.321</td><td>0.438</td><td>-0.117</td><td>81.1%</td><td>16.5%</td></tr><tr><td>India</td><td>IND</td><td>2024</td><td>0.918</td><td>0.317</td><td>0.487</td><td>-0.169</td><td>77.7%</td><td>13.0%</td></tr><tr><td>Iceland</td><td>ISL</td><td>2025</td><td>0.908</td><td>0.310</td><td>0.467</td><td>-0.157</td><td>75.4%</td><td>8.5%</td></tr><tr><td>Austria</td><td>AUT</td><td>2024</td><td>0.840</td><td>0.308</td><td>0.418</td><td>-0.111</td><td>81.5%</td><td>8.5%</td></tr><tr><td>Norway</td><td>NOR</td><td>2025</td><td>0.872</td><td>0.293</td><td>0.400</td><td>-0.107</td><td>78.6%</td><td>9.3%</td></tr><tr><td>Greece</td><td>GRC</td><td>2024</td><td>0.884</td><td>0.292</td><td>0.435</td><td>-0.143</td><td>75.2%</td><td>10.0%</td></tr><tr><td>United States</td><td>USA</td><td>2025</td><td>0.892</td><td>0.292</td><td>0.374</td><td>-0.082</td><td>77.4%</td><td>8.9%</td></tr><tr><td>Denmark</td><td>DNK</td><td>2025</td><td>0.857</td><td>0.290</td><td>0.426</td><td>-0.136</td><td>75.4%</td><td>9.8%</td></tr><tr><td>Sweden</td><td>SWE</td><td>2025</td><td>0.868</td><td>0.287</td><td>0.416</td><td>-0.130</td><td>77.9%</td><td>9.0%</td></tr><tr><td>China</td><td>CHN</td><td>2024</td><td>0.941</td><td>0.277</td><td>0.407</td><td>-0.129</td><td>75.0%</td><td>6.1%</td></tr><tr><td>Czech Republic</td><td>CZE</td><td>2025</td><td>0.873</td><td>0.277</td><td>0.398</td><td>-0.121</td><td>78.0%</td><td>8.3%</td></tr><tr><td>Poland</td><td>POL</td><td>2024</td><td>0.846</td><td>0.277</td><td>0.405</td><td>-0.128</td><td>78.1%</td><td>8.3%</td></tr><tr><td>Slovakia</td><td>SVK</td><td>2025</td><td>0.893</td><td>0.266</td><td>0.428</td><td>-0.162</td><td>73.7%</td><td>7.6%</td></tr><tr><td>Hungary</td><td>HUN</td><td>2025</td><td>0.900</td><td>0.264</td><td>0.439</td><td>-0.175</td><td>76.0%</td><td>5.8%</td></tr><tr><td>Spain</td><td>ESP</td><td>2025</td><td>0.851</td><td>0.261</td><td>0.358</td><td>-0.098</td><td>75.6%</td><td>7.3%</td></tr><tr><td>United Kingdom</td><td>GBR</td><td>2025</td><td>0.891</td><td>0.247</td><td>0.366</td><td>-0.119</td><td>72.7%</td><td>6.4%</td></tr><tr><td>France</td><td>FRA</td><td>2024</td><td>0.841</td><td>0.243</td><td>0.334</td><td>-0.091</td><td>74.1%</td><td>6.4%</td></tr><tr><td>Netherlands</td><td>NLD</td><td>2025</td><td>0.864</td><td>0.237</td><td>0.365</td><td>-0.128</td><td>73.6%</td><td>6.2%</td></tr><tr><td>Italy</td><td>ITA</td><td>2025</td><td>0.848</td><td>0.234</td><td>0.347</td><td>-0.112</td><td>71.1%</td><td>3.9%</td></tr><tr><td>Switzerland</td><td>CHE</td><td>2025</td><td>0.936</td><td>0.220</td><td>0.393</td><td>-0.172</td><td>71.9%</td><td>3.2%</td></tr><tr><td>Germany</td><td>DEU</td><td>2024</td><td>0.859</td><td>0.217</td><td>0.329</td><td>-0.112</td><td>72.1%</td><td>4.9%</td></tr></tbody></table>
+      <h3 class="subsection-title">India deep dive</h3>
+      <p class="note">For India in 2024, weighted supplier HHI is 0.317, compared with an equal-product-weight benchmark of 0.487. Product weighting lowers the HHI by -0.169, while the top-supplier component still explains 77.7% of the weighted supplier HHI. In plain English: India's large import products are not more supplier-concentrated than the typical HS6 product, but the supplier exposure that remains is mostly a one-dominant-supplier-per-product mechanism.</p>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex4_india_supplier_hhi_time.png"><img src="assets/figures/ex4_india_supplier_hhi_time.png" alt="India supplier HHI decomposition over time"></a><figcaption>India: weighted supplier HHI, equal-product-weight benchmark, and product-weight amplification.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex4_india_supplier_hhi_bubble.png"><img src="assets/figures/ex4_india_supplier_hhi_bubble.png" alt="India product import share versus supplier HHI bubble chart"></a><figcaption>India latest year: larger products on the x-axis, within-product supplier HHI on the y-axis.</figcaption></figure>
+      </div>
+      <div class="figure-row full-width">
+        <figure><a class="figure-link" href="assets/figures/ex4_india_supplier_hhi_top.png"><img src="assets/figures/ex4_india_supplier_hhi_top.png" alt="India top product contributions to weighted supplier HHI"></a><figcaption>India latest year: HS6 products with the largest contribution to weighted supplier HHI.</figcaption></figure>
+      </div>
+      <table><thead><tr><th>HS6</th><th>Import value</th><th>Product import share</th><th>Within-product supplier HHI</th><th>Top supplier</th><th>Top-supplier share</th><th>Share of India's weighted supplier HHI</th></tr></thead><tbody><tr><td>270900</td><td>$141.5B</td><td>20.3%</td><td>0.210</td><td>Russian Federation</td><td>37.3%</td><td>13.4%</td></tr><tr><td>710812</td><td>$57.3B</td><td>8.2%</td><td>0.210</td><td>Switzerland</td><td>33.1%</td><td>5.4%</td></tr><tr><td>851779</td><td>$13.1B</td><td>1.9%</td><td>0.765</td><td>China</td><td>87.1%</td><td>4.5%</td></tr><tr><td>270119</td><td>$31.0B</td><td>4.4%</td><td>0.212</td><td>Australia</td><td>30.4%</td><td>3.0%</td></tr><tr><td>847130</td><td>$5.8B</td><td>0.8%</td><td>0.895</td><td>China</td><td>94.5%</td><td>2.3%</td></tr><tr><td>854231</td><td>$14.5B</td><td>2.1%</td><td>0.281</td><td>China</td><td>36.8%</td><td>1.8%</td></tr><tr><td>710239</td><td>$5.8B</td><td>0.8%</td><td>0.624</td><td>India</td><td>77.8%</td><td>1.6%</td></tr><tr><td>271111</td><td>$15.0B</td><td>2.2%</td><td>0.238</td><td>Qatar</td><td>42.7%</td><td>1.6%</td></tr><tr><td>710231</td><td>$11.3B</td><td>1.6%</td><td>0.259</td><td>United Arab Emirates</td><td>46.6%</td><td>1.3%</td></tr><tr><td>151110</td><td>$6.5B</td><td>0.9%</td><td>0.366</td><td>Indonesia</td><td>42.9%</td><td>1.1%</td></tr><tr><td>850760</td><td>$2.8B</td><td>0.4%</td><td>0.835</td><td>China</td><td>91.3%</td><td>1.1%</td></tr><tr><td>271113</td><td>$7.6B</td><td>1.1%</td><td>0.266</td><td>United Arab Emirates</td><td>38.5%</td><td>0.9%</td></tr><tr><td>150710</td><td>$4.0B</td><td>0.6%</td><td>0.487</td><td>Argentina</td><td>66.7%</td><td>0.9%</td></tr><tr><td>854143</td><td>$2.9B</td><td>0.4%</td><td>0.671</td><td>China</td><td>80.4%</td><td>0.9%</td></tr><tr><td>271112</td><td>$7.1B</td><td>1.0%</td><td>0.268</td><td>United Arab Emirates</td><td>40.5%</td><td>0.9%</td></tr></tbody></table>
     </section>
 
     <section class="section" id="io-linkage">
@@ -170,10 +201,10 @@
     
   </main>
   <footer class="site-footer">
-    <p>Generated from local research outputs on 2026-05-21T03:52:25+00:00.</p>
+    <p>Generated from local research outputs on 2026-05-21T08:02:43+00:00.</p>
   </footer>
   <script src="assets/vendor/plotly.min.js"></script>
-  <script src="assets/site-data.js?v=202605210352250000"></script>
-  <script src="assets/site.js?v=202605210352250000"></script>
+  <script src="assets/site-data.js?v=202605210802430000"></script>
+  <script src="assets/site.js?v=202605210802430000"></script>
 </body>
 </html>
