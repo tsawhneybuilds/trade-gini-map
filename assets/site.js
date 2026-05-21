@@ -22,14 +22,14 @@
     document.querySelectorAll('.js-plotly-plot').forEach((node) => Plotly.Plots.resize(node));
   }
 
-  function layout(title, ytitle) {
+  function layout(title, ytitle, xtitle) {
     return {
       title: { text: title, x: 0, xanchor: 'left', font: { size: 18 } },
       margin: { l: 56, r: 24, t: 52, b: 48 },
       paper_bgcolor: 'rgba(0,0,0,0)',
       plot_bgcolor: '#ffffff',
       hovermode: 'closest',
-      xaxis: { gridcolor: '#e5e7eb', zeroline: false },
+      xaxis: { title: xtitle || '', gridcolor: '#e5e7eb', zeroline: false },
       yaxis: { title: ytitle || '', gridcolor: '#e5e7eb', zeroline: false },
       legend: { orientation: 'h', y: -0.2 }
     };
@@ -272,6 +272,8 @@
     renderImportBins();
     renderSupplierChart();
     renderIoChart();
+    renderHs2LinkageCharts();
+    byId('hs2-linkage-view')?.addEventListener('change', renderHs2LinkageCharts);
   }
 
   function renderImportBins() {
@@ -333,6 +335,118 @@
       hovertemplate: name + '<br>%{x}: %{y:.3f}<extra></extra>'
     }));
     Plotly.react(node, traces, layout('Top export sector imported-input exposure', 'Share or Gini'), config);
+  }
+
+  function hs2RowsForCurrentView() {
+    const view = byId('hs2-linkage-view')?.value || 'decile';
+    const linkage = DATA.exercise11?.hs2_linkage || {};
+    return {
+      view,
+      rows: view === 'chapter' ? (linkage.chapters || []) : (linkage.deciles || [])
+    };
+  }
+
+  function hs2MarkerSizes(rows) {
+    return rows.map((row) => {
+      const share = Math.max(0, Number(row.mean_import_share) || 0);
+      return 8 + Math.sqrt(share) * 90;
+    });
+  }
+
+  function renderHs2LinkageChart(nodeId, outcomeKey, title, ytitle, color) {
+    const node = byId(nodeId);
+    if (!node) return;
+    const { view, rows } = hs2RowsForCurrentView();
+    const xTitle = 'Mean summed HS6 LOO Gini contribution';
+    let trace;
+    if (view === 'chapter') {
+      trace = {
+        type: 'scatter',
+        mode: 'markers',
+        name: 'HS2 chapters',
+        x: rows.map((r) => r.mean_loo_gini),
+        y: rows.map((r) => r[outcomeKey]),
+        text: rows.map((r) => r.display_label),
+        customdata: rows.map((r) => [
+          r.mean_import_share,
+          r.mean_intermediate_import_share,
+          r.mean_export_share,
+          r.observations,
+          r.mean_export_value
+        ]),
+        marker: {
+          size: hs2MarkerSizes(rows),
+          color: rows.map((r) => r.mean_intermediate_import_share),
+          colorscale: 'Viridis',
+          colorbar: { title: 'Intermediate<br>import share' },
+          opacity: 0.82,
+          line: { color: '#ffffff', width: 0.7 }
+        },
+        hovertemplate:
+          '<b>%{text}</b><br>' +
+          xTitle + ': %{x:.4f}<br>' +
+          ytitle + ': %{y:.3f}<br>' +
+          'Mean import share: %{customdata[0]:.2%}<br>' +
+          'Intermediate import share: %{customdata[1]:.1%}<br>' +
+          'Mean export share: %{customdata[2]:.2%}<br>' +
+          'Mean export value: $%{customdata[4]:,.0f}<br>' +
+          'Panel rows: %{customdata[3]}<extra></extra>'
+      };
+    } else {
+      trace = {
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: 'Decile averages',
+        x: rows.map((r) => r.mean_loo_gini),
+        y: rows.map((r) => r[outcomeKey]),
+        text: rows.map((r) => 'Decile ' + r.decile),
+        customdata: rows.map((r) => [
+          r.observations,
+          r.chapter_count,
+          r.min_loo_gini,
+          r.max_loo_gini,
+          r.top_chapters,
+          r.mean_import_share,
+          r.mean_intermediate_import_share,
+          r.mean_export_value
+        ]),
+        line: { color, width: 2 },
+        marker: { size: 8, color },
+        hovertemplate:
+          '<b>%{text}</b><br>' +
+          xTitle + ': %{x:.4f}<br>' +
+          ytitle + ': %{y:.3f}<br>' +
+          'LOO range: %{customdata[2]:.4f} to %{customdata[3]:.4f}<br>' +
+          'Rows: %{customdata[0]} | HS2 chapters: %{customdata[1]}<br>' +
+          'Mean import share: %{customdata[5]:.2%}<br>' +
+          'Intermediate import share: %{customdata[6]:.1%}<br>' +
+          'Mean export value: $%{customdata[7]:,.0f}<br>' +
+          'Largest import-share chapters:<br>%{customdata[4]}<extra></extra>'
+      };
+    }
+    const chartLayout = layout(title, ytitle, xTitle);
+    chartLayout.margin = { l: 64, r: view === 'chapter' ? 84 : 24, t: 52, b: 64 };
+    chartLayout.showlegend = false;
+    chartLayout.xaxis.zeroline = true;
+    chartLayout.xaxis.zerolinecolor = '#94a3b8';
+    Plotly.react(node, [trace], chartLayout, config);
+  }
+
+  function renderHs2LinkageCharts() {
+    renderHs2LinkageChart(
+      'hs2-probability-chart',
+      'export_probability',
+      'HS2 export probability',
+      'Probability HS2 chapter is exported',
+      '#2f5d62'
+    );
+    renderHs2LinkageChart(
+      'hs2-value-chart',
+      'mean_asinh_export_value',
+      'HS2 export value',
+      'Mean transformed HS2 export value',
+      '#8c4f2b'
+    );
   }
 
   document.addEventListener('DOMContentLoaded', () => {

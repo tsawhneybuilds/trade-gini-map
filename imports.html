@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Import Concentration Mechanisms</title>
-  <link rel="stylesheet" href="assets/site.css?v=202605210802430000">
+  <link rel="stylesheet" href="assets/site.css?v=202605210819000000">
 </head>
 <body data-page="imports">
   <header class="site-header">
@@ -185,26 +185,52 @@
         
       <table><thead><tr><th>Result</th><th>Outcome</th><th>Coef.</th><th>SE</th><th>p-value</th><th>Obs.</th><th>Interpretation</th></tr></thead><tbody><tr><td>HS6 Product-Gini contribution</td><td>asinh_export_value</td><td>-4.926</td><td>0.553</td><td>0.000</td><td>5,524,696</td><td>Negative export-value linkage</td></tr><tr><td>HS6 export probability</td><td>export_any</td><td>-0.130</td><td>0.022</td><td>0.000</td><td>5,524,696</td><td>Negative export-probability linkage</td></tr><tr><td>HS6 supplier-country HHI contribution</td><td>asinh_export_value</td><td>0.224</td><td>0.078</td><td>0.004</td><td>5,524,696</td><td>Positive export-value linkage</td></tr><tr><td>Intermediate interaction</td><td>asinh_export_value</td><td>-0.705</td><td>0.169</td><td>0.000</td><td>5,524,696</td><td>Intermediates are not more export-linked</td></tr><tr><td>HS2 Product-Gini contribution</td><td>asinh_hs2_export_value</td><td>-0.186</td><td>0.068</td><td>0.006</td><td>108,965</td><td>Still negative after broadening to HS2</td></tr><tr><td>HS2 export probability</td><td>hs2_export_any</td><td>-0.002</td><td>0.002</td><td>0.324</td><td>108,965</td><td>Small and not statistically distinguishable from zero</td></tr><tr><td>HS2 export share</td><td>hs2_export_share</td><td>0.002</td><td>0.002</td><td>0.185</td><td>108,965</td><td>Small and not statistically distinguishable from zero</td></tr><tr><td>HS2 intermediate-intensity interaction</td><td>asinh_hs2_export_value</td><td>0.020</td><td>0.035</td><td>0.570</td><td>108,965</td><td>Does not rescue the intermediate channel</td></tr></tbody></table>
       <h3 class="subsection-title">Intermediate slopes</h3>
+      
+          <div class="equation-card">
+            <h4>Regression plotted here</h4>
+            <div class="math-line">
+              asinh(export value)<sub>p,c,t</sub> =
+              &beta;<sub>1</sub> LOO_Gini_z<sub>p,c,t</sub>
+              + &beta;<sub>2</sub> Intermediate<sub>p</sub>
+              + &beta;<sub>3</sub> (LOO_Gini_z<sub>p,c,t</sub> &times; Intermediate<sub>p</sub>)
+              + &beta;<sub>4</sub> ImportShare_z<sub>p,c,t</sub>
+              + &alpha;<sub>c,t</sub>
+              + &epsilon;<sub>p,c,t</sub>
+            </div>
+            <p><strong>Unit:</strong> HS6 product <em>p</em> in reporter country <em>c</em> and year <em>t</em>. <strong>Fixed effects:</strong> country-year. <strong>SEs:</strong> clustered by reporter country.</p>
+            <p><strong>How the dots map to the equation:</strong> non-intermediate slope = &beta;<sub>1</sub> (-4.829); intermediate slope = &beta;<sub>1</sub> + &beta;<sub>3</sub> (-5.535); intermediate minus non-intermediate = &beta;<sub>3</sub> (-0.705).</p>
+          </div>
+        
       <table><thead><tr><th>Effect</th><th>Coef.</th><th>SE</th><th>CI low</th><th>CI high</th></tr></thead><tbody><tr><td>Non-intermediate slope</td><td>-4.829</td><td>0.542</td><td>-5.892</td><td>-3.767</td></tr><tr><td>Intermediate slope</td><td>-5.535</td><td>0.625</td><td>-6.761</td><td>-4.309</td></tr><tr><td>Intermediate minus non-intermediate</td><td>-0.705</td><td>0.169</td><td>-1.037</td><td>-0.374</td></tr></tbody></table>
+      <div class="figure-row full-width">
+        <figure><a class="figure-link" href="assets/figures/ex11_coefficients.png"><img src="assets/figures/ex11_coefficients.png" alt="Intermediate channel coefficients"></a><figcaption>Intermediate-channel regression coefficients. The point estimates correspond to the slope mapping in the equation above.</figcaption></figure>
+      </div>
       <h3 class="subsection-title">Commodity-exclusion robustness</h3>
       <table><thead><tr><th>Check</th><th>Coef.</th><th>SE</th><th>p-value</th><th>Obs.</th></tr></thead><tbody><tr><td>baseline - Export value: Product-Gini contribution</td><td>-4.926</td><td>0.553</td><td>0.000</td><td>5,524,696</td></tr><tr><td>baseline - Export probability: Product-Gini contribution</td><td>-0.130</td><td>0.022</td><td>0.000</td><td>5,524,696</td></tr><tr><td>baseline - Export value: Partner-HHI contribution</td><td>0.224</td><td>0.078</td><td>0.004</td><td>5,524,696</td></tr><tr><td>baseline - Intermediate interaction</td><td>-0.705</td><td>0.169</td><td>0.000</td><td>5,524,696</td></tr><tr><td>excluding oil/gas/gold/coal - Export value: Product-Gini contribution</td><td>-4.113</td><td>0.278</td><td>0.000</td><td>5,503,557</td></tr><tr><td>excluding oil/gas/gold/coal - Export probability: Product-Gini contribution</td><td>-0.109</td><td>0.015</td><td>0.000</td><td>5,503,557</td></tr><tr><td>excluding oil/gas/gold/coal - Export value: Partner-HHI contribution</td><td>0.150</td><td>0.042</td><td>0.000</td><td>5,503,557</td></tr><tr><td>excluding oil/gas/gold/coal - Intermediate interaction</td><td>-0.779</td><td>0.144</td><td>0.000</td><td>5,503,557</td></tr></tbody></table>
-      <div class="figure-row">
+      <div class="figure-row full-width">
         <figure><a class="figure-link" href="assets/figures/ex11_export_linkage_decile.png"><img src="assets/figures/ex11_export_linkage_decile.png" alt="Export linkage by Product-Gini leave-one-out decile"></a><figcaption>HS6 export linkage by Product-Gini contribution decile.</figcaption></figure>
-        <figure><a class="figure-link" href="assets/figures/ex11_hs2_linkage_decile.png"><img src="assets/figures/ex11_hs2_linkage_decile.png" alt="HS2 export linkage by leave-one-out decile"></a><figcaption>HS2 robustness: export linkage by aggregated concentration-contribution decile.</figcaption></figure>
+      </div>
+      <h3 class="subsection-title">HS2 interactive robustness</h3>
+      <p class="note">HS2 means the two-digit Harmonized System chapter: a broad product sector such as HS27 mineral fuels, HS84 machinery, or HS85 electrical machinery. In the decile view, each dot is a bin of country-year-HS2 observations, matching the static figure logic. In the chapter view, each dot is one named HS2 chapter averaged across the panel.</p>
+      <div class="controls compact">
+        <label>Dot meaning <select id="hs2-linkage-view"><option value="decile">Decile averages</option><option value="chapter">HS2 chapters</option></select></label>
+      </div>
+      <div class="chart-grid">
+        <div id="hs2-probability-chart" class="chart"></div>
+        <div id="hs2-value-chart" class="chart"></div>
       </div>
       <div class="figure-row">
         <figure><a class="figure-link" href="assets/figures/ex11_india_io.png"><img src="assets/figures/ex11_india_io.png" alt="India top export input exposure over time"></a><figcaption>India top-export-sector imported-input exposure.</figcaption></figure>
-        <figure><a class="figure-link" href="assets/figures/ex11_coefficients.png"><img src="assets/figures/ex11_coefficients.png" alt="Intermediate channel coefficients"></a><figcaption>Intermediate-channel regression coefficients.</figcaption></figure>
         <figure><a class="figure-link" href="assets/figures/ex11_india_supplier_scatter.png"><img src="assets/figures/ex11_india_supplier_scatter.png" alt="India supplier concentration linkage scatter"></a><figcaption>India supplier concentration and export linkage scatter.</figcaption></figure>
       </div>
     </section>
     
   </main>
   <footer class="site-footer">
-    <p>Generated from local research outputs on 2026-05-21T08:02:43+00:00.</p>
+    <p>Generated from local research outputs on 2026-05-21T08:19:00+00:00.</p>
   </footer>
   <script src="assets/vendor/plotly.min.js"></script>
-  <script src="assets/site-data.js?v=202605210802430000"></script>
-  <script src="assets/site.js?v=202605210802430000"></script>
+  <script src="assets/site-data.js?v=202605210819000000"></script>
+  <script src="assets/site.js?v=202605210819000000"></script>
 </body>
 </html>
