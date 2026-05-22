@@ -38,10 +38,10 @@
         <div class="hypothesis-kicker">Exercise 4</div>
         <h3>Dominant supplier by product</h3>
         <dl>
-          <dt>Question</dt><dd>Imports are concentrated because each product has one dominant global source.</dd>
-          <dt>Supports yes if</dt><dd>For many products, country imports come mostly from the top source country.</dd>
+          <dt>Question</dt><dd>Imports are concentrated because each product has one dominant supplier source.</dd>
+          <dt>Supports yes if</dt><dd>For many importer-product rows, country imports come mostly from the top source country; for a stricter global claim, the world product market is dominated by one supplier.</dd>
           <dt>Weakens yes if</dt><dd>Import concentration remains high even when supplier shares within products are diffuse.</dd>
-          <dt>Current answer</dt><dd>Supports a meaningful but incomplete mechanism. The median product top-supplier share is 50.2%; products above 75% top-supplier share are 21.8% of rows but only 11.2% of value. In the latest-country counterfactual, equalizing suppliers within observed HS6 products reduces median import Partner Gini by 0.207, or 23.0% of actual Partner Gini.</dd>
+          <dt>Current answer</dt><dd>Supports a meaningful but incomplete mechanism. In Exercise 4, the median importer-product top-supplier share is 50.2%; products above 75% top-supplier share are 21.8% of rows but only 11.2% of value. In H2.4, the full-world 2024 median top-supplier share is lower at 32.4%, with only 5.8% of world product markets above 75%.</dd>
         </dl>
         <div class="evidence-links"><a href="#supplier-dominance">Supplier dominance</a><a href="#partner-gini-counterfactual">Partner-Gini counterfactual</a><a href="assets/downloads/exercise_04_dominant_supplier_importer_summary.csv">Supplier CSV</a></div>
       </article>
@@ -69,6 +69,7 @@
             <li>Intermediates are the largest import bucket: median import value share <strong>47.7%</strong>.</li>
             <li>Across importer-years, the median product top-supplier share is <strong>50.2%</strong>.</li>
             <li>Products with top supplier share at least 75% are <strong>21.8%</strong> of product rows but <strong>11.2%</strong> of import value.</li>
+            <li>Using the stricter H2.4 world-product-market definition, the 2024 median top-supplier share is <strong>32.4%</strong>, and only <strong>5.8%</strong> of world HS6 product markets have a top supplier above 75%.</li>
             <li>In the latest-country counterfactual, neutralizing within-product supplier dominance reduces median import Partner Gini by <strong>0.207</strong>, or <strong>23.0%</strong> of the actual index.</li>
           </ul>
         
@@ -93,15 +94,18 @@
 
     <section class="section" id="supplier-dominance">
       <div class="section-heading">
-        <h2>Exercise 4: Dominant Suppliers</h2>
-        <p>For India in 2024, top-supplier share is at least 75% in 31.7% of imported HS6 rows, accounting for 13.0% of import value.</p>
+        <h2>Exercise 4 and H2.4: Dominant Suppliers</h2>
+        <p>There are two different supplier-dominance concepts. Exercise 4 is country-specific: within an importer-country and HS6 product, it asks how much that country buys from its largest source. H2.4 is global: within an HS6 product market, it asks how much of world reported imports comes from the largest supplier country.</p>
       </div>
       <div class="note">
-        <p>The histogram is not India-only: it pools importer-HS6 product observations for all 22 reporter countries with 2025 data. The India statistic above is separate because India's latest Exercise 4 year is 2024. Top-supplier share means the share of an importer-product's import value sourced from its largest supplier country.</p>
+        <p>In Exercise 4, top-supplier share is largest-source imports divided by one importer country's imports of that HS6 product. The interactive country-specific chart summarizes 22 reporter countries with 2025 data, and India in 2024 has top-supplier share at least 75% in 31.7% of imported HS6 rows. In H2.4, top-supplier share is largest supplier-country value divided by full-world reported imports of the HS6 product; in 2024, the median world product-market top-supplier share is 32.4%.</p>
       </div>
-      <div id="supplier-chart" class="chart"></div>
+      <div class="chart-grid">
+        <div id="supplier-chart" class="chart"></div>
+        <div id="world-supplier-chart" class="chart"></div>
+      </div>
       <div class="figure-row">
-        <figure><a class="figure-link" href="assets/figures/ex4_supplier_time.png"><img src="assets/figures/ex4_supplier_time.png" alt="Dominant supplier summary over time"></a><figcaption>Dominant supplier metrics over time.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/h24_importer_world_supplier_comparison.png"><img src="assets/figures/h24_importer_world_supplier_comparison.png" alt="Importer-country versus world product-market supplier dominance"></a><figcaption>Side-by-side comparison of country-specific sourcing dominance and global product-market supplier dominance.</figcaption></figure>
         <figure><a class="figure-link" href="assets/figures/ex4_supplier_distribution.png"><img src="assets/figures/ex4_supplier_distribution.png" alt="Latest-year distribution of top supplier shares"></a><figcaption>Top-supplier-share distribution across all available 2025 importer-HS6 product rows.</figcaption></figure>
       </div>
     </section>
@@ -223,7 +227,7 @@
     <p>Generated from local research outputs on 2026-05-21T11:05:31+00:00.</p>
   </footer>
   <script src="assets/vendor/plotly.min.js"></script>
-  <script src="assets/site-data.js?v=202605211105310000"></script>
-  <script src="assets/site.js?v=202605211105310000"></script>
+  <script src="assets/site-data.js?v=202605221034530000"></script>
+  <script src="assets/site.js?v=202605221034530000"></script>
 </body>
 </html>

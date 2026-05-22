@@ -271,6 +271,7 @@
   function setupImports() {
     renderImportBins();
     renderSupplierChart();
+    renderWorldSupplierChart();
     renderIoChart();
     renderHs2LinkageCharts();
     byId('hs2-linkage-view')?.addEventListener('change', renderHs2LinkageCharts);
@@ -314,7 +315,27 @@
       line: { color, width: 2 },
       hovertemplate: name + '<br>%{x}: %{y:.3f}<extra></extra>'
     }));
-    Plotly.react(node, traces, layout('Dominant supplier measures over time', 'Share'), config);
+    Plotly.react(node, traces, layout('Dominant supplier to a particular country', 'Share'), config);
+  }
+
+  function renderWorldSupplierChart() {
+    const node = byId('world-supplier-chart');
+    if (!node) return;
+    const rows = DATA.h24Supplier?.year_series || [];
+    const traces = [
+      ['median_top_supplier_share', 'Median top-supplier share', '#0f766e'],
+      ['share_products_top_supplier_ge_75', 'Share of products with top supplier >=75%', '#b7791f'],
+      ['import_value_share_top_supplier_ge_75', 'Import value share in >=75% products', '#2563eb']
+    ].map(([key, name, color]) => ({
+      type: 'scatter',
+      mode: 'lines+markers',
+      name,
+      x: rows.map((r) => r.year),
+      y: rows.map((r) => r[key]),
+      line: { color, width: 2 },
+      hovertemplate: name + '<br>%{x}: %{y:.3f}<extra></extra>'
+    }));
+    Plotly.react(node, traces, layout('Dominant supplier to all countries', 'Share'), config);
   }
 
   function renderIoChart() {
