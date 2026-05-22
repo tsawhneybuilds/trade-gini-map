@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 12 Export Transitions</title>
+  <link rel="stylesheet" href="assets/site.css?v=202605211105310000">
+  <style>
+    .ex12-intro {
+      display: grid;
+      grid-template-columns: minmax(220px, 0.45fr) minmax(280px, 1fr);
+      gap: 18px;
+      align-items: start;
+    }
+    .page-title h1,
+    .page-title p,
+    .ex12-card p,
+    .note {
+      overflow-wrap: anywhere;
+    }
+    .coverage-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .badge {
+      display: inline-flex;
+      gap: 4px;
+      align-items: baseline;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      border-radius: 6px;
+      padding: 7px 9px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .badge strong { color: var(--ink); }
+    .ex12-card {
+      display: grid;
+      grid-template-columns: minmax(250px, 0.74fr) minmax(380px, 1.26fr);
+      gap: 22px;
+      align-items: center;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 18px;
+      margin: 18px 0;
+      overflow: hidden;
+      min-width: 0;
+    }
+    .ex12-card > *,
+    .ex12-card .chart {
+      min-width: 0;
+      max-width: 100%;
+    }
+    .ex12-copy h2 {
+      margin: 6px 0 10px;
+      font-size: 24px;
+      line-height: 1.2;
+    }
+    .ex12-copy p { color: var(--muted); }
+    .caveat {
+      margin-top: 14px;
+      color: #6f4b17;
+      background: #fbf1df;
+      border: 1px solid #ecd4a8;
+      padding: 10px 12px;
+      border-radius: 6px;
+    }
+    .ex12-card .chart {
+      min-height: 430px;
+      margin: 0;
+    }
+    @media (max-width: 860px) {
+      html,
+      body,
+      main {
+        max-width: 100vw;
+        overflow-x: hidden;
+      }
+      .page-title h1 {
+        font-size: 28px;
+        line-height: 1.12;
+        max-width: 100%;
+        word-break: normal;
+      }
+      .page-title p,
+      .note,
+      .ex12-copy p {
+        max-width: 100%;
+      }
+      .coverage-badges {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .badge {
+        width: 100%;
+      }
+      .ex12-intro, .ex12-card { grid-template-columns: 1fr; }
+      .ex12-card { padding: 14px; }
+      .ex12-copy h2 {
+        font-size: 22px;
+        overflow-wrap: anywhere;
+      }
+      .ex12-card .chart {
+        width: 100%;
+        min-height: 360px;
+      }
+    }
+  </style>
+</head>
+<body data-page="exercise12">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Trade Concentration Brief</a>
+      <nav aria-label="Primary navigation"><a class="" href="index.html">Overview</a><a class="" href="extension.html">Extending 2001</a><a class="" href="imports.html">Import concentration</a><a class="active" href="exercise-12.html">Export transitions</a><a class="" href="methods.html">Methods</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-title">
+      <div class="eyebrow">Exercise 12</div>
+      <h1>Export Transitions and Growth Margins</h1>
+      <p>This page explains where export growth came from across products, partners, and product-destination cells. Read it as accounting evidence: the charts decompose observed growth margins, with conservative HS6 product comparisons restricted to the same HS revision.</p>
+      <div class="coverage-badges" id="coverage-badges"></div>
+    </section>
+
+    <section class="section ex12-intro">
+      <article>
+        <h2>How To Read This</h2>
+      </article>
+      <article class="note">
+        Exercise 12 asks a measurement question: when exports grow, is the growth coming from the old big items, old smaller items, brand-new items, or new product-destination cells? The page keeps product identity conservative and reports when HS revision changes make direct HS6 comparisons unsafe.
+      </article>
+    </section>
+
+<section class="ex12-card">
+        <div class="ex12-copy">
+          <span class="eyebrow">Question 1</span>
+          <h2>Where did net export growth come from?</h2>
+          <p>The main accounting split says partner growth is mostly incumbent top partners, product growth is mostly smaller incumbent products, and product-destination cell growth is heavily about new cells.</p>
+          <p class="caveat">HS6 product and product-destination views use only same-revision comparisons, so only the conservative 5-year HS6 horizon appears for those dimensions.</p>
+        </div>
+        <div id="fig-net" class="chart" role="img" aria-label="Where did net export growth come from?"></div>
+      </section>
+    
+      <section class="ex12-card">
+        <div class="ex12-copy">
+          <span class="eyebrow">Question 2</span>
+          <h2>Is this really new products, or new markets for existing products?</h2>
+          <p>The 5-year comparison separates products, partners, and product-destination cells. New products are small, but new product-destination cells are large, which points to market expansion along the extensive margin. The transition matrix says about 33.5% of 5-year HS6 product-destination cell transitions are absent-to-active.</p>
+        </div>
+        <div id="fig-margin" class="chart" role="img" aria-label="Is this really new products, or new markets for existing products?"></div>
+      </section>
+    
+      <section class="ex12-card">
+        <div class="ex12-copy">
+          <span class="eyebrow">Question 3</span>
+          <h2>How much churn does net growth hide?</h2>
+          <p>Gross accounting shows the flows behind the net number. Expansions and contractions both concentrate in incumbent categories, so a calm net figure can hide a lot of turnover underneath.</p>
+          <p class="caveat">Bars above zero are gross positive growth; bars below zero are gross contraction, both summed over the 5-year accounting sample.</p>
+        </div>
+        <div id="fig-churn" class="chart" role="img" aria-label="How much churn does net growth hide?"></div>
+      </section>
+    
+      <section class="ex12-card">
+        <div class="ex12-copy">
+          <span class="eyebrow">Question 4</span>
+          <h2>Do conclusions change when product identity is coarser?</h2>
+          <p>HS4, HS2, and CPA mappings compress products into broader groups. If the story survives across coarser identities, it is less likely to be an artifact of fragile HS6 codes.</p>
+          <p class="caveat">HS6 same-revision is still the conservative main view; coarser mappings are robustness checks.</p>
+        </div>
+        <div id="fig-robust" class="chart" role="img" aria-label="Do conclusions change when product identity is coarser?"></div>
+      </section>
+    
+      <section class="ex12-card">
+        <div class="ex12-copy">
+          <span class="eyebrow">Question 5</span>
+          <h2>How much product comparison is excluded when HS revisions changed?</h2>
+          <p>A large amount of base export value is excluded from conservative HS6 transition accounting when the base and future years use different HS revisions. That is the measurement reason bare cmd_code transitions were unsafe.</p>
+        </div>
+        <div id="fig-hs" class="chart" role="img" aria-label="How much product comparison is excluded when HS revisions changed?"></div>
+      </section>
+    
+      <section class="ex12-card">
+        <div class="ex12-copy">
+          <span class="eyebrow">Question 6</span>
+          <h2>Can we trust regional-to-global destination labels?</h2>
+          <p>The region metadata is weak in this run: product-year identities mostly have high unknown-region shares. Destination counts are safer than region labels for this exercise.</p>
+          <p class="caveat">The page keeps destination and region transitions descriptive and discounts any region-transition claim when unknown-region shares are high.</p>
+        </div>
+        <div id="fig-region" class="chart" role="img" aria-label="Can we trust regional-to-global destination labels?"></div>
+      </section>
+    
+      <section class="ex12-card">
+        <div class="ex12-copy">
+          <span class="eyebrow">Question 7</span>
+          <h2>Which countries look most different?</h2>
+          <p>The country scatter shows two different margins: dependence on existing top partners and growth from new product-destination cells. Countries can look similar in one margin and very different in the other.</p>
+          <p class="caveat">This is heterogeneity in accounting outcomes, not evidence about mechanisms.</p>
+        </div>
+        <div id="fig-country" class="chart" role="img" aria-label="Which countries look most different?"></div>
+      </section>
+  </main>
+  <footer class="site-footer">
+    <p>Generated from local Exercise 12 research outputs. Source tables remain in the research repository; this public page embeds summarized chart data only.</p>
+  </footer>
+  <script src="assets/vendor/plotly.min.js"></script>
+  <script src="assets/site-data.js?v=202605211105310000"></script>
+  <script src="assets/site.js?v=202605211105310000"></script>
+  <script>
+    const FIGURES = {"fig-net":{"data":[{"type":"bar","name":"Existing top 10","x":["Partner (5y)","Partner (10y)","Product (5y)","Product x destination cell (5y)"],"y":[0.6230261560884346,0.5812852430971545,0.1719793909950563,0.0011545622487449],"marker":{"color":"#2f6f73"},"hovertemplate":"%{x}<br>%{y:.1%}<extra>Existing top 10</extra>"},{"type":"bar","name":"Existing non-top","x":["Partner (5y)","Partner (10y)","Product (5y)","Product x destination cell (5y)"],"y":[0.3367829621693357,0.36828794568831963,0.7875469208070788,0.346610979958016],"marker":{"color":"#8f5f2a"},"hovertemplate":"%{x}<br>%{y:.1%}<extra>Existing non-top</extra>"},{"type":"bar","name":"New item","x":["Partner (5y)","Partner (10y)","Product (5y)","Product x destination cell (5y)"],"y":[0.0019517101423071502,0.0069623846793266,0.0277775721857715,0.6433093898174944],"marker":{"color":"#c84b31"},"hovertemplate":"%{x}<br>%{y:.1%}<extra>New item</extra>"}],"layout":{"barmode":"stack","margin":{"t":20,"r":20,"b":90,"l":60},"yaxis":{"title":"Median share of net growth","tickformat":".0%"},"xaxis":{"tickangle":-25},"legend":{"orientation":"h","y":1.15}}},"fig-margin":{"data":[{"type":"bar","name":"Existing top 10","x":["Partner","Product","Product x destination cell"],"y":[0.6230261560884346,0.1719793909950563,0.0011545622487449],"marker":{"color":"#2f6f73"},"hovertemplate":"%{x}<br>%{y:.1%}<extra>Existing top 10</extra>"},{"type":"bar","name":"Existing non-top","x":["Partner","Product","Product x destination cell"],"y":[0.3367829621693357,0.7875469208070788,0.346610979958016],"marker":{"color":"#8f5f2a"},"hovertemplate":"%{x}<br>%{y:.1%}<extra>Existing non-top</extra>"},{"type":"bar","name":"New item","x":["Partner","Product","Product x destination cell"],"y":[0.0019517101423071502,0.0277775721857715,0.6433093898174944],"marker":{"color":"#c84b31"},"hovertemplate":"%{x}<br>%{y:.1%}<extra>New item</extra>"}],"layout":{"barmode":"group","margin":{"t":20,"r":20,"b":70,"l":60},"yaxis":{"title":"Median 5-year net-growth share","tickformat":".0%"},"legend":{"orientation":"h","y":1.15}}},"fig-churn":{"data":[{"type":"bar","name":"Existing top 10","x":["Partner","Product","Product x destination cell"],"y":[46.68769459784301,0.746623766188547,0.378101638830156],"marker":{"color":"#2f6f73"},"hovertemplate":"%{x}<br>$%{y:.1f}T<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Existing non-top","x":["Partner","Product","Product x destination cell"],"y":[34.232781840039856,2.3950041378425,3.171463106942407],"marker":{"color":"#76a08a"},"hovertemplate":"%{x}<br>$%{y:.1f}T<extra>%{fullData.name}</extra>"},{"type":"bar","name":"New item","x":["Partner","Product","Product x destination cell"],"y":[1.666246214523761,0.100396708884293,0.952828581773016],"marker":{"color":"#c84b31"},"hovertemplate":"%{x}<br>$%{y:.1f}T<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Shrinking top 10","x":["Partner","Product","Product x destination cell"],"y":[-6.991518678317829,-0.24986636979391,-0.185177249876651],"marker":{"color":"#b23a48"},"hovertemplate":"%{x}<br>$%{y:.1f}T<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Shrinking non-top","x":["Partner","Product","Product x destination cell"],"y":[-6.079232543488877,-0.856732909421516,-1.4904012868700138],"marker":{"color":"#d9785f"},"hovertemplate":"%{x}<br>$%{y:.1f}T<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Exited top 10","x":["Partner","Product","Product x destination cell"],"y":[-0.906276590725,-0.017212019515,-0.096181656939],"marker":{"color":"#7d1d2f"},"hovertemplate":"%{x}<br>$%{y:.1f}T<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Exited non-top","x":["Partner","Product","Product x destination cell"],"y":[-0.48781858344534196,-0.086229078087,-0.698648897762],"marker":{"color":"#a54d60"},"hovertemplate":"%{x}<br>$%{y:.1f}T<extra>%{fullData.name}</extra>"}],"layout":{"barmode":"relative","margin":{"t":20,"r":20,"b":70,"l":70},"yaxis":{"title":"5-year gross contribution, USD trillions"},"legend":{"orientation":"h","y":1.28},"shapes":[{"type":"line","x0":-0.5,"x1":2.5,"y0":0,"y1":0,"line":{"color":"#333","width":1}}]}},"fig-robust":{"data":[{"type":"bar","name":"Product: Existing non-top","x":["CPA sector","HS2","HS4","HS6 same revision"],"y":[0.297853997208364,0.2998371365125001,0.6716980560798184,0.7875469208070788],"hovertemplate":"%{x}<br>%{y:.1%}<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Product: New item","x":["CPA sector","HS2","HS4","HS6 same revision"],"y":[3.717856658231391e-05,0.00071145720663,0.0057660543722671,0.0277775721857715],"hovertemplate":"%{x}<br>%{y:.1%}<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Product x destination cell: Existing non-top","x":["CPA sector","HS2","HS4","HS6 same revision"],"y":[0.7790699776359404,0.7686931978544371,0.793503640517876,0.346610979958016],"hovertemplate":"%{x}<br>%{y:.1%}<extra>%{fullData.name}</extra>"},{"type":"bar","name":"Product x destination cell: New item","x":["CPA sector","HS2","HS4","HS6 same revision"],"y":[0.0250884064901616,0.022119080198344347,0.11031448077261516,0.6433093898174944],"hovertemplate":"%{x}<br>%{y:.1%}<extra>%{fullData.name}</extra>"}],"layout":{"barmode":"group","margin":{"t":20,"r":20,"b":70,"l":60},"yaxis":{"title":"Median 5-year net-growth share","tickformat":".0%"},"legend":{"orientation":"h","y":1.25}}},"fig-hs":{"data":[{"type":"bar","orientation":"h","x":[62.35796385511568,62.35796385511568,55.218395445838475,55.218395445838475,54.399113224587474,54.399113224587474,44.52677110939929,44.52677110939929,44.42639221633077,44.42639221633077,35.084346175502866,35.084346175502866,34.73831181409287,34.73831181409287,22.257852222938073,22.257852222938073,22.114597993661075,22.114597993661075],"y":["Product, 5y, H4 -> H5","Product x destination cell, 5y, H4 -> H5","Product, 5y, H3 -> H4","Product x destination cell, 5y, H3 -> H4","Product, 10y, H3 -> H5","Product x destination cell, 10y, H3 -> H5","Product x destination cell, 10y, H4 -> H6","Product, 10y, H4 -> H6","Product x destination cell, 5y, H5 -> H6","Product, 5y, H5 -> H6","Product x destination cell, 10y, H2 -> H4","Product, 10y, H2 -> H4","Product x destination cell, 5y, H2 -> H3","Product, 5y, H2 -> H3","Product x destination cell, 5y, H1 -> H2","Product, 5y, H1 -> H2","Product x destination cell, 10y, H1 -> H3","Product, 10y, H1 -> H3"],"marker":{"color":"#8f5f2a"},"hovertemplate":"%{y}<br>$%{x:.1f}T excluded base value<extra></extra>"}],"layout":{"margin":{"t":20,"r":20,"b":60,"l":190},"xaxis":{"title":"Excluded base value, USD trillions"},"yaxis":{"automargin":true}}},"fig-region":{"data":[{"type":"bar","name":"Unknown-region share bucket","x":["0-20%","20-50%","50-80%","80-95%","95-100%"],"y":[0.0,0.0,0.0,0.0,1.0],"marker":{"color":"#b23a48"},"hovertemplate":"%{x}<br>%{y:.1%} of product-year identities<extra></extra>"},{"type":"bar","name":"Low-reliability rows","x":["low_unknown_region_gt_20pct"],"y":[1.0],"marker":{"color":"#2f6f73"},"visible":"legendonly","hovertemplate":"%{x}<br>%{y:.1%}<extra></extra>"}],"layout":{"barmode":"group","margin":{"t":20,"r":20,"b":80,"l":60},"yaxis":{"title":"Share","tickformat":".0%"},"legend":{"orientation":"h","y":1.15}}},"fig-country":{"data":[{"type":"scatter","mode":"markers+text","x":[0.6022407955319873,0.5265708949017622,0.4418721447772646,0.5704941213334813,0.3705366367005948,0.5811026648775564,0.567979955048886,0.7246746097511118,0.5595071790931184,0.5914352107253885,0.7029549208375123,0.8139960305299859,0.6238090172620432,0.631553505146502,0.5690036688233632,0.5532972760360575,0.42453734184164793,0.579510827005765,0.64216000241811,0.7632672462114446,0.5979832758284501,0.6187778112199875,0.7151282171223176,0.6425080296958989,0.5287724534500646,0.9114162119862983,0.8719595604402196,0.599840819711861,0.5444705209886811],"y":[5.4005195768074685,1.6403537145057459,1.559898573472209,1.2959436481098134,1.2794551322614611,1.215137880984667,1.1141519819690628,1.0362267660800937,0.973059204602606,0.952812151458503,0.7520737453915645,0.7468866012806611,0.7110078367306238,0.6953069722180523,0.6924626516583092,0.6288922858784325,0.6265173142802059,0.5828706911613474,0.3896916247701125,0.3754722383802214,0.3656668022437634,0.349022102203206,0.3163805562887128,0.1921834996146748,0.1738159282214386,0.1300954329465124,0.1129479129018146,-1.5167592450946723,-1.682131619663496],"text":["FRA","FIN","GRC","CHE","TUR","DNK","GBR","ISL","DEU","NLD","AUS","NOR","AUT","POL","ESP","BRA","IND","KOR","NZL","IRL","HUN","USA","CZE","JPN","CHN","CAN","MEX","SWE","ITA"],"textposition":"top center","marker":{"size":11,"color":"#2f6f73","line":{"color":"#0f2027","width":1}},"customdata":[["France","FRA"],["Finland","FIN"],["Greece","GRC"],["Switzerland","CHE"],["Turkey","TUR"],["Denmark","DNK"],["United Kingdom","GBR"],["Iceland","ISL"],["Germany","DEU"],["Netherlands","NLD"],["Australia","AUS"],["Norway","NOR"],["Austria","AUT"],["Poland","POL"],["Spain","ESP"],["Brazil","BRA"],["India","IND"],["Korea","KOR"],["New Zealand","NZL"],["Ireland","IRL"],["Hungary","HUN"],["United States","USA"],["Czech Republic","CZE"],["Japan","JPN"],["China","CHN"],["Canada","CAN"],["Mexico","MEX"],["Sweden","SWE"],["Italy","ITA"]],"hovertemplate":"%{customdata[0]} (%{customdata[1]})<br>Top-partner share: %{x:.1%}<br>New-cell share: %{y:.1%}<extra></extra>"}],"layout":{"margin":{"t":20,"r":20,"b":70,"l":70},"xaxis":{"title":"Median share from existing top partners","tickformat":".0%"},"yaxis":{"title":"Median share from new product-destination cells","tickformat":".0%"}}}};
+    const COVERAGE = {"generated_at":"2026-05-22T06:47:59+00:00","countries":33,"year_min":1988,"year_max":2025,"net_rows":104055,"gross_rows":207969,"transition_rows":216166,"hs_diag_rows":3374,"scope_rows":5047416};
+    const config = {responsive: true, displaylogo: false};
+
+    const badges = [
+      ["Countries", COVERAGE.countries],
+      ["Years", COVERAGE.year_min + "-" + COVERAGE.year_max],
+      ["Net rows", COVERAGE.net_rows.toLocaleString()],
+      ["Gross rows", COVERAGE.gross_rows.toLocaleString()],
+      ["Transition rows", COVERAGE.transition_rows.toLocaleString()],
+      ["HS diagnostics", COVERAGE.hs_diag_rows.toLocaleString()]
+    ];
+    document.getElementById("coverage-badges").innerHTML = badges
+      .map(([k, v]) => `<span class="badge"><strong>${k}:</strong> ${v}</span>`)
+      .join("");
+
+    for (const [id, fig] of Object.entries(FIGURES)) {
+      Plotly.newPlot(id, fig.data, fig.layout, config);
+    }
+  </script>
+</body>
+</html>
