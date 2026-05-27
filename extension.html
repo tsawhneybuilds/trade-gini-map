@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Extending the 2001 Trade Concentration Evidence</title>
-  <link rel="stylesheet" href="assets/site.css?v=202605271149440000">
+  <link rel="stylesheet" href="assets/site.css?v=202605271305240000">
 </head>
 <body data-page="extension">
   <header class="site-header">
@@ -41,7 +41,7 @@
           <dt>Question</dt><dd>Concentration is mostly driven by oil, aircraft, precious metals/gold, ships, arms, or other obvious lumpy categories.</dd>
           <dt>Supports yes if</dt><dd>Ginis fall sharply after excluding these product groups.</dd>
           <dt>Weakens yes if</dt><dd>Ginis remain high after the exclusions.</dd>
-          <dt>Current answer</dt><dd>Weakens the mostly-lumpy explanation. The full export-side exclusion lowers median Product Gini across HS6 products only from 0.920 to 0.913, while removing a median 6.2% of trade value.</dd>
+          <dt>Current answer</dt><dd>Weakens the mostly-lumpy explanation. The full import-side exclusion lowers median Product Gini across HS6 products only from 0.897 to 0.880, while removing a median 9.4% of trade value.</dd>
         </dl>
         <div class="evidence-links"><a href="#lumpy-exclusions">Exclusion table</a><a href="assets/downloads/exercise_06_concentration_exclusions_all_years.csv">Exclusion CSV</a></div>
       </article>
@@ -188,7 +188,7 @@
     <section class="section" id="lumpy-exclusions">
       <div class="section-heading">
         <h2>Lumpy-Product Exclusions</h2>
-        <p>The full exclusion lowers the median export Product Gini across HS6 products from 0.920 to 0.913, while the median removed trade share is 6.2%. This is currently an export-side test.</p>
+        <p>The full exclusion lowers the median import Product Gini across HS6 products from 0.897 to 0.880, while the median removed trade share is 9.4%. This is currently an import-side test.</p>
       </div>
       
       <article class="evidence-note">
@@ -200,9 +200,9 @@
       </article>
     
       <div id="exclusion-chart" class="chart"></div>
-      <table><thead><tr><th>Specification</th><th>Median Product Gini (HS6 products)</th><th>Top 1% share</th><th>Top 5% share</th><th>Trade share removed</th></tr></thead><tbody><tr><td>Baseline</td><td>0.920</td><td>50.6%</td><td>78.2%</td><td>0.0%</td></tr><tr><td>No oil/mineral fuels</td><td>0.916</td><td>48.6%</td><td>77.1%</td><td>1.5%</td></tr><tr><td>No oil + aircraft</td><td>0.915</td><td>48.3%</td><td>76.8%</td><td>2.8%</td></tr><tr><td>No oil + aircraft + precious metals</td><td>0.913</td><td>47.3%</td><td>76.2%</td><td>5.1%</td></tr><tr><td>No oil, precious metals, aircraft, ships, arms</td><td>0.913</td><td>47.1%</td><td>76.1%</td><td>6.2%</td></tr></tbody></table>
+      <table><thead><tr><th>Specification</th><th>Median Product Gini (HS6 products)</th><th>Top 1% share</th><th>Top 5% share</th><th>Trade share removed</th></tr></thead><tbody><tr><td>Baseline</td><td>0.897</td><td>46.7%</td><td>73.3%</td><td>0.0%</td></tr><tr><td>No oil/mineral fuels</td><td>0.884</td><td>41.7%</td><td>70.0%</td><td>4.3%</td></tr><tr><td>No oil + aircraft</td><td>0.884</td><td>41.3%</td><td>69.8%</td><td>6.2%</td></tr><tr><td>No oil + aircraft + precious metals</td><td>0.880</td><td>40.3%</td><td>68.9%</td><td>8.6%</td></tr><tr><td>No oil, precious metals, aircraft, ships, arms</td><td>0.880</td><td>40.3%</td><td>68.8%</td><td>9.4%</td></tr></tbody></table>
       <div class="figure-row">
-        <figure><a class="figure-link" href="assets/figures/ex6_before_after.png"><img src="assets/figures/ex6_before_after.png" alt="Before and after export Product Gini over time"></a><figcaption>Export Product Gini across HS6 products before and after full lumpy-product exclusion.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex6_before_after.png"><img src="assets/figures/ex6_before_after.png" alt="Before and after Product Gini over time"></a><figcaption>Product Gini across HS6 products before and after full lumpy-product exclusion; the source figure separates imports and exports by line style.</figcaption></figure>
         <figure><a class="figure-link" href="assets/figures/ex6_removed.png"><img src="assets/figures/ex6_removed.png" alt="Trade share removed over time"></a><figcaption>Trade share removed by exclusion specification.</figcaption></figure>
       </div>
     </section>
@@ -248,10 +248,10 @@
     
   </main>
   <footer class="site-footer">
-    <p>Generated from local research outputs on 2026-05-27T11:49:44+00:00.</p>
+    <p>Generated from local research outputs on 2026-05-27T13:05:24+00:00.</p>
   </footer>
   <script src="assets/vendor/plotly.min.js"></script>
-  <script src="assets/site-data.js?v=202605271149440000"></script>
-  <script src="assets/site.js?v=202605271149440000"></script>
+  <script src="assets/site-data.js?v=202605271305240000"></script>
+  <script src="assets/site.js?v=202605271305240000"></script>
 </body>
 </html>

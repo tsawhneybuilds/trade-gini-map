@@ -568,7 +568,7 @@
       marker: { color: '#0f766e' },
       hovertemplate: '%{x}<br>Median Product Gini (HS6 products): %{y:.3f}<extra></extra>'
     };
-    Plotly.react(node, [trace], layout('Median export Product Gini after lumpy-product exclusions', 'Product Gini'), config);
+    Plotly.react(node, [trace], layout('Median import Product Gini after lumpy-product exclusions', 'Product Gini'), config);
   }
 
   function renderBenchmarkChart() {
