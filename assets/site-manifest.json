@@ -302,7 +302,7 @@
     }
   ],
   "country_sample": "rd2_countries",
-  "created_at_utc": "2026-05-27T11:48:42+00:00",
+  "created_at_utc": "2026-05-27T11:49:44+00:00",
   "downloads": [
     "country_size_effect_fama_macbeth_models.csv",
     "country_size_effect_main_models.csv",
