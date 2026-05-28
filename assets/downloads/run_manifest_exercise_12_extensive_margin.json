@@ -1,0 +1,122 @@
+{
+  "country_sample": "rd2_countries",
+  "created_at_utc": "2026-05-28T04:38:44+00:00",
+  "definition": {
+    "identity_robustness_modes": [
+      "hs4",
+      "hs2"
+    ],
+    "least_traded_base_share": 0.1,
+    "low_base_value_usd": 10000.0,
+    "mutually_exclusive_category_order": {
+      "existing_product_partner_cell_contraction": 5,
+      "existing_product_partner_cell_growth": 4,
+      "existing_product_partner_cell_no_change": 6,
+      "net_new_partner_existing_product": 2,
+      "net_new_product": 1,
+      "new_product_partner_cell_existing_product_partner": 3
+    },
+    "partner_code_0_excluded": true,
+    "preferred_product_identity": "hs6_harmonized_family",
+    "product_excluded_hs6_codes": [
+      "999999"
+    ],
+    "unit_of_observation": "reporter-country base-year future-year horizon product-identity-mode growth channel"
+  },
+  "processed_output": "data/processed/samples/rd2_countries/exercise_12_extensive_margin_decomposition.parquet",
+  "result_files": {
+    "country_weighted_summary": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_country_weighted_summary.csv",
+    "country_year": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_country_year.csv",
+    "latest": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_latest.csv",
+    "manifest": "results/samples/rd2_countries/run_manifest_exercise_12_extensive_margin.json",
+    "memo": "results/samples/rd2_countries/exercise_12_extensive_margin.md",
+    "overlapping_robustness": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_overlapping_robustness.csv",
+    "product_entry_robustness": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_product_entry_robustness.csv",
+    "summary": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_summary.csv",
+    "validation": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_validation.json"
+  },
+  "row_counts": {
+    "country_weighted_summary": 36,
+    "decomposition": 52434,
+    "latest": 120,
+    "overlapping_robustness": 34956,
+    "product_entry_robustness": 34956,
+    "summary": 36
+  },
+  "source_aggregate": "data/processed/samples/rd2_countries/exercise_12_export_aggregates.parquet",
+  "source_aggregate_sha256": "bba5898db8bd794061fafa9136b30a09f4b82b952dfdf60681e191f5902c2bab",
+  "started_at_utc": "2026-05-28T04:05:16+00:00",
+  "validation": {
+    "blockers": [],
+    "category_accounting_residual_violations": 0,
+    "country_count_decomposition": 60,
+    "country_count_expected": 60,
+    "country_count_latest": 60,
+    "created_at_utc": "2026-05-28T04:38:43+00:00",
+    "duplicate_category_keys": 0,
+    "horizons": [
+      5,
+      10
+    ],
+    "hs_harmonization_distinct_pairs": 36637,
+    "hs_harmonization_missing_distinct_pairs": 0,
+    "hs_harmonization_missing_rows": 0,
+    "hs_harmonization_missing_trade_value": 0.0,
+    "identity_modes": [
+      "hs6_harmonized_family",
+      "hs4",
+      "hs2"
+    ],
+    "max_abs_category_accounting_residual": 0.0006103515625,
+    "max_category_accounting_residual_tolerance": 10.0,
+    "mutually_exclusive_categories": [
+      "net_new_product",
+      "net_new_partner_existing_product",
+      "new_product_partner_cell_existing_product_partner",
+      "existing_product_partner_cell_growth",
+      "existing_product_partner_cell_contraction",
+      "existing_product_partner_cell_no_change"
+    ],
+    "partner_code_0_excluded": true,
+    "product_excluded_hs6_codes": [
+      "999999"
+    ],
+    "product_robustness_rows": 34956,
+    "rows_by_identity_horizon": [
+      {
+        "horizon": 5,
+        "identity_mode": "hs2",
+        "rows": 9630
+      },
+      {
+        "horizon": 10,
+        "identity_mode": "hs2",
+        "rows": 7848
+      },
+      {
+        "horizon": 5,
+        "identity_mode": "hs4",
+        "rows": 9630
+      },
+      {
+        "horizon": 10,
+        "identity_mode": "hs4",
+        "rows": 7848
+      },
+      {
+        "horizon": 5,
+        "identity_mode": "hs6_harmonized_family",
+        "rows": 9630
+      },
+      {
+        "horizon": 10,
+        "identity_mode": "hs6_harmonized_family",
+        "rows": 7848
+      }
+    ],
+    "source_hs6_999999_rows_after_filters": 0,
+    "source_partner_code_0_rows_after_filters": 0,
+    "source_product_partner_rows_after_filters": 161654903,
+    "status": "ok"
+  }
+}

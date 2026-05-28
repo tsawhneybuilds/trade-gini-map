@@ -1,0 +1,37 @@
+identity_mode,horizon,category,category_label,category_order,country_year_pairs,countries,median_net_contribution,median_gross_positive_contribution,median_gross_contraction,median_net_growth_share,median_gross_positive_share,median_gross_contraction_share,mean_gross_positive_share,median_cell_count,median_product_count,median_partner_count
+hs2,5,net_new_product,Net-new products,1,1605,60,0.0,0.0,0.0,0.0,0.0,0.0,0.011071789296143735,0.0,0.0,0.0
+hs2,5,net_new_partner_existing_product,Net-new partners for existing products,2,1605,60,29909389.0,29909389.0,0.0,0.0028737822567092277,0.0028572738393568588,0.0,0.03373531342079376,82.0,41.0,15.0
+hs2,5,new_product_partner_cell_existing_product_partner,New product-partner cells for existing products and partners,3,1605,60,349836743.53400004,349836743.53400004,0.0,0.02363530330448494,0.02258347813324769,0.0,0.06786122731567833,1311.0,94.0,173.0
+hs2,5,existing_product_partner_cell_growth,Growth in already-active product-partner cells,4,1605,60,22338864347.509,22338864347.509,0.0,1.1699766805981366,0.9497532313775392,0.0,0.8873316699673842,2696.0,93.0,160.0
+hs2,5,existing_product_partner_cell_contraction,Contraction in already-active product-partner cells,5,1605,60,-7252326346.59,0.0,7252326346.59,-0.28546013028484407,0.0,1.0,0.0,3027.0,96.0,188.0
+hs2,5,existing_product_partner_cell_no_change,No change in already-active product-partner cells,6,1605,60,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hs2,10,net_new_product,Net-new products,1,1308,60,0.0,0.0,0.0,0.0,0.0,0.0,0.009308232463913484,0.0,0.0,0.0
+hs2,10,net_new_partner_existing_product,Net-new partners for existing products,2,1308,60,173593235.85750002,173593235.85750002,0.0,0.008744634595650867,0.0073080616119048985,0.0,0.04113662731997935,185.0,65.0,22.5
+hs2,10,new_product_partner_cell_existing_product_partner,New product-partner cells for existing products and partners,3,1308,60,709557820.3399999,709557820.3399999,0.0,0.02865100481023551,0.02384323656554271,0.0,0.08165673438109174,1660.0,94.0,171.0
+hs2,10,existing_product_partner_cell_growth,Growth in already-active product-partner cells,4,1308,60,41594105089.643005,41594105089.643005,0.0,1.0846680708354328,0.9334450313946332,0.0,0.8678984058350154,2714.5,92.0,155.0
+hs2,10,existing_product_partner_cell_contraction,Contraction in already-active product-partner cells,5,1308,60,-8300660518.52,0.0,8300660518.52,-0.21177413433439984,0.0,1.0,0.0,2670.5,96.0,185.0
+hs2,10,existing_product_partner_cell_no_change,No change in already-active product-partner cells,6,1308,60,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hs4,5,net_new_product,Net-new products,1,1605,60,118193651.0,118193651.0,0.0,0.010030443235419231,0.007175437733059492,0.0,0.03515518373189225,237.0,50.0,60.0
+hs4,5,net_new_partner_existing_product,Net-new partners for existing products,2,1605,60,28590708.0,28590708.0,0.0,0.0027361888384138523,0.00228414134663245,0.0,0.028719977119526428,148.0,108.0,15.0
+hs4,5,new_product_partner_cell_existing_product_partner,New product-partner cells for existing products and partners,3,1605,60,2136204097.0,2136204097.0,0.0,0.11320036706595851,0.08004526038456605,0.0,0.12559555066623426,9420.0,1056.0,179.0
+hs4,5,existing_product_partner_cell_growth,Growth in already-active product-partner cells,4,1605,60,26378233789.0,26378233789.0,0.0,1.227913235098682,0.870085246066145,0.0,0.810529288482347,10185.0,956.0,153.0
+hs4,5,existing_product_partner_cell_contraction,Contraction in already-active product-partner cells,5,1605,60,-12742197282.0,0.0,12742197282.0,-0.4594943630609832,0.0,1.0,0.0,15402.0,1115.0,190.0
+hs4,5,existing_product_partner_cell_no_change,No change in already-active product-partner cells,6,1605,60,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hs4,10,net_new_product,Net-new products,1,1308,60,434561619.0,434561619.0,0.0,0.015887376428138596,0.011584305226002175,0.0,0.04579756607449797,412.0,61.0,89.0
+hs4,10,net_new_partner_existing_product,Net-new partners for existing products,2,1308,60,169916087.5,169916087.5,0.0,0.008679215492096326,0.006421158298610612,0.0,0.03616061134062671,473.0,280.5,22.0
+hs4,10,new_product_partner_cell_existing_product_partner,New product-partner cells for existing products and partners,3,1308,60,4141074814.4245,4141074814.4245,0.0,0.14005655937525446,0.09483876227980606,0.0,0.14711676981488034,11742.0,1058.0,175.0
+hs4,10,existing_product_partner_cell_growth,Growth in already-active product-partner cells,4,1308,60,46962303445.705,46962303445.705,0.0,1.0843922335004716,0.8452900716655616,0.0,0.770925052769995,10266.5,928.0,147.0
+hs4,10,existing_product_partner_cell_contraction,Contraction in already-active product-partner cells,5,1308,60,-14215522281.967,0.0,14215522281.967,-0.34195873390670894,0.0,1.0,0.0,14170.5,1116.0,187.0
+hs4,10,existing_product_partner_cell_no_change,No change in already-active product-partner cells,6,1308,60,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hs6_harmonized_family,5,net_new_product,Net-new products,1,1605,60,7352109098.0,7352109098.0,0.0,0.4238792701517787,0.28239210686119287,0.0,0.2999088242802409,8521.0,639.0,175.0
+hs6_harmonized_family,5,net_new_partner_existing_product,Net-new partners for existing products,2,1605,60,22856428.409999996,22856428.409999996,0.0,0.002021361809530879,0.0014009656307899586,0.0,0.021751450484376066,152.0,121.0,13.0
+hs6_harmonized_family,5,new_product_partner_cell_existing_product_partner,New product-partner cells for existing products and partners,3,1605,60,3276275493.83,3276275493.83,0.0,0.16020117599959607,0.08655130430003082,0.0,0.12947730695347717,20504.0,2991.0,178.0
+hs6_harmonized_family,5,existing_product_partner_cell_growth,Growth in already-active product-partner cells,4,1605,60,21349530768.88,21349530768.88,0.0,1.036536999970425,0.5576053316872224,0.0,0.5488624182819059,15117.0,2508.0,146.0
+hs6_harmonized_family,5,existing_product_partner_cell_contraction,Contraction in already-active product-partner cells,5,1605,60,-19287747977.0,0.0,19287747977.0,-0.7648326390989049,0.0,1.0,0.0,35109.0,3750.0,191.0
+hs6_harmonized_family,5,existing_product_partner_cell_no_change,No change in already-active product-partner cells,6,1605,60,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hs6_harmonized_family,10,net_new_product,Net-new products,1,1308,60,12886864061.870499,12886864061.870499,0.0,0.3911004904964533,0.2710179644830716,0.0,0.29412431806907063,10774.0,724.0,190.0
+hs6_harmonized_family,10,net_new_partner_existing_product,Net-new partners for existing products,2,1308,60,142320679.387,142320679.387,0.0,0.0068903261136581545,0.004483578803639593,0.0,0.0263476831408464,586.5,420.5,20.0
+hs6_harmonized_family,10,new_product_partner_cell_existing_product_partner,New product-partner cells for existing products and partners,3,1308,60,6090961780.7665,6090961780.7665,0.0,0.17930302487412653,0.10966543527040482,0.0,0.15140038301538983,25817.5,2994.5,174.0
+hs6_harmonized_family,10,existing_product_partner_cell_growth,Growth in already-active product-partner cells,4,1308,60,35210414011.5,35210414011.5,0.0,0.8597328810998814,0.5453429162741248,0.0,0.5281276157746931,14323.0,2382.0,138.0
+hs6_harmonized_family,10,existing_product_partner_cell_contraction,Contraction in already-active product-partner cells,5,1308,60,-20729868179.5,0.0,20729868179.5,-0.523895719191176,0.0,1.0,0.0,33686.5,3743.0,188.0
+hs6_harmonized_family,10,existing_product_partner_cell_no_change,No change in already-active product-partner cells,6,1308,60,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

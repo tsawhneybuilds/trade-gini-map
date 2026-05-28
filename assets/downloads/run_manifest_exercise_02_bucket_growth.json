@@ -1,0 +1,49 @@
+{
+  "command": "targeted Python refresh: add_exercise_02_controls on current rd2 exercise_02_bucket_growth_panel, then run_exercise_02_models/memo/figures",
+  "country_sample": "rd2_countries",
+  "created_at_utc": "2026-05-28T12:12:31+00:00",
+  "full_control_diagnostics": [
+    {
+      "candidate_rows": 1842,
+      "countries": 60,
+      "dropped_rows": 10,
+      "horizon": 1,
+      "nobs": 1832,
+      "status": "ok"
+    },
+    {
+      "candidate_rows": 1611,
+      "countries": 60,
+      "dropped_rows": 13,
+      "horizon": 5,
+      "nobs": 1598,
+      "status": "ok"
+    },
+    {
+      "candidate_rows": 1315,
+      "countries": 60,
+      "dropped_rows": 14,
+      "horizon": 10,
+      "nobs": 1301,
+      "status": "ok"
+    }
+  ],
+  "mode": "targeted_exercise_02_world_bank_control_refresh",
+  "processed_output": "data/processed/samples/rd2_countries/exercise_02_bucket_growth_panel.parquet",
+  "product_excluded_hs6_codes": [
+    "999999"
+  ],
+  "product_excluded_hs6_labels": {
+    "999999": "Commodities not specified"
+  },
+  "reason": "supplement incomplete World Bank macro-control cache and rerun Exercise 2 models",
+  "results_memo": "results/samples/rd2_countries/exercise_02_bucket_growth.md",
+  "results_tables": "results/samples/rd2_countries/exercise_02_tables",
+  "rows_ex02_growth": 4768,
+  "world_bank_indicators": {
+    "gdp_current_usd": "NY.GDP.MKTP.CD",
+    "gni_per_capita_current_usd": "NY.GNP.PCAP.CD",
+    "population": "SP.POP.TOTL",
+    "us_gdp_deflator": "NY.GDP.DEFL.ZS"
+  }
+}

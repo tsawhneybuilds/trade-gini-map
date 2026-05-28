@@ -77,6 +77,17 @@
     };
   }
 
+  const WORLD_RELATIVE_METRIC = 'world_relative_product_gini';
+
+  function selectedFlowForMetric(flowId, metricId) {
+    const flowSelect = byId(flowId);
+    const metric = byId(metricId)?.value;
+    if (metric === WORLD_RELATIVE_METRIC && flowSelect && flowSelect.value !== 'Exports') {
+      flowSelect.value = 'Exports';
+    }
+    return flowSelect?.value || 'Exports';
+  }
+
   function rowsFor(flow, metric, year) {
     return (DATA.exercise1?.panel || []).filter((row) => row.flow === flow && Number(row.year) === Number(year) && row[metric] !== null);
   }
@@ -115,6 +126,10 @@
     if (!box || !row) return;
     box.innerHTML = '<strong>' + row.country + '</strong> (' + row.iso3 + '), ' + row.year + ' ' + row.flow +
       '<br>' + (DATA.labels?.metrics?.[metric] || metric) + ': ' + fmt(row[metric]) +
+      (row.world_relative_product_gini !== null && row.world_relative_product_gini !== undefined
+        ? '<br>World-Relative Product Gini: ' + fmt(row.world_relative_product_gini) +
+          ' | appendix weighted-share Gini: ' + fmt(row.world_weighted_share_gini)
+        : '') +
       '<br>Product Gini (HS6 products): ' + fmt(row.product_gini) +
       ' | Partner Gini: ' + fmt(row.partner_gini) +
       ' | Cell Gini: ' + fmt(row.product_partner_cell_gini);
@@ -123,8 +138,8 @@
   function renderMap() {
     const node = byId('world-map');
     if (!node) return;
-    const flow = byId('map-flow').value;
     const metric = byId('map-metric').value;
+    const flow = selectedFlowForMetric('map-flow', 'map-metric');
     const year = currentMapYear();
     const rows = rowsFor(flow, metric, year);
     const scaleRange = mapScaleRange(flow, metric);
@@ -194,8 +209,8 @@
   function renderLines() {
     const node = byId('country-lines');
     if (!node) return;
-    const flow = byId('line-flow').value;
     const metric = byId('line-metric').value;
+    const flow = selectedFlowForMetric('line-flow', 'line-metric');
     const selected = selectedCountries();
     const rows = (DATA.exercise1?.panel || []).filter((row) => row.flow === flow && selected.includes(row.iso3));
     const grouped = new Map();
@@ -510,22 +525,31 @@
     const yearSlider = byId('map-year-slider');
     const minYear = Math.min(...years);
     const maxYear = Math.max(...years);
+    const requestedDefaultYear = Number(DATA.exercise1?.default_year) || maxYear;
+    const defaultYear = years.includes(requestedDefaultYear) ? requestedDefaultYear : maxYear;
+    const defaultMetric = DATA.exercise1?.default_metric || 'product_gini';
     years.forEach((year) => {
       const option = document.createElement('option');
       option.value = year;
       option.textContent = year;
-      if (year === maxYear) option.selected = true;
+      if (year === defaultYear) option.selected = true;
       yearSelect.appendChild(option);
     });
     if (yearSlider) {
       yearSlider.min = minYear;
       yearSlider.max = maxYear;
       yearSlider.step = 1;
-      yearSlider.value = maxYear;
+      yearSlider.value = defaultYear;
       byId('map-year-min').textContent = minYear;
       byId('map-year-max').textContent = maxYear;
     }
-    setMapYear(maxYear);
+    ['map-metric', 'line-metric'].forEach((id) => {
+      const select = byId(id);
+      if (select && Array.from(select.options).some((option) => option.value === defaultMetric)) {
+        select.value = defaultMetric;
+      }
+    });
+    setMapYear(defaultYear);
     renderCountryList();
     ['map-flow', 'map-metric'].forEach((id) => byId(id)?.addEventListener('change', renderMap));
     byId('map-year')?.addEventListener('change', (event) => {
