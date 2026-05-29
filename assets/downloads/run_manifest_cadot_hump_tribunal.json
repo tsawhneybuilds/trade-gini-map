@@ -1,0 +1,72 @@
+{
+  "appendix_end_year": 2025,
+  "appendix_start_year": 1988,
+  "country_sample": "rd2_countries",
+  "created_at_utc": "2026-05-29T08:28:23+00:00",
+  "excluded_999999_rows_from_product_exports": 0,
+  "hs4_country_year_rows": 1792587,
+  "main_balanced_countries": 55,
+  "main_balanced_rows": 1375,
+  "main_balanced_years": 25,
+  "main_end_year": 2024,
+  "main_expected_rows": 1375,
+  "main_start_year": 2000,
+  "old_cone_complete_mismatch_rows": 1052318,
+  "old_cone_window_rows": 1169450,
+  "product_excluded_hs6_codes": [
+    "999999"
+  ],
+  "prody_rows": 1785052,
+  "prody_scope": "rd2 leave-one-out PRODY proxy using exporter product shares and current-USD log GNI per capita",
+  "reconcentration_episode_count": 472,
+  "reconcentration_episode_rows": 1045,
+  "sample_balance_diagnostics": [
+    {
+      "balanced_countries": 55,
+      "balanced_rows": 1375,
+      "candidate_rows_after_required_drop": 1375,
+      "diagnostic": "world_relative_only",
+      "missing_required_columns": "",
+      "reporter_codes": "31,36,40,51,56,76,116,124,156,188,191,203,208,246,251,268,276,300,328,344,348,352,372,380,392,410,417,442,484,504,508,528,554,562,579,591,604,616,686,699,702,703,705,710,716,724,752,757,792,800,807,818,826,842,854",
+      "required_columns": "none"
+    },
+    {
+      "balanced_countries": 55,
+      "balanced_rows": 1375,
+      "candidate_rows_after_required_drop": 1375,
+      "diagnostic": "current_gni_population_oil",
+      "missing_required_columns": "",
+      "reporter_codes": "31,36,40,51,56,76,116,124,156,188,191,203,208,246,251,268,276,300,328,344,348,352,372,380,392,410,417,442,484,504,508,528,554,562,579,591,604,616,686,699,702,703,705,710,716,724,752,757,792,800,807,818,826,842,854",
+      "required_columns": "log_gni_per_capita_current_usd,log_population,oil_export_share"
+    },
+    {
+      "balanced_countries": 40,
+      "balanced_rows": 1000,
+      "candidate_rows_after_required_drop": 1212,
+      "diagnostic": "constant_2015_gni_population_oil",
+      "missing_required_columns": "",
+      "reporter_codes": "36,40,51,56,76,116,124,188,191,203,208,246,251,276,344,348,372,380,410,442,484,504,508,528,562,591,604,616,686,699,702,703,705,710,724,752,800,807,818,826",
+      "required_columns": "log_gni_per_capita_constant_2015_usd,log_population,oil_export_share"
+    },
+    {
+      "balanced_countries": 55,
+      "balanced_rows": 1375,
+      "candidate_rows_after_required_drop": 1375,
+      "diagnostic": "main_current_gni_outcomes",
+      "missing_required_columns": "",
+      "reporter_codes": "31,36,40,51,56,76,116,124,156,188,191,203,208,246,251,268,276,300,328,344,348,352,372,380,392,410,417,442,484,504,508,528,554,562,579,591,604,616,686,699,702,703,705,710,716,724,752,757,792,800,807,818,826,842,854",
+      "required_columns": "log_gni_pc,log_population,oil_export_share,world_relative_product_gini"
+    }
+  ],
+  "turning_point": {
+    "fixed_threshold_gni_pc_current_usd": 25000.0,
+    "fixed_threshold_log_gni_pc": 10.126631103850338,
+    "rich_side_log_threshold_used": 10.126631103850338,
+    "rich_side_source": "fixed_25000_current_usd_threshold",
+    "sample_log_gni_pc_p05": 6.248003385818342,
+    "sample_log_gni_pc_p95": 11.177142329111723,
+    "turning_point_gni_pc_current_usd": 4751423736717047.0,
+    "turning_point_inside_5_95pct_sample_support": false,
+    "turning_point_log_gni_pc": 36.097220702091654
+  }
+}

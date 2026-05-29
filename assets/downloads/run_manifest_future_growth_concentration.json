@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-29T07:41:15+00:00",
+  "generated_at_utc": "2026-05-29T08:32:09+00:00",
   "country_sample": "rd2_countries",
   "start_year": 1988,
   "end_year": 2025,
@@ -21,6 +21,13 @@
     "continuous_models": "results/samples/rd2_countries/future_growth_concentration_tables/continuous_models.csv",
     "paired_models": "results/samples/rd2_countries/future_growth_concentration_tables/paired_models.csv",
     "robustness_models": "results/samples/rd2_countries/future_growth_concentration_tables/robustness_models.csv",
+    "base_size_bin_summary": "results/samples/rd2_countries/future_growth_concentration_tables/base_size_bin_summary.csv",
+    "base_size_sensitivity_models": "results/samples/rd2_countries/future_growth_concentration_tables/base_size_sensitivity_models.csv",
+    "mechanism_channel_panel": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_channel_panel.csv",
+    "mechanism_channel_models": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_channel_models.csv",
+    "mechanism_summary": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_summary.csv",
+    "mechanism_diagnostics": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_diagnostics.csv",
+    "leave_one_country_out_influence": "results/samples/rd2_countries/future_growth_concentration_tables/leave_one_country_out_influence.csv",
     "sample_diagnostics": "results/samples/rd2_countries/future_growth_concentration_tables/sample_diagnostics.csv",
     "missing_controls": "results/samples/rd2_countries/future_growth_concentration_tables/missing_controls.csv",
     "memo": "results/samples/rd2_countries/future_growth_concentration.md",
@@ -47,9 +54,28 @@
     ],
     "method": "estimated separately by exposure flow and horizon; adjusted outcome is residual plus raw flow-horizon mean"
   },
+  "mechanism_tests": {
+    "base_size_bins": "base real export percentiles and quintiles computed within exposure flow, base year, and horizon",
+    "bottom_base_exclusions": [
+      "bottom_10pct_base_exports",
+      "bottom_25pct_base_exports"
+    ],
+    "alternative_outcomes": [
+      "annualized_real_export_change_constant_2015_usd",
+      "annualized_asinh_real_export_change"
+    ],
+    "extensive_margin_source": "results/samples/rd2_countries/exercise_12_extensive_margin_tables/extensive_margin_country_year.csv",
+    "preferred_extensive_margin_identity": "hs6_harmonized_family",
+    "primary_share_control_source": "data/processed/samples/rd2_countries/country_size_effect_panel.parquet",
+    "active_count_outcomes": [
+      "annualized_log_product_active_count_change",
+      "annualized_log_partner_active_count_change"
+    ]
+  },
   "trade_data_rules": {
     "product_and_product_partner_hs6_999999": "excluded upstream before aggregation",
     "partner_hs6_999999": "included by partner-total convention",
-    "partner_code_0": "excluded upstream from concentration construction"
+    "partner_code_0": "excluded upstream from concentration construction",
+    "exercise_12_product_channels_hs6_999999": "validated as excluded before product-dependent mechanism aggregation"
   }
 }

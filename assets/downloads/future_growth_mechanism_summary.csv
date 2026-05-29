@@ -1,0 +1,14 @@
+test_id,test_label,estimate,unit,p_value,bh_q_value,nobs,interpretation
+raw_bucket_gap,Raw 5-year export bucket gap,0.04009717320464063,pct,,,1572,High-product/low-partner minus low-product/low-partner before size controls.
+size_adjusted_bucket_gap,Size-adjusted bucket gap,0.008941985306327518,pct,,,1322,Same comparison after residualizing on initial exports and macro size controls.
+within_size_bin_gap,Within-size-bin gap,6.550085724553456e-05,pct,,,1572,Equal average of bucket gaps inside base-export-size quintiles.
+drop_bottom_10pct_coef,Bottom 10% excluded,0.00619114172002104,pct,0.6704135359205593,0.9692006654971372,1217,Country/year FE bucket coefficient after excluding the lowest base-export decile.
+drop_bottom_25pct_coef,Bottom 25% excluded,-0.006155264349544928,pct,0.6335408145705124,0.6335408145705124,1039,Country/year FE bucket coefficient after excluding the lowest base-export quartile.
+new_partner_share_gap,New-partner channel gap,0.023292602288492732,pct,0.09436338655429975,0.28309015966289924,1351,Gross-positive growth share from new partners for existing products.
+new_cell_share_gap,New product-partner cell gap,0.11526143805328642,pct,,,1605,Gross-positive growth share from new cells where product and partner both already existed.
+net_new_product_share_gap,Net-new product channel gap,-0.15374591747146435,pct,0.39762456561291704,0.5964368484193756,1351,Gross-positive growth share from net-new products.
+partner_count_change_gap,Partner-count growth gap,0.013792406894363451,pct,,,1615,Annualized log change in active partners.
+product_count_change_gap,Product-count growth gap,0.019500442258190205,pct,,,1605,Annualized log change in active products.
+prior_growth_placebo_coef,Prior-growth placebo,-0.011158620515589496,pct,0.5097718300921634,0.7817279836312288,1549,Whether the bucket also predicts already-realized pre-period growth.
+primary_share_control_coef,Primary-share control,0.005790862731335257,pct,0.6506225304181074,0.7807470365017288,1322,Bucket coefficient after controlling for broad primary-product export share.
+leave_one_country_out_range,Leave-one-country-out range,0.017794149830198423,pct,,,60,Range of high-product/low-partner coefficients when omitting one reporter at a time: 0.0041 to 0.0219.

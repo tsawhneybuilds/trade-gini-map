@@ -1,0 +1,15 @@
+mechanism,reconcentration_episodes,flagged_episodes,flagged_share
+commodity_spike,472,128.0,0.2711864406779661
+section16_hs_design_sensitive,472,124.0,0.2627118644067797
+old_cone_pruning,472,70.0,0.1483050847457627
+continuing_product_superstar_scaling,472,282.0,0.597457627118644
+broad_unexplained_reconcentration,472,74.0,0.15677966101694915
+new_product_positive_expansion_share,472,,0.0212377125989185
+new_product_contraction_share,472,,0.00012781195971265
+new_product_net_growth_share,472,,0.0130902427477837
+continuing_product_positive_expansion_share,472,,0.9699614160666038
+continuing_product_contraction_share,472,,0.9492553978475129
+continuing_product_net_growth_share,472,,0.9901895080884531
+dying_product_positive_expansion_share,472,,7.011509217740738e-05
+dying_product_contraction_share,472,,0.04036153036279645
+dying_product_net_growth_share,472,,-0.00703035316664645

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Behind the Hump</title>
+  <link rel="stylesheet" href="assets/site.css?v=202605290833480000">
+</head>
+<body data-page="cadot-hump">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Trade Concentration Brief</a>
+      <nav aria-label="Primary navigation"><a class="" href="index.html">Overview</a><a class="" href="extension.html">Extending 2001</a><a class="" href="exercise-12.html">Exercise 12</a><a class="" href="imports.html">Import concentration</a><a class="" href="country-size-effect.html">Country size effect</a><a class="" href="growth-effect.html">Growth effect</a><a class="" href="future-growth.html">Future growth</a><a class="" href="world-gini.html">World Gini</a><a class="active" href="cadot-hump.html">Behind hump</a><a class="" href="literature.html">Literature</a><a class="" href="methods.html">Methods</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-title">
+      <div class="eyebrow">Behind the hump</div>
+      <h1>Cadot Hump Mechanism Tribunal</h1>
+      <p>This page asks whether export reconcentration is mechanical classification design, commodity exposure, active-line loss, continuing-product scaling, or old-cone exit. It is descriptive, not causal.</p>
+    </section>
+
+    <section class="section" id="tribunal-answer">
+      <div class="section-heading">
+        <h2>Answer in One Screen</h2>
+        <p>The balanced world-relative panel keeps <strong>55</strong> rd2 countries over 2000-2024. Using current-dollar GNI keeps the intended <strong>55</strong>-country panel; constant-2015 GNI would reduce it to <strong>40</strong>.</p>
+      </div>
+      <ul class="callout-list">
+        <li>The preferred World-Relative Product Gini quadratic does <strong>not</strong> deliver a clean within-sample Cadot-style turning point; the implied turning point is outside the observed income support.</li>
+        <li>Among <strong>472</strong> five-year reconcentration episodes, the scorecard most often flags continuing-product scaling, then commodity and HS-design sensitivity.</li>
+        <li>The old-cone test is positive but should be read cautiously: mismatch x rich-side coefficient is <strong>0.010</strong> with p-value <strong>0.006</strong>.</li>
+        <li>Cadot-style reconcentration is consistent with structural exit only if the old-cone tests pass; the page reports those tests but does not treat them as causal proof.</li>
+      </ul>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/cadot_hump_curve.png"><img src="assets/figures/cadot_hump_curve.png" alt="World-relative Product Gini against GNI per capita"></a><figcaption>Hump curve check using current-dollar GNI per capita and World-Relative Product Gini.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/cadot_mechanism_scorecard.png"><img src="assets/figures/cadot_mechanism_scorecard.png" alt="Mechanism scorecard shares"></a><figcaption>Share of reconcentration episodes flagged by mechanism.</figcaption></figure>
+      </div>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/cadot_mechanical_robustness_ladder.png"><img src="assets/figures/cadot_mechanical_robustness_ladder.png" alt="Mechanical robustness ladder"></a><figcaption>Quadratic coefficient under HS-design, Section 16, HS4/HS2, and commodity variants.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/cadot_old_cone_exit_plot.png"><img src="assets/figures/cadot_old_cone_exit_plot.png" alt="Old-cone exit rates by mismatch"></a><figcaption>Exit rates by mismatch decile on the rich and non-rich side of the fixed threshold.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section" id="cadot-hump-spec">
+      <div class="section-heading">
+        <h2>Development Hump Specification</h2>
+        <p>Country-year OLS with year fixed effects and country-clustered or two-way clustered SEs. The preferred table below uses current-dollar log GNI per capita, log population, and oil export share controls.</p>
+      </div>
+      <div class="equation-card">
+        <h4>Descriptive hump model</h4>
+        <div class="math-line">Concentration<sub>ct</sub> = &beta;<sub>1</sub> logGNIpc<sub>ct</sub> + &beta;<sub>2</sub> logGNIpc<sub>ct</sub><sup>2</sup> + controls<sub>ct</sub> + year FE + &epsilon;<sub>ct</sub></div>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Term</th><th>Coefficient</th><th>SE</th><th>p-value</th><th>Implied turning point</th><th>N</th><th>Countries</th></tr></thead><tbody><tr><td>log_gni_pc</td><td>-0.081</td><td>0.054</td><td>0.145</td><td>$4751.42T</td><td>1,375</td><td>55</td></tr><tr><td>log_gni_pc_sq</td><td>0.001</td><td>0.003</td><td>0.735</td><td>$4751.42T</td><td>1,375</td><td>55</td></tr><tr class="sig-row"><td>log_population</td><td><strong class="sig-coef">-0.044</strong></td><td>0.006</td><td><strong class="sig-pvalue">0.000</strong></td><td>$4751.42T</td><td>1,375</td><td>55</td></tr><tr><td>oil_export_share</td><td>0.077</td><td>0.052</td><td>0.148</td><td>$4751.42T</td><td>1,375</td><td>55</td></tr></tbody></table></div>
+      <h3 class="subsection-title">Sample Diagnostics</h3>
+      <div class="table-scroll"><table><thead><tr><th>Sample diagnostic</th><th>Required controls</th><th>Balanced countries</th><th>Rows</th><th>Rows after nonmissing controls</th></tr></thead><tbody><tr><td>world_relative_only</td><td>none</td><td>55</td><td>1,375</td><td>1,375</td></tr><tr><td>current_gni_population_oil</td><td>log_gni_per_capita_current_usd,log_population,oil_export_share</td><td>55</td><td>1,375</td><td>1,375</td></tr><tr><td>constant_2015_gni_population_oil</td><td>log_gni_per_capita_constant_2015_usd,log_population,oil_export_share</td><td>40</td><td>1,000</td><td>1,212</td></tr><tr><td>main_current_gni_outcomes</td><td>log_gni_pc,log_population,oil_export_share,world_relative_product_gini</td><td>55</td><td>1,375</td><td>1,375</td></tr></tbody></table></div>
+    </section>
+
+    <section class="section" id="cadot-mechanisms">
+      <div class="section-heading">
+        <h2>Mechanism Scorecard</h2>
+        <p>Each five-year reconcentration episode can receive multiple flags. This is a triage scorecard, not a horse-race regression.</p>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Mechanism flag</th><th>Reconcentration episodes</th><th>Flagged</th><th>Share</th></tr></thead><tbody><tr><td>commodity_spike</td><td>472</td><td>128</td><td>27.1%</td></tr><tr><td>section16_hs_design_sensitive</td><td>472</td><td>124</td><td>26.3%</td></tr><tr><td>old_cone_pruning</td><td>472</td><td>70</td><td>14.8%</td></tr><tr><td>continuing_product_superstar_scaling</td><td>472</td><td>282</td><td>59.7%</td></tr><tr><td>broad_unexplained_reconcentration</td><td>472</td><td>74</td><td>15.7%</td></tr></tbody></table></div>
+      <h3 class="subsection-title">Largest Reconcentration Episodes</h3>
+      <div class="table-scroll"><table><thead><tr><th>Country</th><th>Base</th><th>Future</th><th>Delta World-Relative Gini</th><th>Commodity</th><th>HS design</th><th>Old cone</th><th>Continuing scale</th><th>Unexplained</th></tr></thead><tbody><tr><td>Mexico</td><td>2013</td><td>2018</td><td>0.133</td><td>False</td><td>True</td><td>False</td><td>False</td><td>False</td></tr><tr><td>Mexico</td><td>2012</td><td>2017</td><td>0.128</td><td>False</td><td>True</td><td>False</td><td>False</td><td>False</td></tr><tr><td>Panama</td><td>2017</td><td>2022</td><td>0.115</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>Panama</td><td>2016</td><td>2021</td><td>0.108</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>Panama</td><td>2018</td><td>2023</td><td>0.107</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>Mexico</td><td>2014</td><td>2019</td><td>0.106</td><td>False</td><td>True</td><td>False</td><td>False</td><td>False</td></tr><tr><td>Mexico</td><td>2015</td><td>2020</td><td>0.102</td><td>False</td><td>True</td><td>False</td><td>True</td><td>False</td></tr><tr><td>Singapore</td><td>2012</td><td>2017</td><td>0.096</td><td>True</td><td>True</td><td>False</td><td>False</td><td>False</td></tr><tr><td>United Kingdom</td><td>2008</td><td>2013</td><td>0.093</td><td>False</td><td>False</td><td>False</td><td>True</td><td>False</td></tr><tr><td>Mexico</td><td>2002</td><td>2007</td><td>0.082</td><td>False</td><td>True</td><td>False</td><td>True</td><td>False</td></tr><tr><td>United Kingdom</td><td>2004</td><td>2009</td><td>0.081</td><td>False</td><td>False</td><td>True</td><td>True</td><td>False</td></tr><tr><td>New Zealand</td><td>2013</td><td>2018</td><td>0.078</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>New Zealand</td><td>2014</td><td>2019</td><td>0.072</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>New Zealand</td><td>2015</td><td>2020</td><td>0.072</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>New Zealand</td><td>2016</td><td>2021</td><td>0.069</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>United Kingdom</td><td>2010</td><td>2015</td><td>0.063</td><td>False</td><td>False</td><td>False</td><td>True</td><td>False</td></tr><tr><td>New Zealand</td><td>2017</td><td>2022</td><td>0.063</td><td>False</td><td>False</td><td>False</td><td>False</td><td>True</td></tr><tr><td>France</td><td>2007</td><td>2012</td><td>0.061</td><td>False</td><td>False</td><td>False</td><td>True</td><td>False</td></tr><tr><td>France</td><td>2006</td><td>2011</td><td>0.059</td><td>False</td><td>False</td><td>True</td><td>False</td><td>False</td></tr><tr><td>France</td><td>2005</td><td>2010</td><td>0.057</td><td>False</td><td>False</td><td>True</td><td>True</td><td>False</td></tr></tbody></table></div>
+    </section>
+
+    <section class="section" id="cadot-mechanical">
+      <div class="section-heading">
+        <h2>Mechanical and Commodity Robustness</h2>
+        <p>The same country-year sample is rerun using native HS6, Section 16 excluded, HS4, HS2, lumpy-commodity-excluded, and HS2-preserving residual variants.</p>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Robustness outcome</th><th>Quadratic coefficient</th><th>SE</th><th>p-value</th><th>Implied turning point</th><th>N</th></tr></thead><tbody><tr><td>standard_hs6</td><td>0.001</td><td>0.001</td><td>0.410</td><td>$30.4M</td><td>1,375</td></tr><tr><td>harmonized_world_relative_hs6_family</td><td>0.001</td><td>0.003</td><td>0.735</td><td>$4751.42T</td><td>1,375</td></tr><tr><td>native_hs6_excluding_section16</td><td>0.002</td><td>0.001</td><td>0.155</td><td>$374,412</td><td>1,375</td></tr><tr><td>native_hs4</td><td>0.002</td><td>0.001</td><td>0.187</td><td>$1.2M</td><td>1,375</td></tr><tr class="sig-row"><td>native_hs2</td><td><strong class="sig-coef">0.005</strong></td><td>0.002</td><td><strong class="sig-pvalue">0.026</strong></td><td>$26,728</td><td>1,375</td></tr><tr><td>hs6_lumpy_commodity_excluded</td><td>0.001</td><td>0.001</td><td>0.287</td><td>$3.8M</td><td>1,375</td></tr><tr class="sig-row"><td>hs2_preserving_benchmark_residual</td><td><strong class="sig-coef">-0.005</strong></td><td>0.002</td><td><strong class="sig-pvalue">0.010</strong></td><td>$26,706</td><td>1,375</td></tr></tbody></table></div>
+    </section>
+
+    <section class="section" id="cadot-old-cone">
+      <div class="section-heading">
+        <h2>Old-Cone Exit Test</h2>
+        <p>HS4 products are assigned a leave-one-out rd2 PRODY-style sophistication score. Positive mismatch means the country is richer than the product's revealed exporter-income profile. The exit model includes country, HS4-product, and base-year fixed effects and clusters by country.</p>
+      </div>
+      <div class="equation-card">
+        <h4>Exit test</h4>
+        <div class="math-line">Exit<sub>cpt+h</sub> = &alpha;<sub>c</sub> + &alpha;<sub>p</sub> + &alpha;<sub>t</sub> + &beta;<sub>1</sub> mismatch<sub>cpt</sub> + &beta;<sub>2</sub> richSide<sub>ct</sub> + &beta;<sub>3</sub> mismatch<sub>cpt</sub> x richSide<sub>ct</sub> + &epsilon;<sub>cpt</sub></div>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Exit model term</th><th>Coefficient</th><th>SE</th><th>p-value</th><th>N</th><th>Countries</th></tr></thead><tbody><tr><td>mismatch_log_gni_minus_prody</td><td>0.004</td><td>0.006</td><td>0.537</td><td>831,633</td><td>55</td></tr><tr><td>rich_side_ct</td><td>-0.010</td><td>0.007</td><td>0.163</td><td>831,633</td><td>55</td></tr><tr class="sig-row"><td>mismatch_x_rich_side</td><td><strong class="sig-coef">0.010</strong></td><td>0.004</td><td><strong class="sig-pvalue">0.006</strong></td><td>831,633</td><td>55</td></tr></tbody></table></div>
+      <h3 class="subsection-title">Mismatch by Product Status</h3>
+      <div class="table-scroll"><table><thead><tr><th>Rich side</th><th>HS4 status</th><th>Rows</th><th>Countries</th><th>Median mismatch</th><th>Median PRODY</th><th>Median country log GNI</th></tr></thead><tbody><tr><td>0</td><td>continuing_product</td><td>375,346</td><td>43</td><td>-0.583</td><td>9.602</td><td>9.047</td></tr><tr><td>0</td><td>dying_product</td><td>35,136</td><td>43</td><td>-0.992</td><td>9.579</td><td>8.575</td></tr><tr><td>0</td><td>new_product</td><td>36,460</td><td>43</td><td>-1.399</td><td>9.566</td><td>8.216</td></tr><tr><td>1</td><td>continuing_product</td><td>403,659</td><td>25</td><td>1.004</td><td>9.711</td><td>10.694</td></tr><tr><td>1</td><td>dying_product</td><td>17,492</td><td>25</td><td>1.293</td><td>9.420</td><td>10.693</td></tr><tr><td>1</td><td>new_product</td><td>11,579</td><td>25</td><td>1.327</td><td>9.465</td><td>10.736</td></tr></tbody></table></div>
+    </section>
+
+    <section class="section" id="cadot-latest">
+      <div class="section-heading">
+        <h2>Latest-Year Country Context</h2>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Country</th><th>Year</th><th>World-Relative Gini</th><th>Product Gini</th><th>Active products</th><th>Top 1% share</th><th>Lumpy share removed</th><th>Section 16 export share</th></tr></thead><tbody><tr><td>Zimbabwe</td><td>2024</td><td>0.991</td><td>0.989</td><td>1,335</td><td>93.4%</td><td>41.4%</td><td>0.6%</td></tr><tr><td>Burkina Faso</td><td>2024</td><td>0.988</td><td>0.993</td><td>986</td><td>95.5%</td><td>83.5%</td><td>0.9%</td></tr><tr><td>Iceland</td><td>2024</td><td>0.982</td><td>0.980</td><td>2,107</td><td>77.3%</td><td>3.3%</td><td>2.8%</td></tr><tr><td>Mozambique</td><td>2024</td><td>0.981</td><td>0.989</td><td>1,693</td><td>90.5%</td><td>60.5%</td><td>0.4%</td></tr><tr><td>Uganda</td><td>2024</td><td>0.968</td><td>0.979</td><td>2,636</td><td>81.1%</td><td>44.7%</td><td>1.0%</td></tr><tr><td>Guyana</td><td>2024</td><td>0.956</td><td>0.998</td><td>1,944</td><td>98.4%</td><td>89.0%</td><td>0.9%</td></tr><tr><td>Cambodia</td><td>2024</td><td>0.954</td><td>0.941</td><td>2,013</td><td>44.4%</td><td>2.1%</td><td>7.9%</td></tr><tr><td>Panama</td><td>2024</td><td>0.953</td><td>0.946</td><td>1,859</td><td>65.2%</td><td>7.2%</td><td>2.1%</td></tr><tr><td>Peru</td><td>2024</td><td>0.952</td><td>0.983</td><td>3,681</td><td>85.9%</td><td>12.9%</td><td>0.7%</td></tr><tr><td>Costa Rica</td><td>2024</td><td>0.951</td><td>0.970</td><td>3,178</td><td>74.6%</td><td>0.8%</td><td>5.1%</td></tr><tr><td>Azerbaijan</td><td>2024</td><td>0.948</td><td>0.994</td><td>1,964</td><td>94.8%</td><td>85.4%</td><td>0.4%</td></tr><tr><td>Niger</td><td>2024</td><td>0.939</td><td>0.986</td><td>449</td><td>91.3%</td><td>88.5%</td><td>4.0%</td></tr><tr><td>Armenia</td><td>2024</td><td>0.936</td><td>0.978</td><td>3,041</td><td>86.0%</td><td>66.6%</td><td>10.2%</td></tr><tr><td>North Macedonia</td><td>2024</td><td>0.930</td><td>0.960</td><td>3,209</td><td>66.5%</td><td>3.6%</td><td>25.2%</td></tr><tr><td>New Zealand</td><td>2024</td><td>0.926</td><td>0.960</td><td>4,335</td><td>71.0%</td><td>3.8%</td><td>5.9%</td></tr><tr><td>Kyrgyzstan</td><td>2024</td><td>0.925</td><td>0.955</td><td>2,014</td><td>70.7%</td><td>46.8%</td><td>9.4%</td></tr><tr><td>Australia</td><td>2024</td><td>0.920</td><td>0.979</td><td>4,879</td><td>86.1%</td><td>30.9%</td><td>2.9%</td></tr><tr><td>Morocco</td><td>2024</td><td>0.917</td><td>0.970</td><td>3,551</td><td>72.1%</td><td>6.1%</td><td>21.0%</td></tr><tr><td>Senegal</td><td>2024</td><td>0.917</td><td>0.973</td><td>2,089</td><td>76.3%</td><td>47.8%</td><td>1.8%</td></tr><tr><td>Ireland</td><td>2024</td><td>0.906</td><td>0.977</td><td>4,705</td><td>83.3%</td><td>3.8%</td><td>10.6%</td></tr></tbody></table></div>
+      <div class="download-grid compact-downloads">
+        <a href="assets/downloads/cadot_hump_country_year_panel.csv">Country-year panel</a>
+        <a href="assets/downloads/cadot_hump_models.csv">Hump models</a>
+        <a href="assets/downloads/cadot_mechanism_scorecard_summary.csv">Mechanism summary</a>
+        <a href="assets/downloads/cadot_reconcentration_episode_scorecard.csv">Episode scorecard</a>
+        <a href="assets/downloads/cadot_old_cone_exit_models.csv">Old-cone exit models</a>
+        <a href="assets/downloads/cadot_hump_sample_diagnostics.csv">Sample diagnostics</a>
+        <a href="assets/downloads/run_manifest_cadot_hump_tribunal.json">Run manifest</a>
+        <a href="assets/downloads/cadot_hump_tribunal_adversarial_review.md">Adversarial review</a>
+      </div>
+    </section>
+        
+  </main>
+  <footer class="site-footer">
+    <p>Generated from local research outputs on 2026-05-29T08:33:48+00:00.</p>
+  </footer>
+  <script src="assets/vendor/plotly.min.js"></script>
+  <script src="assets/site-data.js?v=202605290833480000"></script>
+  <script src="assets/site.js?v=202605290833480000"></script>
+</body>
+</html>

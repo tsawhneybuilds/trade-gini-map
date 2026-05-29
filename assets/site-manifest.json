@@ -303,8 +303,24 @@
   ],
   "country_count": 60,
   "country_sample": "rd2_countries",
-  "created_at_utc": "2026-05-29T07:57:18+00:00",
+  "created_at_utc": "2026-05-29T08:33:48+00:00",
   "downloads": [
+    "cadot_commodity_mechanism_panel.csv",
+    "cadot_hump_country_year_panel.csv",
+    "cadot_hump_models.csv",
+    "cadot_hump_sample_diagnostics.csv",
+    "cadot_hump_tribunal_adversarial_review.md",
+    "cadot_mechanical_common_sample_panel.csv",
+    "cadot_mechanical_variant_models.csv",
+    "cadot_mechanism_scorecard_summary.csv",
+    "cadot_old_cone_channel_summary.csv",
+    "cadot_old_cone_exit_by_mismatch_decile.csv",
+    "cadot_old_cone_exit_models.csv",
+    "cadot_reconcentration_episode_scorecard.csv",
+    "country_size_common_universe_diagnostics.csv",
+    "country_size_common_universe_models.csv",
+    "country_size_common_universe_source_difference_examples.csv",
+    "country_size_common_universe_two_way_models.csv",
     "country_size_effect_fama_macbeth_models.csv",
     "country_size_effect_gmm_lag_iv_first_stage.csv",
     "country_size_effect_gmm_lag_iv_models.csv",
@@ -356,11 +372,18 @@
     "exercise_12_extensive_margin_overlapping_robustness.csv",
     "exercise_12_extensive_margin_product_entry_robustness.csv",
     "exercise_12_extensive_margin_summary.csv",
+    "future_growth_base_size_bin_summary.csv",
+    "future_growth_base_size_sensitivity_models.csv",
     "future_growth_bucket_models.csv",
     "future_growth_bucket_summary.csv",
     "future_growth_concentration_panel.csv",
     "future_growth_continuous_models.csv",
     "future_growth_country_examples.csv",
+    "future_growth_leave_one_country_out_influence.csv",
+    "future_growth_mechanism_channel_models.csv",
+    "future_growth_mechanism_channel_panel.csv",
+    "future_growth_mechanism_diagnostics.csv",
+    "future_growth_mechanism_summary.csv",
     "future_growth_missing_controls.csv",
     "future_growth_paired_models.csv",
     "future_growth_robustness_models.csv",
@@ -375,6 +398,7 @@
     "h24_importer_vs_world_supplier_dominance_comparison.csv",
     "h24_supplier_specialization_yearly_summary.csv",
     "methods_hs6_codes_by_year.csv",
+    "run_manifest_cadot_hump_tribunal.json",
     "run_manifest_exercise_02_bucket_growth.json",
     "run_manifest_exercise_12_ev_hs4_expansion.json",
     "run_manifest_exercise_12_extensive_margin.json",
@@ -406,6 +430,7 @@
   },
   "generator": "scripts/build_trade_gini_site.py",
   "pages": [
+    "cadot-hump.html",
     "country-size-effect.html",
     "exercise-12.html",
     "extension.html",
@@ -424,6 +449,36 @@
     "999999"
   ],
   "row_counts": {
+    "cadot_commodity_mechanism_panel": 1911,
+    "cadot_commodity_mechanism_panel.csv": 1911,
+    "cadot_hump_country_year_panel": 1375,
+    "cadot_hump_country_year_panel.csv": 1375,
+    "cadot_hump_models": 50,
+    "cadot_hump_models.csv": 50,
+    "cadot_hump_sample_diagnostics": 4,
+    "cadot_hump_sample_diagnostics.csv": 4,
+    "cadot_mechanical_common_sample_panel": 1375,
+    "cadot_mechanical_common_sample_panel.csv": 1375,
+    "cadot_mechanical_variant_models": 28,
+    "cadot_mechanical_variant_models.csv": 28,
+    "cadot_mechanism_scorecard_summary": 14,
+    "cadot_mechanism_scorecard_summary.csv": 14,
+    "cadot_old_cone_channel_summary": 6,
+    "cadot_old_cone_channel_summary.csv": 6,
+    "cadot_old_cone_exit_by_mismatch_decile": 19,
+    "cadot_old_cone_exit_by_mismatch_decile.csv": 19,
+    "cadot_old_cone_exit_models": 3,
+    "cadot_old_cone_exit_models.csv": 3,
+    "cadot_reconcentration_episode_scorecard": 1045,
+    "cadot_reconcentration_episode_scorecard.csv": 1045,
+    "country_size_common_universe_diagnostics": 41,
+    "country_size_common_universe_diagnostics.csv": 41,
+    "country_size_common_universe_models": 48,
+    "country_size_common_universe_models.csv": 48,
+    "country_size_common_universe_source_difference_examples.csv": 25,
+    "country_size_common_universe_source_differences": 25,
+    "country_size_common_universe_two_way_models": 48,
+    "country_size_common_universe_two_way_models.csv": 48,
     "country_size_effect_fama_macbeth_models.csv": 12,
     "country_size_effect_gmm_lag_iv_first_stage.csv": 24,
     "country_size_effect_gmm_lag_iv_models.csv": 24,
@@ -530,6 +585,10 @@
     "exercise_4_partner_counterfactual_latest": 60,
     "exercise_4_suppliers": 1916,
     "exercise_6_exclusions": 62998,
+    "future_growth_base_size_bin_summary": 120,
+    "future_growth_base_size_bin_summary.csv": 120,
+    "future_growth_base_size_sensitivity_models": 390,
+    "future_growth_base_size_sensitivity_models.csv": 390,
     "future_growth_bucket_models": 48,
     "future_growth_bucket_models.csv": 48,
     "future_growth_bucket_summary": 24,
@@ -539,6 +598,16 @@
     "future_growth_continuous_models.csv": 324,
     "future_growth_country_examples": 60,
     "future_growth_country_examples.csv": 60,
+    "future_growth_leave_one_country_out_influence": 60,
+    "future_growth_leave_one_country_out_influence.csv": 60,
+    "future_growth_mechanism_channel_models": 540,
+    "future_growth_mechanism_channel_models.csv": 540,
+    "future_growth_mechanism_channel_panel": 11535,
+    "future_growth_mechanism_channel_panel.csv": 11535,
+    "future_growth_mechanism_diagnostics": 17,
+    "future_growth_mechanism_diagnostics.csv": 17,
+    "future_growth_mechanism_summary": 13,
+    "future_growth_mechanism_summary.csv": 13,
     "future_growth_missing_controls": 3731,
     "future_growth_missing_controls.csv": 3731,
     "future_growth_paired_models": 144,
@@ -546,8 +615,8 @@
     "future_growth_panel": 11535,
     "future_growth_robustness_models": 1350,
     "future_growth_robustness_models.csv": 1350,
-    "future_growth_sample_diagnostics": 32,
-    "future_growth_sample_diagnostics.csv": 32,
+    "future_growth_sample_diagnostics": 35,
+    "future_growth_sample_diagnostics.csv": 35,
     "growth_effect_income_bin_slopes": 144,
     "growth_effect_income_bin_slopes.csv": 144,
     "growth_effect_main_models": 108,
@@ -994,6 +1063,46 @@
       "size_bytes": 1943
     },
     {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|bh_q_value|source_note|source_label|source_matches_country_size_panel",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_models",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/common_universe_models.csv",
+      "row_count": 48,
+      "sha256": "4f28a1f6018e052dd269e06db2aaccd986f8f9cf0602bef87b7d797c2021e58a",
+      "size_bytes": 20740
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|bh_q_value|source_note|source_label|source_matches_country_size_panel",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_two_way_models",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/common_universe_two_way_models.csv",
+      "row_count": 48,
+      "sha256": "439a46b7ceaed5de638283338929ecd539bace83fd27cb24f3b29908dc75c090",
+      "size_bytes": 22254
+    },
+    {
+      "columns": "diagnostic|value|detail",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_diagnostics",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/diagnostics.csv",
+      "row_count": 41,
+      "sha256": "756a0b5ef728c6abfc1b54406f74fe73d4c963c6f64e23de9217182b012e4386",
+      "size_bytes": 3294
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|flow|dimension|source_label|source_matches_country_size_panel|total_gini|source_total_gini|total_gini_abs_diff_vs_source_raw|total_active_count|total_value",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_source_differences",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/source_difference_examples.csv",
+      "row_count": 25,
+      "sha256": "a2440c2bf4c2be44829afe93ebb13206b16204a246eba8b567593c574c5be108",
+      "size_bytes": 4655
+    },
+    {
       "columns": "model_label|sample|horizon|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|bh_q_value",
       "group": "source",
       "mtime_utc": "2026-05-28T17:05:36+00:00",
@@ -1054,19 +1163,19 @@
       "size_bytes": 1955
     },
     {
-      "columns": "country|iso3|reporter_code|year|flow|variant|total_trade_value|product_gini|product_top_1pct_share|product_top_2pct_share|product_top_5pct_share|product_top_10pct_share|product_top_200_share|product_active_count|partner_total_trade_value|partner_gini|partner_top_1pct_share|partner_top_2pct_share|partner_top_5pct_share|partner_top_10pct_share|partner_top_200_share|partner_active_count|top_5_partner_share|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_2pct_share|product_partner_cell_top_5pct_share|product_partner_cell_top_10pct_share|product_partner_cell_top_200_share|product_partner_cell_active_count|base_exports|base_oil_exports|oil_export_share|base_exports_ex_oil|prior_exports|prior_year|gdp_current_usd|gdp_constant_2015_usd|population|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|region|income_group|metadata_source|log_gdp_current_usd|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|region_year|median_product_gini|median_partner_gini|product_concentration_high|partner_concentration_high|concentration_bucket|bucket_high_product_high_partner|bucket_high_product_low_partner|bucket_low_product_high_partner|future_exports|future_exports_ex_oil|horizon|future_year|nominal_export_growth_pct|nominal_export_growth_log|annualized_nominal_export_growth_log|log_initial_exports_nominal_usd|base_exports_constant_2015_usd|future_exports_constant_2015_usd|base_exports_ex_oil_constant_2015_usd|future_exports_ex_oil_constant_2015_usd|prior_exports_constant_2015_usd|real_export_growth_pct|real_export_growth_log|annualized_real_export_growth_log|real_export_growth_pct_ex_oil|real_export_growth_log_ex_oil|annualized_real_export_growth_log_ex_oil|log_initial_exports_constant_2015_usd|base_us_gdp_deflator|future_us_gdp_deflator|prior_us_gdp_deflator|prior_export_growth_control|size_adjusted_annualized_real_export_growth_log|size_adjustment_complete",
+      "columns": "country|iso3|reporter_code|year|flow|variant|total_trade_value|product_gini|product_top_1pct_share|product_top_2pct_share|product_top_5pct_share|product_top_10pct_share|product_top_200_share|product_active_count|partner_total_trade_value|partner_gini|partner_top_1pct_share|partner_top_2pct_share|partner_top_5pct_share|partner_top_10pct_share|partner_top_200_share|partner_active_count|top_5_partner_share|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_2pct_share|product_partner_cell_top_5pct_share|product_partner_cell_top_10pct_share|product_partner_cell_top_200_share|product_partner_cell_active_count|base_exports|base_oil_exports|oil_export_share|base_exports_ex_oil|prior_exports|prior_year|gdp_current_usd|gdp_constant_2015_usd|population|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|region|income_group|metadata_source|log_gdp_current_usd|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|log_product_active_count|log_partner_active_count|log_product_partner_cell_active_count|region_year|median_product_gini|median_partner_gini|product_concentration_high|partner_concentration_high|concentration_bucket|bucket_high_product_high_partner|bucket_high_product_low_partner|bucket_low_product_high_partner|future_exports|future_exports_ex_oil|future_product_active_count|future_partner_active_count|future_product_partner_cell_active_count|horizon|future_year|nominal_export_growth_pct|nominal_export_growth_log|annualized_nominal_export_growth_log|log_initial_exports_nominal_usd|base_exports_constant_2015_usd|future_exports_constant_2015_usd|base_exports_ex_oil_constant_2015_usd|future_exports_ex_oil_constant_2015_usd|prior_exports_constant_2015_usd|real_export_growth_pct|real_export_growth_log|annualized_real_export_growth_log|real_export_change_constant_2015_usd|annualized_real_export_change_constant_2015_usd|annualized_asinh_real_export_change|real_export_growth_pct_ex_oil|real_export_growth_log_ex_oil|annualized_real_export_growth_log_ex_oil|log_initial_exports_constant_2015_usd|base_us_gdp_deflator|future_us_gdp_deflator|prior_us_gdp_deflator|prior_export_growth_control|log_future_product_active_count|annualized_log_product_active_count_change|log_future_partner_active_count|annualized_log_partner_active_count_change|log_future_product_partner_cell_active_count|annualized_log_product_partner_cell_active_count_change|size_adjusted_annualized_real_export_growth_log|size_adjustment_complete|base_size_percentile|base_size_bin|bottom_10pct_base_exports|bottom_25pct_base_exports|primary_export_share_strict|primary_export_share_broad",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_panel",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/future_growth_concentration_panel.csv",
       "row_count": 11535,
-      "sha256": "b3ee72e4933b24c2afd10d7ccb00b9f0b848904e582aa6fa3572673028399e0b",
-      "size_bytes": 14204138
+      "sha256": "f21c35625c9a805f6761f0478434d782e9dd5c5db4dd3be0e893cc25800c0969",
+      "size_bytes": 17500620
     },
     {
       "columns": "flow|horizon|concentration_bucket|observations|countries|mean_annualized_log_growth|median_annualized_log_growth|size_adjusted_observations|mean_size_adjusted_annualized_log_growth|median_size_adjusted_annualized_log_growth|mean_real_export_growth_pct|median_initial_exports_constant_2015_usd",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_bucket_summary",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/bucket_summary.csv",
       "row_count": 24,
@@ -1076,7 +1185,7 @@
     {
       "columns": "flow|horizon|example_type|country|iso3|year|future_year|concentration_bucket|annualized_real_export_growth_log|base_exports|future_exports|base_exports_constant_2015_usd|future_exports_constant_2015_usd|product_gini|partner_gini|product_partner_cell_gini",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_country_examples",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/country_examples.csv",
       "row_count": 60,
@@ -1086,7 +1195,7 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_bucket_models",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/bucket_models.csv",
       "row_count": 48,
@@ -1096,7 +1205,7 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_continuous_models",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/continuous_models.csv",
       "row_count": 324,
@@ -1106,7 +1215,7 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_paired_models",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/paired_models.csv",
       "row_count": 144,
@@ -1116,27 +1225,97 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_robustness_models",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/robustness_models.csv",
       "row_count": 1350,
-      "sha256": "5c668601aab1df0f277c84cd23e9d471b500d5bf96ea648d28793b3bf676dcf2",
-      "size_bytes": 602027
+      "sha256": "c946b7caee827ab6ab661baf016eabe51698d8c9db60da882f047883774a7fe2",
+      "size_bytes": 602049
+    },
+    {
+      "columns": "flow|horizon|base_size_bin|concentration_bucket|observations|countries|mean_annualized_log_growth|mean_size_adjusted_annualized_log_growth|mean_annualized_real_export_change_constant_2015_usd|mean_annualized_asinh_real_export_change|median_initial_exports_constant_2015_usd|mean_base_size_percentile",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
+      "name": "future_growth_base_size_bin_summary",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/base_size_bin_summary.csv",
+      "row_count": 120,
+      "sha256": "05443a4b714a771913c0f9b872ef23335331429a4d164366d3f15cb461b135b8",
+      "size_bytes": 19631
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value|test_family",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
+      "name": "future_growth_base_size_sensitivity_models",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/base_size_sensitivity_models.csv",
+      "row_count": 390,
+      "sha256": "55c8fcbbfb91a1d8148b286784a41ce053ed72f4b1437a0c6301a1517ca6d6eb",
+      "size_bytes": 162344
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|flow|variant|total_trade_value|product_gini|product_top_1pct_share|product_top_2pct_share|product_top_5pct_share|product_top_10pct_share|product_top_200_share|product_active_count|partner_total_trade_value|partner_gini|partner_top_1pct_share|partner_top_2pct_share|partner_top_5pct_share|partner_top_10pct_share|partner_top_200_share|partner_active_count|top_5_partner_share|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_2pct_share|product_partner_cell_top_5pct_share|product_partner_cell_top_10pct_share|product_partner_cell_top_200_share|product_partner_cell_active_count|base_exports|base_oil_exports|oil_export_share|base_exports_ex_oil|prior_exports|prior_year|gdp_current_usd|gdp_constant_2015_usd|population|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|region|income_group|metadata_source|log_gdp_current_usd|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|log_product_active_count|log_partner_active_count|log_product_partner_cell_active_count|region_year|median_product_gini|median_partner_gini|product_concentration_high|partner_concentration_high|concentration_bucket|bucket_high_product_high_partner|bucket_high_product_low_partner|bucket_low_product_high_partner|future_exports|future_exports_ex_oil|future_product_active_count|future_partner_active_count|future_product_partner_cell_active_count|horizon|future_year|nominal_export_growth_pct|nominal_export_growth_log|annualized_nominal_export_growth_log|log_initial_exports_nominal_usd|base_exports_constant_2015_usd|future_exports_constant_2015_usd|base_exports_ex_oil_constant_2015_usd|future_exports_ex_oil_constant_2015_usd|prior_exports_constant_2015_usd|real_export_growth_pct|real_export_growth_log|annualized_real_export_growth_log|real_export_change_constant_2015_usd|annualized_real_export_change_constant_2015_usd|annualized_asinh_real_export_change|real_export_growth_pct_ex_oil|real_export_growth_log_ex_oil|annualized_real_export_growth_log_ex_oil|log_initial_exports_constant_2015_usd|base_us_gdp_deflator|future_us_gdp_deflator|prior_us_gdp_deflator|prior_export_growth_control|log_future_product_active_count|annualized_log_product_active_count_change|log_future_partner_active_count|annualized_log_partner_active_count_change|log_future_product_partner_cell_active_count|annualized_log_product_partner_cell_active_count_change|size_adjusted_annualized_real_export_growth_log|size_adjustment_complete|base_size_percentile|base_size_bin|bottom_10pct_base_exports|bottom_25pct_base_exports|primary_export_share_strict|primary_export_share_broad|base_year|existing_cell_growth_gross_positive_share|net_new_product_gross_positive_share|new_cell_existing_product_partner_gross_positive_share|new_partner_existing_product_gross_positive_share|existing_cell_growth_net_growth_share|net_new_product_net_growth_share|new_cell_existing_product_partner_net_growth_share|new_partner_existing_product_net_growth_share|existing_cell_growth_product_count|net_new_product_product_count|new_cell_existing_product_partner_product_count|new_partner_existing_product_product_count|existing_cell_growth_partner_count|net_new_product_partner_count|new_cell_existing_product_partner_partner_count|new_partner_existing_product_partner_count|existing_cell_growth_cell_count|net_new_product_cell_count|new_cell_existing_product_partner_cell_count|new_partner_existing_product_cell_count|least_traded_10pct_grower_gross_positive_share|low_base_under_10k_grower_gross_positive_share|strict_zero_base_product_gross_positive_share|least_traded_10pct_grower_net_growth_share|low_base_under_10k_grower_net_growth_share|strict_zero_base_product_net_growth_share|least_traded_10pct_grower_product_count|low_base_under_10k_grower_product_count|strict_zero_base_product_product_count",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_channel_panel",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_channel_panel.csv",
+      "row_count": 11535,
+      "sha256": "b3e509fa8f44f3a39fb53aec7003d5eb3d79c55b4121058f38fa948c0db39cb4",
+      "size_bytes": 19821281
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value|outcome_label|test_family",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_channel_models",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_channel_models.csv",
+      "row_count": 540,
+      "sha256": "9d34ae5d0d13e0c8746ced22da38e7c17d296eb2deb627374750fbe360bb78de",
+      "size_bytes": 232715
+    },
+    {
+      "columns": "test_id|test_label|estimate|unit|p_value|bh_q_value|nobs|interpretation",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_summary",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_summary.csv",
+      "row_count": 13,
+      "sha256": "d1930b4e877c10b0a15311b1c24f7747360d4f62eb43a21fde55c0c68a0ee217",
+      "size_bytes": 2256
     },
     {
       "columns": "diagnostic|value",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_diagnostics",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_diagnostics.csv",
+      "row_count": 17,
+      "sha256": "5b7e5441e3b16130bd5cf068a390fd8f33bc767afca56dbd1bca3df135d685c0",
+      "size_bytes": 787
+    },
+    {
+      "columns": "omitted_reporter_code|omitted_country|omitted_iso3|term|coefficient|std_error|p_value|nobs|clusters|status",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_leave_one_country_out_influence",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/leave_one_country_out_influence.csv",
+      "row_count": 60,
+      "sha256": "f1fcc104cc9a9770540f7c4aae756b0aae73a97855cfbe69b5de88f6451683d4",
+      "size_bytes": 7371
+    },
+    {
+      "columns": "diagnostic|value",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
       "name": "future_growth_sample_diagnostics",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/sample_diagnostics.csv",
-      "row_count": 32,
-      "sha256": "39cf7b40f97d286cd84b72a397ad7344d666fc082e322fc311e72daabb59223b",
-      "size_bytes": 1366
+      "row_count": 35,
+      "sha256": "f04c2385717947a9e88efef8b8e2d15d481079ee0363ab6c23e800e53eefdddf",
+      "size_bytes": 1710
     },
     {
       "columns": "country|iso3|reporter_code|year|future_year|horizon|flow|annualized_real_export_growth_log|log_initial_exports_constant_2015_usd|oil_export_share|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_constant_2015_usd",
       "group": "source",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
       "name": "future_growth_missing_controls",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/missing_controls.csv",
       "row_count": 3731,
@@ -1442,6 +1621,116 @@
       "row_count": 4,
       "sha256": "201a92886b3a7de7c558463f5ee406cd0a550a48966b2a93ed5a1c62df574032",
       "size_bytes": 1286
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|total_trade_value|product_gini|product_top_1pct_share|product_top_5pct_share|product_active_count|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_5pct_share|product_partner_cell_active_count|world_relative_product_gini|world_weighted_share_gini|country_active_products|zero_weight_country_export_share|sample_window|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|log_population|oil_export_share|region|income_group|log_active_product_count|log_gni_pc|log_gni_pc_sq|standard_minus_world_relative_gini|section16_export_share|section16_line_share|commodity_gini_delta|commodity_trade_share_removed",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_hump_country_year_panel",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/cadot_hump_country_year_panel.csv",
+      "row_count": 1375,
+      "sha256": "cf56e209479edd50a41333c8261f6534421256fa38d379f2b83592f962bbced6",
+      "size_bytes": 713358
+    },
+    {
+      "columns": "diagnostic|required_columns|missing_required_columns|balanced_countries|balanced_rows|candidate_rows_after_required_drop|reporter_codes",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_hump_sample_diagnostics",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/cadot_hump_sample_diagnostics.csv",
+      "row_count": 4,
+      "sha256": "b451e1f71b472481dbc576072a036c66f27a4a36b0139f8558bbbc7a91501c59",
+      "size_bytes": 1317
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|turning_point_log_gni_pc|turning_point_gni_pc_current_usd",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_hump_models",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/cadot_hump_models.csv",
+      "row_count": 50,
+      "sha256": "624ea0e7475dda13db7ae20d3e4ea1ff2f192f193937487baf962a0ea104bc2e",
+      "size_bytes": 21225
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|turning_point_log_gni_pc|turning_point_gni_pc_current_usd",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_mechanical_variant_models",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/mechanical_variant_models.csv",
+      "row_count": 28,
+      "sha256": "7958a972b3d8fae4912077d01f339d7c33a231c58fe281ba1c62728694eb8796",
+      "size_bytes": 11166
+    },
+    {
+      "columns": "mechanism|reconcentration_episodes|flagged_episodes|flagged_share",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_mechanism_scorecard_summary",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/mechanism_scorecard_summary.csv",
+      "row_count": 14,
+      "sha256": "429f6f54994de3d405b7abeb2dcfa70152666c78c06f143f4b2c6d7c8b42123d",
+      "size_bytes": 881
+    },
+    {
+      "columns": "country|iso3|reporter_code|base_year|future_year|horizon|below_threshold_residual_contraction_share|continuing_product_contraction_share|dying_product_contraction_share|new_product_contraction_share|below_threshold_residual_net_growth_share|continuing_product_net_growth_share|dying_product_net_growth_share|new_product_net_growth_share|below_threshold_residual_positive_expansion_share|continuing_product_positive_expansion_share|dying_product_positive_expansion_share|new_product_positive_expansion_share|below_threshold_residual_product_count|continuing_product_product_count|dying_product_product_count|new_product_product_count|base_product_gini|base_world_relative_product_gini|base_product_active_count|base_product_top_1pct_share|base_cell_top_1pct_share|base_oil_export_share|future_product_gini|future_world_relative_product_gini|future_product_active_count|future_product_top_1pct_share|future_cell_top_1pct_share|future_oil_export_share|delta_product_gini|delta_world_relative_product_gini|delta_active_product_count|delta_top_product_share|delta_top_cell_share|reconcentration_episode|commodity_gini_delta|commodity_trade_share_removed|hs_design_gini_delta_section16|hs4_gini_delta|hs2_gini_delta|section16_export_share|section16_line_share|dying_median_mismatch|continuing_median_mismatch|new_median_mismatch|rich_side_ct|old_cone_mismatch_gap|commodity_spike|section16_hs_design_sensitive|old_cone_pruning|continuing_product_superstar_scaling|broad_unexplained_reconcentration",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_reconcentration_episode_scorecard",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/reconcentration_episode_scorecard.csv",
+      "row_count": 1045,
+      "sha256": "efe459d5111b668c03bf1ba6284893a7de2f21e236824b6e9f355a952ff14d2c",
+      "size_bytes": 862754
+    },
+    {
+      "columns": "model_label|outcome|term|coef|std_error|t_stat|p_value|nobs|candidate_rows|clusters|fixed_effects|cluster_col|status",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_old_cone_exit_models",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/old_cone_exit_models.csv",
+      "row_count": 3,
+      "sha256": "8fd64b48cae733bcf6af4509d5d573973c59523a31ad410ea6fd340717636ab8",
+      "size_bytes": 753
+    },
+    {
+      "columns": "rich_side_ct|product_channel|rows|countries|median_mismatch|mean_mismatch|median_prody|median_base_log_gni|total_base_value_2024_usd|total_future_value_2024_usd|total_contraction_2024_usd|total_positive_expansion_2024_usd",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_old_cone_channel_summary",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/old_cone_channel_summary.csv",
+      "row_count": 6,
+      "sha256": "4c181022bdc545d9f5ce142922f1d54eab53d140cd99bf1e900f68ce1cb85d88",
+      "size_bytes": 1276
+    },
+    {
+      "columns": "rich_side_ct|mismatch_decile|rows|exit_rate|median_mismatch|countries",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_old_cone_exit_by_mismatch_decile",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/old_cone_exit_by_mismatch_decile.csv",
+      "row_count": 19,
+      "sha256": "6c10f13791f85b5bc37dbfb5b72942e7686bcb80028d37562f0cb98c024a8a97",
+      "size_bytes": 1042
+    },
+    {
+      "columns": "reporter_code|year|product_active_count_baseline|product_active_count_full_exclusion|product_gini_baseline|product_gini_full_exclusion|product_top_1pct_share_baseline|product_top_1pct_share_full_exclusion|total_trade_value_baseline|total_trade_value_full_exclusion|trade_share_removed_baseline|trade_share_removed_full_exclusion|commodity_gini_delta|commodity_top1_delta|commodity_trade_share_removed",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_commodity_mechanism_panel",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/commodity_mechanism_panel.csv",
+      "row_count": 1911,
+      "sha256": "ea96a52d3122c19ecd37d8bea0290b812f7df9b7a62b7c1bfc71282230dc953a",
+      "size_bytes": 406229
+    },
+    {
+      "columns": "reporter_code|year|country|iso3|product_gini_no_section16|product_active_count_no_section16|product_gini_hs4|active_count_hs4|product_gini_hs2|active_count_hs2|product_gini_full_exclusion|commodity_gini_delta|commodity_trade_share_removed|actual_minus_sim_median_gini|actual_gini_percentile|product_gini|world_relative_product_gini|log_gni_pc|log_gni_pc_sq|log_population|oil_export_share|section16_export_share|section16_line_share|hs_design_gini_delta_section16|hs4_gini_delta|hs2_gini_delta",
+      "group": "source",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_mechanical_common_sample_panel",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/mechanical_common_sample_panel.csv",
+      "row_count": 1375,
+      "sha256": "3e699d0ad04344e7033f457e629f976cf750bfcac741cb4712d6c3e095eb1013",
+      "size_bytes": 533282
     },
     {
       "columns": "country|iso3|reporter_code|year|flow|variant|total_trade_value|product_gini|product_top_1pct_share|product_top_2pct_share|product_top_5pct_share|product_top_10pct_share|product_top_200_share|product_active_count|partner_total_trade_value|partner_gini|partner_top_1pct_share|partner_top_2pct_share|partner_top_5pct_share|partner_top_10pct_share|partner_top_200_share|partner_active_count|top_5_partner_share|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_2pct_share|product_partner_cell_top_5pct_share|product_partner_cell_top_10pct_share|product_partner_cell_top_200_share|product_partner_cell_active_count",
@@ -1814,6 +2103,46 @@
       "size_bytes": 1943
     },
     {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|bh_q_value|source_note|source_label|source_matches_country_size_panel",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_models.csv",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/common_universe_models.csv",
+      "row_count": 48,
+      "sha256": "4f28a1f6018e052dd269e06db2aaccd986f8f9cf0602bef87b7d797c2021e58a",
+      "size_bytes": 20740
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|bh_q_value|source_note|source_label|source_matches_country_size_panel",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_two_way_models.csv",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/common_universe_two_way_models.csv",
+      "row_count": 48,
+      "sha256": "439a46b7ceaed5de638283338929ecd539bace83fd27cb24f3b29908dc75c090",
+      "size_bytes": 22254
+    },
+    {
+      "columns": "diagnostic|value|detail",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_diagnostics.csv",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/diagnostics.csv",
+      "row_count": 41,
+      "sha256": "756a0b5ef728c6abfc1b54406f74fe73d4c963c6f64e23de9217182b012e4386",
+      "size_bytes": 3294
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|flow|dimension|source_label|source_matches_country_size_panel|total_gini|source_total_gini|total_gini_abs_diff_vs_source_raw|total_active_count|total_value",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:12:18+00:00",
+      "name": "country_size_common_universe_source_difference_examples.csv",
+      "path": "results/samples/rd2_countries/country_size_common_universe_test_tables/source_difference_examples.csv",
+      "row_count": 25,
+      "sha256": "a2440c2bf4c2be44829afe93ebb13206b16204a246eba8b567593c574c5be108",
+      "size_bytes": 4655
+    },
+    {
       "columns": "model_label|sample|horizon|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|bh_q_value",
       "group": "download",
       "mtime_utc": "2026-05-28T17:05:36+00:00",
@@ -1894,19 +2223,19 @@
       "size_bytes": 8824
     },
     {
-      "columns": "country|iso3|reporter_code|year|flow|variant|total_trade_value|product_gini|product_top_1pct_share|product_top_2pct_share|product_top_5pct_share|product_top_10pct_share|product_top_200_share|product_active_count|partner_total_trade_value|partner_gini|partner_top_1pct_share|partner_top_2pct_share|partner_top_5pct_share|partner_top_10pct_share|partner_top_200_share|partner_active_count|top_5_partner_share|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_2pct_share|product_partner_cell_top_5pct_share|product_partner_cell_top_10pct_share|product_partner_cell_top_200_share|product_partner_cell_active_count|base_exports|base_oil_exports|oil_export_share|base_exports_ex_oil|prior_exports|prior_year|gdp_current_usd|gdp_constant_2015_usd|population|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|region|income_group|metadata_source|log_gdp_current_usd|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|region_year|median_product_gini|median_partner_gini|product_concentration_high|partner_concentration_high|concentration_bucket|bucket_high_product_high_partner|bucket_high_product_low_partner|bucket_low_product_high_partner|future_exports|future_exports_ex_oil|horizon|future_year|nominal_export_growth_pct|nominal_export_growth_log|annualized_nominal_export_growth_log|log_initial_exports_nominal_usd|base_exports_constant_2015_usd|future_exports_constant_2015_usd|base_exports_ex_oil_constant_2015_usd|future_exports_ex_oil_constant_2015_usd|prior_exports_constant_2015_usd|real_export_growth_pct|real_export_growth_log|annualized_real_export_growth_log|real_export_growth_pct_ex_oil|real_export_growth_log_ex_oil|annualized_real_export_growth_log_ex_oil|log_initial_exports_constant_2015_usd|base_us_gdp_deflator|future_us_gdp_deflator|prior_us_gdp_deflator|prior_export_growth_control|size_adjusted_annualized_real_export_growth_log|size_adjustment_complete",
+      "columns": "country|iso3|reporter_code|year|flow|variant|total_trade_value|product_gini|product_top_1pct_share|product_top_2pct_share|product_top_5pct_share|product_top_10pct_share|product_top_200_share|product_active_count|partner_total_trade_value|partner_gini|partner_top_1pct_share|partner_top_2pct_share|partner_top_5pct_share|partner_top_10pct_share|partner_top_200_share|partner_active_count|top_5_partner_share|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_2pct_share|product_partner_cell_top_5pct_share|product_partner_cell_top_10pct_share|product_partner_cell_top_200_share|product_partner_cell_active_count|base_exports|base_oil_exports|oil_export_share|base_exports_ex_oil|prior_exports|prior_year|gdp_current_usd|gdp_constant_2015_usd|population|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|region|income_group|metadata_source|log_gdp_current_usd|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|log_product_active_count|log_partner_active_count|log_product_partner_cell_active_count|region_year|median_product_gini|median_partner_gini|product_concentration_high|partner_concentration_high|concentration_bucket|bucket_high_product_high_partner|bucket_high_product_low_partner|bucket_low_product_high_partner|future_exports|future_exports_ex_oil|future_product_active_count|future_partner_active_count|future_product_partner_cell_active_count|horizon|future_year|nominal_export_growth_pct|nominal_export_growth_log|annualized_nominal_export_growth_log|log_initial_exports_nominal_usd|base_exports_constant_2015_usd|future_exports_constant_2015_usd|base_exports_ex_oil_constant_2015_usd|future_exports_ex_oil_constant_2015_usd|prior_exports_constant_2015_usd|real_export_growth_pct|real_export_growth_log|annualized_real_export_growth_log|real_export_change_constant_2015_usd|annualized_real_export_change_constant_2015_usd|annualized_asinh_real_export_change|real_export_growth_pct_ex_oil|real_export_growth_log_ex_oil|annualized_real_export_growth_log_ex_oil|log_initial_exports_constant_2015_usd|base_us_gdp_deflator|future_us_gdp_deflator|prior_us_gdp_deflator|prior_export_growth_control|log_future_product_active_count|annualized_log_product_active_count_change|log_future_partner_active_count|annualized_log_partner_active_count_change|log_future_product_partner_cell_active_count|annualized_log_product_partner_cell_active_count_change|size_adjusted_annualized_real_export_growth_log|size_adjustment_complete|base_size_percentile|base_size_bin|bottom_10pct_base_exports|bottom_25pct_base_exports|primary_export_share_strict|primary_export_share_broad",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_concentration_panel.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/future_growth_concentration_panel.csv",
       "row_count": 11535,
-      "sha256": "b3ee72e4933b24c2afd10d7ccb00b9f0b848904e582aa6fa3572673028399e0b",
-      "size_bytes": 14204138
+      "sha256": "f21c35625c9a805f6761f0478434d782e9dd5c5db4dd3be0e893cc25800c0969",
+      "size_bytes": 17500620
     },
     {
       "columns": "flow|horizon|concentration_bucket|observations|countries|mean_annualized_log_growth|median_annualized_log_growth|size_adjusted_observations|mean_size_adjusted_annualized_log_growth|median_size_adjusted_annualized_log_growth|mean_real_export_growth_pct|median_initial_exports_constant_2015_usd",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_bucket_summary.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/bucket_summary.csv",
       "row_count": 24,
@@ -1916,7 +2245,7 @@
     {
       "columns": "flow|horizon|example_type|country|iso3|year|future_year|concentration_bucket|annualized_real_export_growth_log|base_exports|future_exports|base_exports_constant_2015_usd|future_exports_constant_2015_usd|product_gini|partner_gini|product_partner_cell_gini",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_country_examples.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/country_examples.csv",
       "row_count": 60,
@@ -1926,7 +2255,7 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_bucket_models.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/bucket_models.csv",
       "row_count": 48,
@@ -1936,7 +2265,7 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_continuous_models.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/continuous_models.csv",
       "row_count": 324,
@@ -1946,7 +2275,7 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_paired_models.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/paired_models.csv",
       "row_count": 144,
@@ -1956,27 +2285,97 @@
     {
       "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
       "name": "future_growth_robustness_models.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/robustness_models.csv",
       "row_count": 1350,
-      "sha256": "5c668601aab1df0f277c84cd23e9d471b500d5bf96ea648d28793b3bf676dcf2",
-      "size_bytes": 602027
+      "sha256": "c946b7caee827ab6ab661baf016eabe51698d8c9db60da882f047883774a7fe2",
+      "size_bytes": 602049
+    },
+    {
+      "columns": "flow|horizon|base_size_bin|concentration_bucket|observations|countries|mean_annualized_log_growth|mean_size_adjusted_annualized_log_growth|mean_annualized_real_export_change_constant_2015_usd|mean_annualized_asinh_real_export_change|median_initial_exports_constant_2015_usd|mean_base_size_percentile",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
+      "name": "future_growth_base_size_bin_summary.csv",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/base_size_bin_summary.csv",
+      "row_count": 120,
+      "sha256": "05443a4b714a771913c0f9b872ef23335331429a4d164366d3f15cb461b135b8",
+      "size_bytes": 19631
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value|test_family",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:32:08+00:00",
+      "name": "future_growth_base_size_sensitivity_models.csv",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/base_size_sensitivity_models.csv",
+      "row_count": 390,
+      "sha256": "55c8fcbbfb91a1d8148b286784a41ce053ed72f4b1437a0c6301a1517ca6d6eb",
+      "size_bytes": 162344
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|flow|variant|total_trade_value|product_gini|product_top_1pct_share|product_top_2pct_share|product_top_5pct_share|product_top_10pct_share|product_top_200_share|product_active_count|partner_total_trade_value|partner_gini|partner_top_1pct_share|partner_top_2pct_share|partner_top_5pct_share|partner_top_10pct_share|partner_top_200_share|partner_active_count|top_5_partner_share|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_2pct_share|product_partner_cell_top_5pct_share|product_partner_cell_top_10pct_share|product_partner_cell_top_200_share|product_partner_cell_active_count|base_exports|base_oil_exports|oil_export_share|base_exports_ex_oil|prior_exports|prior_year|gdp_current_usd|gdp_constant_2015_usd|population|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|region|income_group|metadata_source|log_gdp_current_usd|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|log_product_active_count|log_partner_active_count|log_product_partner_cell_active_count|region_year|median_product_gini|median_partner_gini|product_concentration_high|partner_concentration_high|concentration_bucket|bucket_high_product_high_partner|bucket_high_product_low_partner|bucket_low_product_high_partner|future_exports|future_exports_ex_oil|future_product_active_count|future_partner_active_count|future_product_partner_cell_active_count|horizon|future_year|nominal_export_growth_pct|nominal_export_growth_log|annualized_nominal_export_growth_log|log_initial_exports_nominal_usd|base_exports_constant_2015_usd|future_exports_constant_2015_usd|base_exports_ex_oil_constant_2015_usd|future_exports_ex_oil_constant_2015_usd|prior_exports_constant_2015_usd|real_export_growth_pct|real_export_growth_log|annualized_real_export_growth_log|real_export_change_constant_2015_usd|annualized_real_export_change_constant_2015_usd|annualized_asinh_real_export_change|real_export_growth_pct_ex_oil|real_export_growth_log_ex_oil|annualized_real_export_growth_log_ex_oil|log_initial_exports_constant_2015_usd|base_us_gdp_deflator|future_us_gdp_deflator|prior_us_gdp_deflator|prior_export_growth_control|log_future_product_active_count|annualized_log_product_active_count_change|log_future_partner_active_count|annualized_log_partner_active_count_change|log_future_product_partner_cell_active_count|annualized_log_product_partner_cell_active_count_change|size_adjusted_annualized_real_export_growth_log|size_adjustment_complete|base_size_percentile|base_size_bin|bottom_10pct_base_exports|bottom_25pct_base_exports|primary_export_share_strict|primary_export_share_broad|base_year|existing_cell_growth_gross_positive_share|net_new_product_gross_positive_share|new_cell_existing_product_partner_gross_positive_share|new_partner_existing_product_gross_positive_share|existing_cell_growth_net_growth_share|net_new_product_net_growth_share|new_cell_existing_product_partner_net_growth_share|new_partner_existing_product_net_growth_share|existing_cell_growth_product_count|net_new_product_product_count|new_cell_existing_product_partner_product_count|new_partner_existing_product_product_count|existing_cell_growth_partner_count|net_new_product_partner_count|new_cell_existing_product_partner_partner_count|new_partner_existing_product_partner_count|existing_cell_growth_cell_count|net_new_product_cell_count|new_cell_existing_product_partner_cell_count|new_partner_existing_product_cell_count|least_traded_10pct_grower_gross_positive_share|low_base_under_10k_grower_gross_positive_share|strict_zero_base_product_gross_positive_share|least_traded_10pct_grower_net_growth_share|low_base_under_10k_grower_net_growth_share|strict_zero_base_product_net_growth_share|least_traded_10pct_grower_product_count|low_base_under_10k_grower_product_count|strict_zero_base_product_product_count",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_channel_panel.csv",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_channel_panel.csv",
+      "row_count": 11535,
+      "sha256": "b3e509fa8f44f3a39fb53aec7003d5eb3d79c55b4121058f38fa948c0db39cb4",
+      "size_bytes": 19821281
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|horizon|bh_q_value|outcome_label|test_family",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_channel_models.csv",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_channel_models.csv",
+      "row_count": 540,
+      "sha256": "9d34ae5d0d13e0c8746ced22da38e7c17d296eb2deb627374750fbe360bb78de",
+      "size_bytes": 232715
+    },
+    {
+      "columns": "test_id|test_label|estimate|unit|p_value|bh_q_value|nobs|interpretation",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_summary.csv",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_summary.csv",
+      "row_count": 13,
+      "sha256": "d1930b4e877c10b0a15311b1c24f7747360d4f62eb43a21fde55c0c68a0ee217",
+      "size_bytes": 2256
     },
     {
       "columns": "diagnostic|value",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_mechanism_diagnostics.csv",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/mechanism_diagnostics.csv",
+      "row_count": 17,
+      "sha256": "5b7e5441e3b16130bd5cf068a390fd8f33bc767afca56dbd1bca3df135d685c0",
+      "size_bytes": 787
+    },
+    {
+      "columns": "omitted_reporter_code|omitted_country|omitted_iso3|term|coefficient|std_error|p_value|nobs|clusters|status",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
+      "name": "future_growth_leave_one_country_out_influence.csv",
+      "path": "results/samples/rd2_countries/future_growth_concentration_tables/leave_one_country_out_influence.csv",
+      "row_count": 60,
+      "sha256": "f1fcc104cc9a9770540f7c4aae756b0aae73a97855cfbe69b5de88f6451683d4",
+      "size_bytes": 7371
+    },
+    {
+      "columns": "diagnostic|value",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
       "name": "future_growth_sample_diagnostics.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/sample_diagnostics.csv",
-      "row_count": 32,
-      "sha256": "39cf7b40f97d286cd84b72a397ad7344d666fc082e322fc311e72daabb59223b",
-      "size_bytes": 1366
+      "row_count": 35,
+      "sha256": "f04c2385717947a9e88efef8b8e2d15d481079ee0363ab6c23e800e53eefdddf",
+      "size_bytes": 1710
     },
     {
       "columns": "country|iso3|reporter_code|year|future_year|horizon|flow|annualized_real_export_growth_log|log_initial_exports_constant_2015_usd|oil_export_share|log_gdp_constant_2015_usd|log_population|log_gni_per_capita_constant_2015_usd",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
       "name": "future_growth_missing_controls.csv",
       "path": "results/samples/rd2_countries/future_growth_concentration_tables/missing_controls.csv",
       "row_count": 3731,
@@ -1986,12 +2385,12 @@
     {
       "columns": "",
       "group": "download",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:09+00:00",
       "name": "run_manifest_future_growth_concentration.json",
       "path": "results/samples/rd2_countries/run_manifest_future_growth_concentration.json",
       "row_count": null,
-      "sha256": "0a36007a650adbea1de41890af639ed8d4b5222603ea376f957284d841150289",
-      "size_bytes": 3000
+      "sha256": "19aada1ae964d88e19692704be05448e320e230caed0d1d699bb9f6cc81380e0",
+      "size_bytes": 4864
     },
     {
       "columns": "country_sample|year|flow|observed_hs6_codes|active_country_year_hs6_products|reporters_with_trade|reporter_year_flow_observations|trade_value|product_universe|excluded_hs6_codes|source_note|flow_order",
@@ -2334,6 +2733,136 @@
       "size_bytes": 5549
     },
     {
+      "columns": "country|iso3|reporter_code|year|total_trade_value|product_gini|product_top_1pct_share|product_top_5pct_share|product_active_count|product_partner_cell_gini|product_partner_cell_top_1pct_share|product_partner_cell_top_5pct_share|product_partner_cell_active_count|world_relative_product_gini|world_weighted_share_gini|country_active_products|zero_weight_country_export_share|sample_window|gni_per_capita_current_usd|gni_per_capita_constant_2015_usd|log_gni_per_capita_current_usd|log_gni_per_capita_constant_2015_usd|log_population|oil_export_share|region|income_group|log_active_product_count|log_gni_pc|log_gni_pc_sq|standard_minus_world_relative_gini|section16_export_share|section16_line_share|commodity_gini_delta|commodity_trade_share_removed",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_hump_country_year_panel.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/cadot_hump_country_year_panel.csv",
+      "row_count": 1375,
+      "sha256": "cf56e209479edd50a41333c8261f6534421256fa38d379f2b83592f962bbced6",
+      "size_bytes": 713358
+    },
+    {
+      "columns": "diagnostic|required_columns|missing_required_columns|balanced_countries|balanced_rows|candidate_rows_after_required_drop|reporter_codes",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_hump_sample_diagnostics.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/cadot_hump_sample_diagnostics.csv",
+      "row_count": 4,
+      "sha256": "b451e1f71b472481dbc576072a036c66f27a4a36b0139f8558bbbc7a91501c59",
+      "size_bytes": 1317
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|turning_point_log_gni_pc|turning_point_gni_pc_current_usd",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_hump_models.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/cadot_hump_models.csv",
+      "row_count": 50,
+      "sha256": "624ea0e7475dda13db7ae20d3e4ea1ff2f192f193937487baf962a0ea104bc2e",
+      "size_bytes": 21225
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|turning_point_log_gni_pc|turning_point_gni_pc_current_usd",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_mechanical_variant_models.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/mechanical_variant_models.csv",
+      "row_count": 28,
+      "sha256": "7958a972b3d8fae4912077d01f339d7c33a231c58fe281ba1c62728694eb8796",
+      "size_bytes": 11166
+    },
+    {
+      "columns": "mechanism|reconcentration_episodes|flagged_episodes|flagged_share",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_mechanism_scorecard_summary.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/mechanism_scorecard_summary.csv",
+      "row_count": 14,
+      "sha256": "429f6f54994de3d405b7abeb2dcfa70152666c78c06f143f4b2c6d7c8b42123d",
+      "size_bytes": 881
+    },
+    {
+      "columns": "country|iso3|reporter_code|base_year|future_year|horizon|below_threshold_residual_contraction_share|continuing_product_contraction_share|dying_product_contraction_share|new_product_contraction_share|below_threshold_residual_net_growth_share|continuing_product_net_growth_share|dying_product_net_growth_share|new_product_net_growth_share|below_threshold_residual_positive_expansion_share|continuing_product_positive_expansion_share|dying_product_positive_expansion_share|new_product_positive_expansion_share|below_threshold_residual_product_count|continuing_product_product_count|dying_product_product_count|new_product_product_count|base_product_gini|base_world_relative_product_gini|base_product_active_count|base_product_top_1pct_share|base_cell_top_1pct_share|base_oil_export_share|future_product_gini|future_world_relative_product_gini|future_product_active_count|future_product_top_1pct_share|future_cell_top_1pct_share|future_oil_export_share|delta_product_gini|delta_world_relative_product_gini|delta_active_product_count|delta_top_product_share|delta_top_cell_share|reconcentration_episode|commodity_gini_delta|commodity_trade_share_removed|hs_design_gini_delta_section16|hs4_gini_delta|hs2_gini_delta|section16_export_share|section16_line_share|dying_median_mismatch|continuing_median_mismatch|new_median_mismatch|rich_side_ct|old_cone_mismatch_gap|commodity_spike|section16_hs_design_sensitive|old_cone_pruning|continuing_product_superstar_scaling|broad_unexplained_reconcentration",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_reconcentration_episode_scorecard.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/reconcentration_episode_scorecard.csv",
+      "row_count": 1045,
+      "sha256": "efe459d5111b668c03bf1ba6284893a7de2f21e236824b6e9f355a952ff14d2c",
+      "size_bytes": 862754
+    },
+    {
+      "columns": "model_label|outcome|term|coef|std_error|t_stat|p_value|nobs|candidate_rows|clusters|fixed_effects|cluster_col|status",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_old_cone_exit_models.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/old_cone_exit_models.csv",
+      "row_count": 3,
+      "sha256": "8fd64b48cae733bcf6af4509d5d573973c59523a31ad410ea6fd340717636ab8",
+      "size_bytes": 753
+    },
+    {
+      "columns": "rich_side_ct|product_channel|rows|countries|median_mismatch|mean_mismatch|median_prody|median_base_log_gni|total_base_value_2024_usd|total_future_value_2024_usd|total_contraction_2024_usd|total_positive_expansion_2024_usd",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_old_cone_channel_summary.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/old_cone_channel_summary.csv",
+      "row_count": 6,
+      "sha256": "4c181022bdc545d9f5ce142922f1d54eab53d140cd99bf1e900f68ce1cb85d88",
+      "size_bytes": 1276
+    },
+    {
+      "columns": "rich_side_ct|mismatch_decile|rows|exit_rate|median_mismatch|countries",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "cadot_old_cone_exit_by_mismatch_decile.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/old_cone_exit_by_mismatch_decile.csv",
+      "row_count": 19,
+      "sha256": "6c10f13791f85b5bc37dbfb5b72942e7686bcb80028d37562f0cb98c024a8a97",
+      "size_bytes": 1042
+    },
+    {
+      "columns": "reporter_code|year|product_active_count_baseline|product_active_count_full_exclusion|product_gini_baseline|product_gini_full_exclusion|product_top_1pct_share_baseline|product_top_1pct_share_full_exclusion|total_trade_value_baseline|total_trade_value_full_exclusion|trade_share_removed_baseline|trade_share_removed_full_exclusion|commodity_gini_delta|commodity_top1_delta|commodity_trade_share_removed",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_commodity_mechanism_panel.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/commodity_mechanism_panel.csv",
+      "row_count": 1911,
+      "sha256": "ea96a52d3122c19ecd37d8bea0290b812f7df9b7a62b7c1bfc71282230dc953a",
+      "size_bytes": 406229
+    },
+    {
+      "columns": "reporter_code|year|country|iso3|product_gini_no_section16|product_active_count_no_section16|product_gini_hs4|active_count_hs4|product_gini_hs2|active_count_hs2|product_gini_full_exclusion|commodity_gini_delta|commodity_trade_share_removed|actual_minus_sim_median_gini|actual_gini_percentile|product_gini|world_relative_product_gini|log_gni_pc|log_gni_pc_sq|log_population|oil_export_share|section16_export_share|section16_line_share|hs_design_gini_delta_section16|hs4_gini_delta|hs2_gini_delta",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:23+00:00",
+      "name": "cadot_mechanical_common_sample_panel.csv",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_tables/mechanical_common_sample_panel.csv",
+      "row_count": 1375,
+      "sha256": "3e699d0ad04344e7033f457e629f976cf750bfcac741cb4712d6c3e095eb1013",
+      "size_bytes": 533282
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:25+00:00",
+      "name": "run_manifest_cadot_hump_tribunal.json",
+      "path": "results/samples/rd2_countries/run_manifest_cadot_hump_tribunal.json",
+      "row_count": null,
+      "sha256": "a38e357d0c5fa9f1e2fbe36d7528bb1cbb354f5a0a7b5fe0a27484c8a22e70f4",
+      "size_bytes": 3385
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-05-29T08:28:26+00:00",
+      "name": "cadot_hump_tribunal_adversarial_review.md",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_adversarial_review.md",
+      "row_count": null,
+      "sha256": "2990b0ca76863b2fcadf2a2fddb262d479a76ae38ed8adff20b97b341b25f85b",
+      "size_bytes": 2851
+    },
+    {
       "columns": "",
       "group": "figure",
       "mtime_utc": "2026-05-25T11:55:43+00:00",
@@ -2636,7 +3165,7 @@
     {
       "columns": "",
       "group": "figure",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:07+00:00",
       "name": "future_growth_bucket_summary_growth",
       "path": "results/samples/rd2_countries/future_growth_concentration_figures/bucket_summary_growth.png",
       "row_count": null,
@@ -2646,7 +3175,7 @@
     {
       "columns": "",
       "group": "figure",
-      "mtime_utc": "2026-05-29T07:41:15+00:00",
+      "mtime_utc": "2026-05-29T08:32:07+00:00",
       "name": "future_growth_continuous_coefficients",
       "path": "results/samples/rd2_countries/future_growth_concentration_figures/continuous_coefficients.png",
       "row_count": null,
@@ -2672,6 +3201,46 @@
       "row_count": null,
       "sha256": "ea81845b72dc36e43f3bfe1cfd4e8fc61d53508d62becd0c1a8c7eaa25f66894",
       "size_bytes": 143321
+    },
+    {
+      "columns": "",
+      "group": "figure",
+      "mtime_utc": "2026-05-29T08:28:26+00:00",
+      "name": "cadot_hump_curve",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_figures/cadot_hump_curve.png",
+      "row_count": null,
+      "sha256": "f03a1d29255f39c447ae0650b074e1ac9c9fb82610ce547be64e6a71b38aa395",
+      "size_bytes": 261607
+    },
+    {
+      "columns": "",
+      "group": "figure",
+      "mtime_utc": "2026-05-29T08:28:26+00:00",
+      "name": "cadot_mechanism_scorecard",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_figures/mechanism_scorecard.png",
+      "row_count": null,
+      "sha256": "8af079ac75c56f08b7ca7a63a64c0565febe8f288ed9de8558766b8b8f009fb0",
+      "size_bytes": 52243
+    },
+    {
+      "columns": "",
+      "group": "figure",
+      "mtime_utc": "2026-05-29T08:28:26+00:00",
+      "name": "cadot_mechanical_robustness_ladder",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_figures/mechanical_robustness_ladder.png",
+      "row_count": null,
+      "sha256": "6f384ab8b595b825c777f5aec89286515ff60c1e87d8f2f89caa98c3352005d1",
+      "size_bytes": 77361
+    },
+    {
+      "columns": "",
+      "group": "figure",
+      "mtime_utc": "2026-05-29T08:28:26+00:00",
+      "name": "cadot_old_cone_exit_plot",
+      "path": "results/samples/rd2_countries/cadot_hump_tribunal_figures/old_cone_exit_plot.png",
+      "row_count": null,
+      "sha256": "4419e8820f42bda3bedeb3ca21beadb991880689cd38ccda0c1558dfd58affc2",
+      "size_bytes": 83616
     }
   ]
 }

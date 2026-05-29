@@ -1,0 +1,18 @@
+diagnostic,value
+mechanism_panel_rows,11535
+mechanism_panel_countries,60
+duplicate_mechanism_panel_keys,0
+exercise_12_channel_rows,2913
+exercise_12_validation_status,ok
+exercise_12_product_hs6_999999_rule,excluded before product-dependent aggregation; validation reports 0 rows after filters
+exercise_12_partner_code_0_rule,World partner excluded before product-partner channel construction
+primary_share_control_source,data/processed/samples/rd2_countries/country_size_effect_panel.parquet
+base_size_models_ok,390
+mechanism_models_ok,400
+leave_one_country_out_rows,60
+horizon_1_mechanism_rows,3845
+horizon_1_exercise_12_channel_matches,0
+horizon_5_mechanism_rows,3845
+horizon_5_exercise_12_channel_matches,3210
+horizon_10_mechanism_rows,3845
+horizon_10_exercise_12_channel_matches,2616
