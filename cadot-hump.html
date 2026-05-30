@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Behind the Hump</title>
-  <link rel="stylesheet" href="assets/site.css?v=202605290833480000">
+  <link rel="stylesheet" href="assets/site.css?v=202605301457510000">
 </head>
 <body data-page="cadot-hump">
   <header class="site-header">
@@ -18,7 +18,38 @@
     <section class="page-title">
       <div class="eyebrow">Behind the hump</div>
       <h1>Cadot Hump Mechanism Tribunal</h1>
-      <p>This page asks whether export reconcentration is mechanical classification design, commodity exposure, active-line loss, continuing-product scaling, or old-cone exit. It is descriptive, not causal.</p>
+      <p>This page reports the Cadot-style hump results and mechanism diagnostics for the rd2 country panel. It separates what Cadot did, what this project did, and which results survive stricter checks.</p>
+    </section>
+
+    <section class="section" id="cadot-results-status">
+      <div class="section-heading">
+        <h2>What Cadot Did, What We Did</h2>
+        <p>The table reports the objects being compared. Cadot's benchmark is export diversification over development using HS6 exports and PPP income; our checks use the modern rd2 panel and the project's product-concentration measures.</p>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Check</th><th>Sample</th><th>Income variable</th><th>Model</th><th>Result</th></tr></thead><tbody><tr><td>Cadot, Carrere, Strauss-Kahn</td><td>156 countries, 1988-2006, HS6 exports</td><td>Per-capita GDP at PPP, constant 2005 international dollars</td><td>Quadratic concentration-development curves; pooled OLS in the displayed benchmark</td><td>Export diversification rises then reconcentrates; concentration turning point around PPP $25k-$30k</td></tr><tr><td>Our original tribunal check</td><td>rd2 balanced panel, 55 countries, 2000-2024</td><td>Current-dollar log GNI per capita</td><td>World-Relative Product Gini on log GNI and log GNI squared, controls, year FE, country-clustered SE</td><td>No clean hump: quadratic p-value 0.735; implied turning point outside support</td></tr><tr><td>Our PPP re-run</td><td>Same rd2 balanced panel, same 55 countries and years</td><td>World Bank constant PPP GDP per capita, NY.GDP.PCAP.PP.KD</td><td>Level PPP and log PPP quadratics, controls, year FE, country-clustered SE</td><td>Level PPP restores product concentration U-shapes; log PPP does not restore the export product hump</td></tr></tbody></table></div>
+      <div class="note">
+        <p><strong>Issue:</strong> Main issue is still pooled vs country FE. Pooled/year-FE compares countries at different development stages. Country FE asks whether the same country reconcentrates as it gets richer. The PPP hump weakens there, so do not overclaim.</p>
+      </div>
+    </section>
+
+    <section class="section" id="cadot-ppp-results">
+      <div class="section-heading">
+        <h2>PPP GDP Hump Results</h2>
+        <p>All rows use rd2 countries, 2000-2024, log population, oil export share, year fixed effects, and reporter-country clustered standard errors. Product outcomes use the HS6 999999 exclusion rule; partner outcomes use the partner-total convention.</p>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Outcome</th><th>Income form</th><th>Quadratic coef.</th><th>p-value</th><th>Turning point</th><th>Inside p05-p95</th><th>Verdict</th><th>N</th><th>Countries</th></tr></thead><tbody><tr class="sig-row"><td>Export World-Relative Product Gini</td><td>level_ppp</td><td><strong class="sig-coef">0.005</strong></td><td><strong class="sig-pvalue">0.000</strong></td><td>$78,574</td><td>True</td><td>clear hump</td><td>1,375</td><td>55</td></tr><tr><td>Export World-Relative Product Gini</td><td>log_ppp</td><td>-0.007</td><td>0.253</td><td>$29</td><td>False</td><td>no concentration U-shape</td><td>1,375</td><td>55</td></tr><tr class="sig-row"><td>Export Product Gini</td><td>level_ppp</td><td><strong class="sig-coef">0.001</strong></td><td><strong class="sig-pvalue">0.000</strong></td><td>$75,806</td><td>True</td><td>clear hump</td><td>1,375</td><td>55</td></tr><tr><td>Export Product Gini</td><td>log_ppp</td><td>-0.000</td><td>0.797</td><td>$0</td><td>False</td><td>no concentration U-shape</td><td>1,375</td><td>55</td></tr><tr class="sig-row"><td>Import Product Gini</td><td>level_ppp</td><td><strong class="sig-coef">0.001</strong></td><td><strong class="sig-pvalue">0.000</strong></td><td>$64,504</td><td>True</td><td>clear hump</td><td>1,375</td><td>55</td></tr><tr><td>Import Product Gini</td><td>log_ppp</td><td>0.004</td><td>0.060</td><td>$100,182</td><td>False</td><td>no clean hump</td><td>1,375</td><td>55</td></tr><tr><td>Export Partner Gini</td><td>level_ppp</td><td>-0.000</td><td>0.978</td><td>$1.7M</td><td>False</td><td>no concentration U-shape</td><td>1,375</td><td>55</td></tr><tr class="sig-row"><td>Export Partner Gini</td><td>log_ppp</td><td><strong class="sig-coef">0.005</strong></td><td><strong class="sig-pvalue">0.007</strong></td><td>$10,744</td><td>True</td><td>clear hump</td><td>1,375</td><td>55</td></tr><tr><td>Import Partner Gini</td><td>level_ppp</td><td>0.000</td><td>0.867</td><td>$-391,592</td><td>False</td><td>outside-support artifact</td><td>1,375</td><td>55</td></tr><tr><td>Import Partner Gini</td><td>log_ppp</td><td>0.003</td><td>0.149</td><td>$5,077</td><td>True</td><td>no clean hump</td><td>1,375</td><td>55</td></tr></tbody></table></div>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/cadot_ppp_hump_level.png"><img src="assets/figures/cadot_ppp_hump_level.png" alt="PPP hump diagnostics using level PPP GDP per capita"></a><figcaption>Level PPP GDP per-capita diagnostics.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/cadot_ppp_hump_log.png"><img src="assets/figures/cadot_ppp_hump_log.png" alt="PPP hump diagnostics using log PPP GDP per capita"></a><figcaption>Log PPP GDP per-capita diagnostics.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section" id="cadot-pooled-country-fe">
+      <div class="section-heading">
+        <h2>Pooled Versus Country-FE Robustness</h2>
+        <p>The pooled/year-FE rows compare countries at different income levels within a year. The country/year-FE rows compare each country to itself over time.</p>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Outcome</th><th>Income form</th><th>Specification</th><th>Quadratic coef.</th><th>p-value</th><th>Turning point</th><th>Inside p05-p95</th><th>N</th><th>Countries</th><th>Status</th></tr></thead><tbody><tr class="sig-row"><td>Export World-Relative Product Gini</td><td>level_ppp</td><td>pooled_year_fe</td><td><strong class="sig-coef">0.005</strong></td><td><strong class="sig-pvalue">0.000</strong></td><td>$78,574</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export World-Relative Product Gini</td><td>log_ppp</td><td>pooled_year_fe</td><td>-0.007</td><td>0.253</td><td>$29</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr class="sig-row"><td>Export World-Relative Product Gini</td><td>level_ppp</td><td>country_year_fe</td><td><strong class="sig-coef">0.002</strong></td><td><strong class="sig-pvalue">0.007</strong></td><td>$88,450</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export World-Relative Product Gini</td><td>log_ppp</td><td>country_year_fe</td><td>0.005</td><td>0.301</td><td>$2.6M</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr class="sig-row"><td>Export Product Gini</td><td>level_ppp</td><td>pooled_year_fe</td><td><strong class="sig-coef">0.001</strong></td><td><strong class="sig-pvalue">0.000</strong></td><td>$75,806</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export Product Gini</td><td>log_ppp</td><td>pooled_year_fe</td><td>-0.000</td><td>0.797</td><td>$0</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export Product Gini</td><td>level_ppp</td><td>country_year_fe</td><td>0.000</td><td>0.068</td><td>$61,678</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export Product Gini</td><td>log_ppp</td><td>country_year_fe</td><td>0.004</td><td>0.067</td><td>$57,399</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr class="sig-row"><td>Import Product Gini</td><td>level_ppp</td><td>pooled_year_fe</td><td><strong class="sig-coef">0.001</strong></td><td><strong class="sig-pvalue">0.000</strong></td><td>$64,504</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Import Product Gini</td><td>log_ppp</td><td>pooled_year_fe</td><td>0.004</td><td>0.060</td><td>$100,182</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Import Product Gini</td><td>level_ppp</td><td>country_year_fe</td><td>0.000</td><td>0.214</td><td>$18,554</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr class="sig-row"><td>Import Product Gini</td><td>log_ppp</td><td>country_year_fe</td><td><strong class="sig-coef">0.008</strong></td><td><strong class="sig-pvalue">0.001</strong></td><td>$26,710</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export Partner Gini</td><td>level_ppp</td><td>pooled_year_fe</td><td>-0.000</td><td>0.978</td><td>$1.7M</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr class="sig-row"><td>Export Partner Gini</td><td>log_ppp</td><td>pooled_year_fe</td><td><strong class="sig-coef">0.005</strong></td><td><strong class="sig-pvalue">0.007</strong></td><td>$10,744</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export Partner Gini</td><td>level_ppp</td><td>country_year_fe</td><td>0.000</td><td>0.824</td><td>$-47,810</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Export Partner Gini</td><td>log_ppp</td><td>country_year_fe</td><td>0.003</td><td>0.437</td><td>$12,145</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Import Partner Gini</td><td>level_ppp</td><td>pooled_year_fe</td><td>0.000</td><td>0.867</td><td>$-391,592</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Import Partner Gini</td><td>log_ppp</td><td>pooled_year_fe</td><td>0.003</td><td>0.149</td><td>$5,077</td><td>True</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Import Partner Gini</td><td>level_ppp</td><td>country_year_fe</td><td>-0.000</td><td>0.356</td><td>$88,670</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr><tr><td>Import Partner Gini</td><td>log_ppp</td><td>country_year_fe</td><td>-0.002</td><td>0.586</td><td>$801,806</td><td>False</td><td>1,375</td><td>55</td><td>ok</td></tr></tbody></table></div>
     </section>
 
     <section class="section" id="tribunal-answer">
@@ -100,6 +131,8 @@
         <a href="assets/downloads/cadot_reconcentration_episode_scorecard.csv">Episode scorecard</a>
         <a href="assets/downloads/cadot_old_cone_exit_models.csv">Old-cone exit models</a>
         <a href="assets/downloads/cadot_hump_sample_diagnostics.csv">Sample diagnostics</a>
+        <a href="assets/downloads/ppp_hump_regression_summary.csv">PPP hump summary</a>
+        <a href="assets/downloads/ppp_hump_country_fe_robustness.csv">PPP pooled/country-FE robustness</a>
         <a href="assets/downloads/run_manifest_cadot_hump_tribunal.json">Run manifest</a>
         <a href="assets/downloads/cadot_hump_tribunal_adversarial_review.md">Adversarial review</a>
       </div>
@@ -107,10 +140,10 @@
         
   </main>
   <footer class="site-footer">
-    <p>Generated from local research outputs on 2026-05-29T08:33:48+00:00.</p>
+    <p>Generated from local research outputs on 2026-05-30T14:57:51+00:00.</p>
   </footer>
   <script src="assets/vendor/plotly.min.js"></script>
-  <script src="assets/site-data.js?v=202605290833480000"></script>
-  <script src="assets/site.js?v=202605290833480000"></script>
+  <script src="assets/site-data.js?v=202605301457510000"></script>
+  <script src="assets/site.js?v=202605301457510000"></script>
 </body>
 </html>
