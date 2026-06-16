@@ -3,91 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trade Concentration Brief</title>
-  <link rel="stylesheet" href="assets/site.css?v=202606151403240000">
+  <title>Trade Concentration Hub</title>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
-<body data-page="overview">
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="index.html">Trade Concentration Brief</a>
-      <nav aria-label="Primary navigation"><a class="active" href="index.html">Overview</a><a class="" href="extension.html">Extending 2001</a><a class="" href="exercise-12.html">Exercise 12</a><a class="" href="imports.html">Import concentration</a><a class="" href="country-size-effect.html">Country size effect</a><a class="" href="growth-effect.html">Growth effect</a><a class="" href="future-growth.html">Future growth</a><a class="" href="partner-stability.html">Partner stability</a><a class="" href="world-gini.html">World Gini</a><a class="" href="cadot-hump.html">Behind hump</a><a class="" href="contributions.html">Contributions</a><a class="" href="literature.html">Literature</a><a class="" href="methods.html">Methods</a></nav>
-    </div>
-  </header>
-  <main>
+<body>
+  
+<header class="site-head root">
+  <h1>Trade Concentration: Gini, Theil, HHI</h1>
+  <p>Cadot-style 156-reporter run over UN Comtrade annual HS final data, 2000-2024.</p>
+</header>
+<main>
+  <section class="hub-grid"><a class="hub-link" href="gini/"><strong>Gini</strong><span>Active-positive Gini over observed positive trade values.</span></a><a class="hub-link" href="theil/"><strong>Theil</strong><span>Fixed-universe product Theil: sum_p s_cpft * log(s_cpft * K_f).</span></a><a class="hub-link" href="hhi/"><strong>HHI</strong><span>Raw Herfindahl-Hirschman index, sum_i s_i^2, on [0,1].</span></a></section>
+  <section class="stats">
+    <div><strong>156</strong><span>selected reporters</span></div>
+    <div><strong>3,787</strong><span>raw files</span></div>
+    <div><strong>6873</strong><span>export product universe</span></div>
+    <div><strong>6891</strong><span>import product universe</span></div>
+  </section>
+  <section>
+    <h2>Validation</h2>
+    <div class="table-wrap"><table><thead><tr><th>Check</th><th>Passed</th><th>Details</th></tr></thead><tbody><tr><td>selected_reporter_count_156</td><td>True</td><td>n/a</td></tr><tr><td>no_product_dependent_999999</td><td>True</td><td>bad_product_ids=0</td></tr><tr><td>unique_reporter_year_flow_dimension_variant</td><td>True</td><td>duplicate_rows=0</td></tr><tr><td>hhi_bounds_0_1</td><td>True</td><td>bad_rows=0</td></tr><tr><td>fixed_theil_universe_counts_by_flow</td><td>True</td><td>{&#x27;Exports&#x27;: 6873, &#x27;Imports&#x27;: 6891}</td></tr><tr><td>theil_decomposition_residuals</td><td>True</td><td>bad_rows=0</td></tr><tr><td>cross_metric_key_parity</td><td>True</td><td>rows_with_missing_metric=0</td></tr><tr><td>raw_files_present_for_available_country_years</td><td>True</td><td>missing_available_bulk_keys=0</td></tr><tr><td>exercise_06_unique_keys</td><td>True</td><td>duplicate_rows=0</td></tr></tbody></table></div>
+  </section>
+  <section>
+    <h2>Downloads</h2>
+    <p><a class="button" href="downloads/">Open generated files</a></p>
+  </section>
+</main>
+<footer>
+  <div>Cadot-style 156-country concentration sites</div>
+  <nav><a href="gini/">Gini</a><a href="theil/">Theil</a><a href="hhi/">HHI</a><a href="downloads/">Downloads</a></nav>
+</footer>
 
-    <section class="hero">
-      <div class="eyebrow">Research memo</div>
-      <h1>Extending Panagariya-Bagaria Trade Concentration Evidence Across Years</h1>
-      <p>The empirical extension uses a 60-country Comtrade reporter sample and covers 1988-2025. Median Product Ginis across HS6 products are 0.931 for exports and 0.871 for imports; the Product-partner cell Gini medians across HS6-by-partner cells are 0.954 and 0.941.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="extension.html">Explore the extension</a>
-        <a class="button" href="imports.html">View import mechanisms</a>
-      </div>
-    </section>
-
-    <section class="section hypothesis-section">
-      <div class="hypothesis-grid">
-      <article class="hypothesis-card">
-        <div class="hypothesis-kicker">Framing question</div>
-        <h3>Extending the 2001 concentration</h3>
-        <dl>
-          <dt>Question</dt><dd>Does the concentration pattern persist when the selected country sample is followed across many years rather than one central cross-section?</dd>
-          <dt>Supports yes if</dt><dd>Product Gini, Partner Gini, and Product-partner cell Gini stay high across countries and years.</dd>
-          <dt>Weakens yes if</dt><dd>The high concentration pattern disappears, flips, or depends mainly on one year/sample.</dd>
-          <dt>Current answer</dt><dd>Supports. In the 60-country 1988-2025 panel, median Product Ginis across HS6 products are 0.931 for exports and 0.871 for imports, and median Product-partner cell Ginis across HS6-by-partner cells are 0.954 and 0.941.</dd>
-        </dl>
-        <div class="evidence-links"><a href="extension.html#map-lines">Extension page</a><a href="imports.html#import-bins">Import mechanisms</a><a href="methods.html#downloads">Data downloads</a></div>
-      </article>
-    </div>
-    </section>
-
-    <section class="section" id="headline-findings">
-      <div class="section-heading">
-        <h2>Headline Findings</h2>
-      </div>
-      
-      <div class="stat-grid">
-        <article class="stat-card"><span>Median export Product Gini</span><strong>0.931</strong><small>across HS6 products, 1988-2025</small></article>
-        <article class="stat-card"><span>Median import Product Gini</span><strong>0.871</strong><small>across HS6 products, same panel</small></article>
-        <article class="stat-card"><span>Full lumpy exclusion</span><strong>0.860</strong><small>import Product Gini, from 0.881</small></article>
-        <article class="stat-card"><span>Energy import-bin Product Gini</span><strong>0.887</strong><small>within HS6 energy products; top-1 share 56.3%</small></article>
-      </div>
-    
-    </section>
-
-    <section class="section" id="sendable-brief">
-      <article>
-        <h2>Purpose of This Brief</h2>
-        <ul class="callout-list">
-          <li><strong>Extension:</strong> the Product-Gini, Partner-Gini, and Product-partner-cell-Gini concentration facts remain visible in the country panel used by the current Exercise 1 artifact.</li>
-          <li><strong>Robustness:</strong> removing oil, precious metals/gold, aircraft, ships, and arms lowers export concentration only modestly.</li>
-          <li><strong>Mechanisms:</strong> import concentration has energy, supplier-dominance, and input-output pieces, but the broad intermediate-processing story is weakened by the product-level Exercise 11 regressions.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="section link-grid">
-      <a href="contributions.html"><span>00</span><strong>Contributions</strong><small>Empirical claims, literature links, and the strongest figures for the project story.</small></a>
-        <a href="extension.html"><span>01</span><strong>Extending 2001</strong><small>World map, country lines, exclusions, and null benchmarks.</small></a>
-      <a href="imports.html"><span>02</span><strong>Imports</strong><small>Energy, intermediates, dominant suppliers, and input-output linkages.</small></a>
-      <a href="exercise-12.html"><span>03</span><strong>Exercise 12</strong><small>LT/HGL HS1992 persistent expansion decomposition, with HS4 robustness.</small></a>
-      
-      <a href="country-size-effect.html"><span>04</span><strong>Country size effect</strong><small>Population-gradient tests with clustered, two-way, Fama-MacBeth, and Lag-IV GMM checks.</small></a>
-      <a href="growth-effect.html"><span>05</span><strong>Growth effect</strong><small>Lagged real export growth and concentration levels.</small></a>
-      <a href="future-growth.html"><span>06</span><strong>Future growth</strong><small>Base concentration and later real merchandise export growth.</small></a>
-      <a href="partner-stability.html"><span>05</span><strong>Partner stability</strong><small>Within-country Partner-Gini stability tests and exception countries.</small></a>
-      <a href="world-gini.html"><span>06</span><strong>World Gini</strong><small>World-relative export concentration, diagnostics, and downloads.</small></a>
-      <a href="literature.html"><span>08</span><strong>Literature</strong><small>Project-facing takeaways from export-margins, sophistication, survival, and firm-mechanism papers.</small></a>
-      <a href="cadot-hump.html"><span>09</span><strong>Behind the Hump</strong><small>Cadot-style reconcentration mechanism tribunal: mechanical, commodity, transition, and old-cone tests.</small></a>
-      <a href="methods.html"><span>07</span><strong>Methods</strong><small>Data coverage, definitions, and downloadable CSVs.</small></a>
-    </section>
-    
-  </main>
-  <footer class="site-footer">
-    <p>Generated from local research outputs on 2026-06-15T14:03:24+00:00.</p>
-  </footer>
-  <script src="assets/vendor/plotly.min.js"></script>
-  <script src="assets/site-data.js?v=202606151403240000"></script>
-  <script src="assets/site.js?v=202606151403240000"></script>
 </body>
 </html>

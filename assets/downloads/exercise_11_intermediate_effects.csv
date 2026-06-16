@@ -1,4 +1,0 @@
-sample,effect,coef,std_error,ci_low,ci_high,ci_reference
-baseline,Non-intermediate slope,-3.4559556784315233,0.3257930499314057,-4.1078660655575465,-2.8040452913055005,"Student t, df=59"
-baseline,Intermediate slope,-4.006175698121956,0.4140078028796343,-4.834603398176583,-3.177747998067329,"Student t, df=59"
-baseline,Intermediate minus non-intermediate,-0.5502200196904323,0.19094388521268024,-0.9322978514752222,-0.1681421879056425,"Student t, df=59"
