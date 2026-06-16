@@ -1,0 +1,301 @@
+year,outcome,outcome_label,size_variable,size_label,spearman_size_outcome,n_countries
+2000,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.4084099787751085,58
+2000,world_share_exposure,World-share percentile exposure,log_population,Population,0.1231966532344889,58
+2000,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.8143283398443508,58
+2000,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3133593774031807,58
+2000,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.49330954504906344,58
+2000,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.26691070165185027,58
+2000,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.18342612814912795,58
+2000,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.0781629702543911,58
+2000,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.23941062475006922,58
+2000,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.08892921960072596,58
+2000,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.3342151404226522,58
+2000,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.1484204374173306,58
+2001,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.3459964932787844,59
+2001,world_share_exposure,World-share percentile exposure,log_population,Population,0.14015195791934543,59
+2001,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7762127410870837,59
+2001,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.29853886616014036,59
+2001,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.47463471654003514,59
+2001,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.28544710695499714,59
+2001,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.03956750438340153,59
+2001,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.05692577440093513,59
+2001,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.17293980128579778,59
+2001,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.1223261250730567,59
+2001,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.3436002337814144,59
+2001,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.16890707188778492,59
+2002,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.4362945645821158,59
+2002,world_share_exposure,World-share percentile exposure,log_population,Population,0.15365283459964935,59
+2002,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.835710111046172,59
+2002,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.35558153126826425,59
+2002,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.4943308007013443,59
+2002,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.24108708357685568,59
+2002,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.15207481005260082,59
+2002,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.0810637054354179,59
+2002,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.21618936294564586,59
+2002,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.07030976037405026,59
+2002,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.37270601987142027,59
+2002,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.14441846873173586,59
+2003,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.41513734658094686,59
+2003,world_share_exposure,World-share percentile exposure,log_population,Population,0.18363530099357103,59
+2003,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.8261250730566921,59
+2003,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3123904149620106,59
+2003,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.5110461718293396,59
+2003,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.24155464640561078,59
+2003,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.1865575686732905,59
+2003,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.1405026300409118,59
+2003,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.24541203974284048,59
+2003,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.13033313851548806,59
+2003,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.35271770894213916,59
+2003,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.15324371712448862,59
+2004,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.4053769725306839,59
+2004,world_share_exposure,World-share percentile exposure,log_population,Population,0.17159555815312685,59
+2004,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.8322033898305086,59
+2004,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.37013442431326715,59
+2004,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.5185856224430159,59
+2004,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.2234365867913501,59
+2004,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.20309760374050267,59
+2004,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.14880187025131505,59
+2004,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.324313267095266,59
+2004,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.1855639976621859,59
+2004,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.3174167153711281,59
+2004,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.1310929281122151,59
+2005,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.37115865518199503,60
+2005,world_share_exposure,World-share percentile exposure,log_population,Population,0.15437621561544876,60
+2005,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.8094470686301751,60
+2005,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.341761600444568,60
+2005,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.45629341483745495,60
+2005,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.20744651292025565,60
+2005,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.29341483745484864,60
+2005,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.2068908030008336,60
+2005,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.25857182550708535,60
+2005,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.1269797165879411,60
+2005,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.33592664629063634,60
+2005,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.14787440955821066,60
+2006,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.3839859731151374,58
+2006,world_share_exposure,World-share percentile exposure,log_population,Population,0.20526623396597868,58
+2006,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.8074379402626966,58
+2006,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.31594327724630106,58
+2006,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.38712356578178353,58
+2006,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.20465101971761668,58
+2006,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.2813682364883571,58
+2006,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.3155126272724477,58
+2006,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.3364299117167554,58
+2006,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.2706019871420222,58
+2006,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.3155741486972839,58
+2006,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.20440493401827187,58
+2007,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.38877465962767443,60
+2007,world_share_exposure,World-share percentile exposure,log_population,Population,0.14459572103362045,60
+2007,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7264795776604613,60
+2007,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.2365657126979717,60
+2007,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.36326757432620177,60
+2007,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.14320644623506532,60
+2007,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.30130591831064185,60
+2007,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.22295081967213118,60
+2007,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.276799110864129,60
+2007,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.17232564601278136,60
+2007,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.30175048624617956,60
+2007,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.08330091692136705,60
+2008,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.3841622672964713,60
+2008,world_share_exposure,World-share percentile exposure,log_population,Population,0.1422617393720478,60
+2008,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7934426229508198,60
+2008,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.32092247846624067,60
+2008,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.4294526257293694,60
+2008,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.25318143928869136,60
+2008,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.285690469574882,60
+2008,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.17477076965823843,60
+2008,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.2931925534870798,60
+2008,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.15359822172825788,60
+2008,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.2610725201444846,60
+2008,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.05273687135315367,60
+2009,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.45160724722384576,59
+2009,world_share_exposure,World-share percentile exposure,log_population,Population,0.18410286382232616,59
+2009,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.785563997662186,59
+2009,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.2998246639392169,59
+2009,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.20058445353594392,59
+2009,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.1648158971361777,59
+2009,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.22010520163646993,59
+2009,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.13080070134424315,59
+2009,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.35160724722384573,59
+2009,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.13869082407948571,59
+2009,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.40613676212741096,59
+2009,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.14815897136177678,59
+2010,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.3223261250730568,59
+2010,world_share_exposure,World-share percentile exposure,log_population,Population,0.1528345996493279,59
+2010,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7775569842197547,59
+2010,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.32781998831092934,59
+2010,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.3975452951490357,59
+2010,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.2230274693161894,59
+2010,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.22641729982466396,59
+2010,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.14646405610753946,59
+2010,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.28404441846873174,59
+2010,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.15108123904149623,59
+2010,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.2811221507890123,59
+2010,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.1364114552893045,59
+2011,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.36411455289304506,59
+2011,world_share_exposure,World-share percentile exposure,log_population,Population,0.11858562244301579,59
+2011,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7649327878433666,59
+2011,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.2997077732320281,59
+2011,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.25113968439509066,59
+2011,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.16855639976621864,59
+2011,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.27498538866160144,59
+2011,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.10759789596727062,59
+2011,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.36142606662770316,59
+2011,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.1458796025715956,59
+2011,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.2864991233196962,59
+2011,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.1409117475160725,59
+2012,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.3454848569046959,60
+2012,world_share_exposure,World-share percentile exposure,log_population,Population,0.10869686023895528,60
+2012,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7557099194220618,60
+2012,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3174215059738817,60
+2012,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.18132814670741876,60
+2012,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.10958599611003059,60
+2012,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.2888024451236455,60
+2012,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.11158655181995,60
+2012,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.36287857738260637,60
+2012,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.12603500972492362,60
+2012,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.34948596832453466,60
+2012,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.12281189219227566,60
+2013,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.33214781883856637,60
+2013,world_share_exposure,World-share percentile exposure,log_population,Population,0.05934981939427621,60
+2013,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7786607390941929,60
+2013,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3522089469297028,60
+2013,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.24323423173103645,60
+2013,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.14781883856626843,60
+2013,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.3099749930536261,60
+2013,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.11069741594887471,60
+2013,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.2985273687135316,60
+2013,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.04440122256182274,60
+2013,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.2813003612114477,60
+2013,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.0790219505418172,60
+2014,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.3956098916365658,60
+2014,world_share_exposure,World-share percentile exposure,log_population,Population,0.09636010002778553,60
+2014,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7726035009724924,60
+2014,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.34109474854126154,60
+2014,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.24723534315087528,60
+2014,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.149041400388997,60
+2014,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.36543484301194784,60
+2014,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.14620727979994447,60
+2014,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.3941094748541262,60
+2014,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.11097527090858574,60
+2014,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.3882189497082524,60
+2014,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.11286468463462075,60
+2015,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.3968880244512365,60
+2015,world_share_exposure,World-share percentile exposure,log_population,Population,0.08935815504306753,60
+2015,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7516532370102808,60
+2015,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3151986662961935,60
+2015,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.27463184217838293,60
+2015,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.1825507085301473,60
+2015,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.31169769380383444,60
+2015,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.08124479021950543,60
+2015,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.3982772992497917,60
+2015,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.08207835509863853,60
+2015,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.3764378994165047,60
+2015,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.03356487913309253,60
+2016,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.37288135593220345,60
+2016,world_share_exposure,World-share percentile exposure,log_population,Population,0.0720200055570992,60
+2016,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7728257849402613,60
+2016,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3235343150875244,60
+2016,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.1715476521255905,60
+2016,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.1474854126146152,60
+2016,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.28719088635732154,60
+2016,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.1052514587385385,60
+2016,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.3455959988885802,60
+2016,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.07691025284801335,60
+2016,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.4055015282022785,60
+2016,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.07535426507363158,60
+2017,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.316143373159211,60
+2017,world_share_exposure,World-share percentile exposure,log_population,Population,0.05118088357877189,60
+2017,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7670464017782719,60
+2017,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3269241455959989,60
+2017,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.2602945262572937,60
+2017,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.22817449291469855,60
+2017,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.26863017504862463,60
+2017,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.07613225896082247,60
+2017,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.2949152542372882,60
+2017,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.05284801333703807,60
+2017,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.34843011947763275,60
+2017,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.049458182828563506,60
+2018,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.33136982495137546,60
+2018,world_share_exposure,World-share percentile exposure,log_population,Population,0.02589608224506808,60
+2018,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7734926368435678,60
+2018,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.31897749374826345,60
+2018,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.2208946929702696,60
+2018,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.21444845790497366,60
+2018,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.27629897193664915,60
+2018,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.07368713531536539,60
+2018,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.3153098082800778,60
+2018,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.030953042511808845,60
+2018,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.3832175604334538,60
+2018,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.021450402889691585,60
+2019,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.24362322867463188,60
+2019,world_share_exposure,World-share percentile exposure,log_population,Population,0.015948874687413173,60
+2019,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7701583773270354,60
+2019,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.32514587385384836,60
+2019,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.13981661572659074,60
+2019,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.19438732981383722,60
+2019,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.1133648235621006,60
+2019,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.04090025006946375,60
+2019,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.20905807168657967,60
+2019,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,0.024228952486801892,60
+2019,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.2729091414281745,60
+2019,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,0.013170325090302864,60
+2020,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.12253403723256462,60
+2020,world_share_exposure,World-share percentile exposure,log_population,Population,-0.04956932481244791,60
+2020,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7572659071964436,60
+2020,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3045290358432899,60
+2020,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",-0.03161989441511531,60
+2020,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.05568213392609059,60
+2020,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",-0.053459294248402345,60
+2020,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,-0.050458460683523214,60
+2020,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.03373159210891915,60
+2020,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,-0.0791330925257016,60
+2020,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.1069741594887469,60
+2020,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,-0.013003612114476246,60
+2021,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.10452903584328983,60
+2021,world_share_exposure,World-share percentile exposure,log_population,Population,-0.1052514587385385,60
+2021,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7542650736315645,60
+2021,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3143095304251181,60
+2021,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",-0.0016671297582661854,60
+2021,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.017004723534315095,60
+2021,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.042233953876076695,60
+2021,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,-0.03367602111697694,60
+2021,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.08368991386496251,60
+2021,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,-0.11230897471519868,60
+2021,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.11191997777160324,60
+2021,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,-0.11308696860238958,60
+2022,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",0.15371127995324374,59
+2022,world_share_exposure,World-share percentile exposure,log_population,Population,-0.14506136762127414,59
+2022,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7288135593220341,59
+2022,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.2931618936294565,59
+2022,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",0.09117475160724724,59
+2022,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,-0.01408533021624781,59
+2022,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",0.08603156049094099,59
+2022,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,-0.10894213909994159,59
+2022,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",0.1718293395675044,59
+2022,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,-0.11297486849795442,59
+2022,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.18258328462887202,59
+2022,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,-0.11174751607247226,59
+2023,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",-0.03792795841151682,58
+2023,world_share_exposure,World-share percentile exposure,log_population,Population,-0.20575840536466827,58
+2023,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7409948014396014,58
+2023,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3092374419391553,58
+2023,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",-0.0926205050908979,58
+2023,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,-0.055153957365652595,58
+2023,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",-0.07158017779691778,58
+2023,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,-0.18976283490725646,58
+2023,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",-0.05318527177089422,58
+2023,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,-0.1871174136392999,58
+2023,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.0028607462548832633,58
+2023,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,-0.1842259066719985,58
+2024,world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",-0.022146274777853726,56
+2024,world_share_exposure,World-share percentile exposure,log_population,Population,-0.04429254955570745,56
+2024,spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",0.7548188653451812,56
+2024,spearman_product_alignment,Within-country product-rank alignment,log_population,Population,0.3044429254955571,56
+2024,top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",-0.08072453861927546,56
+2024,top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,0.04565960355434039,56
+2024,top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",-0.018455228981544773,56
+2024,top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,0.0034859876965140126,56
+2024,top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",-0.03397129186602871,56
+2024,top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,-0.04825700615174299,56
+2024,top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",0.006425153793574847,56
+2024,top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,-0.020232399179767605,56

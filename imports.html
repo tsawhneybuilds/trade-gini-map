@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Import Concentration Mechanisms</title>
+  <link rel="stylesheet" href="assets/site.css?v=202606161530540000">
+</head>
+<body data-page="imports">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Trade Concentration Brief</a>
+      <nav aria-label="Primary navigation"><a class="" href="index.html">Overview</a><a class="" href="exercises.html">Exercises</a><a class="" href="exercise-12.html">Exercise 12</a><a class="" href="extension.html">Extending 2001</a><a class="" href="country-size-effect.html">Country size effect</a><a class="" href="growth-effect.html">Growth effect</a><a class="" href="future-growth.html">Future growth</a><a class="" href="partner-stability.html">Partner stability</a><a class="" href="world-gini.html">World Gini</a><a class="" href="cadot-hump.html">Behind hump</a><a class="" href="contributions.html">Contributions</a><a class="" href="literature.html">Literature</a><a class="active" href="imports.html">Import concentration</a><a class="" href="methods.html">Methods</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-title">
+      <div class="eyebrow">Import concentration mechanisms</div>
+      <h1>Energy, Intermediates, Suppliers, and Input-Output Linkages</h1>
+    </section>
+
+    <section class="section hypothesis-section">
+      <div class="hypothesis-grid">
+      <article class="hypothesis-card">
+        <div class="hypothesis-kicker">Exercise 3</div>
+        <h3>Import bins</h3>
+        <dl>
+          <dt>Question</dt><dd>Import concentration is driven by energy, capital goods, or key intermediates rather than final consumption goods.</dd>
+          <dt>Supports yes if</dt><dd>Those bins are internally concentrated and explain large top-product shares or reduce aggregate Gini when excluded.</dd>
+          <dt>Weakens yes if</dt><dd>Final goods are equally concentrated, or high-concentration bins are too small to explain aggregate concentration.</dd>
+          <dt>Current answer</dt><dd>Supports a two-part answer. Energy is the sharpest spike, with median bin Gini 0.887 and top-1 share 56.3%; intermediates are the largest part of the bill, with median import value share 46.8%.</dd>
+        </dl>
+        <div class="evidence-links"><a href="#import-bins">Import-bin table</a><a href="assets/downloads/exercise_03_import_bin_concentration.csv">Import-bin CSV</a></div>
+      </article>
+    
+      <article class="hypothesis-card">
+        <div class="hypothesis-kicker">Exercise 4</div>
+        <h3>Dominant supplier by product</h3>
+        <dl>
+          <dt>Question</dt><dd>Imports are concentrated because each product has one dominant supplier source.</dd>
+          <dt>Supports yes if</dt><dd>For many importer-product rows, country imports come mostly from the top source country; for a stricter global claim, the world product market is dominated by one supplier.</dd>
+          <dt>Weakens yes if</dt><dd>Import concentration remains high even when supplier shares within products are diffuse.</dd>
+          <dt>Current answer</dt><dd>Supports a meaningful but incomplete mechanism. In Exercise 4, the median importer-product top-supplier share is 54.4%; products above 75% top-supplier share are 26.8% of rows but only 15.0% of value. In H2.4, the full-world 2024 median top-supplier share is lower at 32.4%, with only 5.8% of world product markets above 75%.</dd>
+        </dl>
+        <div class="evidence-links"><a href="#supplier-dominance">Supplier dominance</a><a href="#partner-gini-counterfactual">Partner-Gini counterfactual</a><a href="assets/downloads/exercise_04_dominant_supplier_importer_summary.csv">Supplier CSV</a></div>
+      </article>
+    
+      <article class="hypothesis-card">
+        <div class="hypothesis-kicker">Exercise 11</div>
+        <h3>Do concentration-driving imports map to exports?</h3>
+        <dl>
+          <dt>Question</dt><dd>Import concentration is tied to export production chains.</dd>
+          <dt>Supports yes if</dt><dd>Concentration-driving imported intermediates are more export-linked than other concentration-driving imports.</dd>
+          <dt>Weakens yes if</dt><dd>They are less export-linked, or no more export-linked, than non-intermediates.</dd>
+          <dt>Current answer</dt><dd>Weakens the broad processing claim, but supports a narrower supplier-exposure channel. Product-Gini contribution is negatively linked to export value (-3.527) and export probability (-0.151), while supplier-country HHI contribution is positively linked to export value (0.075).</dd>
+        </dl>
+        <div class="evidence-links"><a href="#io-linkage">Exercise 11 findings</a><a href="#ex11-regressions">Regression table</a><a href="assets/downloads/exercise_11_selected_regression_coefficients.csv">Regression coefficients</a></div>
+      </article>
+    </div>
+    </section>
+
+    <section class="section" id="imports-summary">
+      <div class="section-heading">
+        <h2>Interesting things</h2>
+        
+          <ul class="callout-list">
+            <li>Energy has the sharpest within-bin Product Gini across HS6 energy products: median <strong>0.887</strong>, median top-1 share <strong>56.3%</strong>.</li>
+            <li>Intermediates are the largest import bucket: median import value share <strong>46.8%</strong>.</li>
+            <li>Across importer-years, the median product top-supplier share is <strong>54.4%</strong>.</li>
+            <li>Products with top supplier share at least 75% are <strong>26.8%</strong> of product rows but <strong>15.0%</strong> of import value.</li>
+            <li>Using the stricter H2.4 world-product-market definition, the 2024 median top-supplier share is <strong>32.4%</strong>, and only <strong>5.8%</strong> of world HS6 product markets have a top supplier above 75%.</li>
+            <li>In the latest-country counterfactual, neutralizing within-product supplier dominance reduces median import Partner Gini by <strong>0.167</strong>, or <strong>18.3%</strong> of the actual index.</li>
+          </ul>
+        
+      </div>
+    </section>
+
+    
+    <section class="section" id="import-mechanism-taxonomy">
+      <div class="section-heading">
+        <h2>Import-Mechanism Taxonomy</h2>
+        <p>Import concentration should not be read as one mechanism. The evidence separates energy/product spikes, intermediate-input scale, and supplier-country exposure.</p>
+      </div>
+      <div class="table-scroll"><table><thead><tr><th>Mechanism</th><th>Diagnostic</th><th>Result</th><th>Reading</th></tr></thead><tbody><tr><td>Energy / product concentration</td><td>Concentration inside the energy HS6 bin.</td><td>2024: energy median Product Gini 0.885; top-1 product share 52.6%; top-5 product share 95.9%; import value share 12.6%; leave-one-out Gini effect 0.012.</td><td>This is the closest import-side analogue to a pure few-products story: a small bin with very large within-bin product spikes, especially fuel and related energy lines.</td></tr><tr><td>Intermediate value scale</td><td>Large import share, but spread across many input products.</td><td>2024: intermediates are 46.8% of import value; top-1 product share 6.7%; top-5 product share 19.0%; Product Gini 0.885; Exercise 11 intermediate interaction -0.550.</td><td>Intermediates matter by scale, not because one or two input products dominate the basket. The export-linkage test does not support the broad claim that concentration-driving intermediates are systematically the export engine.</td></tr><tr><td>Supplier / partner exposure</td><td>Dominant source countries inside products and aggregate Partner-Gini counterfactual.</td><td>2024: country-specific median top-supplier share 56.7%; products above 75% top-supplier share 28.3%; value in those rows 15.3%. Neutralizing within-product supplier dominance cuts latest-country Partner Gini by 0.167, or 18.3% of actual Partner Gini. H2.4 global benchmark: world-product median top-supplier share 32.4%.</td><td>This is the specific product-supplier-cell mechanism: the product basket need not be extremely narrow for imports to remain exposed to a few source countries within important products.</td></tr></tbody></table></div>
+      <p class="source-note">Stable latest-year rows use 2024, with 56 rd2 reporters, instead of the thinner 2025 tail. H2.4 is a global world-product benchmark, not an rd2-country statistic. These are descriptive mechanism diagnostics, not causal estimates.</p>
+    </section>
+    
+
+    <section class="section" id="import-bins">
+      <div class="section-heading">
+        <h2>Exercise 3: Import Bins</h2>
+        <p>Energy has the strongest within-bin Product Gini across HS6 products and a positive leave-one-bin-out contribution. Intermediates matter more by scale: they are a large part of the import bill and include specialized input categories where a few HS6 lines can carry meaningful value.</p>
+      </div>
+      <div class="note">
+        <p><strong>Import value share</strong> means the bin's share of a country's total import value in a country-year. <strong>Product Gini within bin</strong> measures concentration across HS6 products inside that bin. <strong>Top-1 product share</strong> is the largest HS6 product's share of that bin. <strong>Leave-one-out Gini effect</strong> is the change in overall import Product Gini when the bin is removed; positive values mean the bin raises concentration.</p>
+      </div>
+      <div id="import-bin-chart" class="chart"></div>
+      
+      <div class="top-goods-block">
+        <div class="top-goods-head">
+          <h3>Top goods behind each import bin</h3>
+          <p>2024 HS6 products ranked by import value within each bin. The world column pools reporter countries available in the active site sample for 2024; the downloadable CSV keeps the top five rows per bin.</p>
+        </div>
+        <div class="top-goods-grid">
+          <article class="top-goods-card"><h3>Capital goods</h3><div class="top-goods-columns"><div><h4>World sample</h4><ol><li><span title="Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus"><code>851762</code> Network/communication apparatus</span><small>$193.1B; 7.1% of bin</small></li><li><span title="Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display"><code>847130</code> Portable computers/laptops</span><small>$148.7B; 5.5% of bin</small></li><li><span title="Units of automatic data processing machines; processing units other than those of item no. 8471.41 or 8471.49, whether or not containing in the same housing one or two of the following types of unit: storage units, input units or output units"><code>847150</code> Processing units/servers</span><small>$139.2B; 5.1% of bin</small></li></ol></div><div><h4>India</h4><ol><li><span title="Aeroplanes and other aircraft, except unmanned; of an unladen weight exceeding 15,000kg"><code>880240</code> Large aircraft</span><small>$8.7B; 11.8% of bin</small></li><li><span title="Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display"><code>847130</code> Portable computers/laptops</span><small>$5.8B; 7.8% of bin</small></li><li><span title="Communication apparatus (excluding telephone sets or base stations); machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus"><code>851762</code> Network/communication apparatus</span><small>$3.3B; 4.5% of bin</small></li></ol></div></div></article><article class="top-goods-card"><h3>Energy</h3><div class="top-goods-columns"><div><h4>World sample</h4><ol><li><span title="Oils; petroleum oils and oils obtained from bituminous minerals, crude"><code>270900</code> Crude petroleum</span><small>$1.18T; 48.7% of bin</small></li><li><span title="Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; not light oils and preparations"><code>271019</code> Refined petroleum oils</span><small>$372.9B; 15.4% of bin</small></li><li><span title="Petroleum oils and oils from bituminous minerals, not containing biodiesel, not crude, not waste oils; preparations n.e.c, containing by weight 70% or more of petroleum oils or oils from bituminous minerals; light oils and preparations"><code>271012</code> Petroleum oils and oils from bituminous minerals, not containing biodiesel, not cru...</span><small>$212.8B; 8.8% of bin</small></li></ol></div><div><h4>India</h4><ol><li><span title="Oils; petroleum oils and oils obtained from bituminous minerals, crude"><code>270900</code> Crude petroleum</span><small>$141.5B; 66.3% of bin</small></li><li><span title="Coal; (other than anthracite and bituminous), whether or not pulverised but not agglomerated"><code>270119</code> Coal</span><small>$31.0B; 14.5% of bin</small></li><li><span title="Petroleum gases and other gaseous hydrocarbons; liquefied, natural gas"><code>271111</code> Liquefied natural gas</span><small>$15.0B; 7.0% of bin</small></li></ol></div></div></article><article class="top-goods-card"><h3>Final consumption</h3><div class="top-goods-columns"><div><h4>World sample</h4><ol><li><span title="Telephone sets; smartphones for cellular or other wireless networks"><code>851713</code> Smartphones</span><small>$221.0B; 5.5% of bin</small></li><li><span title="Vehicles; with only spark-ignition internal combustion reciprocating piston engine, cylinder capacity over 1500 but not over 3000cc"><code>870323</code> Petrol cars, 1500-3000cc</span><small>$205.5B; 5.1% of bin</small></li><li><span title="Vehicles; with only electric motor for propulsion"><code>870380</code> Electric vehicles</span><small>$118.8B; 3.0% of bin</small></li></ol></div><div><h4>India</h4><ol><li><span title="Jewellery; of precious metal (excluding silver) whether or not plated or clad with precious metal, and parts thereof"><code>711319</code> Precious-metal jewellery</span><small>$2.9B; 8.5% of bin</small></li><li><span title="Television cameras; n.e.c. in item no 8525.8"><code>852589</code> Television cameras</span><small>$2.0B; 5.7% of bin</small></li><li><span title="Nuts, edible; cashew nuts, fresh or dried, in shell"><code>080131</code> Cashew nuts in shell</span><small>$1.6B; 4.6% of bin</small></li></ol></div></div></article><article class="top-goods-card"><h3>Intermediates</h3><div class="top-goods-columns"><div><h4>World sample</h4><ol><li><span title="Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits"><code>854231</code> Processor/controller integrated circuits</span><small>$472.7B; 5.0% of bin</small></li><li><span title="Metals; gold, non-monetary, unwrought (but not powder)"><code>710812</code> Unwrought gold</span><small>$403.7B; 4.3% of bin</small></li><li><span title="Medicaments; consisting of mixed or unmixed products n.e.c. in heading no. 3004, for therapeutic or prophylactic uses, packaged for retail sale"><code>300490</code> Medicaments</span><small>$346.7B; 3.7% of bin</small></li></ol></div><div><h4>India</h4><ol><li><span title="Metals; gold, non-monetary, unwrought (but not powder)"><code>710812</code> Unwrought gold</span><small>$57.3B; 15.5% of bin</small></li><li><span title="Electronic integrated circuits; processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits"><code>854231</code> Processor/controller integrated circuits</span><small>$14.5B; 3.9% of bin</small></li><li><span title="Communication apparatus; parts, other than aerials and aerial reflectors of all kinds"><code>851779</code> Telecom apparatus parts</span><small>$13.1B; 3.6% of bin</small></li></ol></div></div></article><article class="top-goods-card"><h3>Unmapped or ambiguous</h3><div class="top-goods-columns"><div><h4>World sample</h4><ol></ol></div><div><h4>India</h4><ol></ol></div></div></article>
+        </div>
+        <p class="source-note"><a href="assets/downloads/exercise_03_top_goods_by_import_bin_world_india_2024.csv">Download the top-five goods table</a>.</p>
+      </div>
+    
+      <h3 class="subsection-title">Goods inside each import bin</h3>
+      <div class="note">
+        <p><strong>Goods histograms:</strong> each bar is one HS6 good in the named bin in 2024, sorted by its summed contribution across countries. The blue figure sums each good's share of each country's total import value. The green figure sums each good's share of each country's imports inside that bin. A height of 100 percentage points is equivalent to one full country-share after summing across countries.</p>
+        <p><a href="assets/downloads/exercise_03_import_bin_goods_country_share_2024.csv">Download the full ranked goods table for all four bins</a>.</p>
+      </div>
+      <h4 class="subsection-title">Energy</h4>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex3_energy_total_share_hist.png"><img src="assets/figures/ex3_energy_total_share_hist.png" alt="Energy goods by summed share of all imports"></a><figcaption>Energy HS6 goods, with bar height equal to the sum across countries of that good's share of total imports.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex3_energy_bin_share_hist.png"><img src="assets/figures/ex3_energy_bin_share_hist.png" alt="Energy goods by summed share of energy imports"></a><figcaption>Same energy goods, but each country's denominator is energy imports only.</figcaption></figure>
+      </div>
+      <h4 class="subsection-title">Intermediates</h4>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex3_intermediates_total_share_hist.png"><img src="assets/figures/ex3_intermediates_total_share_hist.png" alt="Intermediate goods by summed share of all imports"></a><figcaption>Intermediate HS6 goods, with bar height equal to the sum across countries of that good's share of total imports.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex3_intermediates_bin_share_hist.png"><img src="assets/figures/ex3_intermediates_bin_share_hist.png" alt="Intermediate goods by summed share of intermediate imports"></a><figcaption>Same intermediate goods, but each country's denominator is intermediate imports only.</figcaption></figure>
+      </div>
+      <h4 class="subsection-title">Capital goods</h4>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex3_capital_goods_total_share_hist.png"><img src="assets/figures/ex3_capital_goods_total_share_hist.png" alt="Capital goods by summed share of all imports"></a><figcaption>Capital-goods HS6 products, with bar height equal to the sum across countries of that good's share of total imports.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex3_capital_goods_bin_share_hist.png"><img src="assets/figures/ex3_capital_goods_bin_share_hist.png" alt="Capital goods by summed share of capital-goods imports"></a><figcaption>Same capital goods, but each country's denominator is capital-goods imports only.</figcaption></figure>
+      </div>
+      <h4 class="subsection-title">Final consumption</h4>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex3_final_consumption_total_share_hist.png"><img src="assets/figures/ex3_final_consumption_total_share_hist.png" alt="Final-consumption goods by summed share of all imports"></a><figcaption>Final-consumption HS6 goods, with bar height equal to the sum across countries of that good's share of total imports.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex3_final_consumption_bin_share_hist.png"><img src="assets/figures/ex3_final_consumption_bin_share_hist.png" alt="Final-consumption goods by summed share of final-consumption imports"></a><figcaption>Same final-consumption goods, but each country's denominator is final-consumption imports only.</figcaption></figure>
+      </div>
+      <table><thead><tr><th>Import bin</th><th>Median Product Gini within bin</th><th>Median top-1 share</th><th>Median import value share</th><th>Leave-one-out Gini effect</th><th>Active HS6 products</th></tr></thead><tbody><tr><td>Capital goods</td><td>0.808</td><td>8.7%</td><td>13.6%</td><td>-0.008</td><td>591</td></tr><tr><td>Energy</td><td>0.887</td><td>56.3%</td><td>11.3%</td><td>0.014</td><td>25</td></tr><tr><td>Final consumption</td><td>0.844</td><td>10.6%</td><td>23.1%</td><td>-0.006</td><td>1,187</td></tr><tr><td>Intermediates</td><td>0.862</td><td>6.0%</td><td>46.8%</td><td>0.001</td><td>2,896</td></tr><tr><td>Unmapped or ambiguous</td><td>0.787</td><td>23.8%</td><td>1.2%</td><td>-0.001</td><td>106</td></tr></tbody></table>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex3_value_share.png"><img src="assets/figures/ex3_value_share.png" alt="Median import value share by bin"></a><figcaption>Median import value share by BEC-style bin.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex3_leave_one_out.png"><img src="assets/figures/ex3_leave_one_out.png" alt="Gini reduction when each bin is excluded"></a><figcaption>Leave-one-bin-out effect on latest-year import Product Gini across HS6 products.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section" id="supplier-dominance">
+      <div class="section-heading">
+        <h2>Exercise 4 and H2.4: Dominant Suppliers</h2>
+        <p>There are two different supplier-dominance concepts. Exercise 4 is country-specific: within an importer-country and HS6 product, it asks how much that country buys from its largest source. H2.4 is global: within an HS6 product market, it asks how much of world reported imports comes from the largest supplier country.</p>
+      </div>
+      <div class="note">
+        <p>In Exercise 4, top-supplier share is largest-source imports divided by one importer country's imports of that HS6 product. The interactive country-specific chart summarizes 33 reporter countries with 2025 data, and India in 2024 has top-supplier share at least 75% in 31.8% of imported HS6 rows. In H2.4, top-supplier share is largest supplier-country value divided by full-world reported imports of the HS6 product; in 2024, the median world product-market top-supplier share is 32.4%.</p>
+      </div>
+      <div class="chart-grid">
+        <div id="supplier-chart" class="chart"></div>
+        <div id="world-supplier-chart" class="chart"></div>
+      </div>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/h24_importer_world_supplier_comparison.png"><img src="assets/figures/h24_importer_world_supplier_comparison.png" alt="Importer-country versus world product-market supplier dominance"></a><figcaption>Side-by-side comparison of country-specific sourcing dominance and global product-market supplier dominance.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex4_supplier_distribution.png"><img src="assets/figures/ex4_supplier_distribution.png" alt="Latest-year distribution of top supplier shares"></a><figcaption>Top-supplier-share distribution across all available 2025 importer-HS6 product rows.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section" id="partner-gini-counterfactual">
+      <div class="section-heading">
+        <h2>How Much Partner Gini Comes from Within-Product Supplier Dominance?</h2>
+        <p>This is the country-centric version of the supplier question. For each importer-year, we first compute actual import Partner Gini after summing all HS6 products by source country, including HS6 999999 in partner totals. Then we rebuild the same importer-year after spreading each identified product equally across its observed suppliers, with HS6 999999 held fixed because it is not a real product identity. Across latest available country-years, median actual Partner Gini is 0.900; the conservative counterfactual median is 0.729. The median reduction is 0.167, or 18.3% of actual Partner Gini.</p>
+      </div>
+      
+          <div class="note">
+            <p><strong>Actual Partner Gini</strong> is computed across source countries after summing imports over all HS6 products: <code>Gini_j(sum_p imports_pj)</code>.</p>
+            <p><strong>Conservative counterfactual</strong> keeps each identified product's total imports and observed supplier set fixed, but gives every observed supplier the same product share: <code>imports_pj = product_total_p / observed_suppliers_p</code>. HS6 999999 remains in actual partner totals but is held fixed in the counterfactual. The remaining Gini is the residual partner concentration after within-product supplier dominance is neutralized.</p>
+            <p><strong>Explained share</strong> is <code>(actual Partner Gini - counterfactual Partner Gini) / actual Partner Gini</code>. Negative values are allowed. The <strong>full-diffusion upper bound</strong> spreads every product equally across all active partners in the country-year; it is a deliberately strong benchmark and collapses Partner Gini to zero by construction.</p>
+            <p><strong>Dashed 0.5 line:</strong> a symmetric random positive share vector across many active items has Gini around 0.5. In Product-Gini charts those items are active products; in these Exercise 4 Partner-Gini charts, read the line as the same rough benchmark across active source partners.</p>
+          </div>
+        
+      <div class="note">
+        <p><strong>Interpretation rule:</strong> the teal part of the latest-country chart is the amount of aggregate Partner Gini removed by equalizing suppliers within each identified HS6 product while holding HS6 999999 fixed. The gray part is the residual Partner Gini left after that equalization. The dashed 0.5 line marks the symmetric random share-vector benchmark, not perfect equality. The full-diffusion benchmark is shown only as an upper bound because it also equalizes products across partners that were not observed supplying that product.</p>
+      </div>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex4_partner_counterfactual_latest.png"><img src="assets/figures/ex4_partner_counterfactual_latest.png" alt="Latest-year import Partner Gini counterfactual decomposition"></a><figcaption>Actual Partner Gini equals the conservative counterfactual residual plus the within-product dominance contribution.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex4_india_partner_counterfactual.png"><img src="assets/figures/ex4_india_partner_counterfactual.png" alt="India import Partner Gini counterfactual over time"></a><figcaption>For India in 2024, actual import Partner Gini is 0.879. Equalizing suppliers within each identified HS6 product while holding HS6 999999 fixed lowers it to 0.662, a reduction of 0.217 or 24.7% of the actual index.</figcaption></figure>
+      </div>
+      <table><thead><tr><th>Country</th><th>ISO3</th><th>Year</th><th>Actual Partner Gini</th><th>Counterfactual Partner Gini</th><th>Gini reduction</th><th>Explained share</th></tr></thead><tbody><tr><td>China, Hong Kong SAR</td><td>HKG</td><td>2025</td><td>0.949</td><td>0.603</td><td>0.346</td><td>36.5%</td></tr><tr><td>Switzerland</td><td>CHE</td><td>2025</td><td>0.882</td><td>0.558</td><td>0.324</td><td>36.7%</td></tr><tr><td>France</td><td>FRA</td><td>2024</td><td>0.889</td><td>0.597</td><td>0.292</td><td>32.8%</td></tr><tr><td>Singapore</td><td>SGP</td><td>2024</td><td>0.923</td><td>0.639</td><td>0.285</td><td>30.8%</td></tr><tr><td>Canada</td><td>CAN</td><td>2025</td><td>0.934</td><td>0.653</td><td>0.281</td><td>30.1%</td></tr><tr><td>China</td><td>CHN</td><td>2024</td><td>0.861</td><td>0.591</td><td>0.270</td><td>31.3%</td></tr><tr><td>United States</td><td>USA</td><td>2025</td><td>0.902</td><td>0.636</td><td>0.266</td><td>29.5%</td></tr><tr><td>Netherlands</td><td>NLD</td><td>2025</td><td>0.874</td><td>0.623</td><td>0.251</td><td>28.7%</td></tr><tr><td>Germany</td><td>DEU</td><td>2025</td><td>0.885</td><td>0.655</td><td>0.230</td><td>26.0%</td></tr><tr><td>Korea</td><td>KOR</td><td>2025</td><td>0.913</td><td>0.685</td><td>0.228</td><td>25.0%</td></tr><tr><td>Ireland</td><td>IRL</td><td>2024</td><td>0.932</td><td>0.704</td><td>0.228</td><td>24.5%</td></tr><tr><td>United Arab Emirates</td><td>ARE</td><td>2023</td><td>0.872</td><td>0.648</td><td>0.225</td><td>25.7%</td></tr><tr><td>Austria</td><td>AUT</td><td>2024</td><td>0.918</td><td>0.694</td><td>0.224</td><td>24.4%</td></tr><tr><td>Panama</td><td>PAN</td><td>2025</td><td>0.874</td><td>0.652</td><td>0.223</td><td>25.5%</td></tr><tr><td>Czech Republic</td><td>CZE</td><td>2025</td><td>0.911</td><td>0.690</td><td>0.221</td><td>24.3%</td></tr><tr><td>India</td><td>IND</td><td>2024</td><td>0.879</td><td>0.662</td><td>0.217</td><td>24.7%</td></tr><tr><td>Belgium</td><td>BEL</td><td>2024</td><td>0.923</td><td>0.710</td><td>0.213</td><td>23.1%</td></tr><tr><td>Poland</td><td>POL</td><td>2024</td><td>0.897</td><td>0.695</td><td>0.202</td><td>22.5%</td></tr><tr><td>Spain</td><td>ESP</td><td>2025</td><td>0.879</td><td>0.680</td><td>0.199</td><td>22.7%</td></tr><tr><td>Australia</td><td>AUS</td><td>2025</td><td>0.911</td><td>0.715</td><td>0.196</td><td>21.6%</td></tr><tr><td>United Kingdom</td><td>GBR</td><td>2025</td><td>0.887</td><td>0.699</td><td>0.187</td><td>21.1%</td></tr><tr><td>Georgia</td><td>GEO</td><td>2024</td><td>0.856</td><td>0.669</td><td>0.187</td><td>21.9%</td></tr><tr><td>South Africa</td><td>ZAF</td><td>2025</td><td>0.884</td><td>0.701</td><td>0.184</td><td>20.8%</td></tr><tr><td>Slovakia</td><td>SVK</td><td>2025</td><td>0.916</td><td>0.737</td><td>0.180</td><td>19.6%</td></tr><tr><td>Hungary</td><td>HUN</td><td>2025</td><td>0.910</td><td>0.732</td><td>0.178</td><td>19.6%</td></tr><tr><td>Denmark</td><td>DNK</td><td>2025</td><td>0.918</td><td>0.740</td><td>0.178</td><td>19.4%</td></tr><tr><td>Burkina Faso</td><td>BFA</td><td>2024</td><td>0.888</td><td>0.713</td><td>0.174</td><td>19.6%</td></tr><tr><td>Egypt</td><td>EGY</td><td>2025</td><td>0.878</td><td>0.704</td><td>0.174</td><td>19.8%</td></tr><tr><td>Botswana</td><td>BWA</td><td>2023</td><td>0.963</td><td>0.791</td><td>0.171</td><td>17.8%</td></tr><tr><td>Sweden</td><td>SWE</td><td>2025</td><td>0.918</td><td>0.750</td><td>0.169</td><td>18.4%</td></tr><tr><td>Japan</td><td>JPN</td><td>2025</td><td>0.909</td><td>0.743</td><td>0.166</td><td>18.3%</td></tr><tr><td>New Zealand</td><td>NZL</td><td>2025</td><td>0.925</td><td>0.760</td><td>0.165</td><td>17.9%</td></tr><tr><td>Norway</td><td>NOR</td><td>2025</td><td>0.888</td><td>0.726</td><td>0.163</td><td>18.3%</td></tr><tr><td>Italy</td><td>ITA</td><td>2025</td><td>0.875</td><td>0.713</td><td>0.161</td><td>18.4%</td></tr><tr><td>Costa Rica</td><td>CRI</td><td>2024</td><td>0.928</td><td>0.770</td><td>0.158</td><td>17.1%</td></tr><tr><td>Iceland</td><td>ISL</td><td>2025</td><td>0.880</td><td>0.723</td><td>0.157</td><td>17.9%</td></tr><tr><td>Morocco</td><td>MAR</td><td>2024</td><td>0.897</td><td>0.741</td><td>0.156</td><td>17.4%</td></tr><tr><td>Senegal</td><td>SEN</td><td>2024</td><td>0.846</td><td>0.694</td><td>0.152</td><td>18.0%</td></tr><tr><td>Turkey</td><td>TUR</td><td>2025</td><td>0.881</td><td>0.730</td><td>0.151</td><td>17.1%</td></tr><tr><td>Kyrgyzstan</td><td>KGZ</td><td>2025</td><td>0.943</td><td>0.792</td><td>0.150</td><td>16.0%</td></tr><tr><td>Russia</td><td>RUS</td><td>2021</td><td>0.892</td><td>0.743</td><td>0.150</td><td>16.8%</td></tr><tr><td>Brazil</td><td>BRA</td><td>2025</td><td>0.904</td><td>0.756</td><td>0.148</td><td>16.4%</td></tr><tr><td>Uganda</td><td>UGA</td><td>2024</td><td>0.903</td><td>0.759</td><td>0.144</td><td>16.0%</td></tr><tr><td>Finland</td><td>FIN</td><td>2025</td><td>0.894</td><td>0.751</td><td>0.144</td><td>16.1%</td></tr><tr><td>Zimbabwe</td><td>ZWE</td><td>2024</td><td>0.925</td><td>0.785</td><td>0.140</td><td>15.1%</td></tr><tr><td>Luxembourg</td><td>LUX</td><td>2025</td><td>0.943</td><td>0.803</td><td>0.139</td><td>14.8%</td></tr><tr><td>Greece</td><td>GRC</td><td>2024</td><td>0.867</td><td>0.728</td><td>0.139</td><td>16.0%</td></tr><tr><td>Croatia</td><td>HRV</td><td>2025</td><td>0.885</td><td>0.747</td><td>0.138</td><td>15.6%</td></tr><tr><td>Slovenia</td><td>SVN</td><td>2025</td><td>0.932</td><td>0.795</td><td>0.137</td><td>14.7%</td></tr><tr><td>Cambodia</td><td>KHM</td><td>2024</td><td>0.953</td><td>0.821</td><td>0.131</td><td>13.8%</td></tr><tr><td>Peru</td><td>PER</td><td>2024</td><td>0.923</td><td>0.795</td><td>0.128</td><td>13.9%</td></tr><tr><td>Azerbaijan</td><td>AZE</td><td>2025</td><td>0.895</td><td>0.768</td><td>0.127</td><td>14.2%</td></tr><tr><td>Rwanda</td><td>RWA</td><td>2022</td><td>0.893</td><td>0.769</td><td>0.124</td><td>13.9%</td></tr><tr><td>Guyana</td><td>GUY</td><td>2025</td><td>0.926</td><td>0.801</td><td>0.124</td><td>13.4%</td></tr><tr><td>Mauritania</td><td>MRT</td><td>2024</td><td>0.891</td><td>0.769</td><td>0.122</td><td>13.7%</td></tr><tr><td>Mozambique</td><td>MOZ</td><td>2024</td><td>0.924</td><td>0.806</td><td>0.118</td><td>12.7%</td></tr><tr><td>Mexico</td><td>MEX</td><td>2025</td><td>0.948</td><td>0.843</td><td>0.105</td><td>11.1%</td></tr><tr><td>North Macedonia</td><td>MKD</td><td>2024</td><td>0.886</td><td>0.781</td><td>0.105</td><td>11.8%</td></tr><tr><td>Niger</td><td>NER</td><td>2024</td><td>0.866</td><td>0.762</td><td>0.104</td><td>12.0%</td></tr><tr><td>Armenia</td><td>ARM</td><td>2024</td><td>0.940</td><td>0.838</td><td>0.102</td><td>10.9%</td></tr></tbody></table>
+    </section>
+
+    <section class="section" id="io-linkage">
+      <div class="section-heading">
+        <h2>Exercise 11: What the Import-Linkage Test Says</h2>
+        <p>Bottom line: Exercise 11 weakens the broad intermediate-processing claim. The import products that raise total Product-Gini concentration across HS6 products are generally less export-linked, including among intermediates. The stronger evidence is supplier-country concentration, not Product-Gini concentration; this leaves room for a narrower China/electronics/machinery-style supplier-exposure story.</p>
+      </div>
+      
+          <div class="note">
+            <p><strong>Benguria benchmark:</strong> Benguria's imported-intermediate-input work asks whether access to intermediate input varieties helps export diversification and movement downstream in supply chains. That is the right frame for this page: imported inputs can support export capabilities, but the mechanism points toward access and variety, not a blanket prediction that higher absolute import Product Gini is beneficial.</p>
+            <p><strong>How to read this result:</strong> Exercise 11 tests a stricter claim. If concentration-driving HS6 inputs were the export engine, those products or their HS2 chapters should be more export-linked. They are generally less export-linked; the plausible remaining channel is narrower supplier-country exposure in specific input-heavy product groups.</p>
+          </div>
+        
+      
+          <div class="result-ladder">
+            <article><span>Product-Gini linkage</span><strong>Negative</strong><p>HS6 Product-Gini contribution to export value: -3.527; export probability: -0.151.</p></article>
+            <article><span>Intermediate channel</span><strong>Negative</strong><p>Intermediate minus non-intermediate slope: -0.550; concentration-driving intermediates are not more export-linked.</p></article>
+            <article><span>Supplier-country exposure</span><strong>Positive</strong><p>Partner-HHI contribution to export value: 0.075.</p></article>
+            <article><span>HS2 robustness</span><strong>Does not rescue</strong><p>HS2 export value remains negative (-0.216); probability/share and intermediate intensity are small or not significant.</p></article>
+            <article><span>Commodity exclusion</span><strong>Result survives</strong><p>Oil/gas/gold/coal rows are 0.4% of rows and 14.5% of import value; the core signs remain.</p></article>
+          </div>
+        
+      <div id="io-chart" class="chart"></div>
+      <p class="note">The IO chart is background: some top export sectors rely on concentrated imported inputs. The product-level test below is the main result: the import products that make overall import Product Gini high are usually not the products most tied to exports.</p>
+    </section>
+
+    <section class="section" id="ex11-regressions">
+      <div class="section-heading">
+        <h2>Exercise 11 Regression Audit Trail</h2>
+        <p>The table and figures separate Product-Gini concentration from supplier-country concentration. This weakens the broad intermediate-processing claim and points to a narrower supplier-exposure channel.</p>
+      </div>
+      
+          <div class="interpretation-grid">
+            <article class="note">
+              <h3>1. HS6 product-level result</h3>
+              <p>Within the same country-year, after controlling for product import share and BEC bin, HS6 products with higher contribution to total import Product Gini tend to have lower export value. The export-value coefficient is <strong>-3.527</strong>; the export-probability coefficient is <strong>-0.151</strong>.</p>
+            </article>
+            <article class="note">
+              <h3>2. Intermediate-channel test</h3>
+              <p>The direct intermediate test is negative. The intermediate minus non-intermediate slope is <strong>-0.550</strong>, so concentration-driving intermediate imports are not more export-linked than concentration-driving non-intermediates.</p>
+            </article>
+            <article class="note">
+              <h3>3. Supplier-country concentration</h3>
+              <p>This is the more supportive channel. Products that make import sourcing more concentrated by partner country are more export-linked; the Partner-HHI coefficient is <strong>0.075</strong>.</p>
+            </article>
+            <article class="note">
+              <h3>4. HS2 robustness</h3>
+              <p>Broadening from HS6 products to HS2 chapters does not rescue the intermediate-processing hypothesis. HS2 export value remains negative at <strong>-0.216</strong>, export probability is <strong>0.000</strong>, export share is <strong>0.002</strong>, and the intermediate-intensity interaction is <strong>-0.007</strong>.</p>
+            </article>
+            <article class="note">
+              <h3>5. Oil/gas/gold/coal exclusion</h3>
+              <p>Excluding HS4 codes 2701, 2709, 2710, 2711, and 7108 does not overturn the result. These rows are only 0.4% of product rows but 14.5% of import value; after excluding them, the Product-Gini and intermediate coefficients remain negative and Partner-HHI remains positive.</p>
+            </article>
+          </div>
+        
+      <table><thead><tr><th>Result</th><th>Outcome</th><th>Coef.</th><th>SE</th><th>p-value</th><th>Obs.</th><th>Interpretation</th></tr></thead><tbody><tr class="sig-row"><td>HS6 Product-Gini contribution</td><td>asinh_export_value</td><td><strong class="sig-coef">-3.527</strong></td><td>0.331</td><td><strong class="sig-pvalue">0.000</strong></td><td>8,742,823</td><td>Negative export-value linkage</td></tr><tr class="sig-row"><td>HS6 export probability</td><td>export_any</td><td><strong class="sig-coef">-0.151</strong></td><td>0.016</td><td><strong class="sig-pvalue">0.000</strong></td><td>8,742,823</td><td>Negative export-probability linkage</td></tr><tr><td>HS6 supplier-country HHI contribution</td><td>asinh_export_value</td><td>0.075</td><td>0.038</td><td>0.055</td><td>8,742,823</td><td>Positive export-value linkage</td></tr><tr class="sig-row"><td>Intermediate interaction</td><td>asinh_export_value</td><td><strong class="sig-coef">-0.550</strong></td><td>0.191</td><td><strong class="sig-pvalue">0.006</strong></td><td>8,742,823</td><td>Intermediates are not more export-linked</td></tr><tr class="sig-row"><td>HS2 Product-Gini contribution</td><td>asinh_hs2_export_value</td><td><strong class="sig-coef">-0.216</strong></td><td>0.069</td><td><strong class="sig-pvalue">0.003</strong></td><td>183,277</td><td>Still negative after broadening to HS2</td></tr><tr><td>HS2 export probability</td><td>hs2_export_any</td><td>0.000</td><td>0.002</td><td>0.866</td><td>183,277</td><td>Small and not statistically distinguishable from zero</td></tr><tr><td>HS2 export share</td><td>hs2_export_share</td><td>0.002</td><td>0.002</td><td>0.277</td><td>183,277</td><td>Small and not statistically distinguishable from zero</td></tr><tr><td>HS2 intermediate-intensity interaction</td><td>asinh_hs2_export_value</td><td>-0.007</td><td>0.039</td><td>0.867</td><td>183,277</td><td>Does not rescue the intermediate channel</td></tr></tbody></table>
+      <h3 class="subsection-title">Intermediate slopes</h3>
+      
+          <div class="equation-card">
+            <h4>Regression plotted here</h4>
+            <div class="math-line">
+              asinh(export value)<sub>p,c,t</sub> =
+              &beta;<sub>1</sub> LOO_Gini_z<sub>p,c,t</sub>
+              + &beta;<sub>2</sub> Intermediate<sub>p</sub>
+              + &beta;<sub>3</sub> (LOO_Gini_z<sub>p,c,t</sub> &times; Intermediate<sub>p</sub>)
+              + &beta;<sub>4</sub> ImportShare_z<sub>p,c,t</sub>
+              + &alpha;<sub>c,t</sub>
+              + &epsilon;<sub>p,c,t</sub>
+            </div>
+            <p><strong>Unit:</strong> HS6 product <em>p</em> in reporter country <em>c</em> and year <em>t</em>. <strong>Fixed effects:</strong> country-year. <strong>SEs:</strong> clustered by reporter country.</p>
+            <p><strong>How the dots map to the equation:</strong> non-intermediate slope = &beta;<sub>1</sub> (-3.456); intermediate slope = &beta;<sub>1</sub> + &beta;<sub>3</sub> (-4.006); intermediate minus non-intermediate = &beta;<sub>3</sub> (-0.550).</p>
+          </div>
+        
+      <table><thead><tr><th>Effect</th><th>Coef.</th><th>SE</th><th>CI low</th><th>CI high</th></tr></thead><tbody><tr><td>Non-intermediate slope</td><td>-3.456</td><td>0.326</td><td>-4.108</td><td>-2.804</td></tr><tr><td>Intermediate slope</td><td>-4.006</td><td>0.414</td><td>-4.835</td><td>-3.178</td></tr><tr><td>Intermediate minus non-intermediate</td><td>-0.550</td><td>0.191</td><td>-0.932</td><td>-0.168</td></tr></tbody></table>
+      <div class="figure-row full-width">
+        <figure><a class="figure-link" href="assets/figures/ex11_coefficients.png"><img src="assets/figures/ex11_coefficients.png" alt="Intermediate channel coefficients"></a><figcaption>Intermediate-channel regression coefficients. The point estimates correspond to the slope mapping in the equation above.</figcaption></figure>
+      </div>
+      <h3 class="subsection-title">Commodity-exclusion robustness</h3>
+      <table><thead><tr><th>Check</th><th>Coef.</th><th>SE</th><th>p-value</th><th>Obs.</th></tr></thead><tbody><tr class="sig-row"><td>baseline - Export value: Product-Gini contribution</td><td><strong class="sig-coef">-3.527</strong></td><td>0.331</td><td><strong class="sig-pvalue">0.000</strong></td><td>8,742,823</td></tr><tr class="sig-row"><td>baseline - Export probability: Product-Gini contribution</td><td><strong class="sig-coef">-0.151</strong></td><td>0.016</td><td><strong class="sig-pvalue">0.000</strong></td><td>8,742,823</td></tr><tr><td>baseline - Export value: Partner-HHI contribution</td><td>0.075</td><td>0.038</td><td>0.055</td><td>8,742,823</td></tr><tr class="sig-row"><td>baseline - Intermediate interaction</td><td><strong class="sig-coef">-0.550</strong></td><td>0.191</td><td><strong class="sig-pvalue">0.006</strong></td><td>8,742,823</td></tr><tr class="sig-row"><td>excluding oil/gas/gold/coal - Export value: Product-Gini contribution</td><td><strong class="sig-coef">-2.998</strong></td><td>0.216</td><td><strong class="sig-pvalue">0.000</strong></td><td>8,710,526</td></tr><tr class="sig-row"><td>excluding oil/gas/gold/coal - Export probability: Product-Gini contribution</td><td><strong class="sig-coef">-0.130</strong></td><td>0.012</td><td><strong class="sig-pvalue">0.000</strong></td><td>8,710,526</td></tr><tr><td>excluding oil/gas/gold/coal - Export value: Partner-HHI contribution</td><td>0.052</td><td>0.084</td><td>0.538</td><td>8,710,526</td></tr><tr class="sig-row"><td>excluding oil/gas/gold/coal - Intermediate interaction</td><td><strong class="sig-coef">-0.369</strong></td><td>0.132</td><td><strong class="sig-pvalue">0.007</strong></td><td>8,710,526</td></tr></tbody></table>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex11_export_linkage_4pct.png"><img src="assets/figures/ex11_export_linkage_4pct.png" alt="HS6 export linkage by Product-Gini leave-one-out four-percent bins"></a><figcaption>HS6 export linkage by Product-Gini contribution, using 25 equal-count four-percent bins.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex11_hs2_linkage_4pct.png"><img src="assets/figures/ex11_hs2_linkage_4pct.png" alt="HS2 export linkage by summed Product-Gini leave-one-out four-percent bins"></a><figcaption>HS2 export linkage by summed HS6 Product-Gini contribution, using 25 equal-count four-percent bins.</figcaption></figure>
+      </div>
+      <h3 class="subsection-title">HS2 interactive robustness</h3>
+      <p class="note">HS2 means the two-digit Harmonized System chapter: a broad product sector such as HS27 mineral fuels, HS84 machinery, or HS85 electrical machinery. The static figures above use the 4% bin specification; the interactive HS2 view keeps decile and chapter views for quick scanning.</p>
+      <div class="controls compact">
+        <label>Dot meaning <select id="hs2-linkage-view"><option value="decile">Decile averages</option><option value="chapter">HS2 chapters</option></select></label>
+      </div>
+      <div class="chart-grid">
+        <div id="hs2-probability-chart" class="chart"></div>
+        <div id="hs2-value-chart" class="chart"></div>
+      </div>
+      <div class="figure-row">
+        <figure><a class="figure-link" href="assets/figures/ex11_india_io.png"><img src="assets/figures/ex11_india_io.png" alt="India top export input exposure over time"></a><figcaption>India top-export-sector imported-input exposure.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/figures/ex11_india_supplier_scatter.png"><img src="assets/figures/ex11_india_supplier_scatter.png" alt="India supplier concentration linkage scatter"></a><figcaption>India supplier concentration and export linkage scatter.</figcaption></figure>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="site-footer">
+    <p>Generated from local research outputs on 2026-06-16T15:30:54+00:00.</p>
+  </footer>
+  <script src="assets/vendor/plotly.min.js"></script>
+  <script src="assets/site-data.js?v=202606161530540000"></script>
+  <script src="assets/site.js?v=202606161530540000"></script>
+</body>
+</html>

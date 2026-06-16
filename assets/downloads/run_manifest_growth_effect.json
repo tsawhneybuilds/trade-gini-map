@@ -1,0 +1,319 @@
+{
+  "created_at_utc": "2026-05-28T17:05:37+00:00",
+  "country_sample": "rd2_countries",
+  "start_year": 1988,
+  "end_year": 2024,
+  "horizons": [
+    1,
+    5,
+    10
+  ],
+  "horizon_definition": "years from export-growth base year to concentration outcome year",
+  "prior_growth_definition": "log(real exports in base year) minus log(real exports in base year minus one)",
+  "matched_horizon_sample": true,
+  "world_bank_export_indicator": "NE.EXP.GNFS.KD",
+  "world_bank_export_indicator_label": "Exports of goods and services, constant 2015 US$",
+  "model": "linear panel OLS with reporter-country and base-year fixed effects; country-clustered SEs",
+  "causal_claim": false,
+  "coverage": {
+    "candidate_country_years": 5676,
+    "usable_country_years": 3699,
+    "usable_country_year_share": 0.6516913319238901,
+    "usable_country_clusters": 57
+  },
+  "horizon_coverage": [
+    {
+      "horizon": 1,
+      "candidate_country_years": 1892,
+      "core_complete_country_years": 1752,
+      "usable_country_years": 1234,
+      "usable_country_year_share": 0.6522198731501057,
+      "usable_country_clusters": 57,
+      "first_base_year": 1987,
+      "last_base_year": 2014,
+      "first_outcome_year": 1988,
+      "last_outcome_year": 2015
+    },
+    {
+      "horizon": 5,
+      "candidate_country_years": 1892,
+      "core_complete_country_years": 1706,
+      "usable_country_years": 1234,
+      "usable_country_year_share": 0.6522198731501057,
+      "usable_country_clusters": 57,
+      "first_base_year": 1987,
+      "last_base_year": 2014,
+      "first_outcome_year": 1992,
+      "last_outcome_year": 2019
+    },
+    {
+      "horizon": 10,
+      "candidate_country_years": 1892,
+      "core_complete_country_years": 1625,
+      "usable_country_years": 1231,
+      "usable_country_year_share": 0.6506342494714588,
+      "usable_country_clusters": 57,
+      "first_base_year": 1987,
+      "last_base_year": 2014,
+      "first_outcome_year": 1997,
+      "last_outcome_year": 2024
+    }
+  ],
+  "export_level_tercile_cutoffs": {
+    "low_middle_log_cutoff": 23.994116807549382,
+    "middle_high_log_cutoff": 25.868311544346902,
+    "low_middle_export_cutoff": 26333739048.965607,
+    "middle_high_export_cutoff": 171579326936.8483
+  },
+  "diagnostics": [
+    {
+      "diagnostic": "country_sample",
+      "value": "rd2_countries"
+    },
+    {
+      "diagnostic": "start_year",
+      "value": 1988
+    },
+    {
+      "diagnostic": "end_year",
+      "value": 2024
+    },
+    {
+      "diagnostic": "horizons",
+      "value": "1,5,10"
+    },
+    {
+      "diagnostic": "horizon_definition",
+      "value": "years from export-growth base year to concentration outcome year"
+    },
+    {
+      "diagnostic": "prior_growth_definition",
+      "value": "log(real exports in base year) minus log(real exports in base year minus one)"
+    },
+    {
+      "diagnostic": "matched_horizon_sample",
+      "value": true
+    },
+    {
+      "diagnostic": "world_bank_export_indicator",
+      "value": "NE.EXP.GNFS.KD"
+    },
+    {
+      "diagnostic": "world_bank_export_indicator_label",
+      "value": "Exports of goods and services, constant 2015 US$"
+    },
+    {
+      "diagnostic": "panel_rows",
+      "value": 11337
+    },
+    {
+      "diagnostic": "analysis_panel_rows",
+      "value": 7404
+    },
+    {
+      "diagnostic": "countries",
+      "value": 60
+    },
+    {
+      "diagnostic": "years",
+      "value": 37
+    },
+    {
+      "diagnostic": "country_years",
+      "value": 5676
+    },
+    {
+      "diagnostic": "usable_country_years",
+      "value": 3699
+    },
+    {
+      "diagnostic": "usable_country_year_share",
+      "value": 0.6516913319238901
+    },
+    {
+      "diagnostic": "usable_country_clusters",
+      "value": 57
+    },
+    {
+      "diagnostic": "coverage_status",
+      "value": "coverage_limited"
+    },
+    {
+      "diagnostic": "missing_control_flow_rows",
+      "value": 3933
+    },
+    {
+      "diagnostic": "world_bank_control_rows",
+      "value": 2940
+    },
+    {
+      "diagnostic": "duplicate_iso3_year_flow_horizon_rows",
+      "value": 0
+    },
+    {
+      "diagnostic": "product_outcome_hs6_999999_rule",
+      "value": "excluded upstream before product aggregation"
+    },
+    {
+      "diagnostic": "partner_outcome_hs6_999999_rule",
+      "value": "included by partner-total convention"
+    },
+    {
+      "diagnostic": "imports_rows",
+      "value": 5676
+    },
+    {
+      "diagnostic": "exports_rows",
+      "value": 5661
+    },
+    {
+      "diagnostic": "horizon_1_candidate_country_years",
+      "value": 1892
+    },
+    {
+      "diagnostic": "horizon_1_core_complete_country_years",
+      "value": 1752
+    },
+    {
+      "diagnostic": "horizon_1_usable_country_years",
+      "value": 1234
+    },
+    {
+      "diagnostic": "horizon_1_usable_country_year_share",
+      "value": 0.6522198731501057
+    },
+    {
+      "diagnostic": "horizon_1_usable_country_clusters",
+      "value": 57
+    },
+    {
+      "diagnostic": "horizon_1_first_base_year",
+      "value": 1987
+    },
+    {
+      "diagnostic": "horizon_1_last_base_year",
+      "value": 2014
+    },
+    {
+      "diagnostic": "horizon_1_first_outcome_year",
+      "value": 1988
+    },
+    {
+      "diagnostic": "horizon_1_last_outcome_year",
+      "value": 2015
+    },
+    {
+      "diagnostic": "horizon_5_candidate_country_years",
+      "value": 1892
+    },
+    {
+      "diagnostic": "horizon_5_core_complete_country_years",
+      "value": 1706
+    },
+    {
+      "diagnostic": "horizon_5_usable_country_years",
+      "value": 1234
+    },
+    {
+      "diagnostic": "horizon_5_usable_country_year_share",
+      "value": 0.6522198731501057
+    },
+    {
+      "diagnostic": "horizon_5_usable_country_clusters",
+      "value": 57
+    },
+    {
+      "diagnostic": "horizon_5_first_base_year",
+      "value": 1987
+    },
+    {
+      "diagnostic": "horizon_5_last_base_year",
+      "value": 2014
+    },
+    {
+      "diagnostic": "horizon_5_first_outcome_year",
+      "value": 1992
+    },
+    {
+      "diagnostic": "horizon_5_last_outcome_year",
+      "value": 2019
+    },
+    {
+      "diagnostic": "horizon_10_candidate_country_years",
+      "value": 1892
+    },
+    {
+      "diagnostic": "horizon_10_core_complete_country_years",
+      "value": 1625
+    },
+    {
+      "diagnostic": "horizon_10_usable_country_years",
+      "value": 1231
+    },
+    {
+      "diagnostic": "horizon_10_usable_country_year_share",
+      "value": 0.6506342494714588
+    },
+    {
+      "diagnostic": "horizon_10_usable_country_clusters",
+      "value": 57
+    },
+    {
+      "diagnostic": "horizon_10_first_base_year",
+      "value": 1987
+    },
+    {
+      "diagnostic": "horizon_10_last_base_year",
+      "value": 2014
+    },
+    {
+      "diagnostic": "horizon_10_first_outcome_year",
+      "value": 1997
+    },
+    {
+      "diagnostic": "horizon_10_last_outcome_year",
+      "value": 2024
+    }
+  ],
+  "main_models_ok": 36,
+  "sample_comparison_models_ok": 72,
+  "robustness_models_ok": 432,
+  "income_bin_rows_ok": 144,
+  "threshold_scan_rows_ok": 972,
+  "sources": {
+    "concentration": {
+      "path": "data/processed/samples/rd2_countries/concentration_all_years.parquet",
+      "exists": true,
+      "size_bytes": 807356,
+      "mtime_utc": "2026-05-27T09:30:28+00:00"
+    },
+    "world_bank_export_controls": {
+      "path": "data/processed/samples/rd2_countries/growth_effect_world_bank_export_controls.csv",
+      "exists": true,
+      "size_bytes": 98688,
+      "mtime_utc": "2026-05-28T17:01:42+00:00"
+    },
+    "country_metadata": {
+      "path": "data/raw/world_bank_gdp/country_metadata.csv",
+      "exists": true,
+      "size_bytes": 12995,
+      "mtime_utc": "2026-05-27T17:07:53+00:00"
+    }
+  },
+  "outputs": {
+    "panel": "data/processed/samples/rd2_countries/growth_effect_panel.parquet",
+    "main_models": "results/samples/rd2_countries/growth_effect_tables/main_models.csv",
+    "sample_comparison_models": "results/samples/rd2_countries/growth_effect_tables/sample_comparison_models.csv",
+    "income_bin_slopes": "results/samples/rd2_countries/growth_effect_tables/income_bin_slopes.csv",
+    "robustness_models": "results/samples/rd2_countries/growth_effect_tables/robustness_models.csv",
+    "threshold_scan": "results/samples/rd2_countries/growth_effect_tables/threshold_scan.csv",
+    "sample_diagnostics": "results/samples/rd2_countries/growth_effect_tables/sample_diagnostics.csv",
+    "missing_controls": "results/samples/rd2_countries/growth_effect_tables/missing_controls.csv",
+    "figures": [
+      "results/samples/rd2_countries/growth_effect_figures/main_growth_coefficients.png",
+      "results/samples/rd2_countries/growth_effect_figures/income_bin_slopes.png"
+    ],
+    "memo": "results/samples/rd2_countries/growth_effect.md",
+    "manifest": "results/samples/rd2_countries/run_manifest_growth_effect.json"
+  }
+}

@@ -1,0 +1,42 @@
+diagnostic,value,detail
+panel_rows,5469.0,
+countries,60.0,
+years,23.0,
+duplicate_reporter_year_flow_dimension_source_rows,0.0,
+missing_log_population,0.0,
+missing_log_gdp_per_capita,0.0,
+missing_old_universe_count,0.0,
+median_total_gini_abs_diff_vs_source,2.220446049250313e-16,recomputed total Gini versus country_size_effect_panel
+max_total_gini_abs_diff_vs_source,0.02992352744613247,recomputed total Gini versus country_size_effect_panel
+rows_by_flow_dimension_source,1372.0,Exports/partner/Main export item universe
+countries_by_flow_dimension_source,60.0,Exports/partner/Main export item universe
+median_new_value_share,0.0019787918425567103,Exports/partner/Main export item universe
+median_new_active_share,0.06451612903225806,Exports/partner/Main export item universe
+median_old_exit_count_share,0.1341991341991342,Exports/partner/Main export item universe
+rows_by_flow_dimension_source,1365.0,Exports/product/Main export item universe
+countries_by_flow_dimension_source,60.0,Exports/product/Main export item universe
+median_new_value_share,0.12887510542689,Exports/product/Main export item universe
+median_new_active_share,0.1625085831998169,Exports/product/Main export item universe
+median_old_exit_count_share,0.27038380752339125,Exports/product/Main export item universe
+rows_by_flow_dimension_source,1366.0,"Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+countries_by_flow_dimension_source,60.0,"Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+median_new_value_share,0.0013510323589641464,"Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+median_new_active_share,0.07013444827020823,"Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+median_old_exit_count_share,0.1284020726473359,"Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+rows_by_flow_dimension_source,1366.0,Imports/product/Mapped import cells: products
+countries_by_flow_dimension_source,60.0,Imports/product/Mapped import cells: products
+median_new_value_share,0.13177605930473588,Imports/product/Mapped import cells: products
+median_new_active_share,0.12756581474908985,Imports/product/Mapped import cells: products
+median_old_exit_count_share,0.23620832522093888,Imports/product/Mapped import cells: products
+item_values,324066.0,item_values/Exports/partner/Main export item universe
+item_values,334351.0,"item_values/Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+item_values,6649830.0,item_values/Exports/product/Main export item universe
+item_values,8193952.0,item_values/Imports/product/Mapped import cells: products
+old_universe,11328.0,old_universe/Exports/partner/Main export item universe
+old_universe,11797.0,"old_universe/Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+old_universe,244145.0,old_universe/Exports/product/Main export item universe
+old_universe,292842.0,old_universe/Imports/product/Mapped import cells: products
+post_items,242124.0,post_items/Exports/partner/Main export item universe
+post_items,254285.0,"post_items/Imports/partner/Mapped import cells: partners, no-999999 sensitivity"
+post_items,4852359.0,post_items/Exports/product/Main export item universe
+post_items,5986581.0,post_items/Imports/product/Mapped import cells: products

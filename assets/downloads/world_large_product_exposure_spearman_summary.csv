@@ -1,0 +1,13 @@
+outcome,outcome_label,size_variable,size_label,years,mean_spearman,median_spearman,min_spearman,max_spearman,share_positive
+spearman_product_alignment,Within-country product-rank alignment,log_gdp_current_usd,"GDP, current USD",25,0.7771099775366902,0.7728257849402613,0.7264795776604613,0.835710111046172,1.0
+spearman_product_alignment,Within-country product-rank alignment,log_population,Population,25,0.31754946527213485,0.31594327724630106,0.2365657126979717,0.37013442431326715,1.0
+top_10pct_world_product_export_share,Export share in top 10% world products,log_gdp_current_usd,"GDP, current USD",25,0.24724409459647975,0.28404441846873174,-0.05318527177089422,0.3982772992497917,0.92
+top_10pct_world_product_export_share,Export share in top 10% world products,log_population,Population,25,0.07061032969347289,0.08892921960072596,-0.1871174136392999,0.2706019871420222,0.8
+top_1pct_world_product_export_share,Export share in top 1% world products,log_gdp_current_usd,"GDP, current USD",25,0.2640335681955532,0.25113968439509066,-0.0926205050908979,0.5185856224430159,0.84
+top_1pct_world_product_export_share,Export share in top 1% world products,log_population,Population,25,0.16183684480149169,0.1825507085301473,-0.055153957365652595,0.28544710695499714,0.92
+top_20pct_world_product_export_share,Export share in top 20% world products,log_gdp_current_usd,"GDP, current USD",25,0.28500010024573663,0.3174167153711281,0.0028607462548832633,0.40613676212741096,1.0
+top_20pct_world_product_export_share,Export share in top 20% world products,log_population,Population,25,0.06901128436138414,0.08330091692136705,-0.1842259066719985,0.20440493401827187,0.8
+top_5pct_world_product_export_share,Export share in top 5% world products,log_gdp_current_usd,"GDP, current USD",25,0.19416706448753163,0.22641729982466396,-0.07158017779691778,0.36543484301194784,0.88
+top_5pct_world_product_export_share,Export share in top 5% world products,log_population,Population,25,0.0870719318466782,0.1052514587385385,-0.18976283490725646,0.3155126272724477,0.84
+world_share_exposure,World-share percentile exposure,log_gdp_current_usd,"GDP, current USD",25,0.3092877332218832,0.36411455289304506,-0.03792795841151682,0.45160724722384576,0.92
+world_share_exposure,World-share percentile exposure,log_population,Population,25,0.07372531901926992,0.10869686023895528,-0.20575840536466827,0.20526623396597868,0.8

@@ -1,0 +1,168 @@
+{
+  "country_sample": "rd2_countries",
+  "created_at_utc": "2026-06-02T20:58:55+00:00",
+  "definition": {
+    "active_threshold_usd_2024": 50000.0,
+    "bottom_10pct_base_share": 0.1,
+    "constant_usd_year": 2024,
+    "headline_share": "pooled positive expansion share",
+    "hs_harmonization_method_current": "official LT/HGL weighted conversion to HS1992/H0 from Harvard Dataverse",
+    "lt_hgl_source_doi": "10.7910/DVN/6AADMR",
+    "lt_hgl_source_version": "2.1",
+    "lt_hgl_target": "HS1992/H0",
+    "lt_hgl_weighted_conversion_status": "official_precomputed_weights_loaded_validated_and_composed_to_hs1992",
+    "net_growth_share_note": "Net-growth shares are companion accounting and can exceed 100 percent or be negative when contractions offset expansions.",
+    "partner_code_0_excluded": true,
+    "persistence_rule": "base years t,t+1 below/above threshold and future years t+h,t+h+1 below/above threshold",
+    "product_excluded_hs6_codes": [
+      "999999"
+    ],
+    "product_level": "hs6_harmonized_family",
+    "product_level_label": "LT/HGL-weighted HS1992 products",
+    "unit_of_observation": "reporter-country adjacent-2-year base window adjacent-2-year future window harmonized-HS6 product-family growth channel"
+  },
+  "deflator_source": "data/raw/world_bank_gdp/ny_gdp_defl_zs_1988_2025.csv",
+  "deflator_source_sha256": "cc993d7499c7ceb5e7a50d66fb86067be571a9e1df1b74a5f4de65f17c6878fd",
+  "literature_and_tool_references": {
+    "harvard_growth_lab_weights": {
+      "doi": "10.7910/DVN/6AADMR",
+      "methodology_url": "https://atlas.hks.harvard.edu/trade-data-methodology/",
+      "name": "Harvard Growth Lab Weighted Classification Conversion Tables",
+      "note": "This run uses the official precomputed adjacent HS weighted conversion tables and composes them back to HS1992/H0.",
+      "target": "HS1992/H0",
+      "url": "https://doi.org/10.7910/DVN/6AADMR",
+      "version": "2.1"
+    },
+    "lt_hgl_weight_metadata": {
+      "doi": "10.7910/DVN/6AADMR",
+      "methodology_url": "https://atlas.hks.harvard.edu/trade-data-methodology/",
+      "name": "Harvard Growth Lab Weighted Classification Conversion Tables",
+      "note": "This run uses the official precomputed adjacent HS weighted conversion tables and composes them back to HS1992/H0.",
+      "target": "HS1992/H0",
+      "url": "https://doi.org/10.7910/DVN/6AADMR",
+      "version": "2.1"
+    },
+    "lukaszuk_torun_2022": {
+      "paper": "Lukaszuk and Torun (2022), Harmonizing the Harmonized System",
+      "pdf": "https://ux-tauri.unisg.ch/RePEc/usg/econwp/EWP-2212.pdf",
+      "reported_motivation": "HS updates can affect a large share of world trade; many-to-many HS links need weighted conversion instead of simple dropping or coarse aggregation.",
+      "url": "https://econpapers.repec.org/paper/usgeconwp/2022_3a12.htm"
+    }
+  },
+  "processed_output": "data/processed/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_decomposition.parquet",
+  "result_files": {
+    "bottom10_robustness": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_bottom10_robustness.csv",
+    "bottom10_robustness_summary": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_bottom10_robustness_summary.csv",
+    "combined_country_window": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_combined_country_window_decomposition.csv",
+    "combined_equal_country_summary": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_combined_equal_country_summary.csv",
+    "combined_latest_5y": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_combined_latest_5y_country.csv",
+    "combined_pooled_summary": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_combined_pooled_summary.csv",
+    "country_window": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_country_window_decomposition.csv",
+    "equal_country_summary": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_equal_country_summary.csv",
+    "latest_5y": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_latest_5y_country.csv",
+    "manifest": "results/samples/rd2_countries/run_manifest_exercise_12_ev_hs6_harmonized_expansion.json",
+    "memo": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion.md",
+    "partner_spread_country_window": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_partner_spread_country_window.csv",
+    "pooled_summary": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_pooled_summary.csv",
+    "validation": "results/samples/rd2_countries/exercise_12_ev_hs6_harmonized_expansion_tables/ev_hs6_harmonized_validation.json"
+  },
+  "row_counts": {
+    "bottom10_robustness": 5408,
+    "bottom10_robustness_summary": 4,
+    "combined_country_window": 35152,
+    "combined_equal_country_summary": 26,
+    "combined_latest_5y": 120,
+    "combined_pooled_summary": 26,
+    "country_window": 10816,
+    "equal_country_summary": 42,
+    "latest_5y": 60,
+    "partner_spread_country_window": 10816,
+    "pooled_summary": 42
+  },
+  "source_aggregate": "data/processed/samples/rd2_countries/exercise_12_export_aggregates.parquet",
+  "source_aggregate_sha256": "bba5898db8bd794061fafa9136b30a09f4b82b952dfdf60681e191f5902c2bab",
+  "started_at_utc": "2026-06-02T20:58:53+00:00",
+  "validation": {
+    "active_threshold_usd_2024": 50000.0,
+    "blockers": [],
+    "combined_accounting_residual_violations": 0,
+    "combined_horizon_5_pooled_positive_share_sums": {
+      "combined_partner_first": 1.0000000000000002,
+      "combined_product_first": 1.0
+    },
+    "constant_usd_year": 2024,
+    "country_count_combined_decomposition": 60,
+    "country_count_combined_latest_5y": 60,
+    "country_count_expected": 60,
+    "country_count_latest_5y": 60,
+    "country_count_partner_spread": 60,
+    "country_count_product_decomposition": 60,
+    "created_at_utc": "2026-06-02T20:58:54+00:00",
+    "deflator_base_value": 117.094597692942,
+    "deflator_base_year": 2024,
+    "deflator_missing_years_used": [],
+    "deflator_source": "data/raw/world_bank_gdp/ny_gdp_defl_zs_1988_2025.csv",
+    "deflator_source_column": "us_gdp_deflator",
+    "duplicate_combined_channel_keys": 0,
+    "duplicate_partner_channel_keys": 0,
+    "duplicate_product_channel_keys": 0,
+    "harmonization_value_diagnostics": {
+      "ambiguous_trade_value": 0.0,
+      "ambiguous_value_share": 0.0,
+      "clean_nonambiguous_trade_value": 344749076506873.6,
+      "clean_nonambiguous_value_share": 1.0,
+      "conversion_value_residual": 0.0,
+      "converted_trade_value": 344749076506873.6,
+      "lt_hgl_source_doi": "10.7910/DVN/6AADMR",
+      "lt_hgl_source_version": "2.1",
+      "lt_hgl_target": "HS1992/H0",
+      "lt_hgl_theoretical_assignable_value_share": 1.0,
+      "observed_trade_value": 344749076506873.6,
+      "unmatched_trade_value": 0.0,
+      "unmatched_value_share": 0.0
+    },
+    "harmonization_value_residual_tolerance": 34474.90765068736,
+    "harvard_growth_lab_weights": {
+      "doi": "10.7910/DVN/6AADMR",
+      "methodology_url": "https://atlas.hks.harvard.edu/trade-data-methodology/",
+      "name": "Harvard Growth Lab Weighted Classification Conversion Tables",
+      "note": "This run uses the official precomputed adjacent HS weighted conversion tables and composes them back to HS1992/H0.",
+      "target": "HS1992/H0",
+      "url": "https://doi.org/10.7910/DVN/6AADMR",
+      "version": "2.1"
+    },
+    "horizons": [
+      5,
+      10
+    ],
+    "lt_hgl_citation": {
+      "paper": "Lukaszuk and Torun (2022), Harmonizing the Harmonized System",
+      "pdf": "https://ux-tauri.unisg.ch/RePEc/usg/econwp/EWP-2212.pdf",
+      "reported_motivation": "HS updates can affect a large share of world trade; many-to-many HS links need weighted conversion instead of simple dropping or coarse aggregation.",
+      "url": "https://econpapers.repec.org/paper/usgeconwp/2022_3a12.htm"
+    },
+    "lt_hgl_weight_metadata": {
+      "doi": "10.7910/DVN/6AADMR",
+      "methodology_url": "https://atlas.hks.harvard.edu/trade-data-methodology/",
+      "name": "Harvard Growth Lab Weighted Classification Conversion Tables",
+      "note": "This run uses the official precomputed adjacent HS weighted conversion tables and composes them back to HS1992/H0.",
+      "target": "HS1992/H0",
+      "url": "https://doi.org/10.7910/DVN/6AADMR",
+      "version": "2.1"
+    },
+    "max_abs_combined_net_residual": 0.000732421875,
+    "max_abs_combined_positive_residual": 0.00146484375,
+    "max_abs_product_net_residual": 0.00048828125,
+    "max_abs_product_positive_residual": 0.00048828125,
+    "product_accounting_residual_violations": 0,
+    "product_level": "hs6_harmonized_family",
+    "product_level_label": "LT/HGL-weighted HS1992 products",
+    "source_hs6_999999_rows_after_filters": 0,
+    "source_partner_code_0_rows_after_filters": 0,
+    "source_rows_after_filters": 161654903,
+    "source_years_without_deflator": [
+      2025
+    ],
+    "status": "ok"
+  }
+}

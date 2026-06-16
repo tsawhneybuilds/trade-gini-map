@@ -1,0 +1,11 @@
+row_type,diagnostic,reporter_code,year,classification_code,cmd_code,value,detail
+summary,aggregate_dir,,,,,/Users/tanushsawhney/Desktop/profps26/data/processed/samples/rd2_countries/exercise_02_12_file_aggregates,
+summary,aggregate_files,,,,,1931,
+summary,primary_hs6_mapping_rows,,,,,36638,
+summary,primary_hs6_mapping_bec5_rows,,,,,36600,
+summary,primary_hs6_mapping_rule_fallback_rows,,,,,38,Observed aggregate classification_code+cmd_code rows absent from BEC audit file and classified by explicit HS rule.
+summary,country_years_with_exports,,,,,1878,
+summary,min_mapping_coverage_share,,,,,1.0,
+summary,median_strict_primary_export_share,,,,,0.14855312759556977,
+summary,median_broad_primary_export_share,,,,,0.26665153797678454,
+summary,country_years_below_mapping_coverage_threshold,,,,,0,threshold=0.95

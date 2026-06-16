@@ -1,0 +1,11 @@
+outcome_slug,outcome,balance_policy,selected_reporters,selected_iso3,selected_country_years,source_rows,source_countries,after_controls_merge_rows,analytic_rows_before_balance,analytic_countries_before_balance,analytic_clusters_before_balance,cluster_col,missing_outcome_rows,missing_ppp_rows,missing_population_rows,missing_oil_share_rows,analytic_rows_after_balance,analytic_countries_after_balance,analytic_clusters_after_balance,clusters
+export_product_gini,product_gini,complete_case,156,156,3900,3753,156,3753,3240,135,135,reporter_code,0,50,487,0,3240.0,135.0,135.0,135.0
+export_product_theil,product_theil,complete_case,156,156,3900,3753,156,3753,3240,135,135,reporter_code,0,50,487,0,3240.0,135.0,135.0,135.0
+export_product_hhi,product_hhi,complete_case,156,156,3900,3753,156,3753,3240,135,135,reporter_code,0,50,487,0,3240.0,135.0,135.0,135.0
+export_active_product_count,active_product_count,complete_case,156,156,3900,3753,156,3753,3240,135,135,reporter_code,0,50,487,0,3240.0,135.0,135.0,135.0
+import_product_gini,product_gini,complete_case,156,156,3900,3756,156,3756,3236,135,135,reporter_code,0,58,494,9,3236.0,135.0,135.0,135.0
+import_product_theil,product_theil,complete_case,156,156,3900,3756,156,3756,3236,135,135,reporter_code,0,58,494,9,3236.0,135.0,135.0,135.0
+import_product_hhi,product_hhi,complete_case,156,156,3900,3756,156,3756,3236,135,135,reporter_code,0,58,494,9,3236.0,135.0,135.0,135.0
+import_active_product_count,active_product_count,complete_case,156,156,3900,3756,156,3756,3236,135,135,reporter_code,0,58,494,9,3236.0,135.0,135.0,135.0
+export_partner_gini,partner_gini,complete_case,156,156,3900,3753,156,3753,3240,135,135,reporter_code,0,50,487,0,3240.0,135.0,135.0,135.0
+import_partner_gini,partner_gini,complete_case,156,156,3900,3756,156,3756,3236,135,135,reporter_code,0,58,494,9,3236.0,135.0,135.0,135.0

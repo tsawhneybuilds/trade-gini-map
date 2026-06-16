@@ -1,0 +1,13 @@
+diagnostic,value,detail
+country_year_rows,1482.0,
+countries,60.0,
+year_min,2000.0,
+year_max,2024.0,
+invalid_metric_rows,0.0,
+max_missing_world_product_export_share,0.0,
+product_999999_policy,0.0,excluded upstream before product aggregation
+world_basket_policy,1.0,inclusive world_broad exports; no leave-one-out subtraction
+gdp_alignment_scatter_year,2024.0,
+gdp_alignment_scatter_countries,56.0,
+gdp_alignment_scatter_slope,0.06455250979870444,OLS slope in latest-year scatter
+gdp_alignment_scatter_r_squared,0.5649883062278779,OLS R-squared in latest-year scatter

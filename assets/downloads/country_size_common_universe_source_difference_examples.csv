@@ -1,0 +1,26 @@
+country,iso3,reporter_code,year,flow,dimension,source_label,source_matches_country_size_panel,total_gini,source_total_gini,total_gini_abs_diff_vs_source_raw,total_active_count,total_value
+United Arab Emirates,ARE,784,2013,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8546182829100779,0.8979520321173182,0.04333374920724031,189,179084737712.48996
+United Arab Emirates,ARE,784,2014,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8542945165905875,0.8960549272072185,0.04176041061663094,195,181267172845.65314
+United Arab Emirates,ARE,784,2015,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8590875577032222,0.8989656902534211,0.0398781325501989,194,175626382394.69016
+United Arab Emirates,ARE,784,2016,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8498956728358282,0.8826897773633522,0.03279410452752396,196,181064146964.77408
+Switzerland,CHE,757,2009,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9338013257790816,0.9010563113113474,0.032745014467734146,212,150837191820.4459
+Uganda,UGA,800,2020,Exports,partner,Main export item universe,True,0.9509467108078293,0.9210231833616969,0.02992352744613247,121,3224462759.0
+New Zealand,NZL,554,2018,Exports,partner,Main export item universe,True,0.9283236857574477,0.901547665091748,0.02677602066569973,213,20567794615.029003
+United Arab Emirates,ARE,784,2022,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8479288512988505,0.8727111725402521,0.02478232124140156,227,323954920407.3637
+Switzerland,CHE,757,2008,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9365902186134967,0.9118609177083365,0.024729300905160123,213,177417195681.22012
+Kyrgyzstan,KGZ,417,2008,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8960148963210424,0.9173753520614618,0.02136045574041945,109,2632673480.0
+Switzerland,CHE,757,2006,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9349160303857724,0.91416305314981,0.020752977235962478,216,137381222074.6011
+Switzerland,CHE,757,2003,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9359955198002436,0.9155065257588002,0.020488994041443442,204,97205946731.27304
+Switzerland,CHE,757,2007,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9346203274345228,0.91448515278297,0.02013517465155279,212,156587627308.8931
+New Zealand,NZL,554,2018,Exports,product,Main export item universe,True,0.9365834382597662,0.9566574227554316,0.020073984495665442,3945,19218779027.90499
+Russia,RUS,643,2010,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8965940560009051,0.8770192291800143,0.019574826820890845,193,190474211328.0
+Kyrgyzstan,KGZ,417,2004,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8833377463079799,0.9024292955428328,0.0190915492348529,96,706068053.0
+Russia,RUS,643,2011,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.900516517107969,0.8824179387169209,0.018098578391048115,198,255464672798.0
+Switzerland,CHE,757,2002,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9379838828239868,0.9204080562031778,0.017575826620809032,216,84897103655.17798
+Mozambique,MOZ,508,2002,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9172850872020326,0.9348571838192983,0.017572096617265665,131,1081433403.0
+Kyrgyzstan,KGZ,417,2009,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.894879613710698,0.9122692428168933,0.017389629106195237,111,2165953627.0
+Mexico,MEX,484,2024,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9307872731191951,0.9474899566271688,0.01670268350797377,135,540678734334.0
+United Arab Emirates,ARE,784,2023,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8556100937902564,0.8720429351930785,0.016432841402822085,231,390834274603.08624
+United Arab Emirates,ARE,784,2021,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.8604985229248374,0.8762614165201643,0.0157628935953269,228,285499452959.33405
+Switzerland,CHE,757,2004,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.9360884352901384,0.9206123726375648,0.015476062652573619,208,112539820781.52298
+Turkey,TUR,792,2022,Imports,partner,"Mapped import cells: partners, no-999999 sensitivity",False,0.866061019822487,0.8814721875165261,0.015411167694039163,223,298136444977.0

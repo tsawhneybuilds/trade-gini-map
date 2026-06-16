@@ -1,0 +1,8 @@
+period,gini_change_direction,main_driver_group,countries,median_delta_gini,mean_delta_gini
+balanced_2000_2024,decrease,top-5 deconcentration,2,-0.028953058308470114,-0.028953058308470114
+balanced_2000_2024,decrease,upper-tier deconcentration (ranks 6-50),2,-0.013549276981826675,-0.013549276981826675
+balanced_2000_2024,increase,top-5 superstar concentration,15,0.04019178876358054,0.04876194854364078
+balanced_2000_2024,increase,tail compression (rank 201+),12,0.020329903299546426,0.01968186479316339
+balanced_2000_2024,increase,upper-tier concentration (ranks 6-50),7,0.032507099161858455,0.03936073590893147
+balanced_2000_2024,increase,broad upper-tail concentration (ranks 51-200),6,0.03376366761869276,0.03304558724257597
+balanced_2000_2024,stable,stable / small Gini change,12,0.004808547920125805,0.0032705815754544287
