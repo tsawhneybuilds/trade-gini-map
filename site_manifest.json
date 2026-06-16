@@ -1,5 +1,5 @@
 {
-  "built_at_utc": "2026-06-16T04:16:35+00:00",
+  "built_at_utc": "2026-06-16T07:41:39+00:00",
   "downloads": {
     "adversarial_review.md": {
       "format": "raw",
@@ -145,7 +145,16 @@
     "theil/index.html",
     "theil/appendix.html",
     "hhi/index.html",
-    "downloads/index.html"
+    "downloads/index.html",
+    "exercises/index.html",
+    "exercises/exercise-01.html",
+    "exercises/exercise-02.html",
+    "exercises/exercise-03.html",
+    "exercises/exercise-04.html",
+    "exercises/exercise-06.html",
+    "exercises/exercise-10.html",
+    "exercises/exercise-11.html",
+    "exercises/exercise-12.html"
   ],
   "published_to": "/Users/tanushsawhney/Desktop/trade-gini-map",
   "source_result_dir": "/Users/tanushsawhney/Desktop/profps26/results/samples/cadot_broad_156/three_metric_tables"

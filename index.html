@@ -11,6 +11,7 @@
 <header class="site-head root">
   <h1>Trade Concentration: Gini, Theil, HHI</h1>
   <p>Cadot-style 156-reporter run over UN Comtrade annual HS final data, 2000-2024.</p>
+  <nav class="top-nav"><a href="gini/">Gini</a><a href="theil/">Theil</a><a href="hhi/">HHI</a><a href="exercises/">Exercises</a><a href="downloads/">Downloads</a></nav>
 </header>
 <main>
   <section class="hub-grid"><a class="hub-link" href="gini/"><strong>Gini</strong><span>Active-positive Gini over observed positive trade values.</span></a><a class="hub-link" href="theil/"><strong>Theil</strong><span>Fixed-universe product Theil: sum_p s_cpft * log(s_cpft * K_f).</span></a><a class="hub-link" href="hhi/"><strong>HHI</strong><span>Raw Herfindahl-Hirschman index, sum_i s_i^2, on [0,1].</span></a></section>
@@ -25,13 +26,17 @@
     <div class="table-wrap"><table><thead><tr><th>Check</th><th>Passed</th><th>Details</th></tr></thead><tbody><tr><td>selected_reporter_count_156</td><td>True</td><td>n/a</td></tr><tr><td>no_product_dependent_999999</td><td>True</td><td>bad_product_ids=0</td></tr><tr><td>unique_reporter_year_flow_dimension_variant</td><td>True</td><td>duplicate_rows=0</td></tr><tr><td>hhi_bounds_0_1</td><td>True</td><td>bad_rows=0</td></tr><tr><td>fixed_theil_universe_counts_by_flow</td><td>True</td><td>{&#x27;Exports&#x27;: 6873, &#x27;Imports&#x27;: 6891}</td></tr><tr><td>theil_decomposition_residuals</td><td>True</td><td>bad_rows=0</td></tr><tr><td>cross_metric_key_parity</td><td>True</td><td>rows_with_missing_metric=0</td></tr><tr><td>raw_files_present_for_available_country_years</td><td>True</td><td>missing_available_bulk_keys=0</td></tr><tr><td>exercise_06_unique_keys</td><td>True</td><td>duplicate_rows=0</td></tr></tbody></table></div>
   </section>
   <section>
+    <h2>Exercises</h2>
+    <p><a class="button" href="exercises/">Open exercise pages</a></p>
+  </section>
+  <section>
     <h2>Downloads</h2>
     <p><a class="button" href="downloads/">Open generated files</a></p>
   </section>
 </main>
 <footer>
   <div>Cadot-style 156-country concentration sites</div>
-  <nav><a href="gini/">Gini</a><a href="theil/">Theil</a><a href="hhi/">HHI</a><a href="downloads/">Downloads</a></nav>
+  <nav><a href="gini/">Gini</a><a href="theil/">Theil</a><a href="hhi/">HHI</a><a href="exercises/">Exercises</a><a href="downloads/">Downloads</a></nav>
 </footer>
 
 </body>
