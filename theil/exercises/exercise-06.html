@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 6: HS2 Exclusion Sensitivity | Trade Concentration</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=202606171423470000">
+</head>
+<body class="cadot-site" data-page="cadot-theil-exercise-06" data-metric="theil">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../../index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a href="../../index.html">Hub</a><a href="../../gini/">Gini</a><a class="active" href="../../theil/">Theil</a><a href="../../hhi/">HHI</a><a href="../../exercises/">Exercises</a><a href="../../downloads/">Downloads</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-title">
+      <div class="eyebrow">Theil Exercise 06</div>
+      <h1>Exercise 6: HS2 Exclusion Sensitivity</h1>
+      <p>Does concentration mostly disappear after removing obvious lumpy HS2 sectors?</p>
+      <div class="metric-switch"><a href="../../gini/exercises/exercise-06.html">Gini</a><a class="active" href="../../theil/exercises/exercise-06.html">Theil</a><a href="../../hhi/exercises/exercise-06.html">HHI</a></div>
+      <div class="subnav-chips"><a href="../../theil/exercises/exercise-01.html">Ex. 1</a><a href="../../theil/exercises/exercise-02.html">Ex. 2</a><a href="../../theil/exercises/exercise-03.html">Ex. 3</a><a href="../../theil/exercises/exercise-04.html">Ex. 4</a><a class="active" href="../../theil/exercises/exercise-06.html">Ex. 6</a><a href="../../theil/exercises/exercise-10.html">Ex. 10</a><a href="../../theil/exercises/exercise-11.html">Ex. 11</a><a href="../../theil/exercises/exercise-12.html">Ex. 12</a></div>
+    </section>
+    <section class="section hypothesis-section">
+      <div class="exercise-callout"><p>The page shows before/after graphs and metric-specific exclusion sensitivity from the rerun.</p></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Theil. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
+      <div class="chart-grid">
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Exclusion trend</h3>
+            <p>Does the metric collapse after removing lumpy HS2 sectors?</p>
+          </div>
+          <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise6-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label></div>
+        </div>
+        <div id="exercise6-trend" class="chart js-plotly-plot"></div>
+      </article>
+    
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Largest sensitivities</h3>
+            <p>Which HS2 exclusions move the metric most?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="exercise6-sensitivity" class="chart js-plotly-plot"></div>
+      </article>
+    </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cross-Metric Snapshot</h2><p>The selected site is metric-first, but the same harmonized exercise exists for all three metrics.</p></div>
+      <div class="stat-grid">
+            <article class="stat-card">
+              <span>Gini</span>
+              <strong>0.919</strong>
+              <small>Active-positive Gini over observed positive trade values. Median gini across 112,635 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>Theil</span>
+              <strong>2.716</strong>
+              <small>Fixed-universe Theil with inactive products represented through the flow-specific product universe. Median theil across 112,635 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>HHI</span>
+              <strong>0.035</strong>
+              <small>Herfindahl-Hirschman index, the sum of squared item shares. Median hhi across 112,635 rows.</small>
+            </article>
+            </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cadot Figure Set</h2><p>These figures are required by the Cadot build; the build now fails if any referenced asset is missing.</p></div>
+      <div class="figure-stack"><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex6_before_after.png"><img src="../../assets/figures/ex6_before_after.png" alt="Before-versus-after concentration after HS2 exclusions in the Cadot rerun."></a>
+            <figcaption>Before-versus-after concentration after HS2 exclusions in the Cadot rerun.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex6_removed.png"><img src="../../assets/figures/ex6_removed.png" alt="Trade share removed by HS2 exclusion specification in the Cadot rerun."></a>
+            <figcaption>Trade share removed by HS2 exclusion specification in the Cadot rerun.</figcaption>
+          </figure>
+                </div></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Evidence Table</h2><p>Metric-focused table for the selected exercise page.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Variant</th><th>Flow</th><th>Rows</th><th>Median removed share</th><th>Median Theil</th></tr></thead><tbody><tr><td>baseline</td><td>Exports</td><td>3,753</td><td>0.0%</td><td>4.570</td></tr><tr><td>baseline</td><td>Imports</td><td>3,756</td><td>0.0%</td><td>2.654</td></tr><tr><td>full_exclusion</td><td>Exports</td><td>3,753</td><td>12.5%</td><td>4.200</td></tr><tr><td>full_exclusion</td><td>Imports</td><td>3,756</td><td>17.3%</td><td>2.253</td></tr><tr><td>oil_aircraft</td><td>Exports</td><td>3,753</td><td>5.7%</td><td>4.278</td></tr><tr><td>oil_aircraft</td><td>Imports</td><td>3,756</td><td>15.1%</td><td>2.294</td></tr><tr><td>oil_aircraft_precious</td><td>Exports</td><td>3,753</td><td>11.5%</td><td>4.199</td></tr><tr><td>oil_aircraft_precious</td><td>Imports</td><td>3,756</td><td>16.5%</td><td>2.260</td></tr><tr><td>oil_only</td><td>Exports</td><td>3,753</td><td>4.8%</td><td>4.270</td></tr><tr><td>oil_only</td><td>Imports</td><td>3,756</td><td>14.2%</td><td>2.311</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>All downloads are Cadot-only staging artifacts from the harmonized rerun.</p></div>
+      <div class="download-grid"><a href="../../assets/downloads/exercise_06_exclusion_metrics.csv">exercise_06_exclusion_metrics.csv</a><a href="../../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+    </section>
+    
+  </main>
+  
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../../gini/">Gini</a>
+      <a href="../../theil/">Theil</a>
+      <a href="../../hhi/">HHI</a>
+      <a href="../../exercises/">Exercise index</a>
+      <a href="../../downloads/">Downloads</a>
+    </div>
+  </footer>
+    
+  <script src="../../assets/vendor/plotly.min.js"></script>
+  <script src="../../assets/site-data.js?v=202606171423470000"></script>
+  <script src="../../assets/site.js?v=202606171423470000"></script>
+</body>
+</html>

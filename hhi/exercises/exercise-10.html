@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 10: Random Benchmarks | Trade Concentration</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=202606171423470000">
+</head>
+<body class="cadot-site" data-page="cadot-hhi-exercise-10" data-metric="hhi">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../../index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a href="../../index.html">Hub</a><a href="../../gini/">Gini</a><a href="../../theil/">Theil</a><a class="active" href="../../hhi/">HHI</a><a href="../../exercises/">Exercises</a><a href="../../downloads/">Downloads</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-title">
+      <div class="eyebrow">HHI Exercise 10</div>
+      <h1>Exercise 10: Random Benchmarks</h1>
+      <p>Is observed concentration higher than sparse-data or HS2-preserving random benchmarks?</p>
+      <div class="metric-switch"><a href="../../gini/exercises/exercise-10.html">Gini</a><a href="../../theil/exercises/exercise-10.html">Theil</a><a class="active" href="../../hhi/exercises/exercise-10.html">HHI</a></div>
+      <div class="subnav-chips"><a href="../../hhi/exercises/exercise-01.html">Ex. 1</a><a href="../../hhi/exercises/exercise-02.html">Ex. 2</a><a href="../../hhi/exercises/exercise-03.html">Ex. 3</a><a href="../../hhi/exercises/exercise-04.html">Ex. 4</a><a href="../../hhi/exercises/exercise-06.html">Ex. 6</a><a class="active" href="../../hhi/exercises/exercise-10.html">Ex. 10</a><a href="../../hhi/exercises/exercise-11.html">Ex. 11</a><a href="../../hhi/exercises/exercise-12.html">Ex. 12</a></div>
+    </section>
+    <section class="section hypothesis-section">
+      <div class="exercise-callout"><p>The restored benchmark figures are paired with the rerun Gini/Theil/HHI benchmark table.</p></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: HHI. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
+      <div class="chart-grid">
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Benchmark path</h3>
+            <p>How far above the benchmark does the metric sit over time?</p>
+          </div>
+          <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise10-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label><label><span class="sr-only">Benchmark</span><select id="exercise10-benchmark"><option value="hs2_preserving_within_sector_random_allocation">HS2-preserving</option><option value="active_count_random_allocation">Active-count</option></select></label></div>
+        </div>
+        <div id="exercise10-trend" class="chart js-plotly-plot"></div>
+      </article>
+    
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Latest benchmark gaps</h3>
+            <p>Which countries sit furthest above the benchmark?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="exercise10-latest" class="chart js-plotly-plot"></div>
+      </article>
+    </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cross-Metric Snapshot</h2><p>The selected site is metric-first, but the same harmonized exercise exists for all three metrics.</p></div>
+      <div class="stat-grid">
+            <article class="stat-card">
+              <span>Gini</span>
+              <strong>0.914</strong>
+              <small>Active-positive Gini over observed positive trade values. Median actual gini across 15,018 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>Theil</span>
+              <strong>3.132</strong>
+              <small>Fixed-universe Theil with inactive products represented through the flow-specific product universe. Median actual theil across 15,018 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>HHI</span>
+              <strong>0.025</strong>
+              <small>Herfindahl-Hirschman index, the sum of squared item shares. Median actual hhi across 15,018 rows.</small>
+            </article>
+            </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cadot Figure Set</h2><p>These figures are required by the Cadot build; the build now fails if any referenced asset is missing.</p></div>
+      <div class="figure-stack"><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex10_actual_vs_benchmark.png"><img src="../../assets/figures/ex10_actual_vs_benchmark.png" alt="Observed concentration versus the HS2-preserving benchmark in the Cadot rerun."></a>
+            <figcaption>Observed concentration versus the HS2-preserving benchmark in the Cadot rerun.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex10_percentile.png"><img src="../../assets/figures/ex10_percentile.png" alt="Share of observations above the 95th percentile of the benchmark distribution in the Cadot rerun (Theil panel uses the published active-count percentile field)."></a>
+            <figcaption>Share of observations above the 95th percentile of the benchmark distribution in the Cadot rerun (Theil panel uses the published active-count percentile field).</figcaption>
+          </figure>
+                </div></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Evidence Table</h2><p>Metric-focused table for the selected exercise page.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Benchmark</th><th>Rows</th><th>Sims</th><th>Median actual HHI</th><th>Median simulated</th><th>Median gap</th></tr></thead><tbody><tr><td>Exports</td><td>active_count_random_allocation</td><td>3,753</td><td>250</td><td>0.062</td><td>0.001</td><td>0.060</td></tr><tr><td>Exports</td><td>hs2_preserving_within_sector_random_allocation</td><td>3,753</td><td>250</td><td>0.062</td><td>0.011</td><td>0.045</td></tr><tr><td>Imports</td><td>active_count_random_allocation</td><td>3,756</td><td>250</td><td>0.015</td><td>0.000</td><td>0.015</td></tr><tr><td>Imports</td><td>hs2_preserving_within_sector_random_allocation</td><td>3,756</td><td>250</td><td>0.015</td><td>0.002</td><td>0.013</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>All downloads are Cadot-only staging artifacts from the harmonized rerun.</p></div>
+      <div class="download-grid"><a href="../../assets/downloads/exercise_10_random_benchmarks.csv">exercise_10_random_benchmarks.csv</a><a href="../../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+    </section>
+    
+  </main>
+  
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../../gini/">Gini</a>
+      <a href="../../theil/">Theil</a>
+      <a href="../../hhi/">HHI</a>
+      <a href="../../exercises/">Exercise index</a>
+      <a href="../../downloads/">Downloads</a>
+    </div>
+  </footer>
+    
+  <script src="../../assets/vendor/plotly.min.js"></script>
+  <script src="../../assets/site-data.js?v=202606171423470000"></script>
+  <script src="../../assets/site.js?v=202606171423470000"></script>
+</body>
+</html>

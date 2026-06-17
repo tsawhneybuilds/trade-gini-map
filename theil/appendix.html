@@ -4,44 +4,63 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Theil Appendix | Trade Concentration</title>
-  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="../assets/site.css?v=202606171423480000">
 </head>
-<body class="cadot-site" data-page="theil">
+<body class="cadot-site" data-page="cadot-theil-appendix" data-metric="theil">
   <header class="site-header">
-    <a class="brand" href="../index.html">Trade Concentration</a>
-    <nav><a href="../index.html">Hub</a><a href="../gini/">Gini</a><a class="active" href="../theil/">Theil</a><a href="../hhi/">HHI</a><a href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+    <div class="header-inner">
+      <a class="brand" href="../index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a href="../index.html">Hub</a><a href="../gini/">Gini</a><a class="active" href="../theil/">Theil</a><a href="../hhi/">HHI</a><a href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+    </div>
   </header>
   <main>
-    
+
     <section class="page-title">
       <div class="eyebrow">Theil appendix</div>
-      <h1>Product-Destination / Cell Theil Analogue</h1>
-      <p>This appendix is not the headline Theil. The headline remains fixed-universe product Theil; this page reports the HS1992 product-partner-cell analogue for comparison.</p>
+      <h1>Product-Destination / Cell Theil</h1>
+      <p>This appendix is not the headline metric. It exists to keep the product-destination analogue visible while the headline Theil remains the fixed-universe product measure.</p>
+      <div class="metric-switch"><a href="../gini/">Gini</a><a class="active" href="../theil/">Theil</a><a href="../hhi/">HHI</a></div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Recent Cell-Metric Medians</h2><p>Rows are reporter-year-flow product-partner-cell concentration outputs.</p></div>
-      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Year</th><th>Countries</th><th>Median cell Theil</th><th>Median cell Gini</th><th>Median cell HHI</th><th>Median active cells</th></tr></thead><tbody><tr><td>Exports</td><td>2020</td><td>152</td><td>3.857</td><td>0.968</td><td>0.023</td><td>13,965</td></tr><tr><td>Exports</td><td>2021</td><td>153</td><td>4.070</td><td>0.972</td><td>0.027</td><td>15,107</td></tr><tr><td>Exports</td><td>2022</td><td>150</td><td>4.251</td><td>0.974</td><td>0.030</td><td>15,753</td></tr><tr><td>Exports</td><td>2023</td><td>149</td><td>4.248</td><td>0.976</td><td>0.027</td><td>16,842</td></tr><tr><td>Exports</td><td>2024</td><td>132</td><td>4.272</td><td>0.975</td><td>0.022</td><td>23,842</td></tr><tr><td>Imports</td><td>2020</td><td>152</td><td>3.424</td><td>0.947</td><td>0.005</td><td>51,067</td></tr><tr><td>Imports</td><td>2021</td><td>153</td><td>3.559</td><td>0.952</td><td>0.006</td><td>53,842</td></tr><tr><td>Imports</td><td>2022</td><td>150</td><td>3.841</td><td>0.959</td><td>0.008</td><td>57,658</td></tr><tr><td>Imports</td><td>2023</td><td>149</td><td>3.786</td><td>0.959</td><td>0.007</td><td>61,230</td></tr><tr><td>Imports</td><td>2024</td><td>132</td><td>3.760</td><td>0.959</td><td>0.006</td><td>67,125</td></tr></tbody></table></div>
+      <div class="section-heading"><h2>Cell Theil Through Time</h2><p>Median product-destination Theil for Cadot reporters.</p></div>
+      <div class="chart-grid">
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Cell Theil trend</h3>
+            <p>How does the product-destination analogue move through time?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="theil-appendix-chart" class="chart js-plotly-plot"></div>
+      </article>
+    
+      </div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Related Downloads</h2><p>The cell rows are in the all-years concentration panel.</p></div>
-      <div class="download-grid"><a href="../assets/downloads/concentration_metric_all_years.csv">concentration_metric_all_years.csv</a><a href="../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+      <div class="section-heading"><h2>Recent Cell Summary</h2><p>Median cell concentration by flow and year.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Year</th><th>Countries</th><th>Median cell Theil</th><th>Median cell Gini</th><th>Median cell HHI</th><th>Median active cells</th></tr></thead><tbody><tr><td>Exports</td><td>2024</td><td>132</td><td>4.272</td><td>0.975</td><td>0.022</td><td>23,842</td></tr><tr><td>Exports</td><td>2023</td><td>149</td><td>4.248</td><td>0.976</td><td>0.027</td><td>16,842</td></tr><tr><td>Exports</td><td>2022</td><td>150</td><td>4.251</td><td>0.974</td><td>0.030</td><td>15,753</td></tr><tr><td>Exports</td><td>2021</td><td>153</td><td>4.070</td><td>0.972</td><td>0.027</td><td>15,107</td></tr><tr><td>Exports</td><td>2020</td><td>152</td><td>3.857</td><td>0.968</td><td>0.023</td><td>13,965</td></tr><tr><td>Exports</td><td>2019</td><td>154</td><td>4.031</td><td>0.969</td><td>0.026</td><td>14,555</td></tr><tr><td>Exports</td><td>2018</td><td>154</td><td>3.923</td><td>0.967</td><td>0.022</td><td>13,808</td></tr><tr><td>Exports</td><td>2017</td><td>156</td><td>3.918</td><td>0.967</td><td>0.023</td><td>14,072</td></tr><tr><td>Exports</td><td>2016</td><td>155</td><td>3.828</td><td>0.966</td><td>0.024</td><td>13,632</td></tr><tr><td>Exports</td><td>2015</td><td>153</td><td>3.820</td><td>0.966</td><td>0.023</td><td>13,821</td></tr><tr><td>Exports</td><td>2014</td><td>153</td><td>3.924</td><td>0.965</td><td>0.024</td><td>12,851</td></tr><tr><td>Exports</td><td>2013</td><td>154</td><td>3.875</td><td>0.965</td><td>0.026</td><td>13,386</td></tr><tr><td>Exports</td><td>2012</td><td>152</td><td>3.851</td><td>0.964</td><td>0.024</td><td>12,142</td></tr><tr><td>Exports</td><td>2011</td><td>150</td><td>3.846</td><td>0.965</td><td>0.026</td><td>11,547</td></tr><tr><td>Exports</td><td>2010</td><td>153</td><td>3.822</td><td>0.963</td><td>0.025</td><td>11,227</td></tr><tr><td>Exports</td><td>2009</td><td>150</td><td>3.810</td><td>0.960</td><td>0.026</td><td>11,295</td></tr><tr><td>Exports</td><td>2008</td><td>149</td><td>3.753</td><td>0.962</td><td>0.025</td><td>11,919</td></tr><tr><td>Exports</td><td>2007</td><td>153</td><td>3.659</td><td>0.961</td><td>0.023</td><td>10,463</td></tr><tr><td>Exports</td><td>2006</td><td>150</td><td>3.749</td><td>0.961</td><td>0.029</td><td>10,150</td></tr><tr><td>Exports</td><td>2005</td><td>150</td><td>3.726</td><td>0.959</td><td>0.026</td><td>9,339</td></tr><tr><td>Exports</td><td>2004</td><td>148</td><td>3.597</td><td>0.958</td><td>0.027</td><td>8,827</td></tr><tr><td>Exports</td><td>2003</td><td>149</td><td>3.623</td><td>0.957</td><td>0.029</td><td>7,984</td></tr><tr><td>Exports</td><td>2002</td><td>146</td><td>3.569</td><td>0.954</td><td>0.030</td><td>7,602</td></tr><tr><td>Exports</td><td>2001</td><td>146</td><td>3.522</td><td>0.951</td><td>0.027</td><td>6,790</td></tr><tr><td>Exports</td><td>2000</td><td>142</td><td>3.521</td><td>0.952</td><td>0.026</td><td>7,077</td></tr><tr><td>Imports</td><td>2024</td><td>132</td><td>3.760</td><td>0.959</td><td>0.006</td><td>67,125</td></tr><tr><td>Imports</td><td>2023</td><td>149</td><td>3.786</td><td>0.959</td><td>0.007</td><td>61,230</td></tr><tr><td>Imports</td><td>2022</td><td>150</td><td>3.841</td><td>0.959</td><td>0.008</td><td>57,658</td></tr><tr><td>Imports</td><td>2021</td><td>153</td><td>3.559</td><td>0.952</td><td>0.006</td><td>53,842</td></tr><tr><td>Imports</td><td>2020</td><td>152</td><td>3.424</td><td>0.947</td><td>0.005</td><td>51,067</td></tr><tr><td>Imports</td><td>2019</td><td>154</td><td>3.521</td><td>0.950</td><td>0.006</td><td>54,794</td></tr><tr><td>Imports</td><td>2018</td><td>154</td><td>3.538</td><td>0.949</td><td>0.006</td><td>54,798</td></tr><tr><td>Imports</td><td>2017</td><td>156</td><td>3.492</td><td>0.949</td><td>0.005</td><td>53,654</td></tr><tr><td>Imports</td><td>2016</td><td>155</td><td>3.364</td><td>0.945</td><td>0.005</td><td>52,724</td></tr><tr><td>Imports</td><td>2015</td><td>153</td><td>3.391</td><td>0.944</td><td>0.006</td><td>52,231</td></tr><tr><td>Imports</td><td>2014</td><td>153</td><td>3.592</td><td>0.947</td><td>0.008</td><td>50,531</td></tr><tr><td>Imports</td><td>2013</td><td>154</td><td>3.618</td><td>0.947</td><td>0.009</td><td>50,584</td></tr><tr><td>Imports</td><td>2012</td><td>152</td><td>3.624</td><td>0.947</td><td>0.009</td><td>48,474</td></tr><tr><td>Imports</td><td>2011</td><td>151</td><td>3.558</td><td>0.946</td><td>0.008</td><td>46,359</td></tr><tr><td>Imports</td><td>2010</td><td>153</td><td>3.391</td><td>0.943</td><td>0.006</td><td>45,643</td></tr></tbody></table></div>
     </section>
     
   </main>
   
-    <footer class="site-footer">
-      <div>
-        <strong>Three linked metric sites</strong>
-        <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families.</p>
-      </div>
-      <div class="footer-links">
-        <a href="../gini/">Gini site</a>
-        <a href="../theil/">Theil site</a>
-        <a href="../hhi/">HHI site</a>
-        <a href="../exercises/">Exercises</a>
-        <a href="../downloads/">Downloads</a>
-      </div>
-    </footer>
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../gini/">Gini</a>
+      <a href="../theil/">Theil</a>
+      <a href="../hhi/">HHI</a>
+      <a href="../exercises/">Exercise index</a>
+      <a href="../downloads/">Downloads</a>
+    </div>
+  </footer>
     
+  <script src="../assets/vendor/plotly.min.js"></script>
+  <script src="../assets/site-data.js?v=202606171423480000"></script>
+  <script src="../assets/site.js?v=202606171423480000"></script>
 </body>
 </html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 12: Growth Decomposition | Trade Concentration</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=202606171423460000">
+</head>
+<body class="cadot-site" data-page="cadot-gini-exercise-12" data-metric="gini">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../../index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a href="../../index.html">Hub</a><a class="active" href="../../gini/">Gini</a><a href="../../theil/">Theil</a><a href="../../hhi/">HHI</a><a href="../../exercises/">Exercises</a><a href="../../downloads/">Downloads</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-title">
+      <div class="eyebrow">Gini Exercise 12</div>
+      <h1>Exercise 12: Growth Decomposition</h1>
+      <p>Does later export growth come from new products, new partners, new cells, or incumbent growth?</p>
+      <div class="metric-switch"><a class="active" href="../../gini/exercises/exercise-12.html">Gini</a><a href="../../theil/exercises/exercise-12.html">Theil</a><a href="../../hhi/exercises/exercise-12.html">HHI</a></div>
+      <div class="subnav-chips"><a href="../../gini/exercises/exercise-01.html">Ex. 1</a><a href="../../gini/exercises/exercise-02.html">Ex. 2</a><a href="../../gini/exercises/exercise-03.html">Ex. 3</a><a href="../../gini/exercises/exercise-04.html">Ex. 4</a><a href="../../gini/exercises/exercise-06.html">Ex. 6</a><a href="../../gini/exercises/exercise-10.html">Ex. 10</a><a href="../../gini/exercises/exercise-11.html">Ex. 11</a><a class="active" href="../../gini/exercises/exercise-12.html">Ex. 12</a></div>
+    </section>
+    <section class="section hypothesis-section">
+      <div class="exercise-callout"><p>The richer LT/HGL decomposition remains the headline; the rerun adds Gini/Theil/HHI base-bucket summaries.</p></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Gini. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
+      <div class="chart-grid">
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Trade growth buckets</h3>
+            <p>How does later trade growth vary by base concentration bucket?</p>
+          </div>
+          <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise12-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label><label><span class="sr-only">Horizon</span><select id="exercise12-horizon"><option value="1">1 year</option><option value="3">3 years</option><option value="5" selected>5 years</option><option value="10">10 years</option></select></label></div>
+        </div>
+        <div id="exercise12-growth" class="chart js-plotly-plot"></div>
+      </article>
+    
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Component growth</h3>
+            <p>How do product, partner, and cell growth components differ by bucket?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="exercise12-components" class="chart js-plotly-plot"></div>
+      </article>
+    </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cross-Metric Snapshot</h2><p>The selected site is metric-first, but the same harmonized exercise exists for all three metrics.</p></div>
+      <div class="stat-grid">
+            <article class="stat-card">
+              <span>Gini</span>
+              <strong>n/a</strong>
+              <small>Active-positive Gini over observed positive trade values. No numeric metric column found.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>Theil</span>
+              <strong>n/a</strong>
+              <small>Fixed-universe Theil with inactive products represented through the flow-specific product universe. No numeric metric column found.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>HHI</span>
+              <strong>n/a</strong>
+              <small>Herfindahl-Hirschman index, the sum of squared item shares. No numeric metric column found.</small>
+            </article>
+            </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cadot Figure Set</h2><p>These figures are required by the Cadot build; the build now fails if any referenced asset is missing.</p></div>
+      <p class="section-note">This page uses metric-specific Plotly charts rather than a separate static figure set.</p>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Evidence Table</h2><p>Metric-focused table for the selected exercise page.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Horizon</th><th>Bucket</th><th>Obs.</th><th>Countries</th><th>Mean trade growth</th><th>Product growth</th><th>Partner growth</th><th>Cell growth</th></tr></thead><tbody><tr><td>Exports</td><td>1</td><td>high_product_concentration</td><td>1,772</td><td>107</td><td>4.8%</td><td>0.6%</td><td>0.3%</td><td>2.5%</td></tr><tr><td>Exports</td><td>1</td><td>low_product_concentration</td><td>1,791</td><td>115</td><td>7.6%</td><td>2.8%</td><td>1.0%</td><td>5.2%</td></tr><tr><td>Exports</td><td>5</td><td>high_product_concentration</td><td>1,458</td><td>102</td><td>5.9%</td><td>1.4%</td><td>0.7%</td><td>3.1%</td></tr><tr><td>Exports</td><td>5</td><td>low_product_concentration</td><td>1,484</td><td>109</td><td>6.7%</td><td>2.1%</td><td>0.8%</td><td>4.3%</td></tr><tr><td>Exports</td><td>10</td><td>high_product_concentration</td><td>1,075</td><td>102</td><td>5.2%</td><td>1.7%</td><td>1.0%</td><td>3.4%</td></tr><tr><td>Exports</td><td>10</td><td>low_product_concentration</td><td>1,106</td><td>104</td><td>5.7%</td><td>1.7%</td><td>0.7%</td><td>3.8%</td></tr><tr><td>Imports</td><td>1</td><td>high_product_concentration</td><td>1,781</td><td>118</td><td>7.2%</td><td>1.0%</td><td>1.7%</td><td>3.8%</td></tr><tr><td>Imports</td><td>1</td><td>low_product_concentration</td><td>1,785</td><td>118</td><td>6.6%</td><td>0.2%</td><td>0.7%</td><td>2.5%</td></tr><tr><td>Imports</td><td>5</td><td>high_product_concentration</td><td>1,467</td><td>115</td><td>7.4%</td><td>0.8%</td><td>1.5%</td><td>3.5%</td></tr><tr><td>Imports</td><td>5</td><td>low_product_concentration</td><td>1,477</td><td>117</td><td>6.2%</td><td>0.3%</td><td>0.8%</td><td>2.5%</td></tr><tr><td>Imports</td><td>10</td><td>high_product_concentration</td><td>1,085</td><td>111</td><td>6.7%</td><td>0.8%</td><td>1.5%</td><td>3.4%</td></tr><tr><td>Imports</td><td>10</td><td>low_product_concentration</td><td>1,099</td><td>113</td><td>5.2%</td><td>0.3%</td><td>0.8%</td><td>2.4%</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>All downloads are Cadot-only staging artifacts from the harmonized rerun.</p></div>
+      <div class="download-grid"><a href="../../assets/downloads/exercise_12_growth_decomposition_summary.csv">exercise_12_growth_decomposition_summary.csv</a><a href="../../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+    </section>
+    
+  </main>
+  
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../../gini/">Gini</a>
+      <a href="../../theil/">Theil</a>
+      <a href="../../hhi/">HHI</a>
+      <a href="../../exercises/">Exercise index</a>
+      <a href="../../downloads/">Downloads</a>
+    </div>
+  </footer>
+    
+  <script src="../../assets/vendor/plotly.min.js"></script>
+  <script src="../../assets/site-data.js?v=202606171423460000"></script>
+  <script src="../../assets/site.js?v=202606171423460000"></script>
+</body>
+</html>

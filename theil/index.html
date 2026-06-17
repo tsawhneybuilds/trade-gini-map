@@ -4,58 +4,232 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Theil Site | Trade Concentration</title>
-  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="../assets/site.css?v=202606171423470000">
 </head>
-<body class="cadot-site" data-page="theil">
+<body class="cadot-site" data-page="cadot-theil" data-metric="theil">
   <header class="site-header">
-    <a class="brand" href="../index.html">Trade Concentration</a>
-    <nav><a href="../index.html">Hub</a><a href="../gini/">Gini</a><a class="active" href="../theil/">Theil</a><a href="../hhi/">HHI</a><a href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+    <div class="header-inner">
+      <a class="brand" href="../index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a href="../index.html">Hub</a><a href="../gini/">Gini</a><a class="active" href="../theil/">Theil</a><a href="../hhi/">HHI</a><a href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+    </div>
   </header>
   <main>
-    
+
     <section class="hero">
       <div class="eyebrow">Theil site</div>
       <h1>Theil Trade Concentration</h1>
-      <p>The Theil site uses fixed-universe product Theil: missing reporter products enter as zeros through the inactive margin. Product-dependent outputs are LT/HGL-weighted HS1992/H0 product families, with HS6 999999 excluded before conversion.</p>
+      <p>The Theil site uses fixed-universe product Theil: missing reporter products enter as zeros through the inactive margin. The interactive charts on this page use the harmonized Cadot 156 sample and the same website-facing rows as the download bundle.</p>
+      <div class="metric-switch"><a href="../gini/">Gini</a><a class="active" href="../theil/">Theil</a><a href="../hhi/">HHI</a></div>
       <div class="stat-grid">
-        <article class="stat-card"><span>Reporters</span><strong>156</strong><small>Cadot-style broad sample</small></article>
-        <article class="stat-card"><span>Raw files</span><strong>3,787</strong><small>Final Comtrade files processed</small></article>
-        <article class="stat-card"><span>Product universe</span><strong>5,037</strong><small>HS1992/H0 families by flow</small></article>
+        <article class="stat-card"><span>Latest export median</span><strong>4.449</strong><small>2024 product rows</small></article>
+        <article class="stat-card"><span>Latest import median</span><strong>2.680</strong><small>2024 product rows</small></article>
+        <article class="stat-card"><span>Highest latest value</span><strong>8.210</strong><small>Qatar</small></article>
       </div>
-      <p><a class="button" href="appendix.html">Open Theil product-destination appendix</a></p>
+      <div class="inline-link-row">
+        <a href="exercises/">All Theil exercises</a>
+        <a href="../downloads/">Downloads</a>
+        <a class="button" href="appendix.html">Open Theil appendix</a>
+      </div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Latest Rankings</h2><p>Highest latest available values by flow.</p></div>
-      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Rank</th><th>Country</th><th>Year</th><th>Theil</th><th>Active products</th><th>Trade value</th></tr></thead><tbody><tr><td>Exports</td><td>1</td><td>Qatar</td><td>2024</td><td>8.210</td><td>139</td><td>$15.8B</td></tr><tr><td>Exports</td><td>2</td><td>Guyana</td><td>2024</td><td>7.599</td><td>2,091</td><td>$22.4B</td></tr><tr><td>Exports</td><td>3</td><td>Angola</td><td>2024</td><td>7.501</td><td>3,064</td><td>$39.2B</td></tr><tr><td>Exports</td><td>4</td><td>Burkina Faso</td><td>2024</td><td>7.500</td><td>1,780</td><td>$5.6B</td></tr><tr><td>Exports</td><td>5</td><td>Niger</td><td>2024</td><td>7.229</td><td>516</td><td>$1.0B</td></tr><tr><td>Exports</td><td>6</td><td>Nigeria</td><td>2024</td><td>7.208</td><td>880</td><td>$52.4B</td></tr><tr><td>Exports</td><td>7</td><td>French Polynesia</td><td>2024</td><td>7.105</td><td>80</td><td>$95.6M</td></tr><tr><td>Exports</td><td>8</td><td>Montserrat</td><td>2024</td><td>7.071</td><td>142</td><td>$6.1M</td></tr><tr><td>Exports</td><td>9</td><td>Azerbaijan</td><td>2024</td><td>6.971</td><td>2,472</td><td>$26.4B</td></tr><tr><td>Exports</td><td>10</td><td>Seychelles</td><td>2024</td><td>6.796</td><td>638</td><td>$593.4M</td></tr><tr><td>Exports</td><td>11</td><td>Kuwait</td><td>2024</td><td>6.764</td><td>3,103</td><td>$75.9B</td></tr><tr><td>Exports</td><td>12</td><td>Cabo Verde</td><td>2024</td><td>6.645</td><td>39</td><td>$68.2M</td></tr><tr><td>Exports</td><td>13</td><td>Central African Rep.</td><td>2024</td><td>6.629</td><td>87</td><td>$204.5M</td></tr><tr><td>Exports</td><td>14</td><td>Maldives</td><td>2024</td><td>6.584</td><td>97</td><td>$92.4M</td></tr><tr><td>Exports</td><td>15</td><td>Mauritania</td><td>2024</td><td>6.531</td><td>333</td><td>$4.1B</td></tr><tr><td>Exports</td><td>16</td><td>Suriname</td><td>2024</td><td>6.514</td><td>957</td><td>$1.5B</td></tr><tr><td>Exports</td><td>17</td><td>Bermuda</td><td>2024</td><td>6.459</td><td>806</td><td>$42.2M</td></tr><tr><td>Exports</td><td>18</td><td>Algeria</td><td>2024</td><td>6.427</td><td>1,424</td><td>$51.9B</td></tr><tr><td>Exports</td><td>19</td><td>Malawi</td><td>2024</td><td>6.406</td><td>1,715</td><td>$958.1M</td></tr><tr><td>Exports</td><td>20</td><td>Brunei Darussalam</td><td>2024</td><td>6.335</td><td>1,248</td><td>$11.3B</td></tr></tbody></table></div>
+      <div class="section-heading">
+        <h2>Overview</h2>
+        <p>Question-led views for the selected metric, with flows and horizons selectable where they matter.</p>
+      </div>
+      <div class="chart-grid">
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Theil over time</h3>
+            <p>How concentrated are product baskets through time?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="metric-overview-trend" class="chart js-plotly-plot"></div>
+      </article>
+    
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Latest rankings</h3>
+            <p>Which countries sit at the top of the latest distribution?</p>
+          </div>
+          <div class="controls"><label><span class="sr-only">Flow</span><select id="metric-overview-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label></div>
+        </div>
+        <div id="metric-overview-ranking" class="chart js-plotly-plot"></div>
+      </article>
+    
+      </div>
+      <div class="chart-grid">
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Growth buckets</h3>
+            <p>How do base concentration buckets line up with later trade growth?</p>
+          </div>
+          <div class="controls"><label><span class="sr-only">Flow</span><select id="metric-overview-growth-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label><label><span class="sr-only">Horizon</span><select id="metric-overview-growth-horizon"><option value="1">1 year</option><option value="3">3 years</option><option value="5" selected>5 years</option><option value="10">10 years</option></select></label></div>
+        </div>
+        <div id="metric-overview-growth" class="chart js-plotly-plot"></div>
+      </article>
+    
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Import-bin concentration</h3>
+            <p>Which import bins are most concentrated in this metric?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="metric-overview-bins" class="chart js-plotly-plot"></div>
+      </article>
+    
+      </div>
+      <div class="chart-grid">
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Supplier dominance</h3>
+            <p>How much of import concentration comes from dominant source countries?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="metric-overview-suppliers" class="chart js-plotly-plot"></div>
+      </article>
+    
+      </div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Recent Medians</h2><p>Reporter-year product rows, common Gini/Theil/HHI keys where possible.</p></div>
-      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Year</th><th>Countries</th><th>Median Theil</th><th>Median active products</th><th>Median trade value</th></tr></thead><tbody><tr><td>Exports</td><td>2020</td><td>152</td><td>4.597</td><td>2,781</td><td>$9.3B</td></tr><tr><td>Exports</td><td>2021</td><td>153</td><td>4.696</td><td>2,798</td><td>$13.3B</td></tr><tr><td>Exports</td><td>2022</td><td>150</td><td>4.762</td><td>2,999</td><td>$15.1B</td></tr><tr><td>Exports</td><td>2023</td><td>149</td><td>4.730</td><td>3,067</td><td>$12.7B</td></tr><tr><td>Exports</td><td>2024</td><td>132</td><td>4.449</td><td>3,322</td><td>$19.9B</td></tr><tr><td>Imports</td><td>2020</td><td>152</td><td>2.533</td><td>4,345</td><td>$15.0B</td></tr><tr><td>Imports</td><td>2021</td><td>153</td><td>2.630</td><td>4,384</td><td>$18.4B</td></tr><tr><td>Imports</td><td>2022</td><td>150</td><td>2.791</td><td>4,411</td><td>$17.9B</td></tr><tr><td>Imports</td><td>2023</td><td>149</td><td>2.776</td><td>4,419</td><td>$17.2B</td></tr><tr><td>Imports</td><td>2024</td><td>132</td><td>2.680</td><td>4,480</td><td>$24.4B</td></tr></tbody></table></div>
+      <div class="section-heading"><h2>Extension Track</h2><p>Exercises 1, 2, 6, 10, and 12 for the selected metric.</p></div>
+      <div class="link-grid">
+      <a class="exercise-card" href="../theil/exercises/exercise-01.html">
+        <span>Exercise 01</span>
+        <strong>Persistent Aggregate Concentration</strong>
+        <small>Is trade concentration a persistent country-panel fact rather than a one-year cross-section artifact?</small>
+      </a>
+            
+      <a class="exercise-card" href="../theil/exercises/exercise-02.html">
+        <span>Exercise 02</span>
+        <strong>Concentration Buckets And Growth</strong>
+        <small>Do high-concentration export states predict meaningfully different later export-growth paths?</small>
+      </a>
+            
+      <a class="exercise-card" href="../theil/exercises/exercise-06.html">
+        <span>Exercise 06</span>
+        <strong>HS2 Exclusion Sensitivity</strong>
+        <small>Does concentration mostly disappear after removing obvious lumpy HS2 sectors?</small>
+      </a>
+            
+      <a class="exercise-card" href="../theil/exercises/exercise-10.html">
+        <span>Exercise 10</span>
+        <strong>Random Benchmarks</strong>
+        <small>Is observed concentration higher than sparse-data or HS2-preserving random benchmarks?</small>
+      </a>
+            
+      <a class="exercise-card" href="../theil/exercises/exercise-12.html">
+        <span>Exercise 12</span>
+        <strong>Growth Decomposition</strong>
+        <small>Does later export growth come from new products, new partners, new cells, or incumbent growth?</small>
+      </a>
+            </div>
+      <div class="section-note">These pages mirror the old extension logic with Cadot-only data, metric-specific charts, and shared static figure benchmarks.</div>
+      <div class="figure-stack"><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex1_median_concentration_over_time.png"><img src="../assets/figures/ex1_median_concentration_over_time.png" alt="Cadot 156 median concentration over time. The interactive chart on this page carries the selected metric; this figure is the shared visual benchmark."></a>
+            <figcaption>Cadot 156 median concentration over time. The interactive chart on this page carries the selected metric; this figure is the shared visual benchmark.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex6_before_after.png"><img src="../assets/figures/ex6_before_after.png" alt="Before-versus-after concentration after HS2 exclusions in the Cadot rerun."></a>
+            <figcaption>Before-versus-after concentration after HS2 exclusions in the Cadot rerun.</figcaption>
+          </figure>
+                </div><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex10_actual_vs_benchmark.png"><img src="../assets/figures/ex10_actual_vs_benchmark.png" alt="Observed concentration versus the HS2-preserving benchmark in the Cadot rerun."></a>
+            <figcaption>Observed concentration versus the HS2-preserving benchmark in the Cadot rerun.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex1_country_product_gini_lines.png"><img src="../assets/figures/ex1_country_product_gini_lines.png" alt="Country trajectories for product concentration in the Cadot 156 sample."></a>
+            <figcaption>Country trajectories for product concentration in the Cadot 156 sample.</figcaption>
+          </figure>
+                </div></div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Exercise Pages</h2><p>Every rerun exercise is linked from each metric site.</p></div>
-      <div class="table-wrap"><table><thead><tr><th>Exercise</th><th>Question</th><th>Page</th><th>Download</th></tr></thead><tbody><tr><td>Exercise 01</td><td>Persistent Aggregate Concentration</td><td><a href="../exercises/exercise-01.html">Open page</a></td><td><a href="../assets/downloads/metric_headline_product_panel.csv">metric_headline_product_panel.csv</a></td></tr><tr><td>Exercise 02</td><td>Concentration Buckets And Growth</td><td><a href="../exercises/exercise-02.html">Open page</a></td><td><a href="../assets/downloads/exercise_02_bucket_growth_summary.csv">exercise_02_bucket_growth_summary.csv</a></td></tr><tr><td>Exercise 03</td><td>Import-Bin Concentration</td><td><a href="../exercises/exercise-03.html">Open page</a></td><td><a href="../assets/downloads/exercise_03_import_bin_metrics.csv">exercise_03_import_bin_metrics.csv</a></td></tr><tr><td>Exercise 04</td><td>Dominant Suppliers</td><td><a href="../exercises/exercise-04.html">Open page</a></td><td><a href="../assets/downloads/exercise_04_dominant_supplier_summary.csv">exercise_04_dominant_supplier_summary.csv</a></td></tr><tr><td>Exercise 06</td><td>HS2 Exclusion Sensitivity</td><td><a href="../exercises/exercise-06.html">Open page</a></td><td><a href="../assets/downloads/exercise_06_exclusion_metrics.csv">exercise_06_exclusion_metrics.csv</a></td></tr><tr><td>Exercise 10</td><td>Random Benchmarks</td><td><a href="../exercises/exercise-10.html">Open page</a></td><td><a href="../assets/downloads/exercise_10_random_benchmarks.csv">exercise_10_random_benchmarks.csv</a></td></tr><tr><td>Exercise 11</td><td>Leave-One-Out Product Contributions</td><td><a href="../exercises/exercise-11.html">Open page</a></td><td><a href="../assets/downloads/exercise_11_top_product_loo_contributions.csv.gz">exercise_11_top_product_loo_contributions.csv.gz</a></td></tr><tr><td>Exercise 12</td><td>Growth Decomposition</td><td><a href="../exercises/exercise-12.html">Open page</a></td><td><a href="../assets/downloads/exercise_12_growth_decomposition_summary.csv">exercise_12_growth_decomposition_summary.csv</a></td></tr></tbody></table></div>
+      <div class="section-heading"><h2>Import Track</h2><p>Exercises 3, 4, and 11 for the selected metric.</p></div>
+      <div class="link-grid">
+      <a class="exercise-card" href="../theil/exercises/exercise-03.html">
+        <span>Exercise 03</span>
+        <strong>Import-Bin Concentration</strong>
+        <small>Which import bins carry concentration: energy, intermediates, capital goods, or final consumption?</small>
+      </a>
+            
+      <a class="exercise-card" href="../theil/exercises/exercise-04.html">
+        <span>Exercise 04</span>
+        <strong>Dominant Suppliers</strong>
+        <small>How much import concentration reflects dominant source countries within products?</small>
+      </a>
+            
+      <a class="exercise-card" href="../theil/exercises/exercise-11.html">
+        <span>Exercise 11</span>
+        <strong>Leave-One-Out Product Contributions</strong>
+        <small>Which products drive concentration, and do those concentration-driving imports map to exports?</small>
+      </a>
+            </div>
+      <div class="section-note">Descriptive figures are shared when they answer a sample-composition question; metric-specific charts are rendered from the harmonized three-metric tables.</div>
+      <div class="figure-stack"><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex3_value_share.png"><img src="../assets/figures/ex3_value_share.png" alt="Median import value share by BEC-style bin in the Cadot 156 sample."></a>
+            <figcaption>Median import value share by BEC-style bin in the Cadot 156 sample.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex4_supplier_distribution.png"><img src="../assets/figures/ex4_supplier_distribution.png" alt="Latest-year top-supplier-share distribution across Cadot-sample importer-product rows."></a>
+            <figcaption>Latest-year top-supplier-share distribution across Cadot-sample importer-product rows.</figcaption>
+          </figure>
+                </div><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex11_export_linkage_4pct.png"><img src="../assets/figures/ex11_export_linkage_4pct.png" alt="Latest-year product trade values by equal-count leave-one-out contribution bins in the Cadot rerun."></a>
+            <figcaption>Latest-year product trade values by equal-count leave-one-out contribution bins in the Cadot rerun.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../assets/figures/ex11_india_supplier_scatter.png"><img src="../assets/figures/ex11_india_supplier_scatter.png" alt="India latest-year product trade values against absolute leave-one-out contributions in the Cadot rerun."></a>
+            <figcaption>India latest-year product trade values against absolute leave-one-out contributions in the Cadot rerun.</figcaption>
+          </figure>
+                </div></div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Downloads</h2><p>Metric-level artifacts and validation outputs.</p></div>
+      <div class="section-heading"><h2>Latest Rankings Table</h2><p>Latest available product rows for the selected metric.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Rank</th><th>Country</th><th>Year</th><th>Theil</th><th>Active products</th><th>Trade value</th></tr></thead><tbody><tr><td>Exports</td><td>1</td><td>Qatar</td><td>2024</td><td>8.210</td><td>139</td><td>$15.8B</td></tr><tr><td>Exports</td><td>2</td><td>Guyana</td><td>2024</td><td>7.599</td><td>2,091</td><td>$22.4B</td></tr><tr><td>Exports</td><td>3</td><td>Angola</td><td>2024</td><td>7.501</td><td>3,064</td><td>$39.2B</td></tr><tr><td>Exports</td><td>4</td><td>Burkina Faso</td><td>2024</td><td>7.500</td><td>1,780</td><td>$5.6B</td></tr><tr><td>Exports</td><td>5</td><td>Niger</td><td>2024</td><td>7.229</td><td>516</td><td>$1.0B</td></tr><tr><td>Exports</td><td>6</td><td>Nigeria</td><td>2024</td><td>7.208</td><td>880</td><td>$52.4B</td></tr><tr><td>Exports</td><td>7</td><td>French Polynesia</td><td>2024</td><td>7.105</td><td>80</td><td>$95.6M</td></tr><tr><td>Exports</td><td>8</td><td>Montserrat</td><td>2024</td><td>7.071</td><td>142</td><td>$6.1M</td></tr><tr><td>Exports</td><td>9</td><td>Azerbaijan</td><td>2024</td><td>6.971</td><td>2,472</td><td>$26.4B</td></tr><tr><td>Exports</td><td>10</td><td>Seychelles</td><td>2024</td><td>6.796</td><td>638</td><td>$593.4M</td></tr><tr><td>Exports</td><td>11</td><td>Kuwait</td><td>2024</td><td>6.764</td><td>3,103</td><td>$75.9B</td></tr><tr><td>Exports</td><td>12</td><td>Cabo Verde</td><td>2024</td><td>6.645</td><td>39</td><td>$68.2M</td></tr><tr><td>Exports</td><td>13</td><td>Central African Rep.</td><td>2024</td><td>6.629</td><td>87</td><td>$204.5M</td></tr><tr><td>Exports</td><td>14</td><td>Maldives</td><td>2024</td><td>6.584</td><td>97</td><td>$92.4M</td></tr><tr><td>Exports</td><td>15</td><td>Mauritania</td><td>2024</td><td>6.531</td><td>333</td><td>$4.1B</td></tr><tr><td>Exports</td><td>16</td><td>Suriname</td><td>2024</td><td>6.514</td><td>957</td><td>$1.5B</td></tr><tr><td>Exports</td><td>17</td><td>Bermuda</td><td>2024</td><td>6.459</td><td>806</td><td>$42.2M</td></tr><tr><td>Exports</td><td>18</td><td>Algeria</td><td>2024</td><td>6.427</td><td>1,424</td><td>$51.9B</td></tr><tr><td>Exports</td><td>19</td><td>Malawi</td><td>2024</td><td>6.406</td><td>1,715</td><td>$958.1M</td></tr><tr><td>Exports</td><td>20</td><td>Brunei Darussalam</td><td>2024</td><td>6.335</td><td>1,248</td><td>$11.3B</td></tr><tr><td>Exports</td><td>21</td><td>Saudi Arabia</td><td>2024</td><td>6.126</td><td>3,904</td><td>$296.2B</td></tr><tr><td>Exports</td><td>22</td><td>Zimbabwe</td><td>2024</td><td>6.100</td><td>2,019</td><td>$7.4B</td></tr><tr><td>Exports</td><td>23</td><td>Zambia</td><td>2024</td><td>6.047</td><td>2,434</td><td>$11.3B</td></tr><tr><td>Exports</td><td>24</td><td>Gambia</td><td>2024</td><td>5.895</td><td>1,249</td><td>$49.6M</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>Metric pages share the same validated Cadot download bundle.</p></div>
       <div class="download-grid"><a href="../assets/downloads/metric_headline_product_panel.csv">metric_headline_product_panel.csv</a><a href="../assets/downloads/metric_yearly_summary.csv">metric_yearly_summary.csv</a><a href="../assets/downloads/metric_latest_rankings.csv">metric_latest_rankings.csv</a><a href="../assets/downloads/validation_checks.csv">validation_checks.csv</a><a href="../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a></div>
     </section>
     
   </main>
   
-    <footer class="site-footer">
-      <div>
-        <strong>Three linked metric sites</strong>
-        <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families.</p>
-      </div>
-      <div class="footer-links">
-        <a href="../gini/">Gini site</a>
-        <a href="../theil/">Theil site</a>
-        <a href="../hhi/">HHI site</a>
-        <a href="../exercises/">Exercises</a>
-        <a href="../downloads/">Downloads</a>
-      </div>
-    </footer>
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../gini/">Gini</a>
+      <a href="../theil/">Theil</a>
+      <a href="../hhi/">HHI</a>
+      <a href="../exercises/">Exercise index</a>
+      <a href="../downloads/">Downloads</a>
+    </div>
+  </footer>
     
+  <script src="../assets/vendor/plotly.min.js"></script>
+  <script src="../assets/site-data.js?v=202606171423470000"></script>
+  <script src="../assets/site.js?v=202606171423470000"></script>
 </body>
 </html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 11: Leave-One-Out Product Contributions | Trade Concentration</title>
+  <link rel="stylesheet" href="../../assets/site.css?v=202606171423470000">
+</head>
+<body class="cadot-site" data-page="cadot-theil-exercise-11" data-metric="theil">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../../index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a href="../../index.html">Hub</a><a href="../../gini/">Gini</a><a class="active" href="../../theil/">Theil</a><a href="../../hhi/">HHI</a><a href="../../exercises/">Exercises</a><a href="../../downloads/">Downloads</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-title">
+      <div class="eyebrow">Theil Exercise 11</div>
+      <h1>Exercise 11: Leave-One-Out Product Contributions</h1>
+      <p>Which products drive concentration, and do those concentration-driving imports map to exports?</p>
+      <div class="metric-switch"><a href="../../gini/exercises/exercise-11.html">Gini</a><a class="active" href="../../theil/exercises/exercise-11.html">Theil</a><a href="../../hhi/exercises/exercise-11.html">HHI</a></div>
+      <div class="subnav-chips"><a href="../../theil/exercises/exercise-01.html">Ex. 1</a><a href="../../theil/exercises/exercise-02.html">Ex. 2</a><a href="../../theil/exercises/exercise-03.html">Ex. 3</a><a href="../../theil/exercises/exercise-04.html">Ex. 4</a><a href="../../theil/exercises/exercise-06.html">Ex. 6</a><a href="../../theil/exercises/exercise-10.html">Ex. 10</a><a class="active" href="../../theil/exercises/exercise-11.html">Ex. 11</a><a href="../../theil/exercises/exercise-12.html">Ex. 12</a></div>
+    </section>
+    <section class="section hypothesis-section">
+      <div class="exercise-callout"><p>HS6 999999 remains excluded before conversion; tables show LT/HGL-weighted HS1992 product-family labels.</p></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Theil. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
+      <div class="chart-grid">
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Contribution scale</h3>
+            <p>How large are leave-one-out product contributions through time?</p>
+          </div>
+          <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise11-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label></div>
+        </div>
+        <div id="exercise11-trend" class="chart js-plotly-plot"></div>
+      </article>
+    
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Top latest products</h3>
+            <p>Which products drive the largest absolute contributions?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="exercise11-top" class="chart js-plotly-plot"></div>
+      </article>
+    </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cross-Metric Snapshot</h2><p>The selected site is metric-first, but the same harmonized exercise exists for all three metrics.</p></div>
+      <div class="stat-grid">
+            <article class="stat-card">
+              <span>Gini</span>
+              <strong>n/a</strong>
+              <small>Active-positive Gini over observed positive trade values. No numeric metric column found.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>Theil</span>
+              <strong>n/a</strong>
+              <small>Fixed-universe Theil with inactive products represented through the flow-specific product universe. No numeric metric column found.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>HHI</span>
+              <strong>n/a</strong>
+              <small>Herfindahl-Hirschman index, the sum of squared item shares. No numeric metric column found.</small>
+            </article>
+            </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Cadot Figure Set</h2><p>These figures are required by the Cadot build; the build now fails if any referenced asset is missing.</p></div>
+      <div class="figure-stack"><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex11_coefficients.png"><img src="../../assets/figures/ex11_coefficients.png" alt="Latest-year median absolute leave-one-out product contribution by metric and flow in the Cadot rerun."></a>
+            <figcaption>Latest-year median absolute leave-one-out product contribution by metric and flow in the Cadot rerun.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex11_export_linkage_4pct.png"><img src="../../assets/figures/ex11_export_linkage_4pct.png" alt="Latest-year product trade values by equal-count leave-one-out contribution bins in the Cadot rerun."></a>
+            <figcaption>Latest-year product trade values by equal-count leave-one-out contribution bins in the Cadot rerun.</figcaption>
+          </figure>
+                </div><div class="figure-row">
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex11_hs2_linkage_4pct.png"><img src="../../assets/figures/ex11_hs2_linkage_4pct.png" alt="Latest-year HS2 trade values by equal-count summed leave-one-out contribution bins in the Cadot rerun."></a>
+            <figcaption>Latest-year HS2 trade values by equal-count summed leave-one-out contribution bins in the Cadot rerun.</figcaption>
+          </figure>
+                
+          <figure>
+            <a class="figure-link" href="../../assets/figures/ex11_india_supplier_scatter.png"><img src="../../assets/figures/ex11_india_supplier_scatter.png" alt="India latest-year product trade values against absolute leave-one-out contributions in the Cadot rerun."></a>
+            <figcaption>India latest-year product trade values against absolute leave-one-out contributions in the Cadot rerun.</figcaption>
+          </figure>
+                </div></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Evidence Table</h2><p>Metric-focused table for the selected exercise page.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>HS1992 product family</th><th>Countries</th><th>Median abs. contribution</th><th>Max abs. contribution</th></tr></thead><tbody><tr><td>Exports</td><td>HS1992 270900</td><td>64</td><td>0.152</td><td>3.924</td></tr><tr><td>Imports</td><td>HS1992 890392</td><td>17</td><td>0.008</td><td>2.919</td></tr><tr><td>Exports</td><td>HS1992 180100</td><td>22</td><td>0.036</td><td>2.905</td></tr><tr><td>Imports</td><td>HS1992 270900</td><td>91</td><td>0.172</td><td>2.793</td></tr><tr><td>Exports</td><td>HS1992 710210</td><td>10</td><td>0.022</td><td>2.723</td></tr><tr><td>Exports</td><td>HS1992 160414</td><td>17</td><td>0.050</td><td>2.412</td></tr><tr><td>Exports</td><td>HS1992 260300</td><td>35</td><td>0.026</td><td>2.409</td></tr><tr><td>Exports</td><td>HS1992 520100</td><td>37</td><td>0.028</td><td>2.374</td></tr><tr><td>Exports</td><td>HS1992 710812</td><td>82</td><td>0.030</td><td>2.301</td></tr><tr><td>Exports</td><td>HS1992 090500</td><td>7</td><td>0.056</td><td>2.252</td></tr><tr><td>Imports</td><td>HS1992 871190</td><td>7</td><td>0.006</td><td>2.239</td></tr><tr><td>Exports</td><td>HS1992 710813</td><td>58</td><td>0.027</td><td>2.123</td></tr><tr><td>Exports</td><td>HS1992 710231</td><td>19</td><td>0.027</td><td>2.105</td></tr><tr><td>Exports</td><td>HS1992 710121</td><td>2</td><td>1.277</td><td>2.055</td></tr><tr><td>Exports</td><td>HS1992 854211</td><td>36</td><td>0.026</td><td>2.050</td></tr><tr><td>Imports</td><td>HS1992 300439</td><td>42</td><td>0.003</td><td>2.025</td></tr><tr><td>Exports</td><td>HS1992 880330</td><td>85</td><td>0.011</td><td>1.968</td></tr><tr><td>Exports</td><td>HS1992 854449</td><td>17</td><td>0.006</td><td>1.822</td></tr><tr><td>Exports</td><td>HS1992 854430</td><td>37</td><td>0.019</td><td>1.804</td></tr><tr><td>Exports</td><td>HS1992 490700</td><td>42</td><td>0.025</td><td>1.801</td></tr><tr><td>Exports</td><td>HS1992 760110</td><td>31</td><td>0.020</td><td>1.786</td></tr><tr><td>Exports</td><td>HS1992 261210</td><td>5</td><td>0.082</td><td>1.779</td></tr><tr><td>Exports</td><td>HS1992 271000</td><td>138</td><td>0.038</td><td>1.724</td></tr><tr><td>Imports</td><td>HS1992 710231</td><td>17</td><td>0.024</td><td>1.724</td></tr><tr><td>Exports</td><td>HS1992 540834</td><td>2</td><td>0.057</td><td>1.675</td></tr><tr><td>Imports</td><td>HS1992 710812</td><td>46</td><td>0.019</td><td>1.664</td></tr><tr><td>Imports</td><td>HS1992 854211</td><td>59</td><td>0.013</td><td>1.613</td></tr><tr><td>Exports</td><td>HS1992 970110</td><td>17</td><td>0.009</td><td>1.580</td></tr><tr><td>Imports</td><td>HS1992 890399</td><td>17</td><td>0.004</td><td>1.554</td></tr><tr><td>Exports</td><td>HS1992 300490</td><td>98</td><td>0.019</td><td>1.541</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>All downloads are Cadot-only staging artifacts from the harmonized rerun.</p></div>
+      <div class="download-grid"><a href="../../assets/downloads/exercise_11_top_product_loo_contributions.csv.gz">exercise_11_top_product_loo_contributions.csv.gz</a><a href="../../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+    </section>
+    
+  </main>
+  
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../../gini/">Gini</a>
+      <a href="../../theil/">Theil</a>
+      <a href="../../hhi/">HHI</a>
+      <a href="../../exercises/">Exercise index</a>
+      <a href="../../downloads/">Downloads</a>
+    </div>
+  </footer>
+    
+  <script src="../../assets/vendor/plotly.min.js"></script>
+  <script src="../../assets/site-data.js?v=202606171423470000"></script>
+  <script src="../../assets/site.js?v=202606171423470000"></script>
+</body>
+</html>

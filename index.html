@@ -4,57 +4,150 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hub | Trade Concentration</title>
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=202606171423460000">
 </head>
-<body class="cadot-site" data-page="hub">
+<body class="cadot-site" data-page="cadot-hub" data-metric="">
   <header class="site-header">
-    <a class="brand" href="index.html">Trade Concentration</a>
-    <nav><a class="active" href="index.html">Hub</a><a href="gini/">Gini</a><a href="theil/">Theil</a><a href="hhi/">HHI</a><a href="exercises/">Exercises</a><a href="downloads/">Downloads</a></nav>
+    <div class="header-inner">
+      <a class="brand" href="index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a class="active" href="index.html">Hub</a><a href="gini/">Gini</a><a href="theil/">Theil</a><a href="hhi/">HHI</a><a href="exercises/">Exercises</a><a href="downloads/">Downloads</a></nav>
+    </div>
   </header>
   <main>
-    
+
     <section class="hero">
-      <div class="eyebrow">Harmonized Cadot 156 three-metric bundle</div>
+      <div class="eyebrow">Cadot 156 graph-rich three-site bundle</div>
       <h1>Trade Concentration Across Gini, Theil, and HHI</h1>
-      <p>Three linked sites built from one harmonized LT/HGL HS1992/H0 Cadot-style 156-reporter run. Product-dependent outputs use the 2000-2024 union of positive world_broad harmonized product-family support by flow; missing reporter products are zeros for fixed-universe Theil.</p>
+      <p>Three graph-rich metric sites built from the harmonized Cadot 156 rerun. Product-dependent outputs use LT/HGL-weighted HS1992/H0 product families; Theil uses the world_broad fixed universe by flow.</p>
       <div class="stat-grid">
         <article class="stat-card"><span>Reporters</span><strong>156</strong><small>Cadot-style broad sample</small></article>
-        <article class="stat-card"><span>Raw files</span><strong>3,787</strong><small>Final annual files processed</small></article>
-        <article class="stat-card"><span>Validation</span><strong>11/11</strong><small>Hard checks passed</small></article>
+        <article class="stat-card"><span>Raw files</span><strong>3,787</strong><small>Final Comtrade files processed</small></article>
+        <article class="stat-card"><span>Product universe</span><strong>5,037</strong><small>HS1992/H0 families per flow</small></article>
+      </div>
+      <div class="metric-switch">
+        <a href="gini/">Open Gini</a>
+        <a href="theil/">Open Theil</a>
+        <a href="hhi/">Open HHI</a>
       </div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Metric Sites</h2><p>Each site links back to the others at the bottom and includes exercise-page links.</p></div>
-      <div class="metric-band">
-        <a href="gini/"><strong>Gini</strong><br><span>Active-positive Gini reference convention.</span></a>
-        <a href="theil/"><strong>Theil</strong><br><span>Fixed-universe product Theil with inactive margin.</span></a>
-        <a href="hhi/"><strong>HHI</strong><br><span>Raw sum of squared shares on [0,1].</span></a>
+      <div class="section-heading"><h2>Cadot Overview</h2><p>The hub compares the three metrics directly; each metric site then carries its own exercise pages.</p></div>
+      <div class="chart-grid">
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Median concentration paths</h3>
+            <p>How do median product concentration paths compare across the three metrics and two flows?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="hub-trend-chart" class="chart js-plotly-plot"></div>
+      </article>
+    
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Latest median comparison</h3>
+            <p>How do the latest export and import medians line up by metric?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        <div id="hub-latest-chart" class="chart js-plotly-plot"></div>
+      </article>
+    
       </div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Latest Product-Metric Medians</h2><p>LT/HGL-weighted HS1992/H0 product-family rows.</p></div>
-      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Year</th><th>Countries</th><th>Median Gini</th><th>Median Theil</th><th>Median HHI</th></tr></thead><tbody><tr><td>Exports</td><td>2024</td><td>132</td><td>0.963</td><td>4.449</td><td>0.054</td></tr><tr><td>Imports</td><td>2024</td><td>132</td><td>0.892</td><td>2.680</td><td>0.015</td></tr></tbody></table></div>
+      <div class="section-heading"><h2>Metric Sites</h2><p>Each site has its own metric-local overview and exercise pages.</p></div>
+      <div class="link-grid three-up">
+        <a class="metric-link-card" href="gini/"><span>Metric site</span><strong>Gini</strong><small>Active-positive product Gini with full exercise coverage.</small></a>
+        <a class="metric-link-card" href="theil/"><span>Metric site</span><strong>Theil</strong><small>Fixed-universe product Theil plus a separate cell appendix.</small></a>
+        <a class="metric-link-card" href="hhi/"><span>Metric site</span><strong>HHI</strong><small>Raw Herfindahl-Hirschman concentration with the same exercise coverage.</small></a>
+      </div>
     </section>
     <section class="section">
-      <div class="section-heading"><h2>Exercises</h2><p>Every Gini exercise has been rerun or ported for Theil and HHI.</p></div>
-      <div class="link-grid"><a class="link-card" href="exercises/exercise-01.html"><span>Exercise 01</span><strong>Persistent Aggregate Concentration</strong><small>metric_headline_product_panel.csv</small></a><a class="link-card" href="exercises/exercise-02.html"><span>Exercise 02</span><strong>Concentration Buckets And Growth</strong><small>exercise_02_bucket_growth_summary.csv</small></a><a class="link-card" href="exercises/exercise-03.html"><span>Exercise 03</span><strong>Import-Bin Concentration</strong><small>exercise_03_import_bin_metrics.csv</small></a><a class="link-card" href="exercises/exercise-04.html"><span>Exercise 04</span><strong>Dominant Suppliers</strong><small>exercise_04_dominant_supplier_summary.csv</small></a><a class="link-card" href="exercises/exercise-06.html"><span>Exercise 06</span><strong>HS2 Exclusion Sensitivity</strong><small>exercise_06_exclusion_metrics.csv</small></a><a class="link-card" href="exercises/exercise-10.html"><span>Exercise 10</span><strong>Random Benchmarks</strong><small>exercise_10_random_benchmarks.csv</small></a><a class="link-card" href="exercises/exercise-11.html"><span>Exercise 11</span><strong>Leave-One-Out Product Contributions</strong><small>exercise_11_top_product_loo_contributions.csv.gz</small></a><a class="link-card" href="exercises/exercise-12.html"><span>Exercise 12</span><strong>Growth Decomposition</strong><small>exercise_12_growth_decomposition_summary.csv</small></a></div>
+      <div class="section-heading"><h2>Exercise Matrix</h2><p>Every exercise is reachable through all three metric routes.</p></div>
+      <div class="link-grid">
+        
+      <article class="exercise-card">
+        <span>Exercise 01</span>
+        <strong>Persistent Aggregate Concentration</strong>
+        <small>Is trade concentration a persistent country-panel fact rather than a one-year cross-section artifact?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-01.html">Gini</a> <a href="theil/exercises/exercise-01.html">Theil</a> <a href="hhi/exercises/exercise-01.html">HHI</a></div>
+      </article>
+            
+      <article class="exercise-card">
+        <span>Exercise 02</span>
+        <strong>Concentration Buckets And Growth</strong>
+        <small>Do high-concentration export states predict meaningfully different later export-growth paths?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-02.html">Gini</a> <a href="theil/exercises/exercise-02.html">Theil</a> <a href="hhi/exercises/exercise-02.html">HHI</a></div>
+      </article>
+            
+      <article class="exercise-card">
+        <span>Exercise 03</span>
+        <strong>Import-Bin Concentration</strong>
+        <small>Which import bins carry concentration: energy, intermediates, capital goods, or final consumption?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-03.html">Gini</a> <a href="theil/exercises/exercise-03.html">Theil</a> <a href="hhi/exercises/exercise-03.html">HHI</a></div>
+      </article>
+            
+      <article class="exercise-card">
+        <span>Exercise 04</span>
+        <strong>Dominant Suppliers</strong>
+        <small>How much import concentration reflects dominant source countries within products?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-04.html">Gini</a> <a href="theil/exercises/exercise-04.html">Theil</a> <a href="hhi/exercises/exercise-04.html">HHI</a></div>
+      </article>
+            
+      <article class="exercise-card">
+        <span>Exercise 06</span>
+        <strong>HS2 Exclusion Sensitivity</strong>
+        <small>Does concentration mostly disappear after removing obvious lumpy HS2 sectors?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-06.html">Gini</a> <a href="theil/exercises/exercise-06.html">Theil</a> <a href="hhi/exercises/exercise-06.html">HHI</a></div>
+      </article>
+            
+      <article class="exercise-card">
+        <span>Exercise 10</span>
+        <strong>Random Benchmarks</strong>
+        <small>Is observed concentration higher than sparse-data or HS2-preserving random benchmarks?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-10.html">Gini</a> <a href="theil/exercises/exercise-10.html">Theil</a> <a href="hhi/exercises/exercise-10.html">HHI</a></div>
+      </article>
+            
+      <article class="exercise-card">
+        <span>Exercise 11</span>
+        <strong>Leave-One-Out Product Contributions</strong>
+        <small>Which products drive concentration, and do those concentration-driving imports map to exports?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-11.html">Gini</a> <a href="theil/exercises/exercise-11.html">Theil</a> <a href="hhi/exercises/exercise-11.html">HHI</a></div>
+      </article>
+            
+      <article class="exercise-card">
+        <span>Exercise 12</span>
+        <strong>Growth Decomposition</strong>
+        <small>Does later export growth come from new products, new partners, new cells, or incumbent growth?</small>
+        <div class="inline-link-row"><a href="gini/exercises/exercise-12.html">Gini</a> <a href="theil/exercises/exercise-12.html">Theil</a> <a href="hhi/exercises/exercise-12.html">HHI</a></div>
+      </article>
+            
+      </div>
     </section>
     
   </main>
   
-    <footer class="site-footer">
-      <div>
-        <strong>Three linked metric sites</strong>
-        <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families.</p>
-      </div>
-      <div class="footer-links">
-        <a href="gini/">Gini site</a>
-        <a href="theil/">Theil site</a>
-        <a href="hhi/">HHI site</a>
-        <a href="exercises/">Exercises</a>
-        <a href="downloads/">Downloads</a>
-      </div>
-    </footer>
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="gini/">Gini</a>
+      <a href="theil/">Theil</a>
+      <a href="hhi/">HHI</a>
+      <a href="exercises/">Exercise index</a>
+      <a href="downloads/">Downloads</a>
+    </div>
+  </footer>
     
+  <script src="assets/vendor/plotly.min.js"></script>
+  <script src="assets/site-data.js?v=202606171423460000"></script>
+  <script src="assets/site.js?v=202606171423460000"></script>
 </body>
 </html>
