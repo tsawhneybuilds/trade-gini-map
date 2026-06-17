@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 1: Persistent Aggregate Concentration | Trade Concentration</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="cadot-site" data-page="exercises">
+  <header class="site-header">
+    <a class="brand" href="../index.html">Trade Concentration</a>
+    <nav><a href="../index.html">Hub</a><a href="../gini/">Gini</a><a href="../theil/">Theil</a><a href="../hhi/">HHI</a><a class="active" href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+  </header>
+  <main>
+    
+    <section class="page-title">
+      <div class="eyebrow">Exercise 01</div>
+      <h1>Exercise 1: Persistent Aggregate Concentration</h1>
+      <p>Is trade concentration a persistent country-panel fact rather than a one-year cross-section artifact?</p>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Metric Results</h2><p>Gini, fixed-universe product Theil, and raw HHI are computed on harmonized HS1992/H0 product-family outputs where product identity matters.</p></div>
+      <div class="stat-grid">
+            <article class="stat-card">
+              <span>Gini</span>
+              <strong>0.914</strong>
+              <small>Active-positive Gini over observed positive trade values. Median gini across 7,509 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>Theil</span>
+              <strong>3.132</strong>
+              <small>Fixed-universe Theil with inactive products represented through the flow-specific product universe. Median theil across 7,509 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>HHI</span>
+              <strong>0.025</strong>
+              <small>Herfindahl-Hirschman index, the sum of squared item shares. Median hhi across 7,509 rows.</small>
+            </article>
+            </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Evidence Table</h2><p>Use the Cadot-style Gini/Theil/HHI panel as the common headline panel; compare products, partners, and cells on common available rows.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Year</th><th>Countries</th><th>Median Gini</th><th>Median Theil</th><th>Median HHI</th></tr></thead><tbody><tr><td>Exports</td><td>2024</td><td>132</td><td>0.963</td><td>4.449</td><td>0.054</td></tr><tr><td>Imports</td><td>2024</td><td>132</td><td>0.892</td><td>2.680</td><td>0.015</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>Sample: Cadot-style 156 reporters, 2000-2024, available-observation rows with complete-case flags where relevant.</p></div>
+      <p class="callout">Product-dependent calculations exclude HS6 <strong>999999</strong> before LT/HGL weighted conversion to HS1992/H0 product families. Partner-only concentration follows the partner-total convention and excludes partner code 0.</p>
+      <div class="download-grid"><a href="../assets/downloads/metric_headline_product_panel.csv">metric_headline_product_panel.csv</a><a href="../assets/downloads/metric_yearly_summary.csv">metric_yearly_summary.csv</a><a href="../assets/downloads/metric_latest_rankings.csv">metric_latest_rankings.csv</a><a href="../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+    </section>
+    
+  </main>
+  
+    <footer class="site-footer">
+      <div>
+        <strong>Three linked metric sites</strong>
+        <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../gini/">Gini site</a>
+        <a href="../theil/">Theil site</a>
+        <a href="../hhi/">HHI site</a>
+        <a href="../exercises/">Exercises</a>
+        <a href="../downloads/">Downloads</a>
+      </div>
+    </footer>
+    
+</body>
+</html>

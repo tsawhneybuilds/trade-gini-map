@@ -1,4 +1,0 @@
-model_label,outcome,term,coef,std_error,t_stat,p_value,nobs,candidate_rows,clusters,fixed_effects,cluster_col,status
-old_cone_exit_hs4_lpm,exit_next_window,mismatch_log_income_minus_prody,-0.006831343577427377,0.006436898005138296,-1.0612788290220245,0.29328680400145973,831633,831659,55,"reporter_code,product_id,base_year",reporter_code,ok
-old_cone_exit_hs4_lpm,exit_next_window,rich_side_ct,0.03193411715704839,0.055121549700760955,0.5793399737563536,0.5647689428335135,831633,831659,55,"reporter_code,product_id,base_year",reporter_code,ok
-old_cone_exit_hs4_lpm,exit_next_window,mismatch_x_rich_side,0.023420579685844878,0.00660167636438135,3.547671590235497,0.000813096468137933,831633,831659,55,"reporter_code,product_id,base_year",reporter_code,ok

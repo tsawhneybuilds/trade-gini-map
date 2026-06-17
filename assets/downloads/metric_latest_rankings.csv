@@ -1,0 +1,793 @@
+metric,rank,country,iso3,reporter_code,year,flow,metric_value,active_count,universe_count,total_trade_value,product_id_mode,harmonization_method
+gini,1,Angola,AGO,24,2024,Exports,0.998111462814925,3064,5037,39249519520.62001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,2,Guyana,GUY,328,2024,Exports,0.9978541656007824,2091,5037,22409479415.308002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,3,Kuwait,KWT,414,2024,Exports,0.995917525797752,3103,5037,75946817071.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,4,Burkina Faso,BFA,854,2024,Exports,0.9956836037998726,1780,5037,5642107004.335999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,5,Azerbaijan,AZE,31,2024,Exports,0.9949153916417881,2472,5037,26404676883.3,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,6,Algeria,DZA,12,2024,Exports,0.9946543824511593,1424,5037,51857390719.05601,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,7,Nigeria,NGA,566,2024,Exports,0.9938557894419997,880,5037,52351681082.402,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,8,Brunei Darussalam,BRN,96,2024,Exports,0.9927094106143948,1248,5037,11252209657.197998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,9,Zimbabwe,ZWE,716,2024,Exports,0.992463280571783,2019,5037,7422001438.788,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,10,Mozambique,MOZ,508,2024,Exports,0.9919188266309431,2344,5037,8191933249.9,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,11,Malawi,MWI,454,2024,Exports,0.9911835622311962,1715,5037,958116143.4270002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,12,Seychelles,SYC,690,2024,Exports,0.99075735156379,638,5037,593393777.056,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,13,Ecuador,ECU,218,2024,Exports,0.9905230498952027,3134,5037,31530010385.667004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,14,Côte d'Ivoire,CIV,384,2024,Exports,0.990397907821023,3030,5037,20548862153.446003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,15,Qatar,QAT,634,2024,Exports,0.9901944087513224,139,5037,15848464218.882,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,16,Gambia,GMB,270,2024,Exports,0.9895474929630741,1249,5037,49641899.477000006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,17,Oman,OMN,512,2024,Exports,0.9890385843355971,3631,5037,65132170813.50201,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,18,Trinidad and Tobago,TTO,780,2024,Exports,0.9877198364014532,2937,5037,7858837882.755,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,19,Zambia,ZMB,894,2024,Exports,0.9871377294442214,2434,5037,11273958331.748001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,20,Niger,NER,562,2024,Exports,0.9871311465848653,516,5037,1007786657.4239998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,21,Saudi Arabia,SAU,682,2024,Exports,0.9870663793879908,3904,5037,296208477100.22504,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,22,Benin,BEN,204,2024,Exports,0.9869190282356579,1727,5037,1105094844.3560002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,23,Jamaica,JAM,388,2024,Exports,0.9868631236314396,2203,5037,1903859734.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,24,Iceland,ISL,352,2024,Exports,0.9857369089754495,2555,5037,6872368527.741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,25,Bolivia (Plurinational State of),BOL,68,2024,Exports,0.985525523606738,1671,5037,9058056656.2,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,26,Nicaragua,NIC,558,2024,Exports,0.9854261627095162,2650,5037,7521851616.500001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,27,Peru,PER,604,2024,Exports,0.9839224018962451,3878,5037,74053783276.54001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,28,Namibia,NAM,516,2024,Exports,0.9838087706932743,3315,5037,6533083288.871,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,29,Paraguay,PRY,600,2024,Exports,0.9835393345111698,2378,5037,10914401725.484999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,30,Bahamas,BHS,44,2024,Exports,0.9819985763737313,1663,5037,944235435.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,31,Cyprus,CYP,196,2024,Exports,0.9814403054531824,2433,5037,5558763576.276001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,32,Mauritania,MRT,478,2024,Exports,0.9811938005854879,333,5037,4149547480.407,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,33,Chile,CHL,152,2024,Exports,0.9809375098944728,3849,5037,98849400484.64401,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,34,Uruguay,URY,858,2024,Exports,0.9803389164867986,2595,5037,10248387373.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,35,Kazakhstan,KAZ,398,2024,Exports,0.9802569581068594,4062,5037,81605584036.53,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,36,Bahrain,BHR,48,2024,Exports,0.980224058586632,3342,5037,12405558616.224998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,37,Uganda,UGA,800,2024,Exports,0.9796066443280775,2741,5037,8039344375.929998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,38,Norway,NOR,579,2024,Exports,0.9792291230469066,4216,5037,163003956947.217,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,39,Armenia,ARM,51,2024,Exports,0.9791684557469444,3202,5037,13070809687.663998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,40,Malta,MLT,470,2024,Exports,0.9790933628863714,2523,5037,3728337137.9519997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,41,Senegal,SEN,686,2024,Exports,0.9785919862468719,2690,5037,6305879310.251,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,42,United Rep. of Tanzania,TZA,834,2024,Exports,0.9783521534312511,3045,5037,8702027903.891,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,43,Australia,AUS,36,2024,Exports,0.9779723470097812,4603,5037,332797921577.225,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,44,Ireland,IRL,372,2024,Exports,0.9769054597594924,4504,5037,241995087870.668,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,45,Lesotho,LSO,426,2024,Exports,0.9768522298062321,1801,5037,1004368215.3760002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,46,Madagascar,MDG,450,2024,Exports,0.9764307115726747,2486,5037,2550850031.788,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,47,Suriname,SUR,740,2024,Exports,0.9764020383476482,957,5037,1474376618.1499999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,48,Honduras,HND,340,2024,Exports,0.9746987567056515,2883,5037,6970519872.369999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,49,Samoa,WSM,882,2024,Exports,0.9733622019941075,944,5037,41065343.626,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,50,Costa Rica,CRI,188,2024,Exports,0.9730104190292037,3446,5037,19880341333.983,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,51,"China, Hong Kong SAR",HKG,344,2024,Exports,0.9723060896218516,4275,5037,638725748320.2859,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,52,Colombia,COL,170,2024,Exports,0.9718920565828371,4091,5037,49546391713.549995,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,53,Morocco,MAR,504,2024,Exports,0.971042427882786,3733,5037,80525530850.75201,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,54,Belize,BLZ,84,2024,Exports,0.9704882232158079,651,5037,282037866.724,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,55,Bermuda,BMU,60,2024,Exports,0.9696188338446312,806,5037,42187407.150000006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,56,Montserrat,MSR,500,2024,Exports,0.969498000772965,142,5037,6145994.407000001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,57,Dominican Rep.,DOM,214,2024,Exports,0.9694227901138124,3078,5037,12767215664.732,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,58,Montenegro,MNE,499,2024,Exports,0.9664562680125279,2061,5037,660673118.52,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,59,Georgia,GEO,268,2024,Exports,0.9658998836874266,2911,5037,6404012465.124,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,60,Fiji,FJI,242,2024,Exports,0.965268338722127,2314,5037,923874691.2559999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,61,Barbados,BRB,52,2024,Exports,0.965264769213104,1630,5037,488641831.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,62,Switzerland,CHE,757,2024,Exports,0.9645505440175262,4786,5037,440834767933.728,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,63,North Macedonia,MKD,807,2024,Exports,0.9637386289091223,3568,5037,8413033233.21,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,64,"China, Macao SAR",MAC,446,2024,Exports,0.9636844900229005,940,5037,959915111.8460002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,65,Brazil,BRA,76,2024,Exports,0.9634663547149755,4495,5037,309859621309.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,66,Kyrgyzstan,KGZ,417,2024,Exports,0.9631463726755267,2552,5037,3685343515.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,67,Argentina,ARG,32,2024,Exports,0.962127227927231,1289,5037,54871851873.14001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,68,New Zealand,NZL,554,2024,Exports,0.9620070926059228,4252,5037,42045166653.341,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,69,Ukraine,UKR,804,2024,Exports,0.9590691002493581,4029,5037,41587217109.350006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,70,Singapore,SGP,702,2024,Exports,0.9586894422951162,4704,5037,470216803889.966,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,71,Mauritius,MUS,480,2024,Exports,0.9584591980723303,2617,5037,1719829164.4129999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,72,Kenya,KEN,404,2024,Exports,0.9580760419552175,3841,5037,8255120905.655001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,73,Jordan,JOR,400,2024,Exports,0.9570971635097703,2878,5037,13250440376.034,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,74,Pakistan,PAK,586,2024,Exports,0.9570217434362795,3562,5037,32434332508.33,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,75,Philippines,PHL,608,2024,Exports,0.9567691472848843,3371,5037,72694507295.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,76,Rep. of Moldova,MDA,498,2024,Exports,0.956074721772048,2868,5037,3553923851.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,77,Togo,TGO,768,2024,Exports,0.9545784652978186,1057,5037,1372307203.722,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,78,Panama,PAN,591,2024,Exports,0.9545206603329599,2171,5037,1158357714.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,79,Sri Lanka,LKA,144,2024,Exports,0.9534117571153089,3482,5037,12109626421.002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,80,Cambodia,KHM,116,2024,Exports,0.9486948990904978,2344,5037,26662107525.473,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,81,Guatemala,GTM,320,2024,Exports,0.9485735150172854,3961,5037,14695977371.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,82,French Polynesia,PYF,258,2024,Exports,0.9485019091053459,80,5037,95570841.14700001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,83,El Salvador,SLV,222,2024,Exports,0.9464936999951601,2914,5037,6311202862.09,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,84,Luxembourg,LUX,442,2024,Exports,0.94637736379623,3962,5037,15301244097.161001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,85,Lebanon,LBN,422,2024,Exports,0.9459285205513384,3101,5037,4264251067.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,86,Indonesia,IDN,360,2024,Exports,0.9451053445865503,4477,5037,266304975038.585,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,87,Grenada,GRD,308,2024,Exports,0.9435431565430197,748,5037,43127763.067,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,88,Malaysia,MYS,458,2024,Exports,0.9435381613091023,4703,5037,328729274734.5,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,89,Maldives,MDV,462,2024,Exports,0.9434468789477775,97,5037,92418497.34699999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,90,Israel,ISR,376,2024,Exports,0.9433038402488299,3529,5037,52071885000.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,91,Slovenia,SVN,705,2024,Exports,0.9381834475462616,4580,5037,66482043683.704,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,92,Tunisia,TUN,788,2024,Exports,0.9377646811608256,3329,5037,19975662776.652,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,93,Greece,GRC,300,2024,Exports,0.9364833837273501,4498,5037,52737269112.649,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,94,South Africa,ZAF,710,2024,Exports,0.9350159145957628,4892,5037,109670728181.42299,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,95,Egypt,EGY,818,2024,Exports,0.9340112916308019,3440,5037,44768217053.403,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,96,Rep. of Korea,KOR,410,2024,Exports,0.9327334803735168,4723,5037,683089471519.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,97,Bosnia Herzegovina,BIH,70,2024,Exports,0.9321089122025437,3607,5037,8893798188.846,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,98,Slovakia,SVK,703,2024,Exports,0.9317427251792927,4498,5037,115322054684.55202,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,99,Mexico,MEX,484,2024,Exports,0.9297591544237536,3455,5037,547592557142.99994,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,100,Central African Rep.,CAF,140,2024,Exports,0.9295966733306626,87,5037,204503822.28,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,101,Canada,CAN,124,2024,Exports,0.9289155170009877,4795,5037,529357830205.096,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,102,Finland,FIN,246,2024,Exports,0.9263779335061719,4242,5037,69501886898.84,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,103,Hungary,HUN,348,2024,Exports,0.9258514366254393,4500,5037,148025178761.34302,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,104,Antigua and Barbuda,ATG,28,2024,Exports,0.9225977987952736,1128,5037,33361871.438,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,105,Romania,ROU,642,2024,Exports,0.9200301614645106,4648,5037,99949430292.95001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,106,Serbia,SRB,688,2024,Exports,0.9197117929992868,4342,5037,32492155169.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,107,Thailand,THA,764,2024,Exports,0.9186940465142619,4727,5037,300759403353.17,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,108,Japan,JPN,392,2024,Exports,0.9144301674054223,4641,5037,647248499603.3369,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,109,Estonia,EST,233,2024,Exports,0.9121061658038743,4103,5037,18551126688.43,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,110,Latvia,LVA,428,2024,Exports,0.9118114063919109,4287,5037,19068065105.308,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,111,Bulgaria,BGR,100,2024,Exports,0.9117082225320985,4413,5037,42917240308.347,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,112,United Kingdom,GBR,826,2024,Exports,0.9108959839428272,4877,5037,494267654806.127,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,113,Lithuania,LTU,440,2024,Exports,0.9107052277092302,4500,5037,38760844600.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,114,Czechia,CZE,203,2024,Exports,0.9050457056990391,4812,5037,258705155452.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,115,Croatia,HRV,191,2024,Exports,0.9048666741173743,4335,5037,25955346807.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,116,Sweden,SWE,752,2024,Exports,0.9039479999166307,4764,5037,187984660379.217,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,117,Portugal,PRT,620,2024,Exports,0.8957809295158718,4671,5037,82538522791.82,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,118,Belgium,BEL,56,2024,Exports,0.8952677162413356,4911,5037,361569942857.322,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,119,India,IND,699,2024,Exports,0.8944302486910951,4857,5037,434415330189.36707,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,120,USA,USA,842,2024,Exports,0.8846524179688109,4947,5037,1861265103937.0002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,121,Denmark,DNK,208,2024,Exports,0.8821764708231243,4690,5037,113813249913.64801,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,122,Albania,ALB,8,2024,Exports,0.8811599646131232,761,5037,2401785065.9500003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,123,Austria,AUT,40,2024,Exports,0.8789539825202923,4712,5037,196833236914.601,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,124,Türkiye,TUR,792,2024,Exports,0.8709464424869915,4843,5037,254982397156.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,125,Poland,POL,616,2024,Exports,0.8699466513861287,4865,5037,379704654454.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,126,Cabo Verde,CPV,132,2024,Exports,0.8672017961517338,39,5037,68245098.95,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,127,Netherlands,NLD,528,2024,Exports,0.8643164969695758,4921,5037,678150400088.062,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,128,France,FRA,251,2024,Exports,0.8638216538538315,4931,5037,644263935532.759,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,129,Spain,ESP,724,2024,Exports,0.8541560796136345,4915,5037,383468213566.261,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,130,Germany,DEU,276,2024,Exports,0.8509962581789274,4848,5037,1572581059596.584,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,131,China,CHN,156,2024,Exports,0.8451283602954272,4863,5037,3479639306679.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,132,Italy,ITA,380,2024,Exports,0.8416703409004445,4848,5037,628773462492.4741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,1,"China, Hong Kong SAR",HKG,344,2024,Imports,0.964651007932898,4466,5037,696384751615.1731,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,2,Brunei Darussalam,BRN,96,2024,Imports,0.9567679850004258,3378,5037,7123794550.046001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,3,Gambia,GMB,270,2024,Imports,0.9539069105680009,2995,5037,988450219.419,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,4,Burkina Faso,BFA,854,2024,Imports,0.9491842374114279,3626,5037,6428761846.702,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,5,Mauritania,MRT,478,2024,Imports,0.9469343048052974,2932,5037,4811430540.477,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,6,Niger,NER,562,2024,Imports,0.9459196008293749,3332,5037,1501192423.948,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,7,Benin,BEN,204,2024,Imports,0.9417406795129715,3631,5037,3363901535.62,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,8,Singapore,SGP,702,2024,Imports,0.9395636488680941,4780,5037,452915359725.97205,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,9,China,CHN,156,2024,Imports,0.9384123187807338,4799,5037,2575856182234.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,10,Uganda,UGA,800,2024,Imports,0.937701802262392,4340,5037,13832924772.85,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,11,Pakistan,PAK,586,2024,Imports,0.9328992067497812,4389,5037,56467161489.035,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,12,Armenia,ARM,51,2024,Imports,0.9303148256713079,4387,5037,16795026899.241999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,13,Nigeria,NGA,566,2024,Imports,0.9286972209547275,4364,5037,39593021295.422005,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,14,Malta,MLT,470,2024,Imports,0.9279923652825965,4526,5037,9442947279.227001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,15,Côte d'Ivoire,CIV,384,2024,Imports,0.9277799924169037,4330,5037,17219302729.824,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,16,Senegal,SEN,686,2024,Imports,0.9268447345475772,4162,5037,11348956799.039,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,17,"China, Macao SAR",MAC,446,2024,Imports,0.9249378109848883,2225,5037,14765080532.807999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,18,Lebanon,LBN,422,2024,Imports,0.9238648857022438,4263,5037,17302339444.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,19,Guyana,GUY,328,2024,Imports,0.9236495180296231,3782,5037,7210493332.705,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,20,Kyrgyzstan,KGZ,417,2024,Imports,0.9229631339361619,4135,5037,11705748368.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,21,Zambia,ZMB,894,2024,Imports,0.9217522161344553,4366,5037,11261976450.303001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,22,Malawi,MWI,454,2024,Imports,0.9216547121626633,4051,5037,3210845719.645,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,23,Central African Rep.,CAF,140,2024,Imports,0.9213171927198038,1883,5037,779447228.9219999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,24,Zimbabwe,ZWE,716,2024,Imports,0.9174489548860876,4222,5037,9467255896.909,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,25,Madagascar,MDG,450,2024,Imports,0.9164030900187001,4176,5037,4795450240.825001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,26,India,IND,699,2024,Imports,0.9161637816694548,4771,5037,696237787539.3981,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,27,United Rep. of Tanzania,TZA,834,2024,Imports,0.9156683949300601,4448,5037,15684503481.074001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,28,Oman,OMN,512,2024,Imports,0.9153899153594898,4636,5037,43442274722.59501,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,29,Switzerland,CHE,757,2024,Imports,0.9135974872206718,4944,5037,366764520548.95496,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,30,Nicaragua,NIC,558,2024,Imports,0.9120820638032616,4083,5037,11463316027.5,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,31,Mozambique,MOZ,508,2024,Imports,0.9105264982828276,4322,5037,9137666103.400002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,32,Slovenia,SVN,705,2024,Imports,0.9104250312784838,4799,5037,74893348302.437,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,33,Angola,AGO,24,2024,Imports,0.9097576456342547,4537,5037,13877313995.48,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,34,Ireland,IRL,372,2024,Imports,0.9086931553903248,4929,5037,144399723001.803,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,35,Jamaica,JAM,388,2024,Imports,0.9078278501773389,4092,5037,7287753164.01,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,36,Cyprus,CYP,196,2024,Imports,0.907236390339295,4365,5037,13315149958.207,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,37,Kenya,KEN,404,2024,Imports,0.9071974565419387,4513,5037,20203093057.8,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,38,Egypt,EGY,818,2024,Imports,0.906870207152344,4568,5037,94634470705.65901,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,39,Bahrain,BHR,48,2024,Imports,0.9053629228599827,4476,5037,15557899390.082,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,40,Lesotho,LSO,426,2024,Imports,0.9050246694877553,4111,5037,1860489643.248,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,41,Togo,TGO,768,2024,Imports,0.904781860874049,2744,5037,2967928810.08,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,42,Namibia,NAM,516,2024,Imports,0.9047019381089683,4573,5037,8876440749.341,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,43,Honduras,HND,340,2024,Imports,0.9045109745381545,4168,5037,14508558215.869999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,44,Cambodia,KHM,116,2024,Imports,0.903398113758201,4288,5037,28678192248.839996,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,45,Samoa,WSM,882,2024,Imports,0.9023620240663799,3063,5037,489557369.445,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,46,Morocco,MAR,504,2024,Imports,0.9011815106133529,4713,5037,96711070144.586,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,47,Bolivia (Plurinational State of),BOL,68,2024,Imports,0.9008274435382493,4275,5037,9899603990.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,48,Iceland,ISL,352,2024,Imports,0.9007121177194475,4616,5037,9835443738.776001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,49,Georgia,GEO,268,2024,Imports,0.9003437473609905,4335,5037,16489789708.664001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,50,Seychelles,SYC,690,2024,Imports,0.9000860935310742,3910,5037,1495419600.066,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,51,Paraguay,PRY,600,2024,Imports,0.899462263116525,4320,5037,17199851893.045002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,52,Jordan,JOR,400,2024,Imports,0.8994527981905756,4162,5037,25115174441.882004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,53,Malaysia,MYS,458,2024,Imports,0.899329055427956,4897,5037,298695905548.438,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,54,Fiji,FJI,242,2024,Imports,0.8987140522859001,4005,5037,2967071515.0039997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,55,Trinidad and Tobago,TTO,780,2024,Imports,0.8979158518165635,4048,5037,7664459762.998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,56,Rep. of Korea,KOR,410,2024,Imports,0.8976088322111198,4917,5037,631727134467.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,57,Cabo Verde,CPV,132,2024,Imports,0.8971309375243022,3551,5037,915583980.3659999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,58,Maldives,MDV,462,2024,Imports,0.8955060034831706,3389,5037,3634394983.2380004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,59,Sri Lanka,LKA,144,2024,Imports,0.8953500079629713,4574,5037,18390817345.496002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,60,Azerbaijan,AZE,31,2024,Imports,0.8949626419717787,4430,5037,21008223820.31,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,61,Bermuda,BMU,60,2024,Imports,0.894834402845111,3926,5037,1124902564.22,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,62,Kuwait,KWT,414,2024,Imports,0.8943739597880933,4512,5037,36781291320.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,63,Bahamas,BHS,44,2024,Imports,0.8939711716694019,4450,5037,4736221771.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,64,Philippines,PHL,608,2024,Imports,0.8936991233364502,4707,5037,134881084425.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,65,Ecuador,ECU,218,2024,Imports,0.8928460273298593,4484,5037,28961887390.518,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,66,Japan,JPN,392,2024,Imports,0.8928106292617348,4847,5037,728895746306.2009,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,67,Mauritius,MUS,480,2024,Imports,0.8907795757280961,4308,5037,6649756609.273999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,68,Panama,PAN,591,2024,Imports,0.8906441167318107,4141,5037,13981644259.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,69,Thailand,THA,764,2024,Imports,0.8903198765481826,4875,5037,307555410756.42,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,70,Belize,BLZ,84,2024,Imports,0.8898460356167752,3752,5037,1452266877.137,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,71,Luxembourg,LUX,442,2024,Imports,0.8896330151302991,4728,5037,23509235821.187,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,72,Montenegro,MNE,499,2024,Imports,0.8895355756978716,4236,5037,4398796515.151,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,73,Slovakia,SVK,703,2024,Imports,0.8867736627887364,4870,5037,115531447921.93799,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,74,Barbados,BRB,52,2024,Imports,0.8866573511713836,4082,5037,2123582342.9999998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,75,El Salvador,SLV,222,2024,Imports,0.8866236700708394,4465,5037,15759361450.61,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,76,North Macedonia,MKD,807,2024,Imports,0.8864667748869568,4412,5037,11949268396.84,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,77,Qatar,QAT,634,2024,Imports,0.8857729165296626,4183,5037,34609879390.95599,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,78,Hungary,HUN,348,2024,Imports,0.8849923370027295,4848,5037,133039000770.38,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,79,Tunisia,TUN,788,2024,Imports,0.8847632577017455,4515,5037,26064018250.816,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,80,Dominican Rep.,DOM,214,2024,Imports,0.8833853045274194,4274,5037,32202775836.274,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,81,Grenada,GRD,308,2024,Imports,0.8825659113751856,3628,5037,633620435.8679999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,82,Greece,GRC,300,2024,Imports,0.8818017546161312,4850,5037,88221403317.517,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,83,Algeria,DZA,12,2024,Imports,0.8811201936419133,4220,5037,47327369554.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,84,Australia,AUS,36,2024,Imports,0.880923044882765,4773,5037,294010309237.514,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,85,Guatemala,GTM,320,2024,Imports,0.8800867050283387,4582,5037,32039662152.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,86,Chile,CHL,152,2024,Imports,0.8795076434985605,4765,5037,83446538706.168,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,87,Suriname,SUR,740,2024,Imports,0.8793918212269973,2958,5037,1746401295.8,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,88,Argentina,ARG,32,2024,Imports,0.8774945065413344,4452,5037,60203954980.2,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,89,Türkiye,TUR,792,2024,Imports,0.8770472032648404,4874,5037,307392038640.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,90,Uruguay,URY,858,2024,Imports,0.8765690247255828,4352,5037,12320021143.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,91,Mexico,MEX,484,2024,Imports,0.8762332166491655,4213,5037,544024732870.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,92,Brazil,BRA,76,2024,Imports,0.875937575910509,4545,5037,274815847217.99997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,93,Belgium,BEL,56,2024,Imports,0.8758378014991,4948,5037,355824764325.36005,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,94,Peru,PER,604,2024,Imports,0.8754870367338423,4564,5037,55026599180.176,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,95,Saudi Arabia,SAU,682,2024,Imports,0.8753973684526704,4731,5037,223702135322.976,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,96,USA,USA,842,2024,Imports,0.8738448819236739,4954,5037,3228754846387.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,97,Montserrat,MSR,500,2024,Imports,0.8725988659905917,2649,5037,45630560.20999999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,98,Israel,ISR,376,2024,Imports,0.8725467445821873,4637,5037,89698654000.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,99,Costa Rica,CRI,188,2024,Imports,0.8724581353012621,4435,5037,23674945696.575,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,100,United Kingdom,GBR,826,2024,Imports,0.8722486167026084,4926,5037,776500283491.749,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,101,Rep. of Moldova,MDA,498,2024,Imports,0.8714288635270546,4300,5037,9044237100.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,102,Lithuania,LTU,440,2024,Imports,0.8695793457226095,4777,5037,42799002225.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,103,New Zealand,NZL,554,2024,Imports,0.8689484441113315,4676,5037,46859202404.083,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,104,Ukraine,UKR,804,2024,Imports,0.8687681710403545,4690,5037,64803937550.67,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,105,South Africa,ZAF,710,2024,Imports,0.8685096987375387,4879,5037,93018419163.67001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,106,Czechia,CZE,203,2024,Imports,0.8681683112370788,4924,5037,229082398703.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,107,Finland,FIN,246,2024,Imports,0.8679223413812511,4744,5037,74023379509.134,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,108,Norway,NOR,579,2024,Imports,0.8651664890297854,4798,5037,97802065418.63899,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,109,Estonia,EST,233,2024,Imports,0.8651118288830546,4711,5037,21365696706.98,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,110,Latvia,LVA,428,2024,Imports,0.8643054971852917,4691,5037,21337298596.557,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,111,Indonesia,IDN,360,2024,Imports,0.864160974574508,4861,5037,233894256322.00003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,112,Sweden,SWE,752,2024,Imports,0.8627861662013239,4883,5037,179824431462.478,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,113,Colombia,COL,170,2024,Imports,0.8625771288656328,4609,5037,63313256717.58,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,114,Bulgaria,BGR,100,2024,Imports,0.8617778994149379,4788,5037,51252015852.716995,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,115,Antigua and Barbuda,ATG,28,2024,Imports,0.8605451049865918,3431,5037,662732555.167,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,116,Croatia,HRV,191,2024,Imports,0.8589458052226746,4816,5037,45447733656.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,117,Kazakhstan,KAZ,398,2024,Imports,0.8589442203229718,4739,5037,59732040910.76,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,118,Bosnia Herzegovina,BIH,70,2024,Imports,0.8565337272102553,4599,5037,15853280486.968,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,119,Netherlands,NLD,528,2024,Imports,0.855152507386439,4968,5037,610779669004.717,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,120,Serbia,SRB,688,2024,Imports,0.8543483524330184,4764,5037,36939782894.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,121,Albania,ALB,8,2024,Imports,0.8507235703765936,3246,5037,8047016586.708,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,122,Canada,CAN,124,2024,Imports,0.8503132484915163,4959,5037,528235421665.057,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,123,Denmark,DNK,208,2024,Imports,0.8488008803180702,4914,5037,121661184714.539,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,124,Germany,DEU,276,2024,Imports,0.8470702339784737,4949,5037,1308896181476.719,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,125,Romania,ROU,642,2024,Imports,0.8434814734596154,4946,5037,136499119417.53,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,126,Spain,ESP,724,2024,Imports,0.8429795866340393,4952,5037,434178361793.97705,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,127,Italy,ITA,380,2024,Imports,0.8414387035363446,4946,5037,583103174155.02,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,128,Portugal,PRT,620,2024,Imports,0.8398867948555915,4919,5037,112374124888.38,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,129,Poland,POL,616,2024,Imports,0.8394567132883015,4921,5037,373568290917.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,130,France,FRA,251,2024,Imports,0.8369082558404226,4969,5037,761699282847.741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,131,Austria,AUT,40,2024,Imports,0.8344252142733439,4907,5037,201941075583.918,harmonized_hs6_family,lt_hgl_weighted_hs1992
+gini,132,French Polynesia,PYF,258,2024,Imports,0.8342854540529174,2433,5037,1306613598.3779998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,1,Qatar,QAT,634,2024,Exports,8.20969295633036,139,5037,15848464218.882,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,2,Guyana,GUY,328,2024,Exports,7.599083280118181,2091,5037,22409479415.308002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,3,Angola,AGO,24,2024,Exports,7.500887276184077,3064,5037,39249519520.62001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,4,Burkina Faso,BFA,854,2024,Exports,7.499889714239363,1780,5037,5642107004.335999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,5,Niger,NER,562,2024,Exports,7.228554793814291,516,5037,1007786657.4239998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,6,Nigeria,NGA,566,2024,Exports,7.207678314717407,880,5037,52351681082.402,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,7,French Polynesia,PYF,258,2024,Exports,7.104570166498483,80,5037,95570841.14700001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,8,Montserrat,MSR,500,2024,Exports,7.070973564075139,142,5037,6145994.407000001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,9,Azerbaijan,AZE,31,2024,Exports,6.971344233123768,2472,5037,26404676883.3,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,10,Seychelles,SYC,690,2024,Exports,6.795922703290335,638,5037,593393777.056,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,11,Kuwait,KWT,414,2024,Exports,6.763853701632523,3103,5037,75946817071.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,12,Cabo Verde,CPV,132,2024,Exports,6.64531019332618,39,5037,68245098.95,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,13,Central African Rep.,CAF,140,2024,Exports,6.629249932199354,87,5037,204503822.28,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,14,Maldives,MDV,462,2024,Exports,6.584394883866077,97,5037,92418497.34699999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,15,Mauritania,MRT,478,2024,Exports,6.530516113752682,333,5037,4149547480.407,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,16,Suriname,SUR,740,2024,Exports,6.514435024000191,957,5037,1474376618.1499999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,17,Bermuda,BMU,60,2024,Exports,6.458676839179608,806,5037,42187407.150000006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,18,Algeria,DZA,12,2024,Exports,6.426876300670131,1424,5037,51857390719.05601,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,19,Malawi,MWI,454,2024,Exports,6.405676071329394,1715,5037,958116143.4270002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,20,Brunei Darussalam,BRN,96,2024,Exports,6.33508504609307,1248,5037,11252209657.197998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,21,Saudi Arabia,SAU,682,2024,Exports,6.125815906056863,3904,5037,296208477100.22504,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,22,Zimbabwe,ZWE,716,2024,Exports,6.100346074001644,2019,5037,7422001438.788,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,23,Zambia,ZMB,894,2024,Exports,6.046834406114703,2434,5037,11273958331.748001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,24,Gambia,GMB,270,2024,Exports,5.895461741053539,1249,5037,49641899.477000006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,25,Benin,BEN,204,2024,Exports,5.844996215616218,1727,5037,1105094844.3560002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,26,Oman,OMN,512,2024,Exports,5.751776023793944,3631,5037,65132170813.50201,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,27,Jamaica,JAM,388,2024,Exports,5.691364183166462,2203,5037,1903859734.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,28,Ecuador,ECU,218,2024,Exports,5.684204491603032,3134,5037,31530010385.667004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,29,Mozambique,MOZ,508,2024,Exports,5.681608732505518,2344,5037,8191933249.9,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,30,Belize,BLZ,84,2024,Exports,5.66757654760296,651,5037,282037866.724,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,31,Kazakhstan,KAZ,398,2024,Exports,5.635930581221772,4062,5037,81605584036.53,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,32,Samoa,WSM,882,2024,Exports,5.633817900502049,944,5037,41065343.626,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,33,Uganda,UGA,800,2024,Exports,5.564245528102949,2741,5037,8039344375.929998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,34,Bahamas,BHS,44,2024,Exports,5.542830859233359,1663,5037,944235435.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,35,Trinidad and Tobago,TTO,780,2024,Exports,5.482456815288803,2937,5037,7858837882.755,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,36,Norway,NOR,579,2024,Exports,5.448905652924605,4216,5037,163003956947.217,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,37,Armenia,ARM,51,2024,Exports,5.4165771466417425,3202,5037,13070809687.663998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,38,Côte d'Ivoire,CIV,384,2024,Exports,5.406204911278728,3030,5037,20548862153.446003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,39,Bolivia (Plurinational State of),BOL,68,2024,Exports,5.405095826984095,1671,5037,9058056656.2,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,40,"China, Macao SAR",MAC,446,2024,Exports,5.367210510426477,940,5037,959915111.8460002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,41,Paraguay,PRY,600,2024,Exports,5.285019675486269,2378,5037,10914401725.484999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,42,Cyprus,CYP,196,2024,Exports,5.263674240897003,2433,5037,5558763576.276001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,43,Iceland,ISL,352,2024,Exports,5.064030316596799,2555,5037,6872368527.741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,44,United Rep. of Tanzania,TZA,834,2024,Exports,5.061586523858502,3045,5037,8702027903.891,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,45,Peru,PER,604,2024,Exports,5.0550532016912735,3878,5037,74053783276.54001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,46,Lesotho,LSO,426,2024,Exports,5.050647501164083,1801,5037,1004368215.3760002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,47,Chile,CHL,152,2024,Exports,5.042180266203089,3849,5037,98849400484.64401,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,48,Australia,AUS,36,2024,Exports,5.0372951356997895,4603,5037,332797921577.225,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,49,Nicaragua,NIC,558,2024,Exports,4.989100061808144,2650,5037,7521851616.500001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,50,Namibia,NAM,516,2024,Exports,4.904122238703156,3315,5037,6533083288.871,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,51,Barbados,BRB,52,2024,Exports,4.8765523799341235,1630,5037,488641831.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,52,Grenada,GRD,308,2024,Exports,4.849266578817361,748,5037,43127763.067,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,53,Kyrgyzstan,KGZ,417,2024,Exports,4.845254517412077,2552,5037,3685343515.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,54,Bahrain,BHR,48,2024,Exports,4.825935592274311,3342,5037,12405558616.224998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,55,Senegal,SEN,686,2024,Exports,4.823890673082108,2690,5037,6305879310.251,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,56,Argentina,ARG,32,2024,Exports,4.747053109586144,1289,5037,54871851873.14001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,57,Colombia,COL,170,2024,Exports,4.714041135552287,4091,5037,49546391713.549995,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,58,Togo,TGO,768,2024,Exports,4.667294398671659,1057,5037,1372307203.722,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,59,Uruguay,URY,858,2024,Exports,4.665803294338836,2595,5037,10248387373.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,60,Malta,MLT,470,2024,Exports,4.644848449705799,2523,5037,3728337137.9519997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,61,Madagascar,MDG,450,2024,Exports,4.572091621239342,2486,5037,2550850031.788,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,62,Honduras,HND,340,2024,Exports,4.548761011017803,2883,5037,6970519872.369999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,63,Costa Rica,CRI,188,2024,Exports,4.53857237386582,3446,5037,19880341333.983,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,64,Montenegro,MNE,499,2024,Exports,4.535727959173565,2061,5037,660673118.52,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,65,Fiji,FJI,242,2024,Exports,4.520191205915356,2314,5037,923874691.2559999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,66,Switzerland,CHE,757,2024,Exports,4.483706294497757,4786,5037,440834767933.728,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,67,Ireland,IRL,372,2024,Exports,4.414074789876947,4504,5037,241995087870.668,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,68,Georgia,GEO,268,2024,Exports,4.411325759070143,2911,5037,6404012465.124,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,69,"China, Hong Kong SAR",HKG,344,2024,Exports,4.378906490923102,4275,5037,638725748320.2859,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,70,Dominican Rep.,DOM,214,2024,Exports,4.277252104382213,3078,5037,12767215664.732,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,71,Panama,PAN,591,2024,Exports,4.215280221897873,2171,5037,1158357714.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,72,Brazil,BRA,76,2024,Exports,4.20652059502633,4495,5037,309859621309.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,73,Antigua and Barbuda,ATG,28,2024,Exports,4.167804840761324,1128,5037,33361871.438,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,74,Mauritius,MUS,480,2024,Exports,4.130283979251038,2617,5037,1719829164.4129999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,75,North Macedonia,MKD,807,2024,Exports,4.0428254443000045,3568,5037,8413033233.21,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,76,Morocco,MAR,504,2024,Exports,4.021480573117688,3733,5037,80525530850.75201,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,77,Slovenia,SVN,705,2024,Exports,3.996315708521193,4580,5037,66482043683.704,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,78,Ukraine,UKR,804,2024,Exports,3.9775268999834967,4029,5037,41587217109.350006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,79,Kenya,KEN,404,2024,Exports,3.943592797907291,3841,5037,8255120905.655001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,80,Jordan,JOR,400,2024,Exports,3.921095341599865,2878,5037,13250440376.034,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,81,Albania,ALB,8,2024,Exports,3.85944637559401,761,5037,2401785065.9500003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,82,Rep. of Moldova,MDA,498,2024,Exports,3.8514009555768594,2868,5037,3553923851.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,83,New Zealand,NZL,554,2024,Exports,3.8222834366145944,4252,5037,42045166653.341,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,84,Philippines,PHL,608,2024,Exports,3.8195120604212773,3371,5037,72694507295.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,85,Singapore,SGP,702,2024,Exports,3.7342828835011894,4704,5037,470216803889.966,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,86,Lebanon,LBN,422,2024,Exports,3.720325864791868,3101,5037,4264251067.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,87,Pakistan,PAK,586,2024,Exports,3.613244093651898,3562,5037,32434332508.33,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,88,Cambodia,KHM,116,2024,Exports,3.570663940000738,2344,5037,26662107525.473,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,89,Greece,GRC,300,2024,Exports,3.469805520472979,4498,5037,52737269112.649,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,90,Sri Lanka,LKA,144,2024,Exports,3.463146927865032,3482,5037,12109626421.002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,91,El Salvador,SLV,222,2024,Exports,3.4512029183675716,2914,5037,6311202862.09,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,92,Malaysia,MYS,458,2024,Exports,3.3602864668257513,4703,5037,328729274734.5,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,93,Guatemala,GTM,320,2024,Exports,3.3434587961054887,3961,5037,14695977371.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,94,Israel,ISR,376,2024,Exports,3.3125866828625905,3529,5037,52071885000.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,95,South Africa,ZAF,710,2024,Exports,3.2946106901618375,4892,5037,109670728181.42299,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,96,Tunisia,TUN,788,2024,Exports,3.285374787642254,3329,5037,19975662776.652,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,97,Indonesia,IDN,360,2024,Exports,3.272956893805246,4477,5037,266304975038.585,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,98,Canada,CAN,124,2024,Exports,3.2704243321405313,4795,5037,529357830205.096,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,99,Luxembourg,LUX,442,2024,Exports,3.2032632678493167,3962,5037,15301244097.161001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,100,Slovakia,SVK,703,2024,Exports,3.1938194404756253,4498,5037,115322054684.55202,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,101,Mexico,MEX,484,2024,Exports,3.135084492699782,3455,5037,547592557142.99994,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,102,Egypt,EGY,818,2024,Exports,3.1277255255576604,3440,5037,44768217053.403,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,103,Rep. of Korea,KOR,410,2024,Exports,3.1184782811072176,4723,5037,683089471519.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,104,United Kingdom,GBR,826,2024,Exports,2.9872066935944206,4877,5037,494267654806.127,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,105,Bosnia Herzegovina,BIH,70,2024,Exports,2.9117201686526903,3607,5037,8893798188.846,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,106,India,IND,699,2024,Exports,2.7856424003459677,4857,5037,434415330189.36707,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,107,Hungary,HUN,348,2024,Exports,2.7804326227215834,4500,5037,148025178761.34302,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,108,Serbia,SRB,688,2024,Exports,2.769174961941042,4342,5037,32492155169.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,109,Finland,FIN,246,2024,Exports,2.7555313986419763,4242,5037,69501886898.84,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,110,Japan,JPN,392,2024,Exports,2.687164482152412,4641,5037,647248499603.3369,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,111,Romania,ROU,642,2024,Exports,2.6633423541138193,4648,5037,99949430292.95001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,112,Lithuania,LTU,440,2024,Exports,2.639093747086055,4500,5037,38760844600.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,113,Bulgaria,BGR,100,2024,Exports,2.6378980954040965,4413,5037,42917240308.347,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,114,Latvia,LVA,428,2024,Exports,2.6346434991968213,4287,5037,19068065105.308,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,115,Thailand,THA,764,2024,Exports,2.5966749399336413,4727,5037,300759403353.17,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,116,Belgium,BEL,56,2024,Exports,2.5834062415894627,4911,5037,361569942857.322,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,117,Czechia,CZE,203,2024,Exports,2.5556023977558042,4812,5037,258705155452.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,118,Estonia,EST,233,2024,Exports,2.5530740596747816,4103,5037,18551126688.43,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,119,Croatia,HRV,191,2024,Exports,2.5053413606084667,4335,5037,25955346807.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,120,Sweden,SWE,752,2024,Exports,2.494866269640075,4764,5037,187984660379.217,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,121,Portugal,PRT,620,2024,Exports,2.4056610607718723,4671,5037,82538522791.82,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,122,USA,USA,842,2024,Exports,2.391981685058865,4947,5037,1861265103937.0002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,123,Austria,AUT,40,2024,Exports,2.1615414197807925,4712,5037,196833236914.601,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,124,Denmark,DNK,208,2024,Exports,2.1481179258629446,4690,5037,113813249913.64801,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,125,Netherlands,NLD,528,2024,Exports,2.1386894928435103,4921,5037,678150400088.062,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,126,France,FRA,251,2024,Exports,2.1220603912498164,4931,5037,644263935532.759,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,127,Türkiye,TUR,792,2024,Exports,2.0919817276526356,4843,5037,254982397156.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,128,Germany,DEU,276,2024,Exports,2.029491988406636,4848,5037,1572581059596.584,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,129,Spain,ESP,724,2024,Exports,2.011447936068302,4915,5037,383468213566.261,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,130,China,CHN,156,2024,Exports,1.959040881471273,4863,5037,3479639306679.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,131,Poland,POL,616,2024,Exports,1.956599015931654,4865,5037,379704654454.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,132,Italy,ITA,380,2024,Exports,1.881829423027698,4848,5037,628773462492.4741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,1,Brunei Darussalam,BRN,96,2024,Imports,5.533841629191329,3378,5037,7123794550.046001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,2,Gambia,GMB,270,2024,Imports,4.343571433006512,2995,5037,988450219.419,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,3,Mauritania,MRT,478,2024,Imports,4.248637213875628,2932,5037,4811430540.477,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,4,"China, Hong Kong SAR",HKG,344,2024,Imports,4.188377798582166,4466,5037,696384751615.1731,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,5,Burkina Faso,BFA,854,2024,Imports,4.094630894956949,3626,5037,6428761846.702,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,6,Armenia,ARM,51,2024,Imports,4.061993815603919,4387,5037,16795026899.241999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,7,Central African Rep.,CAF,140,2024,Imports,3.9265101166828087,1883,5037,779447228.9219999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,8,Uganda,UGA,800,2024,Imports,3.82388145639459,4340,5037,13832924772.85,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,9,Switzerland,CHE,757,2024,Imports,3.8070676773968333,4944,5037,366764520548.95496,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,10,Benin,BEN,204,2024,Imports,3.7047983449026125,3631,5037,3363901535.62,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,11,Nigeria,NGA,566,2024,Imports,3.704325352742726,4364,5037,39593021295.422005,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,12,Niger,NER,562,2024,Imports,3.6228204165753284,3332,5037,1501192423.948,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,13,"China, Macao SAR",MAC,446,2024,Imports,3.608658023315709,2225,5037,14765080532.807999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,14,Lebanon,LBN,422,2024,Imports,3.571988599913908,4263,5037,17302339444.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,15,Singapore,SGP,702,2024,Imports,3.55522423090858,4780,5037,452915359725.97205,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,16,Pakistan,PAK,586,2024,Imports,3.4554461706734387,4389,5037,56467161489.035,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,17,China,CHN,156,2024,Imports,3.4282459394100595,4799,5037,2575856182234.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,18,India,IND,699,2024,Imports,3.3823102388724875,4771,5037,696237787539.3981,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,19,Slovenia,SVN,705,2024,Imports,3.3778318393739295,4799,5037,74893348302.437,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,20,Senegal,SEN,686,2024,Imports,3.3707097011074705,4162,5037,11348956799.039,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,21,Malta,MLT,470,2024,Imports,3.314095424035472,4526,5037,9442947279.227001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,22,Côte d'Ivoire,CIV,384,2024,Imports,3.2607655274074414,4330,5037,17219302729.824,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,23,Guyana,GUY,328,2024,Imports,3.1783971993095608,3782,5037,7210493332.705,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,24,Kyrgyzstan,KGZ,417,2024,Imports,3.1779051059751664,4135,5037,11705748368.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,25,Malawi,MWI,454,2024,Imports,3.124000779300045,4051,5037,3210845719.645,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,26,Samoa,WSM,882,2024,Imports,3.0963942802742803,3063,5037,489557369.445,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,27,Bolivia (Plurinational State of),BOL,68,2024,Imports,3.084133438958824,4275,5037,9899603990.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,28,Seychelles,SYC,690,2024,Imports,3.0617254574470882,3910,5037,1495419600.066,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,29,Zambia,ZMB,894,2024,Imports,3.046912251609324,4366,5037,11261976450.303001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,30,Zimbabwe,ZWE,716,2024,Imports,3.0356848761474438,4222,5037,9467255896.909,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,31,Fiji,FJI,242,2024,Imports,3.01611974170223,4005,5037,2967071515.0039997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,32,Oman,OMN,512,2024,Imports,3.0140376591189515,4636,5037,43442274722.59501,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,33,Madagascar,MDG,450,2024,Imports,3.013722803765142,4176,5037,4795450240.825001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,34,Togo,TGO,768,2024,Imports,3.0115820746737527,2744,5037,2967928810.08,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,35,Kenya,KEN,404,2024,Imports,3.001958377561299,4513,5037,20203093057.8,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,36,Cyprus,CYP,196,2024,Imports,2.974717533583508,4365,5037,13315149958.207,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,37,Jamaica,JAM,388,2024,Imports,2.955545130284286,4092,5037,7287753164.01,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,38,Bahrain,BHR,48,2024,Imports,2.9538103285856856,4476,5037,15557899390.082,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,39,Maldives,MDV,462,2024,Imports,2.922191159787715,3389,5037,3634394983.2380004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,40,Mozambique,MOZ,508,2024,Imports,2.9205155074519005,4322,5037,9137666103.400002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,41,United Rep. of Tanzania,TZA,834,2024,Imports,2.9168190255077806,4448,5037,15684503481.074001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,42,Angola,AGO,24,2024,Imports,2.910762131140082,4537,5037,13877313995.48,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,43,Ireland,IRL,372,2024,Imports,2.9045557582857393,4929,5037,144399723001.803,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,44,Rep. of Korea,KOR,410,2024,Imports,2.8778364258434266,4917,5037,631727134467.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,45,Azerbaijan,AZE,31,2024,Imports,2.8749615815785945,4430,5037,21008223820.31,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,46,Trinidad and Tobago,TTO,780,2024,Imports,2.8616367743653868,4048,5037,7664459762.998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,47,Honduras,HND,340,2024,Imports,2.8586836828322957,4168,5037,14508558215.869999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,48,Georgia,GEO,268,2024,Imports,2.8579972661554067,4335,5037,16489789708.664001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,49,Malaysia,MYS,458,2024,Imports,2.8074347861124385,4897,5037,298695905548.438,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,50,Egypt,EGY,818,2024,Imports,2.803959801135333,4568,5037,94634470705.65901,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,51,Bermuda,BMU,60,2024,Imports,2.8036832540413115,3926,5037,1124902564.22,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,52,Mauritius,MUS,480,2024,Imports,2.8017120859841116,4308,5037,6649756609.273999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,53,Montserrat,MSR,500,2024,Imports,2.7972063215871765,2649,5037,45630560.20999999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,54,Iceland,ISL,352,2024,Imports,2.785464882225408,4616,5037,9835443738.776001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,55,Barbados,BRB,52,2024,Imports,2.784577580150846,4082,5037,2123582342.9999998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,56,Nicaragua,NIC,558,2024,Imports,2.7840980550389323,4083,5037,11463316027.5,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,57,Namibia,NAM,516,2024,Imports,2.779975178006686,4573,5037,8876440749.341,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,58,Cabo Verde,CPV,132,2024,Imports,2.7703889395833188,3551,5037,915583980.3659999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,59,Suriname,SUR,740,2024,Imports,2.76783158001946,2958,5037,1746401295.8,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,60,Ecuador,ECU,218,2024,Imports,2.759617166327664,4484,5037,28961887390.518,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,61,Paraguay,PRY,600,2024,Imports,2.7467389376284888,4320,5037,17199851893.045002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,62,Panama,PAN,591,2024,Imports,2.739176428618081,4141,5037,13981644259.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,63,Greece,GRC,300,2024,Imports,2.7127019656328533,4850,5037,88221403317.517,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,64,Cambodia,KHM,116,2024,Imports,2.70102812999445,4288,5037,28678192248.839996,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,65,Lesotho,LSO,426,2024,Imports,2.6854431245821315,4111,5037,1860489643.248,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,66,Grenada,GRD,308,2024,Imports,2.6814119091642143,3628,5037,633620435.8679999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,67,Jordan,JOR,400,2024,Imports,2.678962177057006,4162,5037,25115174441.882004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,68,Sri Lanka,LKA,144,2024,Imports,2.6691751144239704,4574,5037,18390817345.496002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,69,Japan,JPN,392,2024,Imports,2.6576730649665734,4847,5037,728895746306.2009,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,70,Thailand,THA,764,2024,Imports,2.64267647819785,4875,5037,307555410756.42,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,71,Kuwait,KWT,414,2024,Imports,2.5821961542324874,4512,5037,36781291320.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,72,Bahamas,BHS,44,2024,Imports,2.5771486776398103,4450,5037,4736221771.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,73,Belize,BLZ,84,2024,Imports,2.57687261129447,3752,5037,1452266877.137,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,74,Qatar,QAT,634,2024,Imports,2.558086206325729,4183,5037,34609879390.95599,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,75,Morocco,MAR,504,2024,Imports,2.5398618361395298,4713,5037,96711070144.586,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,76,Philippines,PHL,608,2024,Imports,2.5371311419784353,4707,5037,134881084425.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,77,North Macedonia,MKD,807,2024,Imports,2.491841038986833,4412,5037,11949268396.84,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,78,Tunisia,TUN,788,2024,Imports,2.4893559731658783,4515,5037,26064018250.816,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,79,Dominican Rep.,DOM,214,2024,Imports,2.469480640682223,4274,5037,32202775836.274,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,80,French Polynesia,PYF,258,2024,Imports,2.4667826210058106,2433,5037,1306613598.3779998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,81,United Kingdom,GBR,826,2024,Imports,2.444101187169142,4926,5037,776500283491.749,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,82,El Salvador,SLV,222,2024,Imports,2.4333022289139463,4465,5037,15759361450.61,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,83,Australia,AUS,36,2024,Imports,2.4293010659163827,4773,5037,294010309237.514,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,84,Lithuania,LTU,440,2024,Imports,2.4244615323654135,4777,5037,42799002225.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,85,Guatemala,GTM,320,2024,Imports,2.421185656814774,4582,5037,32039662152.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,86,Belgium,BEL,56,2024,Imports,2.4181151241827936,4948,5037,355824764325.36005,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,87,Luxembourg,LUX,442,2024,Imports,2.417919602612803,4728,5037,23509235821.187,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,88,Montenegro,MNE,499,2024,Imports,2.4141268242665737,4236,5037,4398796515.151,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,89,Peru,PER,604,2024,Imports,2.387823709952679,4564,5037,55026599180.176,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,90,South Africa,ZAF,710,2024,Imports,2.382613696142965,4879,5037,93018419163.67001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,91,Albania,ALB,8,2024,Imports,2.3804318614671764,3246,5037,8047016586.708,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,92,Chile,CHL,152,2024,Imports,2.3802985660846114,4765,5037,83446538706.168,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,93,Slovakia,SVK,703,2024,Imports,2.3791124855130557,4870,5037,115531447921.93799,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,94,Uruguay,URY,858,2024,Imports,2.373929064324229,4352,5037,12320021143.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,95,Saudi Arabia,SAU,682,2024,Imports,2.368383173771176,4731,5037,223702135322.976,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,96,New Zealand,NZL,554,2024,Imports,2.357527982127977,4676,5037,46859202404.083,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,97,Algeria,DZA,12,2024,Imports,2.3550941394607086,4220,5037,47327369554.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,98,Rep. of Moldova,MDA,498,2024,Imports,2.3525961957668433,4300,5037,9044237100.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,99,Mexico,MEX,484,2024,Imports,2.3306412430738748,4213,5037,544024732870.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,100,Türkiye,TUR,792,2024,Imports,2.321701062049964,4874,5037,307392038640.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,101,Israel,ISR,376,2024,Imports,2.3097902550395086,4637,5037,89698654000.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,102,Costa Rica,CRI,188,2024,Imports,2.304373142674961,4435,5037,23674945696.575,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,103,USA,USA,842,2024,Imports,2.2860026138346634,4954,5037,3228754846387.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,104,Hungary,HUN,348,2024,Imports,2.2829739575660346,4848,5037,133039000770.38,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,105,Brazil,BRA,76,2024,Imports,2.281740139897116,4545,5037,274815847217.99997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,106,Argentina,ARG,32,2024,Imports,2.2759641309094123,4452,5037,60203954980.2,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,107,Bulgaria,BGR,100,2024,Imports,2.243926747193416,4788,5037,51252015852.716995,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,108,Finland,FIN,246,2024,Imports,2.2424727508652356,4744,5037,74023379509.134,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,109,Antigua and Barbuda,ATG,28,2024,Imports,2.2379877285587186,3431,5037,662732555.167,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,110,Ukraine,UKR,804,2024,Imports,2.2323835370459117,4690,5037,64803937550.67,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,111,Colombia,COL,170,2024,Imports,2.2085782016480056,4609,5037,63313256717.58,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,112,Indonesia,IDN,360,2024,Imports,2.2050240823989924,4861,5037,233894256322.00003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,113,Czechia,CZE,203,2024,Imports,2.1549518456097556,4924,5037,229082398703.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,114,Sweden,SWE,752,2024,Imports,2.153486174847267,4883,5037,179824431462.478,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,115,Netherlands,NLD,528,2024,Imports,2.1528674942791373,4968,5037,610779669004.717,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,116,Estonia,EST,233,2024,Imports,2.1373461571550543,4711,5037,21365696706.98,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,117,Latvia,LVA,428,2024,Imports,2.1308226683606923,4691,5037,21337298596.557,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,118,Norway,NOR,579,2024,Imports,2.1293050072271598,4798,5037,97802065418.63899,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,119,Croatia,HRV,191,2024,Imports,2.1153616334827134,4816,5037,45447733656.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,120,Bosnia Herzegovina,BIH,70,2024,Imports,2.066679642504762,4599,5037,15853280486.968,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,121,Spain,ESP,724,2024,Imports,2.063487378878475,4952,5037,434178361793.97705,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,122,Italy,ITA,380,2024,Imports,2.034530050480181,4946,5037,583103174155.02,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,123,Serbia,SRB,688,2024,Imports,2.0332290920003633,4764,5037,36939782894.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,124,Canada,CAN,124,2024,Imports,1.9848965183577127,4959,5037,528235421665.057,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,125,Kazakhstan,KAZ,398,2024,Imports,1.9604808166837167,4739,5037,59732040910.76,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,126,France,FRA,251,2024,Imports,1.9480983625393817,4969,5037,761699282847.741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,127,Germany,DEU,276,2024,Imports,1.9463086961604146,4949,5037,1308896181476.719,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,128,Portugal,PRT,620,2024,Imports,1.9332080774464433,4919,5037,112374124888.38,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,129,Denmark,DNK,208,2024,Imports,1.927239497831285,4914,5037,121661184714.539,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,130,Romania,ROU,642,2024,Imports,1.8730417797326622,4946,5037,136499119417.53,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,131,Poland,POL,616,2024,Imports,1.8412591779033742,4921,5037,373568290917.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+theil,132,Austria,AUT,40,2024,Imports,1.8141677892304804,4907,5037,201941075583.918,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,1,Qatar,QAT,634,2024,Exports,0.892504668041526,139,5037,15848464218.882,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,2,Burkina Faso,BFA,854,2024,Exports,0.6814217126223823,1780,5037,5642107004.335999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,3,Guyana,GUY,328,2024,Exports,0.6653476129093528,2091,5037,22409479415.308002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,4,Angola,AGO,24,2024,Exports,0.6408879948064543,3064,5037,39249519520.62001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,5,Niger,NER,562,2024,Exports,0.5636553396268172,516,5037,1007786657.4239998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,6,Nigeria,NGA,566,2024,Exports,0.5241571972792679,880,5037,52351681082.402,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,7,French Polynesia,PYF,258,2024,Exports,0.46211135450915497,80,5037,95570841.14700001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,8,Suriname,SUR,740,2024,Exports,0.4394515946271631,957,5037,1474376618.1499999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,9,Bermuda,BMU,60,2024,Exports,0.4286066964046985,806,5037,42187407.150000006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,10,Azerbaijan,AZE,31,2024,Exports,0.40079622930542974,2472,5037,26404676883.3,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,11,Saudi Arabia,SAU,682,2024,Exports,0.37484004796026177,3904,5037,296208477100.22504,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,12,Malawi,MWI,454,2024,Exports,0.3481749149523819,1715,5037,958116143.4270002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,13,Montserrat,MSR,500,2024,Exports,0.3375428492738369,142,5037,6145994.407000001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,14,Kuwait,KWT,414,2024,Exports,0.3088622786959055,3103,5037,75946817071.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,15,Seychelles,SYC,690,2024,Exports,0.29597382183149756,638,5037,593393777.056,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,16,Zambia,ZMB,894,2024,Exports,0.29310987236174724,2434,5037,11273958331.748001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,17,Central African Rep.,CAF,140,2024,Exports,0.29110155049257586,87,5037,204503822.28,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,18,Kazakhstan,KAZ,398,2024,Exports,0.2845178994420586,4062,5037,81605584036.53,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,19,Cabo Verde,CPV,132,2024,Exports,0.2293802353285725,39,5037,68245098.95,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,20,Mauritania,MRT,478,2024,Exports,0.22536420973011556,333,5037,4149547480.407,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,21,Benin,BEN,204,2024,Exports,0.22205577695411158,1727,5037,1105094844.3560002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,22,Maldives,MDV,462,2024,Exports,0.2212904620037296,97,5037,92418497.34699999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,23,Uganda,UGA,800,2024,Exports,0.21653013653721348,2741,5037,8039344375.929998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,24,Armenia,ARM,51,2024,Exports,0.1974945524161465,3202,5037,13070809687.663998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,25,Oman,OMN,512,2024,Exports,0.19651038695984843,3631,5037,65132170813.50201,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,26,Algeria,DZA,12,2024,Exports,0.19211606583293495,1424,5037,51857390719.05601,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,27,Norway,NOR,579,2024,Exports,0.18766860028776522,4216,5037,163003956947.217,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,28,Jamaica,JAM,388,2024,Exports,0.1804383194429127,2203,5037,1903859734.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,29,Zimbabwe,ZWE,716,2024,Exports,0.1747679639315297,2019,5037,7422001438.788,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,30,Brunei Darussalam,BRN,96,2024,Exports,0.15804673752727202,1248,5037,11252209657.197998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,31,Kyrgyzstan,KGZ,417,2024,Exports,0.1544993766475996,2552,5037,3685343515.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,32,United Rep. of Tanzania,TZA,834,2024,Exports,0.15077843403549784,3045,5037,8702027903.891,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,33,Belize,BLZ,84,2024,Exports,0.14138204581991004,651,5037,282037866.724,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,34,Gambia,GMB,270,2024,Exports,0.13853707828533438,1249,5037,49641899.477000006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,35,Slovenia,SVN,705,2024,Exports,0.1338394419838663,4580,5037,66482043683.704,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,36,Samoa,WSM,882,2024,Exports,0.1310488254876177,944,5037,41065343.626,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,37,Chile,CHL,152,2024,Exports,0.13087754596268453,3849,5037,98849400484.64401,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,38,Ecuador,ECU,218,2024,Exports,0.13080634881589417,3134,5037,31530010385.667004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,39,"China, Macao SAR",MAC,446,2024,Exports,0.13017182197168356,940,5037,959915111.8460002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,40,Bahamas,BHS,44,2024,Exports,0.117259143974751,1663,5037,944235435.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,41,Paraguay,PRY,600,2024,Exports,0.11653519041469011,2378,5037,10914401725.484999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,42,Peru,PER,604,2024,Exports,0.11380797006678675,3878,5037,74053783276.54001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,43,Australia,AUS,36,2024,Exports,0.11299923343254753,4603,5037,332797921577.225,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,44,Mozambique,MOZ,508,2024,Exports,0.1116586895808874,2344,5037,8191933249.9,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,45,Trinidad and Tobago,TTO,780,2024,Exports,0.11049620542114538,2937,5037,7858837882.755,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,46,Cyprus,CYP,196,2024,Exports,0.10149268921992441,2433,5037,5558763576.276001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,47,Lesotho,LSO,426,2024,Exports,0.09477765838666272,1801,5037,1004368215.3760002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,48,Côte d'Ivoire,CIV,384,2024,Exports,0.09231641932438585,3030,5037,20548862153.446003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,49,Colombia,COL,170,2024,Exports,0.09096700302296425,4091,5037,49546391713.549995,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,50,Barbados,BRB,52,2024,Exports,0.09094748104530491,1630,5037,488641831.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,51,Bolivia (Plurinational State of),BOL,68,2024,Exports,0.09052999938041624,1671,5037,9058056656.2,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,52,Switzerland,CHE,757,2024,Exports,0.08952853178213921,4786,5037,440834767933.728,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,53,Iceland,ISL,352,2024,Exports,0.08620762164954862,2555,5037,6872368527.741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,54,Bahrain,BHR,48,2024,Exports,0.08222400686918736,3342,5037,12405558616.224998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,55,Namibia,NAM,516,2024,Exports,0.07136261579835876,3315,5037,6533083288.871,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,56,Honduras,HND,340,2024,Exports,0.07001419562963837,2883,5037,6970519872.369999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,57,Nicaragua,NIC,558,2024,Exports,0.06898938022811252,2650,5037,7521851616.500001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,58,Senegal,SEN,686,2024,Exports,0.06874873481765562,2690,5037,6305879310.251,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,59,Costa Rica,CRI,188,2024,Exports,0.06579562213246652,3446,5037,19880341333.983,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,60,Fiji,FJI,242,2024,Exports,0.06429749976006224,2314,5037,923874691.2559999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,61,Grenada,GRD,308,2024,Exports,0.06236604403890158,748,5037,43127763.067,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,62,Georgia,GEO,268,2024,Exports,0.0564892692740475,2911,5037,6404012465.124,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,63,Madagascar,MDG,450,2024,Exports,0.05582496754785572,2486,5037,2550850031.788,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,64,Brazil,BRA,76,2024,Exports,0.055756105156602905,4495,5037,309859621309.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,65,Montenegro,MNE,499,2024,Exports,0.055243610175331165,2061,5037,660673118.52,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,66,Argentina,ARG,32,2024,Exports,0.05466925124190572,1289,5037,54871851873.14001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,67,Ireland,IRL,372,2024,Exports,0.05391057170654066,4504,5037,241995087870.668,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,68,"China, Hong Kong SAR",HKG,344,2024,Exports,0.05351489130193747,4275,5037,638725748320.2859,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,69,Uruguay,URY,858,2024,Exports,0.051713805147627745,2595,5037,10248387373.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,70,Malta,MLT,470,2024,Exports,0.05089950650505421,2523,5037,3728337137.9519997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,71,North Macedonia,MKD,807,2024,Exports,0.050621425506197186,3568,5037,8413033233.21,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,72,Kenya,KEN,404,2024,Exports,0.04806896753076965,3841,5037,8255120905.655001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,73,Togo,TGO,768,2024,Exports,0.04560473869332157,1057,5037,1372307203.722,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,74,Canada,CAN,124,2024,Exports,0.045259313122768534,4795,5037,529357830205.096,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,75,Greece,GRC,300,2024,Exports,0.04497842324153273,4498,5037,52737269112.649,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,76,Dominican Rep.,DOM,214,2024,Exports,0.042641517479231256,3078,5037,12767215664.732,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,77,Ukraine,UKR,804,2024,Exports,0.04197588182662516,4029,5037,41587217109.350006,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,78,Mauritius,MUS,480,2024,Exports,0.04109384631971416,2617,5037,1719829164.4129999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,79,Panama,PAN,591,2024,Exports,0.040617658098761826,2171,5037,1158357714.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,80,Antigua and Barbuda,ATG,28,2024,Exports,0.040345910035087515,1128,5037,33361871.438,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,81,Philippines,PHL,608,2024,Exports,0.0347026944146339,3371,5037,72694507295.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,82,Morocco,MAR,504,2024,Exports,0.03386559973153079,3733,5037,80525530850.75201,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,83,Singapore,SGP,702,2024,Exports,0.03362209705042912,4704,5037,470216803889.966,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,84,Lebanon,LBN,422,2024,Exports,0.03061670762796065,3101,5037,4264251067.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,85,New Zealand,NZL,554,2024,Exports,0.030158060733496243,4252,5037,42045166653.341,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,86,Jordan,JOR,400,2024,Exports,0.028922440999763165,2878,5037,13250440376.034,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,87,Rep. of Moldova,MDA,498,2024,Exports,0.027119230547721532,2868,5037,3553923851.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,88,United Kingdom,GBR,826,2024,Exports,0.02650495401107477,4877,5037,494267654806.127,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,89,Malaysia,MYS,458,2024,Exports,0.024812614258485095,4703,5037,328729274734.5,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,90,Slovakia,SVK,703,2024,Exports,0.024738851760344824,4498,5037,115322054684.55202,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,91,Pakistan,PAK,586,2024,Exports,0.02300858491406508,3562,5037,32434332508.33,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,92,India,IND,699,2024,Exports,0.022145326951932748,4857,5037,434415330189.36707,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,93,South Africa,ZAF,710,2024,Exports,0.021398036648734714,4892,5037,109670728181.42299,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,94,Indonesia,IDN,360,2024,Exports,0.020306389870327422,4477,5037,266304975038.585,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,95,Rep. of Korea,KOR,410,2024,Exports,0.019942469019906248,4723,5037,683089471519.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,96,Albania,ALB,8,2024,Exports,0.01931666518285804,761,5037,2401785065.9500003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,97,Israel,ISR,376,2024,Exports,0.019241237513611537,3529,5037,52071885000.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,98,Guatemala,GTM,320,2024,Exports,0.018267817599508025,3961,5037,14695977371.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,99,Sri Lanka,LKA,144,2024,Exports,0.016399710195813426,3482,5037,12109626421.002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,100,Tunisia,TUN,788,2024,Exports,0.016225176083421965,3329,5037,19975662776.652,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,101,El Salvador,SLV,222,2024,Exports,0.01500784998746064,2914,5037,6311202862.09,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,102,Egypt,EGY,818,2024,Exports,0.014769909343339901,3440,5037,44768217053.403,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,103,Mexico,MEX,484,2024,Exports,0.014485026588762705,3455,5037,547592557142.99994,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,104,Cambodia,KHM,116,2024,Exports,0.013986133708230411,2344,5037,26662107525.473,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,105,Belgium,BEL,56,2024,Exports,0.013894193193909901,4911,5037,361569942857.322,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,106,Japan,JPN,392,2024,Exports,0.0130214198245451,4641,5037,647248499603.3369,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,107,Luxembourg,LUX,442,2024,Exports,0.012516828867548836,3962,5037,15301244097.161001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,108,Serbia,SRB,688,2024,Exports,0.011386732713716922,4342,5037,32492155169.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,109,Lithuania,LTU,440,2024,Exports,0.011134920958213088,4500,5037,38760844600.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,110,USA,USA,842,2024,Exports,0.010162061977714196,4947,5037,1861265103937.0002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,111,Hungary,HUN,348,2024,Exports,0.00991744784813989,4500,5037,148025178761.34302,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,112,Bulgaria,BGR,100,2024,Exports,0.009722162388191135,4413,5037,42917240308.347,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,113,Czechia,CZE,203,2024,Exports,0.009433002703239973,4812,5037,258705155452.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,114,Finland,FIN,246,2024,Exports,0.009028328284731227,4242,5037,69501886898.84,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,115,Romania,ROU,642,2024,Exports,0.00873757064293193,4648,5037,99949430292.95001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,116,Bosnia Herzegovina,BIH,70,2024,Exports,0.008405993946873783,3607,5037,8893798188.846,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,117,Sweden,SWE,752,2024,Exports,0.008372862788969822,4764,5037,187984660379.217,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,118,Latvia,LVA,428,2024,Exports,0.008206184707620936,4287,5037,19068065105.308,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,119,Netherlands,NLD,528,2024,Exports,0.007935005230256463,4921,5037,678150400088.062,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,120,Croatia,HRV,191,2024,Exports,0.007441923641071175,4335,5037,25955346807.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,121,Thailand,THA,764,2024,Exports,0.007273433290821609,4727,5037,300759403353.17,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,122,Portugal,PRT,620,2024,Exports,0.007248592300717869,4671,5037,82538522791.82,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,123,Austria,AUT,40,2024,Exports,0.0070312824326354325,4712,5037,196833236914.601,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,124,Germany,DEU,276,2024,Exports,0.006403145140483627,4848,5037,1572581059596.584,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,125,France,FRA,251,2024,Exports,0.006364160646267953,4931,5037,644263935532.759,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,126,Estonia,EST,233,2024,Exports,0.005996296428271462,4103,5037,18551126688.43,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,127,Türkiye,TUR,792,2024,Exports,0.00582868135080869,4843,5037,254982397156.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,128,Spain,ESP,724,2024,Exports,0.005442208325054352,4915,5037,383468213566.261,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,129,China,CHN,156,2024,Exports,0.005388176541411047,4863,5037,3479639306679.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,130,Denmark,DNK,208,2024,Exports,0.005091707634311725,4690,5037,113813249913.64801,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,131,Italy,ITA,380,2024,Exports,0.004808413013339662,4848,5037,628773462492.4741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,132,Poland,POL,616,2024,Exports,0.003324854399046437,4865,5037,379704654454.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,1,Brunei Darussalam,BRN,96,2024,Imports,0.34031199886084584,3378,5037,7123794550.046001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,2,Armenia,ARM,51,2024,Imports,0.13069970839799247,4387,5037,16795026899.241999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,3,Switzerland,CHE,757,2024,Imports,0.0982473083517311,4944,5037,366764520548.95496,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,4,Burkina Faso,BFA,854,2024,Imports,0.08151018647107332,3626,5037,6428761846.702,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,5,Nigeria,NGA,566,2024,Imports,0.08095284011484633,4364,5037,39593021295.422005,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,6,Mauritania,MRT,478,2024,Imports,0.07521728761608976,2932,5037,4811430540.477,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,7,Uganda,UGA,800,2024,Imports,0.07207179993736201,4340,5037,13832924772.85,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,8,Gambia,GMB,270,2024,Imports,0.0705555488864433,2995,5037,988450219.419,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,9,Lebanon,LBN,422,2024,Imports,0.05347140874147249,4263,5037,17302339444.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,10,India,IND,699,2024,Imports,0.05297936075363115,4771,5037,696237787539.3981,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,11,Benin,BEN,204,2024,Imports,0.051565466901649884,3631,5037,3363901535.62,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,12,Central African Rep.,CAF,140,2024,Imports,0.04928687044871719,1883,5037,779447228.9219999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,13,"China, Hong Kong SAR",HKG,344,2024,Imports,0.049080531497418665,4466,5037,696384751615.1731,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,14,Bolivia (Plurinational State of),BOL,68,2024,Imports,0.04675609634601619,4275,5037,9899603990.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,15,Slovenia,SVN,705,2024,Imports,0.040819551776639464,4799,5037,74893348302.437,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,16,Senegal,SEN,686,2024,Imports,0.035446098789494895,4162,5037,11348956799.039,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,17,Fiji,FJI,242,2024,Imports,0.034891299452463304,4005,5037,2967071515.0039997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,18,Greece,GRC,300,2024,Imports,0.032460317348500634,4850,5037,88221403317.517,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,19,Seychelles,SYC,690,2024,Imports,0.03224826278450433,3910,5037,1495419600.066,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,20,Côte d'Ivoire,CIV,384,2024,Imports,0.03159789365540628,4330,5037,17219302729.824,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,21,China,CHN,156,2024,Imports,0.031244211083718564,4799,5037,2575856182234.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,22,Azerbaijan,AZE,31,2024,Imports,0.03116766847697289,4430,5037,21008223820.31,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,23,Singapore,SGP,702,2024,Imports,0.030761316255551126,4780,5037,452915359725.97205,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,24,Barbados,BRB,52,2024,Imports,0.03026852565187362,4082,5037,2123582342.9999998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,25,Pakistan,PAK,586,2024,Imports,0.02958729948801703,4389,5037,56467161489.035,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,26,Kenya,KEN,404,2024,Imports,0.02932313708853887,4513,5037,20203093057.8,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,27,Angola,AGO,24,2024,Imports,0.027578407268482014,4537,5037,13877313995.48,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,28,Malta,MLT,470,2024,Imports,0.027369759551582773,4526,5037,9442947279.227001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,29,Rep. of Korea,KOR,410,2024,Imports,0.026956826801895633,4917,5037,631727134467.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,30,Maldives,MDV,462,2024,Imports,0.02658538156557891,3389,5037,3634394983.2380004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,31,"China, Macao SAR",MAC,446,2024,Imports,0.026430559969398863,2225,5037,14765080532.807999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,32,Cyprus,CYP,196,2024,Imports,0.025698415971850422,4365,5037,13315149958.207,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,33,Zambia,ZMB,894,2024,Imports,0.025425565863969282,4366,5037,11261976450.303001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,34,Zimbabwe,ZWE,716,2024,Imports,0.025103670242975024,4222,5037,9467255896.909,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,35,Niger,NER,562,2024,Imports,0.025065073180589734,3332,5037,1501192423.948,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,36,Samoa,WSM,882,2024,Imports,0.024724846475675136,3063,5037,489557369.445,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,37,Mauritius,MUS,480,2024,Imports,0.024684986860576644,4308,5037,6649756609.273999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,38,Bahrain,BHR,48,2024,Imports,0.02463722301878483,4476,5037,15557899390.082,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,39,Ireland,IRL,372,2024,Imports,0.02383668627033405,4929,5037,144399723001.803,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,40,Oman,OMN,512,2024,Imports,0.02349704370982588,4636,5037,43442274722.59501,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,41,Kyrgyzstan,KGZ,417,2024,Imports,0.023024624518185658,4135,5037,11705748368.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,42,United Rep. of Tanzania,TZA,834,2024,Imports,0.02257497311685691,4448,5037,15684503481.074001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,43,Madagascar,MDG,450,2024,Imports,0.02248540981892965,4176,5037,4795450240.825001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,44,Panama,PAN,591,2024,Imports,0.0223065638065062,4141,5037,13981644259.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,45,Malawi,MWI,454,2024,Imports,0.022196120124420043,4051,5037,3210845719.645,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,46,Honduras,HND,340,2024,Imports,0.021593295167755627,4168,5037,14508558215.869999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,47,Bermuda,BMU,60,2024,Imports,0.02155456879413873,3926,5037,1124902564.22,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,48,Guyana,GUY,328,2024,Imports,0.021539307489181217,3782,5037,7210493332.705,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,49,Georgia,GEO,268,2024,Imports,0.021473346435313734,4335,5037,16489789708.664001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,50,Jamaica,JAM,388,2024,Imports,0.02131649683595129,4092,5037,7287753164.01,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,51,Mozambique,MOZ,508,2024,Imports,0.020984121293792138,4322,5037,9137666103.400002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,52,Trinidad and Tobago,TTO,780,2024,Imports,0.020534015053305793,4048,5037,7664459762.998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,53,Ecuador,ECU,218,2024,Imports,0.020388266462351992,4484,5037,28961887390.518,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,54,Lithuania,LTU,440,2024,Imports,0.02027073139023582,4777,5037,42799002225.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,55,Namibia,NAM,516,2024,Imports,0.019573056612630736,4573,5037,8876440749.341,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,56,Grenada,GRD,308,2024,Imports,0.018779134828439677,3628,5037,633620435.8679999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,57,Thailand,THA,764,2024,Imports,0.018392188882202655,4875,5037,307555410756.42,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,58,Bahamas,BHS,44,2024,Imports,0.017952205089300934,4450,5037,4736221771.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,59,Japan,JPN,392,2024,Imports,0.01794504976586296,4847,5037,728895746306.2009,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,60,Malaysia,MYS,458,2024,Imports,0.01788258322073079,4897,5037,298695905548.438,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,61,Iceland,ISL,352,2024,Imports,0.01776869632542627,4616,5037,9835443738.776001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,62,Paraguay,PRY,600,2024,Imports,0.017171961310928813,4320,5037,17199851893.045002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,63,Montserrat,MSR,500,2024,Imports,0.016871548909073858,2649,5037,45630560.20999999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,64,Sri Lanka,LKA,144,2024,Imports,0.015909926193954458,4574,5037,18390817345.496002,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,65,South Africa,ZAF,710,2024,Imports,0.015414849815009485,4879,5037,93018419163.67001,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,66,United Kingdom,GBR,826,2024,Imports,0.015243273165057587,4926,5037,776500283491.749,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,67,Egypt,EGY,818,2024,Imports,0.014854963324644395,4568,5037,94634470705.65901,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,68,Cabo Verde,CPV,132,2024,Imports,0.014776752511833711,3551,5037,915583980.3659999,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,69,Cambodia,KHM,116,2024,Imports,0.0142564553153505,4288,5037,28678192248.839996,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,70,Suriname,SUR,740,2024,Imports,0.013954810666603772,2958,5037,1746401295.8,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,71,New Zealand,NZL,554,2024,Imports,0.013450617360118673,4676,5037,46859202404.083,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,72,Belize,BLZ,84,2024,Imports,0.012796283505697703,3752,5037,1452266877.137,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,73,Guatemala,GTM,320,2024,Imports,0.012614813259303262,4582,5037,32039662152.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,74,Australia,AUS,36,2024,Imports,0.012152999959415395,4773,5037,294010309237.514,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,75,Peru,PER,604,2024,Imports,0.012054532688004207,4564,5037,55026599180.176,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,76,Belgium,BEL,56,2024,Imports,0.011990126320927243,4948,5037,355824764325.36005,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,77,Lesotho,LSO,426,2024,Imports,0.011950568348508465,4111,5037,1860489643.248,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,78,Bulgaria,BGR,100,2024,Imports,0.011679274302042556,4788,5037,51252015852.716995,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,79,Kuwait,KWT,414,2024,Imports,0.011616499378415293,4512,5037,36781291320.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,80,Jordan,JOR,400,2024,Imports,0.011591134235102107,4162,5037,25115174441.882004,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,81,Chile,CHL,152,2024,Imports,0.01149024462186565,4765,5037,83446538706.168,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,82,Nicaragua,NIC,558,2024,Imports,0.011467490784723349,4083,5037,11463316027.5,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,83,Togo,TGO,768,2024,Imports,0.011393959443524223,2744,5037,2967928810.08,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,84,Rep. of Moldova,MDA,498,2024,Imports,0.01116666815393342,4300,5037,9044237100.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,85,El Salvador,SLV,222,2024,Imports,0.01104248512466745,4465,5037,15759361450.61,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,86,Tunisia,TUN,788,2024,Imports,0.010793336425763415,4515,5037,26064018250.816,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,87,Netherlands,NLD,528,2024,Imports,0.010605425356080046,4968,5037,610779669004.717,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,88,Israel,ISR,376,2024,Imports,0.010569118341552095,4637,5037,89698654000.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,89,Qatar,QAT,634,2024,Imports,0.010502706094968338,4183,5037,34609879390.95599,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,90,North Macedonia,MKD,807,2024,Imports,0.010447654448030249,4412,5037,11949268396.84,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,91,Spain,ESP,724,2024,Imports,0.010433161160871627,4952,5037,434178361793.97705,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,92,Uruguay,URY,858,2024,Imports,0.010145564836421914,4352,5037,12320021143.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,93,Saudi Arabia,SAU,682,2024,Imports,0.010136846065943061,4731,5037,223702135322.976,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,94,Philippines,PHL,608,2024,Imports,0.010079480075042432,4707,5037,134881084425.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,95,Dominican Rep.,DOM,214,2024,Imports,0.009956947145491618,4274,5037,32202775836.274,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,96,Ukraine,UKR,804,2024,Imports,0.009684561162117756,4690,5037,64803937550.67,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,97,Türkiye,TUR,792,2024,Imports,0.009525353100104848,4874,5037,307392038640.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,98,Indonesia,IDN,360,2024,Imports,0.009515876004686796,4861,5037,233894256322.00003,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,99,Finland,FIN,246,2024,Imports,0.00942514695727677,4744,5037,74023379509.134,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,100,Morocco,MAR,504,2024,Imports,0.009128830481655713,4713,5037,96711070144.586,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,101,Costa Rica,CRI,188,2024,Imports,0.00908946995427659,4435,5037,23674945696.575,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,102,USA,USA,842,2024,Imports,0.008807382505167157,4954,5037,3228754846387.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,103,Luxembourg,LUX,442,2024,Imports,0.00879464249103799,4728,5037,23509235821.187,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,104,Slovakia,SVK,703,2024,Imports,0.008557214316601135,4870,5037,115531447921.93799,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,105,Sweden,SWE,752,2024,Imports,0.008196718882987768,4883,5037,179824431462.478,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,106,Montenegro,MNE,499,2024,Imports,0.00804755507059586,4236,5037,4398796515.151,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,107,Albania,ALB,8,2024,Imports,0.008022336395039707,3246,5037,8047016586.708,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,108,Colombia,COL,170,2024,Imports,0.007912379636743119,4609,5037,63313256717.58,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,109,French Polynesia,PYF,258,2024,Imports,0.007742174859601818,2433,5037,1306613598.3779998,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,110,Italy,ITA,380,2024,Imports,0.007606861500855573,4946,5037,583103174155.02,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,111,Croatia,HRV,191,2024,Imports,0.007377520026613874,4816,5037,45447733656.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,112,Algeria,DZA,12,2024,Imports,0.0070441315227822736,4220,5037,47327369554.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,113,Argentina,ARG,32,2024,Imports,0.007018286167039857,4452,5037,60203954980.2,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,114,Norway,NOR,579,2024,Imports,0.006904942762183296,4798,5037,97802065418.63899,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,115,Bosnia Herzegovina,BIH,70,2024,Imports,0.0068575095543456826,4599,5037,15853280486.968,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,116,Mexico,MEX,484,2024,Imports,0.006807167987140456,4213,5037,544024732870.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,117,Latvia,LVA,428,2024,Imports,0.006798367551836831,4691,5037,21337298596.557,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,118,Brazil,BRA,76,2024,Imports,0.006773913699089869,4545,5037,274815847217.99997,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,119,Czechia,CZE,203,2024,Imports,0.0065976574730157,4924,5037,229082398703.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,120,Serbia,SRB,688,2024,Imports,0.006412539102936253,4764,5037,36939782894.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,121,Portugal,PRT,620,2024,Imports,0.0064061580575971565,4919,5037,112374124888.38,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,122,Hungary,HUN,348,2024,Imports,0.006343160491807312,4848,5037,133039000770.38,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,123,Estonia,EST,233,2024,Imports,0.006246801023809695,4711,5037,21365696706.98,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,124,France,FRA,251,2024,Imports,0.005935562111782113,4969,5037,761699282847.741,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,125,Canada,CAN,124,2024,Imports,0.005512078634684954,4959,5037,528235421665.057,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,126,Germany,DEU,276,2024,Imports,0.005073411486334736,4949,5037,1308896181476.719,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,127,Denmark,DNK,208,2024,Imports,0.005026514409743971,4914,5037,121661184714.539,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,128,Romania,ROU,642,2024,Imports,0.004782139888907391,4946,5037,136499119417.53,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,129,Antigua and Barbuda,ATG,28,2024,Imports,0.004660082195050563,3431,5037,662732555.167,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,130,Poland,POL,616,2024,Imports,0.004516978701927691,4921,5037,373568290917.0,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,131,Kazakhstan,KAZ,398,2024,Imports,0.004302093208475899,4739,5037,59732040910.76,harmonized_hs6_family,lt_hgl_weighted_hs1992
+hhi,132,Austria,AUT,40,2024,Imports,0.004185997828698231,4907,5037,201941075583.918,harmonized_hs6_family,lt_hgl_weighted_hs1992

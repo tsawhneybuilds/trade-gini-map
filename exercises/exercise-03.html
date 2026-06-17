@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 3: Import-Bin Concentration | Trade Concentration</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="cadot-site" data-page="exercises">
+  <header class="site-header">
+    <a class="brand" href="../index.html">Trade Concentration</a>
+    <nav><a href="../index.html">Hub</a><a href="../gini/">Gini</a><a href="../theil/">Theil</a><a href="../hhi/">HHI</a><a class="active" href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+  </header>
+  <main>
+    
+    <section class="page-title">
+      <div class="eyebrow">Exercise 03</div>
+      <h1>Exercise 3: Import-Bin Concentration</h1>
+      <p>Which import bins carry concentration: energy, intermediates, capital goods, or final consumption?</p>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Metric Results</h2><p>Gini, fixed-universe product Theil, and raw HHI are computed on harmonized HS1992/H0 product-family outputs where product identity matters.</p></div>
+      <div class="stat-grid">
+            <article class="stat-card">
+              <span>Gini</span>
+              <strong>0.858</strong>
+              <small>Active-positive Gini over observed positive trade values. Median gini across 18,805 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>Theil</span>
+              <strong>1.890</strong>
+              <small>Fixed-universe Theil with inactive products represented through the flow-specific product universe. Median theil active across 18,805 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>HHI</span>
+              <strong>0.033</strong>
+              <small>Herfindahl-Hirschman index, the sum of squared item shares. Median hhi across 18,805 rows.</small>
+            </article>
+            </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Evidence Table</h2><p>The import-bin tables show the same bins with Gini/Theil/HHI side by side after LT/HGL product harmonization.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Import bin</th><th>Rows</th><th>Countries</th><th>Median import share</th><th>Median Gini</th><th>Median Theil</th><th>Median HHI</th></tr></thead><tbody><tr><td>capital_goods</td><td>3,756</td><td>156</td><td>11.6%</td><td>0.820</td><td>1.616</td><td>0.024</td></tr><tr><td>energy</td><td>3,756</td><td>156</td><td>12.8%</td><td>0.871</td><td>1.817</td><td>0.425</td></tr><tr><td>final_consumption</td><td>3,756</td><td>156</td><td>22.5%</td><td>0.856</td><td>1.981</td><td>0.024</td></tr><tr><td>intermediates</td><td>3,756</td><td>156</td><td>41.2%</td><td>0.880</td><td>2.171</td><td>0.014</td></tr><tr><td>unmapped_or_ambiguous</td><td>3,781</td><td>156</td><td>7.5%</td><td>0.850</td><td>1.860</td><td>0.049</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>Sample: Cadot-style 156 reporters, 2000-2024, available-observation rows with complete-case flags where relevant.</p></div>
+      <p class="callout">Product-dependent calculations exclude HS6 <strong>999999</strong> before LT/HGL weighted conversion to HS1992/H0 product families. Partner-only concentration follows the partner-total convention and excludes partner code 0.</p>
+      <div class="download-grid"><a href="../assets/downloads/exercise_03_import_bin_metrics.csv">exercise_03_import_bin_metrics.csv</a><a href="../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+    </section>
+    
+  </main>
+  
+    <footer class="site-footer">
+      <div>
+        <strong>Three linked metric sites</strong>
+        <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../gini/">Gini site</a>
+        <a href="../theil/">Theil site</a>
+        <a href="../hhi/">HHI site</a>
+        <a href="../exercises/">Exercises</a>
+        <a href="../downloads/">Downloads</a>
+      </div>
+    </footer>
+    
+</body>
+</html>

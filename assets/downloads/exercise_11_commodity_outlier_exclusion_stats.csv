@@ -1,6 +1,0 @@
-measure,value
-commodity_outlier_hs4_codes,"2701,2709,2710,2711,7108"
-commodity_outlier_rows,32297
-commodity_outlier_row_share,0.003694115733556541
-commodity_outlier_import_value_share,0.14483961277630858
-product_rows_excluding_commodity_outliers,8710526

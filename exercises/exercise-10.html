@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 10: Random Benchmarks | Trade Concentration</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="cadot-site" data-page="exercises">
+  <header class="site-header">
+    <a class="brand" href="../index.html">Trade Concentration</a>
+    <nav><a href="../index.html">Hub</a><a href="../gini/">Gini</a><a href="../theil/">Theil</a><a href="../hhi/">HHI</a><a class="active" href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+  </header>
+  <main>
+    
+    <section class="page-title">
+      <div class="eyebrow">Exercise 10</div>
+      <h1>Exercise 10: Random Benchmarks</h1>
+      <p>Is observed concentration higher than sparse-data or HS2-preserving random benchmarks?</p>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Metric Results</h2><p>Gini, fixed-universe product Theil, and raw HHI are computed on harmonized HS1992/H0 product-family outputs where product identity matters.</p></div>
+      <div class="stat-grid">
+            <article class="stat-card">
+              <span>Gini</span>
+              <strong>0.914</strong>
+              <small>Active-positive Gini over observed positive trade values. Median actual gini across 15,018 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>Theil</span>
+              <strong>3.132</strong>
+              <small>Fixed-universe Theil with inactive products represented through the flow-specific product universe. Median actual theil across 15,018 rows.</small>
+            </article>
+            
+            <article class="stat-card">
+              <span>HHI</span>
+              <strong>0.025</strong>
+              <small>Herfindahl-Hirschman index, the sum of squared item shares. Median actual hhi across 15,018 rows.</small>
+            </article>
+            </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Evidence Table</h2><p>The restored benchmark figures are paired with the rerun Gini/Theil/HHI benchmark table.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Flow</th><th>Benchmark</th><th>Rows</th><th>Median Gini gap</th><th>Median Theil gap</th><th>Median HHI gap</th></tr></thead><tbody><tr><td>Exports</td><td>active_count_random_allocation</td><td>3,753</td><td>0.458</td><td>3.063</td><td>0.060</td></tr><tr><td>Exports</td><td>hs2_preserving_within_sector_random_allocation</td><td>3,753</td><td>0.106</td><td>1.487</td><td>0.045</td></tr><tr><td>Imports</td><td>active_count_random_allocation</td><td>3,756</td><td>0.386</td><td>2.007</td><td>0.015</td></tr><tr><td>Imports</td><td>hs2_preserving_within_sector_random_allocation</td><td>3,756</td><td>0.149</td><td>1.195</td><td>0.013</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>Sample: Cadot-style 156 reporters, 2000-2024, available-observation rows with complete-case flags where relevant.</p></div>
+      <p class="callout">Product-dependent calculations exclude HS6 <strong>999999</strong> before LT/HGL weighted conversion to HS1992/H0 product families. Partner-only concentration follows the partner-total convention and excludes partner code 0.</p>
+      <div class="download-grid"><a href="../assets/downloads/exercise_10_random_benchmarks.csv">exercise_10_random_benchmarks.csv</a><a href="../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+    </section>
+    
+  </main>
+  
+    <footer class="site-footer">
+      <div>
+        <strong>Three linked metric sites</strong>
+        <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../gini/">Gini site</a>
+        <a href="../theil/">Theil site</a>
+        <a href="../hhi/">HHI site</a>
+        <a href="../exercises/">Exercises</a>
+        <a href="../downloads/">Downloads</a>
+      </div>
+    </footer>
+    
+</body>
+</html>
