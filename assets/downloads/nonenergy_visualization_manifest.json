@@ -1,0 +1,94 @@
+{
+  "bec_mapping_approval": "results/samples/cadot_broad_156/exercise_03_tables/bec5_mapping_approval.json",
+  "benchmark_sample": "world_broad",
+  "cadot_annual_rows": 3756,
+  "checkpoint_inventory": {
+    "cadot_import_products": 3787,
+    "diagnostics": 4136,
+    "not_cadot": 349,
+    "world_support": 4136
+  },
+  "checkpoint_namespace": "cadot_nonenergy_hs1992_visualization_checkpoints",
+  "country_sample": "cadot_broad_156",
+  "created_at_utc": "2026-06-18T09:27:18+00:00",
+  "driver_rows": 468,
+  "fixed_universe_counts": {
+    "Exports": 4924,
+    "Imports": 4924
+  },
+  "fixed_universe_source": "world_broad",
+  "harmonization_doi": "10.7910/DVN/6AADMR",
+  "harmonization_method": "lt_hgl_weighted_hs1992",
+  "harmonization_target": "HS1992/H0",
+  "harmonization_version": "2.1",
+  "hs1992_label_source": "data/raw/classifications/H0.json",
+  "metric_module": "scripts/concentration_metrics.py",
+  "nonenergy_bins": [
+    "capital_goods",
+    "intermediates",
+    "final_consumption"
+  ],
+  "nonenergy_filter": "mapped_nonenergy_bins_only",
+  "nonenergy_rule": "approved Exercise 3 BEC mapping; retain only mapped capital goods, intermediates, and final consumption before LT/HGL conversion",
+  "output_artifacts": {
+    "nonenergy_import_metric_annual.csv": {
+      "sha256": "bbc934104bbf92240c7283081c45d0be988a70bb214455626b6044ca8f388100",
+      "size_bytes": 2020339
+    },
+    "nonenergy_import_rank_bucket_drivers.csv": {
+      "sha256": "1aa259f8ab53c25f86c864d71582b4894ce0838d09460b74cfc184b11a8cdc45",
+      "size_bytes": 108917
+    },
+    "nonenergy_import_rank_bucket_snapshots.csv": {
+      "sha256": "64f87583901895fd9419f631978233bd1de12021abdeeba27d57970485bf1b39",
+      "size_bytes": 254395
+    },
+    "nonenergy_import_reporter_coverage.csv": {
+      "sha256": "d7d9ba60124c0da0fb0103a2acd513af5ef7d3a1d077408052354d11dec28016",
+      "size_bytes": 7733
+    },
+    "nonenergy_import_top_products_snapshots.csv": {
+      "sha256": "f5b58f0a84d0cc93bd85dacb3f9ef0a4a4197158e71b677d9cb89a6e1a1ae60b",
+      "size_bytes": 1002666
+    },
+    "nonenergy_visualization_validation_checks.csv": {
+      "sha256": "8ccb6a8dc8c6bcde93d34b82410f16f28203b482363083f4a7f3936ff7958410",
+      "size_bytes": 868
+    },
+    "nonenergy_world_hs1992_product_universe.csv": {
+      "sha256": "e87927820ea9e85fadffb9290687457694f59d13c71df7f86210fbec05f70ef8",
+      "size_bytes": 285617
+    }
+  },
+  "outputs": [
+    "nonenergy_import_metric_annual.csv",
+    "nonenergy_import_reporter_coverage.csv",
+    "nonenergy_import_rank_bucket_snapshots.csv",
+    "nonenergy_import_top_products_snapshots.csv",
+    "nonenergy_import_rank_bucket_drivers.csv",
+    "nonenergy_world_hs1992_product_universe.csv",
+    "nonenergy_visualization_validation_checks.csv"
+  ],
+  "partner_exclusion": "partnerCode 0 excluded by leaf extraction",
+  "pipeline_entry_point": "scripts/build_cadot_nonenergy_visualization.py",
+  "product_exclusion": "source HS6 999999 excluded before product-dependent aggregation",
+  "product_id_mode": "harmonized_hs6_family",
+  "reporter_coverage": {
+    "maximum_available_years": 25,
+    "minimum_available_years": 15,
+    "reporters_with_2000": 143,
+    "reporters_with_2024": 132
+  },
+  "reporters": 156,
+  "shared_extraction_module": "scripts/trade_concentration_pipeline.py",
+  "snapshot_rows": 468,
+  "software_versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "python": "3.13.5"
+  },
+  "top_product_rows": 4680,
+  "world_raw_files": 4136,
+  "year_end": 2024,
+  "year_start": 2000
+}

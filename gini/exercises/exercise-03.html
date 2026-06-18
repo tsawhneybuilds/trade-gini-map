@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Exercise 3: Import-Bin Concentration | Trade Concentration</title>
-  <link rel="stylesheet" href="../../assets/site.css?v=202606171423460000">
+  <link rel="stylesheet" href="../../assets/site.css?v=202606181651060000">
 </head>
 <body class="cadot-site" data-page="cadot-gini-exercise-03" data-metric="gini">
   <header class="site-header">
@@ -23,11 +23,25 @@
       <div class="subnav-chips"><a href="../../gini/exercises/exercise-01.html">Ex. 1</a><a href="../../gini/exercises/exercise-02.html">Ex. 2</a><a class="active" href="../../gini/exercises/exercise-03.html">Ex. 3</a><a href="../../gini/exercises/exercise-04.html">Ex. 4</a><a href="../../gini/exercises/exercise-06.html">Ex. 6</a><a href="../../gini/exercises/exercise-10.html">Ex. 10</a><a href="../../gini/exercises/exercise-11.html">Ex. 11</a><a href="../../gini/exercises/exercise-12.html">Ex. 12</a></div>
     </section>
     <section class="section hypothesis-section">
-      <div class="exercise-callout"><p>The import-bin tables show the same bins with Gini/Theil/HHI side by side after LT/HGL product harmonization.</p></div>
+      
+      <article class="hypothesis-card cadot-hypothesis-card">
+        <div class="hypothesis-kicker">Gini Exercise 03</div>
+        <h3>Import-Bin Concentration</h3>
+        <dl>
+          <dt>Metric convention</dt><dd>active-positive Gini</dd>
+          <dt>Question</dt><dd>Which import bins carry concentration: energy, intermediates, capital goods, or final consumption?</dd>
+          <dt>Supports yes if</dt><dd>Specific bins have high internal concentration and meaningful import-value shares across Gini, Theil, and HHI.</dd>
+          <dt>Weakens yes if</dt><dd>All bins look similar or concentrated bins are too small to matter.</dd>
+          <dt>Current result</dt><dd>In 2024, unmapped or ambiguous has the highest median active-positive Gini at 0.971.</dd>
+        </dl>
+      </article>
+    
     </section>
     <section class="section">
       <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Gini. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
+      
       <div class="chart-grid">
+        
       <article class="chart-panel">
         <div class="tool-header">
           <div>
@@ -36,9 +50,20 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which BEC-style import bins remain most concentrated in active-positive Gini through time?</dd>
+          <dt>Supports the reading if</dt><dd>One or more economically meaningful bins stay above the others across years.</dd>
+          <dt>Weakens the reading if</dt><dd>The bin ordering is unstable or concentrated bins carry negligible import value.</dd>
+          <dt>Current result</dt><dd>In 2024, unmapped or ambiguous has the highest median active-positive Gini at 0.971.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise3-trend" class="chart js-plotly-plot"></div>
       </article>
     
+        
       <article class="chart-panel">
         <div class="tool-header">
           <div>
@@ -47,9 +72,136 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which import bins have the highest latest-year active-positive Gini?</dd>
+          <dt>Supports the reading if</dt><dd>The latest comparison identifies concentrated bins with material import shares.</dd>
+          <dt>Weakens the reading if</dt><dd>All bins have similar values or the highest bin is economically tiny.</dd>
+          <dt>Current result</dt><dd>In 2024, unmapped or ambiguous has the highest median active-positive Gini at 0.971.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise3-latest" class="chart js-plotly-plot"></div>
       </article>
-    </div>
+    
+      </div>
+      <section class="embedded-tool-section" id="nonenergy-explorer">
+        <div class="section-heading">
+          <div>
+            <h2>Non-Energy Import Map and Country Lines</h2>
+            <p>Imports only. Energy is removed using the approved Exercise 3 BEC mapping before LT/HGL conversion to HS1992/H0.</p>
+          </div>
+        </div>
+        <div class="tool-grid">
+          <article class="chart-panel selector-panel">
+            <div class="selector-actions">
+              <input id="exercise3-country-search" type="search" placeholder="Find country">
+              <button type="button" id="exercise3-select-all">All</button>
+              <button type="button" id="exercise3-clear-all">Clear</button>
+            </div>
+            <div id="exercise3-country-list" class="country-list"></div>
+          </article>
+          <div>
+            
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Non-energy import map</h3>
+            <p>Where does concentration remain high after removing energy?</p>
+          </div>
+          <div class="controls"><div class="year-control"><div class="year-control-head"><span>Year</span><output id="exercise3-year-label" for="exercise3-year-slider"></output></div><input id="exercise3-year-slider" type="range" min="2000" max="2024" step="1"><div class="year-range-labels"><span id="exercise3-year-min"></span><span id="exercise3-year-max"></span></div><select id="exercise3-year" class="sr-only" aria-label="Non-energy map year"></select></div></div>
+        </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Does import active-positive Gini remain widespread after removing the Exercise 3 energy bin?</dd>
+          <dt>Supports the reading if</dt><dd>Many Cadot reporters remain concentrated on the fixed non-energy color scale.</dd>
+          <dt>Weakens the reading if</dt><dd>Most countries become diffuse once energy is removed.</dd>
+          <dt>Current result</dt><dd>After removing energy, 132 reporters are available in 2024; median import active-positive Gini is 0.871.</dd>
+        </dl>
+      </article>
+    
+        <div id="exercise3-nonenergy-map" class="chart js-plotly-plot"></div>
+      </article>
+    
+            
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>Non-energy country trajectories</h3>
+            <p>How persistent is the selected metric after energy is removed?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Is non-energy import active-positive Gini persistent within countries?</dd>
+          <dt>Supports the reading if</dt><dd>Selected country lines remain elevated across the available 2000-2024 panel.</dd>
+          <dt>Weakens the reading if</dt><dd>The non-energy pattern is driven by isolated years or temporary shocks.</dd>
+          <dt>Current result</dt><dd>After removing energy, 132 reporters are available in 2024; median import active-positive Gini is 0.871.</dd>
+        </dl>
+      </article>
+    
+        <div id="exercise3-nonenergy-lines" class="chart js-plotly-plot tall"></div>
+      </article>
+    
+          </div>
+        </div>
+      </section>
+      <section class="embedded-tool-section" id="rank-bucket-explorer">
+        <div class="tool-header">
+          <div>
+            <h2>Non-Energy Import Basket Rank Buckets</h2>
+            <p>Earliest, midpoint, and latest available snapshots split each harmonized HS1992/H0 basket into the top five, ranks 6-50, ranks 51-200, and the rank-201+ tail.</p>
+          </div>
+          <div class="controls compact rank-bucket-controls">
+            <label>Driver group <select id="rank-bucket-group" aria-label="Filter rank buckets by metric-specific driver"></select></label>
+            <label>Sort <select id="rank-bucket-sort" aria-label="Sort rank-bucket chart">
+              <option value="end_top5_desc">Latest top 5 high to low</option>
+              <option value="end_tail_desc">Latest rank 201+ high to low</option>
+              <option value="driver_group">Main driver group</option>
+              <option value="country">Country A-Z</option>
+            </select></label>
+            <label>Country <select id="rank-bucket-country" aria-label="Focus rank-bucket country"></select></label>
+            <label>Search <input id="rank-bucket-search" type="search" placeholder="Filter countries"></label>
+          </div>
+        </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which part of the non-energy import basket changes: the top five, upper tier, middle tail, or long tail?</dd>
+          <dt>Supports the reading if</dt><dd>The start, midpoint, and end bars reveal whether change comes from top-product gains or tail compression.</dd>
+          <dt>Weakens the reading if</dt><dd>All rank buckets remain nearly unchanged across the three snapshots.</dd>
+          <dt>Current result</dt><dd>Across 156 reporter start-to-end comparisons, the most common largest contribution change is top-5 superstar concentration.</dd>
+        </dl>
+      </article>
+    
+        <div class="rank-bucket-layout">
+          <div class="rank-bucket-main">
+            <div class="rank-bucket-scroll">
+              <div id="rank-bucket-overview" class="chart js-plotly-plot rank-bucket-overview"></div>
+            </div>
+          </div>
+          <aside class="rank-bucket-side">
+            <h3 id="rank-bucket-focus-title">Country Focus</h3>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>What changed inside the selected country&#x27;s non-energy basket?</dd>
+          <dt>Supports the reading if</dt><dd>The focused bars and top-product list identify the products and rank ranges behind the change.</dd>
+          <dt>Weakens the reading if</dt><dd>The selected country&#x27;s aggregate change cannot be linked to a visible rank bucket or product family.</dd>
+          <dt>Current result</dt><dd>Across 156 reporter start-to-end comparisons, the most common largest contribution change is top-5 superstar concentration.</dd>
+        </dl>
+      </article>
+    
+            <div id="rank-bucket-country-chart" class="chart js-plotly-plot rank-bucket-focus"></div>
+            <div id="rank-bucket-detail" class="detail-box">Select a country to inspect non-energy totals and top HS1992 product families.</div>
+          </aside>
+        </div>
+      </section>
+        
     </section>
     <section class="section">
       <div class="section-heading"><h2>Cross-Metric Snapshot</h2><p>The selected site is metric-first, but the same harmonized exercise exists for all three metrics.</p></div>
@@ -79,11 +231,31 @@
           <figure>
             <a class="figure-link" href="../../assets/figures/ex3_value_share.png"><img src="../../assets/figures/ex3_value_share.png" alt="Median import value share by BEC-style bin in the Cadot 156 sample."></a>
             <figcaption>Median import value share by BEC-style bin in the Cadot 156 sample.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which import bins have the highest latest-year active-positive Gini?</dd>
+          <dt>Supports the reading if</dt><dd>The latest comparison identifies concentrated bins with material import shares.</dd>
+          <dt>Weakens the reading if</dt><dd>All bins have similar values or the highest bin is economically tiny.</dd>
+          <dt>Current result</dt><dd>In 2024, unmapped or ambiguous has the highest median active-positive Gini at 0.971.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 
           <figure>
             <a class="figure-link" href="../../assets/figures/ex3_leave_one_out.png"><img src="../../assets/figures/ex3_leave_one_out.png" alt="Latest-year import-bin concentration comparison across Gini, Theil, and HHI in the Cadot sample."></a>
             <figcaption>Latest-year import-bin concentration comparison across Gini, Theil, and HHI in the Cadot sample.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which import bins have the highest latest-year active-positive Gini?</dd>
+          <dt>Supports the reading if</dt><dd>The latest comparison identifies concentrated bins with material import shares.</dd>
+          <dt>Weakens the reading if</dt><dd>All bins have similar values or the highest bin is economically tiny.</dd>
+          <dt>Current result</dt><dd>In 2024, unmapped or ambiguous has the highest median active-positive Gini at 0.971.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 </div></div>
     </section>
@@ -93,7 +265,7 @@
     </section>
     <section class="section">
       <div class="section-heading"><h2>Downloads</h2><p>All downloads are Cadot-only staging artifacts from the harmonized rerun.</p></div>
-      <div class="download-grid"><a href="../../assets/downloads/exercise_03_import_bin_metrics.csv">exercise_03_import_bin_metrics.csv</a><a href="../../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
+      <div class="download-grid"><a href="../../assets/downloads/exercise_03_import_bin_metrics.csv">exercise_03_import_bin_metrics.csv</a><a href="../../assets/downloads/nonenergy_import_metric_annual.csv">nonenergy_import_metric_annual.csv</a><a href="../../assets/downloads/nonenergy_import_reporter_coverage.csv">nonenergy_import_reporter_coverage.csv</a><a href="../../assets/downloads/nonenergy_import_rank_bucket_snapshots.csv">nonenergy_import_rank_bucket_snapshots.csv</a><a href="../../assets/downloads/nonenergy_import_top_products_snapshots.csv">nonenergy_import_top_products_snapshots.csv</a><a href="../../assets/downloads/nonenergy_import_rank_bucket_drivers.csv">nonenergy_import_rank_bucket_drivers.csv</a><a href="../../assets/downloads/nonenergy_visualization_manifest.json">nonenergy_visualization_manifest.json</a><a href="../../assets/downloads/nonenergy_visualization_adversarial_review.md">nonenergy_visualization_adversarial_review.md</a><a href="../../assets/downloads/cadot_three_metric_manifest.json">cadot_three_metric_manifest.json</a><a href="../../assets/downloads/three_metric_adversarial_review.md">three_metric_adversarial_review.md</a></div>
     </section>
     
   </main>
@@ -113,7 +285,7 @@
   </footer>
     
   <script src="../../assets/vendor/plotly.min.js"></script>
-  <script src="../../assets/site-data.js?v=202606171423460000"></script>
-  <script src="../../assets/site.js?v=202606171423460000"></script>
+  <script src="../../assets/site-data.js?v=202606181651060000"></script>
+  <script src="../../assets/site.js?v=202606181651060000"></script>
 </body>
 </html>

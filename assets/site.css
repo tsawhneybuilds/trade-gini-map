@@ -1011,6 +1011,36 @@ body.cadot-site {
 .cadot-site .exercise-callout p {
   margin: 0;
 }
+.cadot-site .cadot-hypothesis-card {
+  max-width: none;
+}
+.cadot-site .cadot-evidence-note {
+  margin: 16px 0;
+  box-shadow: none;
+}
+.cadot-site .chart-panel > .cadot-evidence-note {
+  margin-bottom: 12px;
+}
+.cadot-site .embedded-tool-section {
+  margin-top: 34px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+.cadot-site .rank-bucket-side {
+  top: 92px;
+}
+.cadot-site .rank-bucket-detail-title {
+  font-weight: 800;
+}
+.cadot-site .rank-bucket-product-code {
+  white-space: nowrap;
+}
+.cadot-site .year-control {
+  min-width: min(320px, 100%);
+}
+.cadot-site .year-control input[type="range"] {
+  width: 100%;
+}
 .cadot-site .metric-link-card,
 .cadot-site .exercise-card {
   display: block;
@@ -1061,7 +1091,30 @@ body.cadot-site {
 .cadot-site .metric-route-table table {
   min-width: 0;
 }
+.cadot-site .table-wrap {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+.cadot-site .table-wrap table {
+  min-width: 720px;
+}
 @media (max-width: 860px) {
+  .cadot-site main,
+  .cadot-site .section,
+  .cadot-site .tool-section,
+  .cadot-site .chart-panel,
+  .cadot-site .tool-header,
+  .cadot-site .controls,
+  .cadot-site .year-control {
+    min-width: 0;
+    max-width: 100%;
+  }
   .cadot-site .link-grid.three-up,
   .cadot-site .metric-overview-grid,
   .cadot-site .exercise-switch-grid,

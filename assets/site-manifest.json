@@ -1,7 +1,8 @@
 {
   "country_sample": "cadot_broad_156",
-  "created_at_utc": "2026-06-17T14:23:48+00:00",
+  "created_at_utc": "2026-06-18T16:51:10+00:00",
   "downloads": [
+    "archived_extension_parity_report.md",
     "cadot_three_metric_manifest.json",
     "cadot_three_metric_methods.md",
     "concentration_metric_all_years.csv",
@@ -15,6 +16,15 @@
     "metric_headline_product_panel.csv",
     "metric_latest_rankings.csv",
     "metric_yearly_summary.csv",
+    "nonenergy_import_metric_annual.csv",
+    "nonenergy_import_rank_bucket_drivers.csv",
+    "nonenergy_import_rank_bucket_snapshots.csv",
+    "nonenergy_import_reporter_coverage.csv",
+    "nonenergy_import_top_products_snapshots.csv",
+    "nonenergy_visualization_adversarial_review.md",
+    "nonenergy_visualization_manifest.json",
+    "nonenergy_visualization_validation_checks.csv",
+    "nonenergy_world_hs1992_product_universe.csv",
     "product_universe.csv",
     "sample_attrition_by_reporter_flow.csv",
     "three_metric_adversarial_review.md",
@@ -255,6 +265,106 @@
       "row_count": null,
       "sha256": "e6c7681d999d924775d79e1bab6e4221c9aceb1c0069b24043bf40257843068a",
       "size_bytes": 6906
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|flow|source_raw_file|active_nonenergy_products|total_nonenergy_imports|gini|theil|hhi|direct_active_gini|direct_active_hhi|fixed_nonenergy_universe_count|top10_share|top5_share|top5_gini_contribution|top5_theil_contribution|top5_hhi_contribution|rank6_50_share|rank6_50_gini_contribution|rank6_50_theil_contribution|rank6_50_hhi_contribution|rank51_200_share|rank51_200_gini_contribution|rank51_200_theil_contribution|rank51_200_hhi_contribution|rank201_plus_share|rank201_plus_gini_contribution|rank201_plus_theil_contribution|rank201_plus_hhi_contribution",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:27:12+00:00",
+      "name": "nonenergy_import_metric_annual.csv",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_import_metric_annual.csv",
+      "row_count": 3756,
+      "sha256": "bbc934104bbf92240c7283081c45d0be988a70bb214455626b6044ca8f388100",
+      "size_bytes": 2020339
+    },
+    {
+      "columns": "country|iso3|reporter_code|flow|first_available_year|last_available_year|available_years|has_2000|has_2024",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:27:12+00:00",
+      "name": "nonenergy_import_reporter_coverage.csv",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_import_reporter_coverage.csv",
+      "row_count": 156,
+      "sha256": "d7d9ba60124c0da0fb0103a2acd513af5ef7d3a1d077408052354d11dec28016",
+      "size_bytes": 7733
+    },
+    {
+      "columns": "country|iso3|reporter_code|snapshot|year|flow|source_raw_file|active_nonenergy_products|total_nonenergy_imports|gini|theil|hhi|direct_active_gini|direct_active_hhi|fixed_nonenergy_universe_count|top10_share|top5_share|top5_gini_contribution|top5_theil_contribution|top5_hhi_contribution|rank6_50_share|rank6_50_gini_contribution|rank6_50_theil_contribution|rank6_50_hhi_contribution|rank51_200_share|rank51_200_gini_contribution|rank51_200_theil_contribution|rank51_200_hhi_contribution|rank201_plus_share|rank201_plus_gini_contribution|rank201_plus_theil_contribution|rank201_plus_hhi_contribution",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:27:14+00:00",
+      "name": "nonenergy_import_rank_bucket_snapshots.csv",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_import_rank_bucket_snapshots.csv",
+      "row_count": 468,
+      "sha256": "64f87583901895fd9419f631978233bd1de12021abdeeba27d57970485bf1b39",
+      "size_bytes": 254395
+    },
+    {
+      "columns": "cmd_code|trade_value|rank|share|gini_contribution|theil_contribution|hhi_contribution|country|iso3|reporter_code|snapshot|year|total_nonenergy_imports|product_label",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:27:14+00:00",
+      "name": "nonenergy_import_top_products_snapshots.csv",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_import_top_products_snapshots.csv",
+      "row_count": 4680,
+      "sha256": "f5b58f0a84d0cc93bd85dacb3f9ef0a4a4197158e71b677d9cb89a6e1a1ae60b",
+      "size_bytes": 1002666
+    },
+    {
+      "columns": "country|iso3|reporter_code|metric|start_year|end_year|start_metric|end_metric|delta_metric|metric_change_direction|main_driver_bucket|main_driver_bucket_label|main_driver_group|delta_top5_contribution|delta_rank6_50_contribution|delta_rank51_200_contribution|delta_rank201_plus_contribution",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:27:14+00:00",
+      "name": "nonenergy_import_rank_bucket_drivers.csv",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_import_rank_bucket_drivers.csv",
+      "row_count": 468,
+      "sha256": "1aa259f8ab53c25f86c864d71582b4894ce0838d09460b74cfc184b11a8cdc45",
+      "size_bytes": 108917
+    },
+    {
+      "columns": "flow|cmd_code|product_id",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:26:52+00:00",
+      "name": "nonenergy_world_hs1992_product_universe.csv",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_world_hs1992_product_universe.csv",
+      "row_count": 9848,
+      "sha256": "e87927820ea9e85fadffb9290687457694f59d13c71df7f86210fbec05f70ef8",
+      "size_bytes": 285617
+    },
+    {
+      "columns": "check|passed|value|expected",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:27:18+00:00",
+      "name": "nonenergy_visualization_validation_checks.csv",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_visualization_validation_checks.csv",
+      "row_count": 16,
+      "sha256": "8ccb6a8dc8c6bcde93d34b82410f16f28203b482363083f4a7f3936ff7958410",
+      "size_bytes": 868
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-06-18T09:27:18+00:00",
+      "name": "nonenergy_visualization_manifest.json",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_visualization_manifest.json",
+      "row_count": null,
+      "sha256": "90a1a911fdddae5c6b138e8df7b70e51554c5f38971010312adb1ac017caa22f",
+      "size_bytes": 3526
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-06-18T16:50:58+00:00",
+      "name": "archived_extension_parity_report.md",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/archived_extension_parity_report.md",
+      "row_count": null,
+      "sha256": "a542891296d59690c271678b45016727b88fad400b301a20d5f557a0ac66cb5e",
+      "size_bytes": 2018
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-06-18T12:03:31+00:00",
+      "name": "nonenergy_visualization_adversarial_review.md",
+      "path": "results/samples/cadot_broad_156/three_metric_tables/nonenergy_visualization_adversarial_review.md",
+      "row_count": null,
+      "sha256": "81c4be1b3eb538c65fad053f98543b03f6ba8ce92e7fac1c5ede92fe49482848",
+      "size_bytes": 6955
     }
   ]
 }

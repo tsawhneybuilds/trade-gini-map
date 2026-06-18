@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Exercise 12: Growth Decomposition | Trade Concentration</title>
-  <link rel="stylesheet" href="../../assets/site.css?v=202606171423460000">
+  <link rel="stylesheet" href="../../assets/site.css?v=202606181651070000">
 </head>
 <body class="cadot-site" data-page="cadot-gini-exercise-12" data-metric="gini">
   <header class="site-header">
@@ -23,7 +23,19 @@
       <div class="subnav-chips"><a href="../../gini/exercises/exercise-01.html">Ex. 1</a><a href="../../gini/exercises/exercise-02.html">Ex. 2</a><a href="../../gini/exercises/exercise-03.html">Ex. 3</a><a href="../../gini/exercises/exercise-04.html">Ex. 4</a><a href="../../gini/exercises/exercise-06.html">Ex. 6</a><a href="../../gini/exercises/exercise-10.html">Ex. 10</a><a href="../../gini/exercises/exercise-11.html">Ex. 11</a><a class="active" href="../../gini/exercises/exercise-12.html">Ex. 12</a></div>
     </section>
     <section class="section hypothesis-section">
-      <div class="exercise-callout"><p>The richer LT/HGL decomposition remains the headline; the rerun adds Gini/Theil/HHI base-bucket summaries.</p></div>
+      
+      <article class="hypothesis-card cadot-hypothesis-card">
+        <div class="hypothesis-kicker">Gini Exercise 12</div>
+        <h3>Growth Decomposition</h3>
+        <dl>
+          <dt>Metric convention</dt><dd>active-positive Gini</dd>
+          <dt>Question</dt><dd>Does later export growth come from new products, new partners, new cells, or incumbent growth?</dd>
+          <dt>Supports yes if</dt><dd>Growth decomposition patterns remain visible across base-concentration metrics and horizons.</dd>
+          <dt>Weakens yes if</dt><dd>The channel pattern disappears once base concentration is measured with Theil or HHI.</dd>
+          <dt>Current result</dt><dd>Across the published buckets and horizons, mean annualized trade growth log ranges from 4.8% to 7.6%.</dd>
+        </dl>
+      </article>
+    
     </section>
     <section class="section">
       <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Gini. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
@@ -36,6 +48,16 @@
           </div>
           <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise12-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label><label><span class="sr-only">Horizon</span><select id="exercise12-horizon"><option value="1">1 year</option><option value="3">3 years</option><option value="5" selected>5 years</option><option value="10">10 years</option></select></label></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>How does later trade growth vary across base-active-positive Gini buckets?</dd>
+          <dt>Supports the reading if</dt><dd>Trade-growth means differ systematically across ordered base-concentration buckets.</dd>
+          <dt>Weakens the reading if</dt><dd>The bucket pattern is flat or changes sign across nearby horizons.</dd>
+          <dt>Current result</dt><dd>Across the published buckets and horizons, mean annualized trade growth log ranges from 4.8% to 7.6%.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise12-growth" class="chart js-plotly-plot"></div>
       </article>
     
@@ -47,6 +69,16 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Do product, partner, and product-partner-cell growth channels differ by base-active-positive Gini bucket?</dd>
+          <dt>Supports the reading if</dt><dd>The grouped components reveal a consistent extensive-margin channel.</dd>
+          <dt>Weakens the reading if</dt><dd>All components are similar or the ordering is unstable across buckets.</dd>
+          <dt>Current result</dt><dd>Across the published buckets and horizons, mean annualized product active count growth log ranges from 0.2% to 2.8%.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise12-components" class="chart js-plotly-plot"></div>
       </article>
     </div>
@@ -103,7 +135,7 @@
   </footer>
     
   <script src="../../assets/vendor/plotly.min.js"></script>
-  <script src="../../assets/site-data.js?v=202606171423460000"></script>
-  <script src="../../assets/site.js?v=202606171423460000"></script>
+  <script src="../../assets/site-data.js?v=202606181651070000"></script>
+  <script src="../../assets/site.js?v=202606181651070000"></script>
 </body>
 </html>

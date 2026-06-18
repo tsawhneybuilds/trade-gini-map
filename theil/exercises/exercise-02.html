@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Exercise 2: Concentration Buckets And Growth | Trade Concentration</title>
-  <link rel="stylesheet" href="../../assets/site.css?v=202606171423470000">
+  <link rel="stylesheet" href="../../assets/site.css?v=202606181651070000">
 </head>
 <body class="cadot-site" data-page="cadot-theil-exercise-02" data-metric="theil">
   <header class="site-header">
@@ -23,7 +23,19 @@
       <div class="subnav-chips"><a href="../../theil/exercises/exercise-01.html">Ex. 1</a><a class="active" href="../../theil/exercises/exercise-02.html">Ex. 2</a><a href="../../theil/exercises/exercise-03.html">Ex. 3</a><a href="../../theil/exercises/exercise-04.html">Ex. 4</a><a href="../../theil/exercises/exercise-06.html">Ex. 6</a><a href="../../theil/exercises/exercise-10.html">Ex. 10</a><a href="../../theil/exercises/exercise-11.html">Ex. 11</a><a href="../../theil/exercises/exercise-12.html">Ex. 12</a></div>
     </section>
     <section class="section hypothesis-section">
-      <div class="exercise-callout"><p>Treat the evidence as descriptive: the page reports Gini, Theil, and HHI bucket summaries without causal interpretation.</p></div>
+      
+      <article class="hypothesis-card cadot-hypothesis-card">
+        <div class="hypothesis-kicker">Theil Exercise 02</div>
+        <h3>Concentration Buckets And Growth</h3>
+        <dl>
+          <dt>Metric convention</dt><dd>fixed-universe Theil</dd>
+          <dt>Question</dt><dd>Do high-concentration export states predict meaningfully different later export-growth paths?</dd>
+          <dt>Supports yes if</dt><dd>High-concentration buckets show systematically different later trade or active-product growth across metrics.</dd>
+          <dt>Weakens yes if</dt><dd>Bucket differences are small, unstable across metrics, or mostly sample-composition artifacts.</dd>
+          <dt>Current result</dt><dd>Across published buckets and horizons, the reported mean ranges from 4.1% to 8.9%; this remains descriptive.</dd>
+        </dl>
+      </article>
+    
     </section>
     <section class="section">
       <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Theil. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
@@ -36,6 +48,16 @@
           </div>
           <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise2-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label><label><span class="sr-only">Horizon</span><select id="exercise2-horizon"><option value="1">1 year</option><option value="3">3 years</option><option value="5" selected>5 years</option><option value="10">10 years</option></select></label></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Do later trade-growth paths differ across base-fixed-universe Theil buckets?</dd>
+          <dt>Supports the reading if</dt><dd>Mean annualized growth differs systematically across ordered concentration buckets.</dd>
+          <dt>Weakens the reading if</dt><dd>Bucket means are similar, unordered, or based on very different samples.</dd>
+          <dt>Current result</dt><dd>Across published buckets and horizons, the reported mean ranges from 4.1% to 8.9%; this remains descriptive.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise2-growth" class="chart js-plotly-plot"></div>
       </article>
     
@@ -47,6 +69,16 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Do base-fixed-universe Theil buckets predict different active-product growth?</dd>
+          <dt>Supports the reading if</dt><dd>Active-product growth changes systematically across the concentration buckets.</dd>
+          <dt>Weakens the reading if</dt><dd>Product-count growth is flat or unstable across buckets.</dd>
+          <dt>Current result</dt><dd>Across published buckets and horizons, the reported mean ranges from 0.0% to 5.9%; this remains descriptive.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise2-products" class="chart js-plotly-plot"></div>
       </article>
     </div>
@@ -103,7 +135,7 @@
   </footer>
     
   <script src="../../assets/vendor/plotly.min.js"></script>
-  <script src="../../assets/site-data.js?v=202606171423470000"></script>
-  <script src="../../assets/site.js?v=202606171423470000"></script>
+  <script src="../../assets/site-data.js?v=202606181651070000"></script>
+  <script src="../../assets/site.js?v=202606181651070000"></script>
 </body>
 </html>

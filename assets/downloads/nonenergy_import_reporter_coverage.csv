@@ -1,0 +1,157 @@
+country,iso3,reporter_code,flow,first_available_year,last_available_year,available_years,has_2000,has_2024
+Albania,ALB,8,Imports,2000,2024,25,True,True
+Algeria,DZA,12,Imports,2000,2024,19,True,True
+Andorra,AND,20,Imports,2000,2023,23,True,False
+Angola,AGO,24,Imports,2004,2024,21,False,True
+Antigua and Barbuda,ATG,28,Imports,2000,2024,20,True,True
+Argentina,ARG,32,Imports,2000,2024,25,True,True
+Armenia,ARM,51,Imports,2000,2024,25,True,True
+Aruba,ABW,533,Imports,2005,2023,16,False,False
+Australia,AUS,36,Imports,2000,2024,25,True,True
+Austria,AUT,40,Imports,2000,2024,25,True,True
+Azerbaijan,AZE,31,Imports,2000,2024,25,True,True
+Bahamas,BHS,44,Imports,2000,2024,25,True,True
+Bahrain,BHR,48,Imports,2000,2024,25,True,True
+Barbados,BRB,52,Imports,2000,2024,25,True,True
+Belarus,BLR,112,Imports,2000,2021,22,True,False
+Belgium,BEL,56,Imports,2000,2024,25,True,True
+Belize,BLZ,84,Imports,2000,2024,25,True,True
+Benin,BEN,204,Imports,2000,2024,25,True,True
+Bermuda,BMU,60,Imports,2010,2024,15,False,True
+Bolivia (Plurinational State of),BOL,68,Imports,2000,2024,25,True,True
+Bosnia Herzegovina,BIH,70,Imports,2003,2024,22,False,True
+Botswana,BWA,72,Imports,2000,2023,24,True,False
+Brazil,BRA,76,Imports,2000,2024,25,True,True
+Brunei Darussalam,BRN,96,Imports,2001,2024,23,False,True
+Bulgaria,BGR,100,Imports,2000,2024,25,True,True
+Burkina Faso,BFA,854,Imports,2000,2024,25,True,True
+Burundi,BDI,108,Imports,2000,2023,24,True,False
+Cabo Verde,CPV,132,Imports,2000,2024,25,True,True
+Cambodia,KHM,116,Imports,2000,2024,25,True,True
+Cameroon,CMR,120,Imports,2000,2023,24,True,False
+Canada,CAN,124,Imports,2000,2024,25,True,True
+Central African Rep.,CAF,140,Imports,2000,2024,25,True,True
+Chile,CHL,152,Imports,2000,2024,25,True,True
+China,CHN,156,Imports,2000,2024,25,True,True
+"China, Hong Kong SAR",HKG,344,Imports,2000,2024,25,True,True
+"China, Macao SAR",MAC,446,Imports,2000,2024,25,True,True
+Colombia,COL,170,Imports,2000,2024,25,True,True
+Comoros,COM,174,Imports,2000,2023,24,True,False
+Costa Rica,CRI,188,Imports,2000,2024,25,True,True
+Croatia,HRV,191,Imports,2000,2024,25,True,True
+Cyprus,CYP,196,Imports,2000,2024,25,True,True
+Czechia,CZE,203,Imports,2000,2024,25,True,True
+Côte d'Ivoire,CIV,384,Imports,2000,2024,25,True,True
+Denmark,DNK,208,Imports,2000,2024,25,True,True
+Dominica,DMA,212,Imports,2000,2023,21,True,False
+Dominican Rep.,DOM,214,Imports,2001,2024,24,False,True
+Ecuador,ECU,218,Imports,2000,2024,25,True,True
+Egypt,EGY,818,Imports,2000,2024,25,True,True
+El Salvador,SLV,222,Imports,2000,2024,25,True,True
+Estonia,EST,233,Imports,2000,2024,25,True,True
+Eswatini,SWZ,748,Imports,2000,2023,24,True,False
+Ethiopia,ETH,231,Imports,2000,2023,24,True,False
+Fiji,FJI,242,Imports,2002,2024,23,False,True
+Finland,FIN,246,Imports,2000,2024,25,True,True
+France,FRA,251,Imports,2000,2024,25,True,True
+French Polynesia,PYF,258,Imports,2000,2024,25,True,True
+Gabon,GAB,266,Imports,2000,2023,24,True,False
+Gambia,GMB,270,Imports,2000,2024,25,True,True
+Georgia,GEO,268,Imports,2000,2024,25,True,True
+Germany,DEU,276,Imports,2000,2024,25,True,True
+Ghana,GHA,288,Imports,2000,2023,22,True,False
+Greece,GRC,300,Imports,2000,2024,25,True,True
+Greenland,GRL,304,Imports,2000,2018,19,True,False
+Grenada,GRD,308,Imports,2000,2024,25,True,True
+Guatemala,GTM,320,Imports,2000,2024,25,True,True
+Guyana,GUY,328,Imports,2000,2024,25,True,True
+Honduras,HND,340,Imports,2000,2024,22,True,True
+Hungary,HUN,348,Imports,2000,2024,25,True,True
+Iceland,ISL,352,Imports,2000,2024,25,True,True
+India,IND,699,Imports,2000,2024,25,True,True
+Indonesia,IDN,360,Imports,2000,2024,25,True,True
+Iran,IRN,364,Imports,2000,2022,19,True,False
+Ireland,IRL,372,Imports,2000,2024,25,True,True
+Israel,ISR,376,Imports,2000,2024,25,True,True
+Italy,ITA,380,Imports,2000,2024,25,True,True
+Jamaica,JAM,388,Imports,2000,2024,25,True,True
+Japan,JPN,392,Imports,2000,2024,25,True,True
+Jordan,JOR,400,Imports,2000,2024,25,True,True
+Kazakhstan,KAZ,398,Imports,2000,2024,25,True,True
+Kenya,KEN,404,Imports,2000,2024,22,True,True
+Kuwait,KWT,414,Imports,2000,2024,22,True,True
+Kyrgyzstan,KGZ,417,Imports,2000,2024,25,True,True
+Latvia,LVA,428,Imports,2000,2024,25,True,True
+Lebanon,LBN,422,Imports,2000,2024,25,True,True
+Lesotho,LSO,426,Imports,2000,2024,25,True,True
+Lithuania,LTU,440,Imports,2000,2024,25,True,True
+Luxembourg,LUX,442,Imports,2000,2024,25,True,True
+Madagascar,MDG,450,Imports,2000,2024,25,True,True
+Malawi,MWI,454,Imports,2000,2024,25,True,True
+Malaysia,MYS,458,Imports,2000,2024,25,True,True
+Maldives,MDV,462,Imports,2000,2024,25,True,True
+Mali,MLI,466,Imports,2000,2023,20,True,False
+Malta,MLT,470,Imports,2000,2024,25,True,True
+Mauritania,MRT,478,Imports,2000,2024,25,True,True
+Mauritius,MUS,480,Imports,2000,2024,25,True,True
+Mexico,MEX,484,Imports,2000,2024,25,True,True
+Mongolia,MNG,496,Imports,2000,2023,18,True,False
+Montenegro,MNE,499,Imports,2006,2024,19,False,True
+Montserrat,MSR,500,Imports,2000,2024,24,True,True
+Morocco,MAR,504,Imports,2000,2024,25,True,True
+Mozambique,MOZ,508,Imports,2000,2024,25,True,True
+Namibia,NAM,516,Imports,2000,2024,25,True,True
+Netherlands,NLD,528,Imports,2000,2024,25,True,True
+New Zealand,NZL,554,Imports,2000,2024,25,True,True
+Nicaragua,NIC,558,Imports,2000,2024,25,True,True
+Niger,NER,562,Imports,2000,2024,25,True,True
+Nigeria,NGA,566,Imports,2000,2024,23,True,True
+North Macedonia,MKD,807,Imports,2000,2024,25,True,True
+Norway,NOR,579,Imports,2000,2024,25,True,True
+Oman,OMN,512,Imports,2000,2024,25,True,True
+Pakistan,PAK,586,Imports,2003,2024,22,False,True
+Panama,PAN,591,Imports,2000,2024,25,True,True
+Paraguay,PRY,600,Imports,2000,2024,25,True,True
+Peru,PER,604,Imports,2000,2024,25,True,True
+Philippines,PHL,608,Imports,2000,2024,25,True,True
+Poland,POL,616,Imports,2000,2024,25,True,True
+Portugal,PRT,620,Imports,2000,2024,25,True,True
+Qatar,QAT,634,Imports,2000,2024,23,True,True
+Rep. of Korea,KOR,410,Imports,2000,2024,25,True,True
+Rep. of Moldova,MDA,498,Imports,2000,2024,25,True,True
+Romania,ROU,642,Imports,2000,2024,25,True,True
+Russian Federation,RUS,643,Imports,2000,2021,22,True,False
+Rwanda,RWA,646,Imports,2001,2022,22,False,False
+Saint Lucia,LCA,662,Imports,2000,2020,21,True,False
+Saint Vincent and the Grenadines,VCT,670,Imports,2000,2023,24,True,False
+Samoa,WSM,882,Imports,2001,2024,23,False,True
+Sao Tome and Principe,STP,678,Imports,2000,2023,24,True,False
+Saudi Arabia,SAU,682,Imports,2000,2024,25,True,True
+Senegal,SEN,686,Imports,2000,2024,25,True,True
+Serbia,SRB,688,Imports,2006,2024,19,False,True
+Seychelles,SYC,690,Imports,2000,2024,25,True,True
+Singapore,SGP,702,Imports,2000,2024,25,True,True
+Slovakia,SVK,703,Imports,2000,2024,25,True,True
+Slovenia,SVN,705,Imports,2000,2024,25,True,True
+South Africa,ZAF,710,Imports,2000,2024,25,True,True
+Spain,ESP,724,Imports,2000,2024,25,True,True
+Sri Lanka,LKA,144,Imports,2000,2024,24,True,True
+Suriname,SUR,740,Imports,2000,2024,25,True,True
+Sweden,SWE,752,Imports,2000,2024,25,True,True
+Switzerland,CHE,757,Imports,2000,2024,25,True,True
+Thailand,THA,764,Imports,2000,2024,25,True,True
+Togo,TGO,768,Imports,2000,2024,24,True,True
+Tonga,TON,776,Imports,2000,2023,22,True,False
+Trinidad and Tobago,TTO,780,Imports,2000,2024,25,True,True
+Tunisia,TUN,788,Imports,2000,2024,25,True,True
+Türkiye,TUR,792,Imports,2000,2024,25,True,True
+USA,USA,842,Imports,2000,2024,25,True,True
+Uganda,UGA,800,Imports,2000,2024,25,True,True
+Ukraine,UKR,804,Imports,2000,2024,25,True,True
+United Arab Emirates,ARE,784,Imports,2005,2023,15,False,False
+United Kingdom,GBR,826,Imports,2000,2024,25,True,True
+United Rep. of Tanzania,TZA,834,Imports,2000,2024,25,True,True
+Uruguay,URY,858,Imports,2000,2024,25,True,True
+Viet Nam,VNM,704,Imports,2000,2023,24,True,False
+Zambia,ZMB,894,Imports,2000,2024,25,True,True
+Zimbabwe,ZWE,716,Imports,2000,2024,25,True,True

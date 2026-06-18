@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Exercise 1: Persistent Aggregate Concentration | Trade Concentration</title>
-  <link rel="stylesheet" href="../../assets/site.css?v=202606171423460000">
+  <link rel="stylesheet" href="../../assets/site.css?v=202606181651060000">
 </head>
 <body class="cadot-site" data-page="cadot-gini-exercise-01" data-metric="gini">
   <header class="site-header">
@@ -23,7 +23,19 @@
       <div class="subnav-chips"><a class="active" href="../../gini/exercises/exercise-01.html">Ex. 1</a><a href="../../gini/exercises/exercise-02.html">Ex. 2</a><a href="../../gini/exercises/exercise-03.html">Ex. 3</a><a href="../../gini/exercises/exercise-04.html">Ex. 4</a><a href="../../gini/exercises/exercise-06.html">Ex. 6</a><a href="../../gini/exercises/exercise-10.html">Ex. 10</a><a href="../../gini/exercises/exercise-11.html">Ex. 11</a><a href="../../gini/exercises/exercise-12.html">Ex. 12</a></div>
     </section>
     <section class="section hypothesis-section">
-      <div class="exercise-callout"><p>Use the Cadot-style Gini/Theil/HHI panel as the common headline panel; compare products, partners, and cells on common available rows.</p></div>
+      
+      <article class="hypothesis-card cadot-hypothesis-card">
+        <div class="hypothesis-kicker">Gini Exercise 01</div>
+        <h3>Persistent Aggregate Concentration</h3>
+        <dl>
+          <dt>Metric convention</dt><dd>active-positive Gini</dd>
+          <dt>Question</dt><dd>Is trade concentration a persistent country-panel fact rather than a one-year cross-section artifact?</dd>
+          <dt>Supports yes if</dt><dd>Product, partner, and product-partner-cell concentration remain high across countries, flows, and years.</dd>
+          <dt>Weakens yes if</dt><dd>The high concentration pattern disappears once the sample is followed through time or measured with Theil/HHI.</dd>
+          <dt>Current result</dt><dd>In 2024, the common product panel covers 132 reporters and has median active-positive Gini 0.916 across the two flows.</dd>
+        </dl>
+      </article>
+    
     </section>
     <section class="section">
       <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Gini. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
@@ -37,6 +49,7 @@
           </div>
           <div id="exercise1-country-list" class="country-list"></div>
           <p class="section-note">Use the list to control the cross-country line view. The map reads the selected metric in the selected year and flow.</p>
+          <p><a href="exercise-03.html#nonenergy-explorer">Open the non-energy import explorer</a></p>
         </article>
         <div>
           
@@ -46,8 +59,18 @@
             <h3>Interactive map</h3>
             <p>Where is the selected metric highest in the chosen year?</p>
           </div>
-          <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise1-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label><label><span class="sr-only">Year</span><select id="exercise1-year"></select></label></div>
+          <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise1-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label><div class="year-control"><div class="year-control-head"><span>Year</span><output id="exercise1-year-label" for="exercise1-year-slider"></output></div><input id="exercise1-year-slider" type="range" min="2000" max="2024" step="1"><div class="year-range-labels"><span id="exercise1-year-min"></span><span id="exercise1-year-max"></span></div><select id="exercise1-year" class="sr-only" aria-label="Map year"></select></div></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Is high active-positive Gini broad across countries, or driven by only a few outliers?</dd>
+          <dt>Supports the reading if</dt><dd>Many countries remain high on the common color scale rather than one or two countries driving the pattern.</dd>
+          <dt>Weakens the reading if</dt><dd>Only a small number of countries have high values while most of the map remains low.</dd>
+          <dt>Current result</dt><dd>In 2024, the common product panel covers 132 reporters and has median active-positive Gini 0.916 across the two flows.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise1-map" class="chart js-plotly-plot"></div>
       </article>
     
@@ -60,6 +83,16 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Is active-positive Gini persistent within countries through time?</dd>
+          <dt>Supports the reading if</dt><dd>Country trajectories remain elevated across multiple years instead of collapsing after one cross-section.</dd>
+          <dt>Weakens the reading if</dt><dd>Country values are dominated by isolated annual spikes or fall sharply through the panel.</dd>
+          <dt>Current result</dt><dd>In 2024, the common product panel covers 132 reporters and has median active-positive Gini 0.916 across the two flows.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise1-lines" class="chart js-plotly-plot tall"></div>
       </article>
     
@@ -72,6 +105,16 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which countries sit at the top of the latest active-positive Gini distribution?</dd>
+          <dt>Supports the reading if</dt><dd>The ranking identifies a stable upper group rather than a single extreme country.</dd>
+          <dt>Weakens the reading if</dt><dd>The upper tail is effectively one observation with a large gap to the rest.</dd>
+          <dt>Current result</dt><dd>In 2024, the common product panel covers 132 reporters and has median active-positive Gini 0.916 across the two flows.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise1-ranking" class="chart js-plotly-plot"></div>
       </article>
     
@@ -107,16 +150,46 @@
           <figure>
             <a class="figure-link" href="../../assets/figures/ex1_median_concentration_over_time.png"><img src="../../assets/figures/ex1_median_concentration_over_time.png" alt="Cadot 156 median concentration over time. The interactive chart on this page carries the selected metric; this figure is the shared visual benchmark."></a>
             <figcaption>Cadot 156 median concentration over time. The interactive chart on this page carries the selected metric; this figure is the shared visual benchmark.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Is active-positive Gini persistent within countries through time?</dd>
+          <dt>Supports the reading if</dt><dd>Country trajectories remain elevated across multiple years instead of collapsing after one cross-section.</dd>
+          <dt>Weakens the reading if</dt><dd>Country values are dominated by isolated annual spikes or fall sharply through the panel.</dd>
+          <dt>Current result</dt><dd>In 2024, the common product panel covers 132 reporters and has median active-positive Gini 0.916 across the two flows.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 
           <figure>
             <a class="figure-link" href="../../assets/figures/ex1_import_vs_export_product_gini_over_time.png"><img src="../../assets/figures/ex1_import_vs_export_product_gini_over_time.png" alt="Import and export product concentration over time for the Cadot 156 sample."></a>
             <figcaption>Import and export product concentration over time for the Cadot 156 sample.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Is active-positive Gini persistent within countries through time?</dd>
+          <dt>Supports the reading if</dt><dd>Country trajectories remain elevated across multiple years instead of collapsing after one cross-section.</dd>
+          <dt>Weakens the reading if</dt><dd>Country values are dominated by isolated annual spikes or fall sharply through the panel.</dd>
+          <dt>Current result</dt><dd>In 2024, the common product panel covers 132 reporters and has median active-positive Gini 0.916 across the two flows.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 </div><div class="figure-row">
           <figure>
             <a class="figure-link" href="../../assets/figures/ex1_country_product_gini_lines.png"><img src="../../assets/figures/ex1_country_product_gini_lines.png" alt="Country trajectories for product concentration in the Cadot 156 sample."></a>
             <figcaption>Country trajectories for product concentration in the Cadot 156 sample.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Is active-positive Gini persistent within countries through time?</dd>
+          <dt>Supports the reading if</dt><dd>Country trajectories remain elevated across multiple years instead of collapsing after one cross-section.</dd>
+          <dt>Weakens the reading if</dt><dd>Country values are dominated by isolated annual spikes or fall sharply through the panel.</dd>
+          <dt>Current result</dt><dd>In 2024, the common product panel covers 132 reporters and has median active-positive Gini 0.916 across the two flows.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 </div></div>
     </section>
@@ -146,7 +219,7 @@
   </footer>
     
   <script src="../../assets/vendor/plotly.min.js"></script>
-  <script src="../../assets/site-data.js?v=202606171423460000"></script>
-  <script src="../../assets/site.js?v=202606171423460000"></script>
+  <script src="../../assets/site-data.js?v=202606181651060000"></script>
+  <script src="../../assets/site.js?v=202606181651060000"></script>
 </body>
 </html>

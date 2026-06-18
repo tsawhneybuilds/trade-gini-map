@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Exercise 11: Leave-One-Out Product Contributions | Trade Concentration</title>
-  <link rel="stylesheet" href="../../assets/site.css?v=202606171423470000">
+  <link rel="stylesheet" href="../../assets/site.css?v=202606181651090000">
 </head>
 <body class="cadot-site" data-page="cadot-theil-exercise-11" data-metric="theil">
   <header class="site-header">
@@ -23,7 +23,19 @@
       <div class="subnav-chips"><a href="../../theil/exercises/exercise-01.html">Ex. 1</a><a href="../../theil/exercises/exercise-02.html">Ex. 2</a><a href="../../theil/exercises/exercise-03.html">Ex. 3</a><a href="../../theil/exercises/exercise-04.html">Ex. 4</a><a href="../../theil/exercises/exercise-06.html">Ex. 6</a><a href="../../theil/exercises/exercise-10.html">Ex. 10</a><a class="active" href="../../theil/exercises/exercise-11.html">Ex. 11</a><a href="../../theil/exercises/exercise-12.html">Ex. 12</a></div>
     </section>
     <section class="section hypothesis-section">
-      <div class="exercise-callout"><p>HS6 999999 remains excluded before conversion; tables show LT/HGL-weighted HS1992 product-family labels.</p></div>
+      
+      <article class="hypothesis-card cadot-hypothesis-card">
+        <div class="hypothesis-kicker">Theil Exercise 11</div>
+        <h3>Leave-One-Out Product Contributions</h3>
+        <dl>
+          <dt>Metric convention</dt><dd>fixed-universe Theil</dd>
+          <dt>Question</dt><dd>Which products drive concentration, and do those concentration-driving imports map to exports?</dd>
+          <dt>Supports yes if</dt><dd>High-contribution products reveal meaningful concentration drivers across Gini, Theil, and HHI.</dd>
+          <dt>Weakens yes if</dt><dd>Leave-one-out contributions are tiny, unstable, or concentrated in uninterpretable residual codes.</dd>
+          <dt>Current result</dt><dd>The largest published absolute fixed-universe Theil contribution is 3.924 for HS1992 270900.</dd>
+        </dl>
+      </article>
+    
     </section>
     <section class="section">
       <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: Theil. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
@@ -36,6 +48,16 @@
           </div>
           <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise11-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>How large are product leave-one-out contributions to fixed-universe Theil through time?</dd>
+          <dt>Supports the reading if</dt><dd>Median or maximum absolute contributions remain economically visible across years.</dd>
+          <dt>Weakens the reading if</dt><dd>Contributions are uniformly tiny or unstable.</dd>
+          <dt>Current result</dt><dd>The largest published absolute fixed-universe Theil contribution is 3.924 for HS1992 270900.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise11-trend" class="chart js-plotly-plot"></div>
       </article>
     
@@ -47,6 +69,16 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which HS1992 product families drive the largest latest fixed-universe Theil contributions?</dd>
+          <dt>Supports the reading if</dt><dd>The ranking identifies interpretable product families rather than residual codes.</dd>
+          <dt>Weakens the reading if</dt><dd>Top contributions are tiny, unstable, or dominated by unidentified products.</dd>
+          <dt>Current result</dt><dd>The largest published absolute fixed-universe Theil contribution is 3.924 for HS1992 270900.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise11-top" class="chart js-plotly-plot"></div>
       </article>
     </div>
@@ -79,21 +111,61 @@
           <figure>
             <a class="figure-link" href="../../assets/figures/ex11_coefficients.png"><img src="../../assets/figures/ex11_coefficients.png" alt="Latest-year median absolute leave-one-out product contribution by metric and flow in the Cadot rerun."></a>
             <figcaption>Latest-year median absolute leave-one-out product contribution by metric and flow in the Cadot rerun.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>How large are product leave-one-out contributions to fixed-universe Theil through time?</dd>
+          <dt>Supports the reading if</dt><dd>Median or maximum absolute contributions remain economically visible across years.</dd>
+          <dt>Weakens the reading if</dt><dd>Contributions are uniformly tiny or unstable.</dd>
+          <dt>Current result</dt><dd>The largest published absolute fixed-universe Theil contribution is 3.924 for HS1992 270900.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 
           <figure>
             <a class="figure-link" href="../../assets/figures/ex11_export_linkage_4pct.png"><img src="../../assets/figures/ex11_export_linkage_4pct.png" alt="Latest-year product trade values by equal-count leave-one-out contribution bins in the Cadot rerun."></a>
             <figcaption>Latest-year product trade values by equal-count leave-one-out contribution bins in the Cadot rerun.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which HS1992 product families drive the largest latest fixed-universe Theil contributions?</dd>
+          <dt>Supports the reading if</dt><dd>The ranking identifies interpretable product families rather than residual codes.</dd>
+          <dt>Weakens the reading if</dt><dd>Top contributions are tiny, unstable, or dominated by unidentified products.</dd>
+          <dt>Current result</dt><dd>The largest published absolute fixed-universe Theil contribution is 3.924 for HS1992 270900.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 </div><div class="figure-row">
           <figure>
             <a class="figure-link" href="../../assets/figures/ex11_hs2_linkage_4pct.png"><img src="../../assets/figures/ex11_hs2_linkage_4pct.png" alt="Latest-year HS2 trade values by equal-count summed leave-one-out contribution bins in the Cadot rerun."></a>
             <figcaption>Latest-year HS2 trade values by equal-count summed leave-one-out contribution bins in the Cadot rerun.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which HS1992 product families drive the largest latest fixed-universe Theil contributions?</dd>
+          <dt>Supports the reading if</dt><dd>The ranking identifies interpretable product families rather than residual codes.</dd>
+          <dt>Weakens the reading if</dt><dd>Top contributions are tiny, unstable, or dominated by unidentified products.</dd>
+          <dt>Current result</dt><dd>The largest published absolute fixed-universe Theil contribution is 3.924 for HS1992 270900.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 
           <figure>
             <a class="figure-link" href="../../assets/figures/ex11_india_supplier_scatter.png"><img src="../../assets/figures/ex11_india_supplier_scatter.png" alt="India latest-year product trade values against absolute leave-one-out contributions in the Cadot rerun."></a>
             <figcaption>India latest-year product trade values against absolute leave-one-out contributions in the Cadot rerun.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which HS1992 product families drive the largest latest fixed-universe Theil contributions?</dd>
+          <dt>Supports the reading if</dt><dd>The ranking identifies interpretable product families rather than residual codes.</dd>
+          <dt>Weakens the reading if</dt><dd>Top contributions are tiny, unstable, or dominated by unidentified products.</dd>
+          <dt>Current result</dt><dd>The largest published absolute fixed-universe Theil contribution is 3.924 for HS1992 270900.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 </div></div>
     </section>
@@ -123,7 +195,7 @@
   </footer>
     
   <script src="../../assets/vendor/plotly.min.js"></script>
-  <script src="../../assets/site-data.js?v=202606171423470000"></script>
-  <script src="../../assets/site.js?v=202606171423470000"></script>
+  <script src="../../assets/site-data.js?v=202606181651090000"></script>
+  <script src="../../assets/site.js?v=202606181651090000"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Exercise 6: HS2 Exclusion Sensitivity | Trade Concentration</title>
-  <link rel="stylesheet" href="../../assets/site.css?v=202606171423470000">
+  <link rel="stylesheet" href="../../assets/site.css?v=202606181651090000">
 </head>
 <body class="cadot-site" data-page="cadot-hhi-exercise-06" data-metric="hhi">
   <header class="site-header">
@@ -23,7 +23,19 @@
       <div class="subnav-chips"><a href="../../hhi/exercises/exercise-01.html">Ex. 1</a><a href="../../hhi/exercises/exercise-02.html">Ex. 2</a><a href="../../hhi/exercises/exercise-03.html">Ex. 3</a><a href="../../hhi/exercises/exercise-04.html">Ex. 4</a><a class="active" href="../../hhi/exercises/exercise-06.html">Ex. 6</a><a href="../../hhi/exercises/exercise-10.html">Ex. 10</a><a href="../../hhi/exercises/exercise-11.html">Ex. 11</a><a href="../../hhi/exercises/exercise-12.html">Ex. 12</a></div>
     </section>
     <section class="section hypothesis-section">
-      <div class="exercise-callout"><p>The page shows before/after graphs and metric-specific exclusion sensitivity from the rerun.</p></div>
+      
+      <article class="hypothesis-card cadot-hypothesis-card">
+        <div class="hypothesis-kicker">HHI Exercise 06</div>
+        <h3>HS2 Exclusion Sensitivity</h3>
+        <dl>
+          <dt>Metric convention</dt><dd>raw HHI</dd>
+          <dt>Question</dt><dd>Does concentration mostly disappear after removing obvious lumpy HS2 sectors?</dd>
+          <dt>Supports yes if</dt><dd>Gini, Theil, and HHI fall sharply after exclusions, relative to the trade share removed.</dd>
+          <dt>Weakens yes if</dt><dd>The metrics remain high after excluding oil, precious metals, aircraft, ships, and arms.</dd>
+          <dt>Current result</dt><dd>In 2024, median product raw HHI is 0.023 at baseline and 0.011 under the full exclusion.</dd>
+        </dl>
+      </article>
+    
     </section>
     <section class="section">
       <div class="section-heading"><h2>Interactive Metric View</h2><p>Selected metric: HHI. Shared descriptive figures, where present, are shown below and clearly separated from the metric-specific charts.</p></div>
@@ -36,6 +48,16 @@
           </div>
           <div class="controls"><label><span class="sr-only">Flow</span><select id="exercise6-flow"><option value="Exports">Exports</option><option value="Imports">Imports</option></select></label></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Does raw HHI collapse after removing lumpy HS2 sectors?</dd>
+          <dt>Supports the reading if</dt><dd>The full-exclusion path falls sharply relative to baseline.</dd>
+          <dt>Weakens the reading if</dt><dd>The baseline and exclusion paths remain close despite removed trade value.</dd>
+          <dt>Current result</dt><dd>In 2024, median product raw HHI is 0.023 at baseline and 0.011 under the full exclusion.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise6-trend" class="chart js-plotly-plot"></div>
       </article>
     
@@ -47,6 +69,16 @@
           </div>
           <div class="controls"></div>
         </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which HS2 exclusions move raw HHI most?</dd>
+          <dt>Supports the reading if</dt><dd>Specific chapters produce large metric changes relative to their removed trade shares.</dd>
+          <dt>Weakens the reading if</dt><dd>All exclusion effects are small or proportional to mechanically removed value.</dd>
+          <dt>Current result</dt><dd>In 2024, median product raw HHI is 0.023 at baseline and 0.011 under the full exclusion.</dd>
+        </dl>
+      </article>
+    
         <div id="exercise6-sensitivity" class="chart js-plotly-plot"></div>
       </article>
     </div>
@@ -79,11 +111,31 @@
           <figure>
             <a class="figure-link" href="../../assets/figures/ex6_before_after.png"><img src="../../assets/figures/ex6_before_after.png" alt="Before-versus-after concentration after HS2 exclusions in the Cadot rerun."></a>
             <figcaption>Before-versus-after concentration after HS2 exclusions in the Cadot rerun.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Does raw HHI collapse after removing lumpy HS2 sectors?</dd>
+          <dt>Supports the reading if</dt><dd>The full-exclusion path falls sharply relative to baseline.</dd>
+          <dt>Weakens the reading if</dt><dd>The baseline and exclusion paths remain close despite removed trade value.</dd>
+          <dt>Current result</dt><dd>In 2024, median product raw HHI is 0.023 at baseline and 0.011 under the full exclusion.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 
           <figure>
             <a class="figure-link" href="../../assets/figures/ex6_removed.png"><img src="../../assets/figures/ex6_removed.png" alt="Trade share removed by HS2 exclusion specification in the Cadot rerun."></a>
             <figcaption>Trade share removed by HS2 exclusion specification in the Cadot rerun.</figcaption>
+            
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Which HS2 exclusions move raw HHI most?</dd>
+          <dt>Supports the reading if</dt><dd>Specific chapters produce large metric changes relative to their removed trade shares.</dd>
+          <dt>Weakens the reading if</dt><dd>All exclusion effects are small or proportional to mechanically removed value.</dd>
+          <dt>Current result</dt><dd>In 2024, median product raw HHI is 0.023 at baseline and 0.011 under the full exclusion.</dd>
+        </dl>
+      </article>
+    
           </figure>
                 </div></div>
     </section>
@@ -113,7 +165,7 @@
   </footer>
     
   <script src="../../assets/vendor/plotly.min.js"></script>
-  <script src="../../assets/site-data.js?v=202606171423470000"></script>
-  <script src="../../assets/site.js?v=202606171423470000"></script>
+  <script src="../../assets/site-data.js?v=202606181651090000"></script>
+  <script src="../../assets/site.js?v=202606181651090000"></script>
 </body>
 </html>

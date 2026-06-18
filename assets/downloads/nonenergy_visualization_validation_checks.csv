@@ -1,0 +1,17 @@
+check,passed,value,expected
+cadot_reporter_count_exact,True,156,156
+annual_reporters_exact,True,156,156
+years_within_2000_2024,True,2000-2024,2000-2024
+global_coverage_reaches_2000_2024,True,2000-2024,2000-2024
+annual_key_unique,True,0,0
+snapshot_bucket_shares_sum_to_one,True,4.440892098500626e-16,<=1e-10
+three_snapshots_per_reporter,True,156 reporters; 3-3 snapshots,156 reporters; 3 snapshots
+ten_top_products_per_snapshot,True,10-10,10
+driver_contributions_reconcile,True,2.1094237467877974e-15,<=1e-10
+metric_contributions_reconcile,True,2.6645352591003757e-15,<=1e-10
+direct_gini_hhi_reconcile,True,1.4432899320127035e-15,<=1e-10
+conversion_value_preserved,True,0.0009765625,<=483.96558227
+no_999999_product_output,True,0,0
+official_hs1992_plain_english_labels_complete,True,0,0
+world_universe_has_no_999999,True,0,0
+fixed_universe_import_positive,True,4924,>0
