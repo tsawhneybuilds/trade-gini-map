@@ -1,0 +1,51 @@
+variant,variant_label,year,countries,countries_with_exposure,countries_with_alignment,median_total_exports,median_active_products
+baseline,Inclusive world export basket,2000,142,142,142,2712642013.5,2140.5
+baseline,Inclusive world export basket,2001,146,146,146,2508234922.915,2024.5
+baseline,Inclusive world export basket,2002,146,146,146,3164764650.0,2135.5
+baseline,Inclusive world export basket,2003,149,149,149,3787687463.9999995,2241.0
+baseline,Inclusive world export basket,2004,148,148,148,4473799241.5,2366.0
+baseline,Inclusive world export basket,2005,150,150,150,4933057479.787001,2436.5
+baseline,Inclusive world export basket,2006,150,150,150,6567023387.6645,2538.0
+baseline,Inclusive world export basket,2007,153,153,153,7274012071.841,2448.0
+baseline,Inclusive world export basket,2008,149,149,149,9744527664.0,2680.0
+baseline,Inclusive world export basket,2009,150,150,150,7085129779.5,2643.0
+baseline,Inclusive world export basket,2010,153,153,153,8681202648.37,2536.0
+baseline,Inclusive world export basket,2011,150,150,150,11389113822.0,2631.0
+baseline,Inclusive world export basket,2012,152,152,152,11593505790.5,2711.0
+baseline,Inclusive world export basket,2013,154,154,154,12515367463.0,2767.0
+baseline,Inclusive world export basket,2014,153,153,153,13033016046.130001,2769.0
+baseline,Inclusive world export basket,2015,153,153,153,10741754294.022,2761.0
+baseline,Inclusive world export basket,2016,155,155,155,10538177840.936,2783.0
+baseline,Inclusive world export basket,2017,156,156,156,11094893210.571999,2814.5
+baseline,Inclusive world export basket,2018,154,154,154,11057597917.095001,2844.0
+baseline,Inclusive world export basket,2019,154,154,154,11370584600.435,2858.5
+baseline,Inclusive world export basket,2020,152,152,152,9251001240.862,2781.0
+baseline,Inclusive world export basket,2021,153,153,153,13331248583.385,2798.0
+baseline,Inclusive world export basket,2022,150,150,150,15148873842.962002,2999.5
+baseline,Inclusive world export basket,2023,149,149,149,12693949147.874,3067.0
+baseline,Inclusive world export basket,2024,132,132,132,19928002055.317497,3322.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2000,142,142,142,1059737787.4443,1847.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2001,146,146,145,984068729.2465873,1701.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2002,146,146,145,1234166163.2957659,1791.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2003,149,149,148,1341740687.6243002,1796.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2004,148,148,148,1447910165.952637,2004.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2005,150,150,150,1891812646.6949825,2071.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2006,150,150,150,2137351808.775177,2234.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2007,153,152,151,2566688042.9853067,2066.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2008,149,149,149,3505487309.2342215,2277.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2009,150,149,149,2364109106.346493,2198.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2010,153,152,152,2884041587.2203627,2154.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2011,150,149,149,3752918505.6055975,2209.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2012,152,151,151,3419679716.548224,2245.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2013,154,153,153,3969240693.4983993,2326.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2014,153,152,152,5019164923.767301,2304.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2015,153,153,153,4670269743.484349,2296.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2016,155,155,155,4110770115.902355,2296.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2017,156,156,156,3381211649.433592,2330.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2018,154,154,154,4056417443.107498,2299.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2019,154,154,154,5056227513.219057,2412.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2020,152,152,152,3991254958.946163,2364.5
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2021,153,153,153,4859530875.171126,2375.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2022,150,150,150,4633269222.145667,2569.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2023,149,149,149,4453301741.065954,2612.0
+noncommodity_broad,Broad-primary-excluded non-commodity basket,2024,132,132,132,7613111541.985327,2833.0

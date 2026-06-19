@@ -1,0 +1,193 @@
+sample_window,year,outcome,outcome_label,n_countries_baseline,n_countries_noncommodity_broad,spearman_size_outcome_baseline,spearman_size_outcome_noncommodity_broad,delta_noncommodity_minus_baseline
+all_available,2000,spearman_product_alignment,Within-country product-rank alignment,141,141,0.7329038058136049,0.6885483111434564,-0.04435549467014854
+all_available,2001,spearman_product_alignment,Within-country product-rank alignment,145,144,0.7413399464651236,0.729993569648742,-0.01134637681638162
+all_available,2002,spearman_product_alignment,Within-country product-rank alignment,145,144,0.8038773421508424,0.7702917771883291,-0.033585564962513303
+all_available,2003,spearman_product_alignment,Within-country product-rank alignment,148,147,0.7823659846670394,0.7418567575123349,-0.04050922715470451
+all_available,2004,spearman_product_alignment,Within-country product-rank alignment,147,147,0.7956576929179668,0.7553627152452984,-0.04029497767266843
+all_available,2005,spearman_product_alignment,Within-country product-rank alignment,149,149,0.755392708144386,0.7476618900779974,-0.007730818066388534
+all_available,2006,spearman_product_alignment,Within-country product-rank alignment,149,149,0.7468964266279703,0.7387121349537458,-0.00818429167422452
+all_available,2007,spearman_product_alignment,Within-country product-rank alignment,152,150,0.7449169280817938,0.7456775856704744,0.0007606575886806022
+all_available,2008,spearman_product_alignment,Within-country product-rank alignment,148,148,0.7663629935921403,0.7208194360639231,-0.04554355752821726
+all_available,2009,spearman_product_alignment,Within-country product-rank alignment,149,148,0.735846181752222,0.7141339394455407,-0.02171224230668134
+all_available,2010,spearman_product_alignment,Within-country product-rank alignment,152,151,0.7054586212316923,0.7027396305332868,-0.0027189906984055323
+all_available,2011,spearman_product_alignment,Within-country product-rank alignment,150,149,0.7001431174718877,0.6913948848177037,-0.008748232654184007
+all_available,2012,spearman_product_alignment,Within-country product-rank alignment,151,150,0.7089055420006971,0.7064153962398328,-0.0024901457608642596
+all_available,2013,spearman_product_alignment,Within-country product-rank alignment,153,152,0.7122284320426735,0.7017578031561178,-0.0104706288865557
+all_available,2014,spearman_product_alignment,Within-country product-rank alignment,152,151,0.7044163779140098,0.7039177413733008,-0.0004986365407090299
+all_available,2015,spearman_product_alignment,Within-country product-rank alignment,152,152,0.7148729830028908,0.7059541139564923,-0.008918869046398492
+all_available,2016,spearman_product_alignment,Within-country product-rank alignment,154,154,0.7394448688566336,0.7282305297485563,-0.011214339108077342
+all_available,2017,spearman_product_alignment,Within-country product-rank alignment,155,155,0.7109374496471271,0.7149979053204859,0.004060455673358776
+all_available,2018,spearman_product_alignment,Within-country product-rank alignment,153,153,0.7352840657794217,0.7324594909734227,-0.0028245748059990694
+all_available,2019,spearman_product_alignment,Within-country product-rank alignment,153,153,0.720330237358101,0.7138668864675056,-0.006463350890595354
+all_available,2020,spearman_product_alignment,Within-country product-rank alignment,151,151,0.7371523178807945,0.7418264203555244,0.00467410247472988
+all_available,2021,spearman_product_alignment,Within-country product-rank alignment,152,152,0.7281966115132007,0.7300077228521245,0.0018111113389237543
+all_available,2022,spearman_product_alignment,Within-country product-rank alignment,149,149,0.7013640486123708,0.7076764012334482,0.006312352621077433
+all_available,2023,spearman_product_alignment,Within-country product-rank alignment,148,148,0.7452107634274462,0.7501045765667052,0.004893813139258962
+all_available,2024,spearman_product_alignment,Within-country product-rank alignment,130,130,0.7411626541397534,0.7569705990795996,0.015807944939846275
+all_available,2000,top_10pct_world_product_export_share,Export share in top 10% world products,141,141,0.2761933301939295,0.463697076073462,0.1875037458795325
+all_available,2001,top_10pct_world_product_export_share,Export share in top 10% world products,145,145,0.3332113053062509,0.41043536450952595,0.07722405920327502
+all_available,2002,top_10pct_world_product_export_share,Export share in top 10% world products,145,145,0.26479294599275705,0.457085498346717,0.19229255235395998
+all_available,2003,top_10pct_world_product_export_share,Export share in top 10% world products,148,148,0.3059891832662686,0.4870343566412599,0.18104517337499126
+all_available,2004,top_10pct_world_product_export_share,Export share in top 10% world products,147,147,0.34894483524620507,0.4319337509161384,0.08298891566993333
+all_available,2005,top_10pct_world_product_export_share,Export share in top 10% world products,149,149,0.29172501360420827,0.43428623254126614,0.14256121893705787
+all_available,2006,top_10pct_world_product_export_share,Export share in top 10% world products,149,149,0.2800725557772538,0.4242445129693452,0.14417195719209136
+all_available,2007,top_10pct_world_product_export_share,Export share in top 10% world products,152,151,0.2869859690129102,0.4314155031506545,0.14442953413774434
+all_available,2008,top_10pct_world_product_export_share,Export share in top 10% world products,148,148,0.3706896870847015,0.4992355730610765,0.128545885976375
+all_available,2009,top_10pct_world_product_export_share,Export share in top 10% world products,149,148,0.347248322147651,0.38130652224611955,0.03405820009846855
+all_available,2010,top_10pct_world_product_export_share,Export share in top 10% world products,152,151,0.3547762081479507,0.46076681770651795,0.10599060955856726
+all_available,2011,top_10pct_world_product_export_share,Export share in top 10% world products,150,149,0.3542184097070981,0.39596227099582804,0.04174386128872992
+all_available,2012,top_10pct_world_product_export_share,Export share in top 10% world products,151,150,0.35543743464621813,0.3420116449619984,-0.013425789684219758
+all_available,2013,top_10pct_world_product_export_share,Export share in top 10% world products,153,152,0.35055888384061756,0.3605615128588905,0.010002629018272924
+all_available,2014,top_10pct_world_product_export_share,Export share in top 10% world products,152,151,0.37105570705103225,0.38852213314743805,0.017466426096405807
+all_available,2015,top_10pct_world_product_export_share,Export share in top 10% world products,152,152,0.3221112774144165,0.30101695610276175,-0.02109432131165473
+all_available,2016,top_10pct_world_product_export_share,Export share in top 10% world products,154,154,0.35025177226315746,0.3026245102146431,-0.04762726204851436
+all_available,2017,top_10pct_world_product_export_share,Export share in top 10% world products,155,155,0.34103638297186684,0.3241081499146016,-0.016928233057265263
+all_available,2018,top_10pct_world_product_export_share,Export share in top 10% world products,153,153,0.33895902858751153,0.38126733947167385,0.042308310884162315
+all_available,2019,top_10pct_world_product_export_share,Export share in top 10% world products,153,153,0.24904172195193863,0.312170801334888,0.06312907938294937
+all_available,2020,top_10pct_world_product_export_share,Export share in top 10% world products,151,151,0.26163820146392464,0.3431509236667828,0.08151272220285816
+all_available,2021,top_10pct_world_product_export_share,Export share in top 10% world products,152,152,0.2993903730889358,0.32389846841490166,0.024508095325965873
+all_available,2022,top_10pct_world_product_export_share,Export share in top 10% world products,149,149,0.26395791764919285,0.35254852167603845,0.0885906040268456
+all_available,2023,top_10pct_world_product_export_share,Export share in top 10% world products,148,148,0.1995135801463702,0.30370145518755304,0.10418787504118285
+all_available,2024,top_10pct_world_product_export_share,Export share in top 10% world products,130,130,0.2540605497821901,0.2939518496770405,0.03989129989485041
+all_available,2000,top_1pct_world_product_export_share,Export share in top 1% world products,141,141,0.4889940590289831,0.4662105250768167,-0.022783533952166368
+all_available,2001,top_1pct_world_product_export_share,Export share in top 1% world products,145,145,0.5667085564368163,0.5037454879014304,-0.06296306853538591
+all_available,2002,top_1pct_world_product_export_share,Export share in top 1% world products,145,145,0.543180377820213,0.5849141273629294,0.04173374954271636
+all_available,2003,top_1pct_world_product_export_share,Export share in top 1% world products,148,148,0.5378624100489958,0.5654892350558485,0.02762682500685265
+all_available,2004,top_1pct_world_product_export_share,Export share in top 1% world products,147,147,0.5041145986320605,0.5749425524020052,0.07082795376994466
+all_available,2005,top_1pct_world_product_export_share,Export share in top 1% world products,149,149,0.45087289213957604,0.5310086378001124,0.08013574566053638
+all_available,2006,top_1pct_world_product_export_share,Export share in top 1% world products,149,149,0.39794304371485584,0.4581897333575186,0.060246689642662776
+all_available,2007,top_1pct_world_product_export_share,Export share in top 1% world products,152,151,0.3865539900992029,0.48148031964462734,0.09492632954542446
+all_available,2008,top_1pct_world_product_export_share,Export share in top 1% world products,148,148,0.476058444418943,0.5315599121927023,0.05550146777375925
+all_available,2009,top_1pct_world_product_export_share,Export share in top 1% world products,149,148,0.4354289860330129,0.49372956474843616,0.05830057871542327
+all_available,2010,top_1pct_world_product_export_share,Export share in top 1% world products,152,151,0.504305660918951,0.5421505751132798,0.03784491419432878
+all_available,2011,top_1pct_world_product_export_share,Export share in top 1% world products,150,149,0.38510333792613005,0.5453605526580808,0.16025721473195076
+all_available,2012,top_1pct_world_product_export_share,Export share in top 1% world products,151,150,0.4130289299407458,0.534738908164048,0.1217099782233022
+all_available,2013,top_1pct_world_product_export_share,Export share in top 1% world products,153,152,0.43340972752737456,0.516481554413452,0.08307182688607745
+all_available,2014,top_1pct_world_product_export_share,Export share in top 1% world products,152,151,0.48285936891312814,0.5472329620365984,0.0643735931234703
+all_available,2015,top_1pct_world_product_export_share,Export share in top 1% world products,152,152,0.4492205386860215,0.4862287194417676,0.03700818075574608
+all_available,2016,top_1pct_world_product_export_share,Export share in top 1% world products,154,154,0.4367694291792964,0.46117285623926996,0.02440342705997356
+all_available,2017,top_1pct_world_product_export_share,Export share in top 1% world products,155,155,0.4387129000032226,0.4979536592439819,0.05924075924075928
+all_available,2018,top_1pct_world_product_export_share,Export share in top 1% world products,153,153,0.44018803693726294,0.5134896063688633,0.07330156943160038
+all_available,2019,top_1pct_world_product_export_share,Export share in top 1% world products,153,153,0.3784293621754922,0.48322343291383535,0.10479407073834313
+all_available,2020,top_1pct_world_product_export_share,Export share in top 1% world products,151,151,0.364691530149878,0.4736005576856046,0.10890902753572662
+all_available,2021,top_1pct_world_product_export_share,Export share in top 1% world products,152,152,0.2984096392129525,0.4190194028116649,0.1206097635987124
+all_available,2022,top_1pct_world_product_export_share,Export share in top 1% world products,149,149,0.3091746780337385,0.5002938508978778,0.19111917286413932
+all_available,2023,top_1pct_world_product_export_share,Export share in top 1% world products,148,148,0.2191147454809967,0.48582385974524045,0.26670911426424376
+all_available,2024,top_1pct_world_product_export_share,Export share in top 1% world products,130,130,0.24814486064264157,0.5122478799382758,0.26410301929563423
+all_available,2000,top_20pct_world_product_export_share,Export share in top 20% world products,141,141,0.2708292307033691,0.32263367438674595,0.05180444368337683
+all_available,2001,top_20pct_world_product_export_share,Export share in top 20% world products,145,145,0.3070894347346874,0.2501613919067863,-0.05692804282790109
+all_available,2002,top_20pct_world_product_export_share,Export share in top 20% world products,145,145,0.3103920642418516,0.2679105652653125,-0.042481498976539134
+all_available,2003,top_20pct_world_product_export_share,Export share in top 20% world products,148,148,0.3394092627074411,0.31847914206495226,-0.020930120642488836
+all_available,2004,top_20pct_world_product_export_share,Export share in top 20% world products,147,147,0.30705180998723075,0.28313398665649153,-0.02391782333073922
+all_available,2005,top_20pct_world_product_export_share,Export share in top 20% world products,149,149,0.30243061853800113,0.3163395610375476,0.013908942499546495
+all_available,2006,top_20pct_world_product_export_share,Export share in top 20% world products,149,149,0.2916778523489933,0.2479847632867767,-0.043693089062216584
+all_available,2007,top_20pct_world_product_export_share,Export share in top 20% world products,152,151,0.32124672803942067,0.27342976646915296,-0.04781696157026771
+all_available,2008,top_20pct_world_product_export_share,Export share in top 20% world products,148,148,0.3709525166859779,0.3506443027056642,-0.020308213980313683
+all_available,2009,top_20pct_world_product_export_share,Export share in top 20% world products,149,148,0.3956393977870488,0.2308310227773315,-0.16480837500971732
+all_available,2010,top_20pct_world_product_export_share,Export share in top 20% world products,152,151,0.3743088730786842,0.26928546531892644,-0.10502340775975777
+all_available,2011,top_20pct_world_product_export_share,Export share in top 20% world products,150,149,0.3677301213387262,0.2834971884636314,-0.08423293287509476
+all_available,2012,top_20pct_world_product_export_share,Export share in top 20% world products,151,150,0.4018368769606134,0.2609840437352771,-0.14085283322533626
+all_available,2013,top_20pct_world_product_export_share,Export share in top 20% world products,153,152,0.38388082505729565,0.2634107668860503,-0.12047005817124534
+all_available,2014,top_20pct_world_product_export_share,Export share in top 20% world products,152,151,0.43973099870830173,0.30180202161031716,-0.13792897709798457
+all_available,2015,top_20pct_world_product_export_share,Export share in top 20% world products,152,152,0.3603735673425871,0.2126996493961823,-0.14767391794640478
+all_available,2016,top_20pct_world_product_export_share,Export share in top 20% world products,154,154,0.41768566664202345,0.26738132203027837,-0.15030434461174508
+all_available,2017,top_20pct_world_product_export_share,Export share in top 20% world products,155,155,0.39175018529857236,0.34334697560504013,-0.048403209693532234
+all_available,2018,top_20pct_world_product_export_share,Export share in top 20% world products,153,153,0.38570021309959385,0.3621989465642716,-0.02350126653532225
+all_available,2019,top_20pct_world_product_export_share,Export share in top 20% world products,153,153,0.38078484982509747,0.3446617881602402,-0.03612306166485729
+all_available,2020,top_20pct_world_product_export_share,Export share in top 20% world products,151,151,0.36652492157546185,0.3596549320320669,-0.006869989543394961
+all_available,2021,top_20pct_world_product_export_share,Export share in top 20% world products,152,152,0.36964440708315394,0.29612012110525626,-0.07352428597789767
+all_available,2022,top_20pct_world_product_export_share,Export share in top 20% world products,149,149,0.32243061853800115,0.30948666787592966,-0.01294395066207149
+all_available,2023,top_20pct_world_product_export_share,Export share in top 20% world products,148,148,0.24031509937550208,0.22235754450519551,-0.017957554870306563
+all_available,2024,top_20pct_world_product_export_share,Export share in top 20% world products,130,130,0.34136475986289583,0.22997173251034425,-0.11139302735255158
+all_available,2000,top_5pct_world_product_export_share,Export share in top 5% world products,141,141,0.26937368894216357,0.42592148636499844,0.15654779742283487
+all_available,2001,top_5pct_world_product_export_share,Export share in top 5% world products,145,145,0.2251968193985199,0.357105180286569,0.1319083608880491
+all_available,2002,top_5pct_world_product_export_share,Export share in top 5% world products,145,145,0.3130491261218705,0.44380806172256326,0.13075893560069274
+all_available,2003,top_5pct_world_product_export_share,Export share in top 5% world products,148,148,0.3872220391875234,0.46129926666839427,0.07407722748087087
+all_available,2004,top_5pct_world_product_export_share,Export share in top 5% world products,147,147,0.35294184315710736,0.4119713787032769,0.05902953554616952
+all_available,2005,top_5pct_world_product_export_share,Export share in top 5% world products,149,149,0.3607291855614003,0.3779357881371304,0.01720660257573009
+all_available,2006,top_5pct_world_product_export_share,Export share in top 5% world products,149,149,0.27606022129512064,0.4238962452385271,0.14783602394340645
+all_available,2007,top_5pct_world_product_export_share,Export share in top 5% world products,152,151,0.3832345765074939,0.46611054906827476,0.08287597256078089
+all_available,2008,top_5pct_world_product_export_share,Export share in top 5% world products,148,148,0.4251398364533552,0.4922576322384568,0.06711779578510163
+all_available,2009,top_5pct_world_product_export_share,Export share in top 5% world products,149,148,0.3058117177580265,0.4277348160377883,0.12192309827976178
+all_available,2010,top_5pct_world_product_export_share,Export share in top 5% world products,152,151,0.36649717398287296,0.45575113279888463,0.08925395881601167
+all_available,2011,top_5pct_world_product_export_share,Export share in top 5% world products,150,149,0.31678385706031376,0.460721929983675,0.14393807292336125
+all_available,2012,top_5pct_world_product_export_share,Export share in top 5% world products,151,150,0.356176368072499,0.4229187278713861,0.0667423597988871
+all_available,2013,top_5pct_world_product_export_share,Export share in top 5% world products,153,152,0.3890206800423518,0.446339846499771,0.05731916645741919
+all_available,2014,top_5pct_world_product_export_share,Export share in top 5% world products,152,151,0.3949418735775941,0.4079295921924015,0.012987718614807409
+all_available,2015,top_5pct_world_product_export_share,Export share in top 5% world products,152,152,0.28112206890424346,0.3224119902405019,0.04128992133625842
+all_available,2016,top_5pct_world_product_export_share,Export share in top 5% world products,154,154,0.3719050083376459,0.3263444967429787,-0.045560511594667175
+all_available,2017,top_5pct_world_product_export_share,Export share in top 5% world products,155,155,0.33868711933228063,0.3382037317521189,-0.00048338758016175376
+all_available,2018,top_5pct_world_product_export_share,Export share in top 5% world products,153,153,0.43438140806561854,0.4455925911034269,0.011211183037808381
+all_available,2019,top_5pct_world_product_export_share,Export share in top 5% world products,153,153,0.3554273383994746,0.4069599131518636,0.05153257475238898
+all_available,2020,top_5pct_world_product_export_share,Export share in top 5% world products,151,151,0.310205646566748,0.4091007319623562,0.0988950853956082
+all_available,2021,top_5pct_world_product_export_share,Export share in top 5% world products,152,152,0.33312488466979684,0.36405388227092855,0.030928997601131714
+all_available,2022,top_5pct_world_product_export_share,Export share in top 5% world products,149,149,0.2692073281335027,0.39103573372029743,0.12182840558679475
+all_available,2023,top_5pct_world_product_export_share,Export share in top 5% world products,148,148,0.20636195708103666,0.3735586017465213,0.16719664466548462
+all_available,2024,top_5pct_world_product_export_share,Export share in top 5% world products,130,130,0.2622594873615644,0.38881044394980135,0.12655095658823695
+all_available,2000,world_share_exposure,World-share percentile exposure,141,141,0.38433580204632045,0.4435977567532856,0.05926195470696516
+all_available,2001,world_share_exposure,World-share percentile exposure,145,145,0.41161234451267514,0.33705715635333017,-0.07455518815934498
+all_available,2002,world_share_exposure,World-share percentile exposure,145,145,0.4107699574870099,0.4146866635175562,0.00391670603054628
+all_available,2003,world_share_exposure,World-share percentile exposure,148,148,0.43471645868577796,0.4319808097372815,-0.002735648948496483
+all_available,2004,world_share_exposure,World-share percentile exposure,147,147,0.4177515508239579,0.40056592796318824,-0.017185622860769634
+all_available,2005,world_share_exposure,World-share percentile exposure,149,149,0.4203265009976419,0.39713404679847636,-0.023192454199165546
+all_available,2006,world_share_exposure,World-share percentile exposure,149,149,0.40886994376927266,0.3891492835116997,-0.019720660257572964
+all_available,2007,world_share_exposure,World-share percentile exposure,152,151,0.4145121276115883,0.4019937260369466,-0.01251840157464168
+all_available,2008,world_share_exposure,World-share percentile exposure,148,148,0.46131777579524463,0.45828598081714095,-0.0030317949781036857
+all_available,2009,world_share_exposure,World-share percentile exposure,149,148,0.45585343732994743,0.3791261471031366,-0.07672729022681085
+all_available,2010,world_share_exposure,World-share percentile exposure,152,151,0.44639793875026484,0.40016730568142206,-0.046230633068842786
+all_available,2011,world_share_exposure,World-share percentile exposure,150,149,0.42131116938530605,0.41684745147832397,-0.004463717906982079
+all_available,2012,world_share_exposure,World-share percentile exposure,151,150,0.43403624956430803,0.373312591670741,-0.06072365789356704
+all_available,2013,world_share_exposure,World-share percentile exposure,153,152,0.43497446825620195,0.3607084520807277,-0.07426601617547424
+all_available,2014,world_share_exposure,World-share percentile exposure,152,151,0.45980016265830137,0.36735447891251305,-0.09244568374578832
+all_available,2015,world_share_exposure,World-share percentile exposure,152,152,0.41772087015356857,0.27878129292846454,-0.13893957722510403
+all_available,2016,world_share_exposure,World-share percentile exposure,154,154,0.45464402769905615,0.3125212548362453,-0.14212277286281083
+all_available,2017,world_share_exposure,World-share percentile exposure,155,155,0.41718281718281713,0.3422126260835938,-0.07497019109922332
+all_available,2018,world_share_exposure,World-share percentile exposure,153,153,0.4655958077010708,0.4028688030236018,-0.062727004677469
+all_available,2019,world_share_exposure,World-share percentile exposure,153,153,0.4299250800798788,0.37746773350488516,-0.052457346574993624
+all_available,2020,world_share_exposure,World-share percentile exposure,151,151,0.41379574764726385,0.39343325200418255,-0.02036249564308129
+all_available,2021,world_share_exposure,World-share percentile exposure,152,152,0.40217948455087854,0.3470226013026333,-0.05515688324824525
+all_available,2022,world_share_exposure,World-share percentile exposure,149,149,0.3416325049882097,0.4023399238164339,0.060707418828224224
+all_available,2023,world_share_exposure,World-share percentile exposure,148,148,0.27583041197614544,0.3312837560200935,0.05545334404394808
+all_available,2024,world_share_exposure,World-share percentile exposure,130,130,0.34194922776495645,0.34594218137623073,0.003992953611274275
+fixed_country_2018_2024,2018,spearman_product_alignment,Within-country product-rank alignment,127,127,0.7268290682414698,0.7263135076865391,-0.0005155605549306275
+fixed_country_2018_2024,2019,spearman_product_alignment,Within-country product-rank alignment,127,127,0.7197401106111735,0.7156683539557556,-0.004071756655417924
+fixed_country_2018_2024,2020,spearman_product_alignment,Within-country product-rank alignment,127,127,0.7303676884139482,0.7398821241094863,0.009514435695538115
+fixed_country_2018_2024,2021,spearman_product_alignment,Within-country product-rank alignment,127,127,0.7203962785901762,0.7263545181852268,0.005958239595050596
+fixed_country_2018_2024,2022,spearman_product_alignment,Within-country product-rank alignment,127,127,0.6961297806524184,0.7095050618672666,0.013375281214848211
+fixed_country_2018_2024,2023,spearman_product_alignment,Within-country product-rank alignment,127,127,0.7268173509561304,0.7336368110236219,0.006819460067491456
+fixed_country_2018_2024,2024,spearman_product_alignment,Within-country product-rank alignment,126,126,0.7538207724034496,0.7705706786651669,0.01674990626171735
+fixed_country_2018_2024,2018,top_10pct_world_product_export_share,Export share in top 10% world products,127,127,0.3160093269591301,0.3659776902887139,0.04996836332958382
+fixed_country_2018_2024,2019,top_10pct_world_product_export_share,Export share in top 10% world products,127,127,0.2335254968128984,0.2775942069741282,0.04406871016122979
+fixed_country_2018_2024,2020,top_10pct_world_product_export_share,Export share in top 10% world products,127,127,0.28613024934383197,0.3382077240344956,0.05207747469066365
+fixed_country_2018_2024,2021,top_10pct_world_product_export_share,Export share in top 10% world products,127,127,0.3063484251968504,0.3393618766404199,0.033013451443569486
+fixed_country_2018_2024,2022,top_10pct_world_product_export_share,Export share in top 10% world products,127,127,0.29138545181852266,0.32601002999625045,0.034624578177727794
+fixed_country_2018_2024,2023,top_10pct_world_product_export_share,Export share in top 10% world products,127,127,0.2119012467191601,0.28381022684664414,0.07190898012748403
+fixed_country_2018_2024,2024,top_10pct_world_product_export_share,Export share in top 10% world products,126,126,0.25591301087364077,0.31778327709036375,0.06187026621672298
+fixed_country_2018_2024,2018,top_1pct_world_product_export_share,Export share in top 1% world products,127,127,0.40876335770528677,0.5694835020622422,0.16072014435695542
+fixed_country_2018_2024,2019,top_1pct_world_product_export_share,Export share in top 1% world products,127,127,0.34567749343832016,0.5132170978627671,0.167539604424447
+fixed_country_2018_2024,2020,top_1pct_world_product_export_share,Export share in top 1% world products,127,127,0.31559336332958376,0.4875035151856017,0.17191015185601793
+fixed_country_2018_2024,2021,top_1pct_world_product_export_share,Export share in top 1% world products,127,127,0.23602713723284588,0.47349550056242967,0.2374683633295838
+fixed_country_2018_2024,2022,top_1pct_world_product_export_share,Export share in top 1% world products,127,127,0.2618285995500562,0.5099128233970753,0.24808422384701911
+fixed_country_2018_2024,2023,top_1pct_world_product_export_share,Export share in top 1% world products,127,127,0.15471503562054742,0.46716816647918996,0.31245313085864257
+fixed_country_2018_2024,2024,top_1pct_world_product_export_share,Export share in top 1% world products,126,126,0.24889388826396705,0.5168083989501313,0.26791451068616423
+fixed_country_2018_2024,2018,top_20pct_world_product_export_share,Export share in top 20% world products,127,127,0.37860892388451445,0.40685929883764527,0.02825037495313082
+fixed_country_2018_2024,2019,top_20pct_world_product_export_share,Export share in top 20% world products,127,127,0.3646302024746906,0.32009280089988745,-0.044537401574803126
+fixed_country_2018_2024,2020,top_20pct_world_product_export_share,Export share in top 20% world products,127,127,0.4102631702287214,0.33207958380202474,-0.07818358642669665
+fixed_country_2018_2024,2021,top_20pct_world_product_export_share,Export share in top 20% world products,127,127,0.3867993063367079,0.3422208942632171,-0.04457841207349078
+fixed_country_2018_2024,2022,top_20pct_world_product_export_share,Export share in top 20% world products,127,127,0.36530394638170227,0.32043260217472813,-0.04487134420697414
+fixed_country_2018_2024,2023,top_20pct_world_product_export_share,Export share in top 20% world products,127,127,0.2783265373078365,0.21937687476565426,-0.05894966254218226
+fixed_country_2018_2024,2024,top_20pct_world_product_export_share,Export share in top 20% world products,126,126,0.3349051368578928,0.24963179602549684,-0.08527334083239596
+fixed_country_2018_2024,2018,top_5pct_world_product_export_share,Export share in top 5% world products,127,127,0.42792111923509557,0.5351225628046493,0.10720144356955374
+fixed_country_2018_2024,2019,top_5pct_world_product_export_share,Export share in top 5% world products,127,127,0.36178876077990246,0.45850909261342326,0.0967203318335208
+fixed_country_2018_2024,2020,top_5pct_world_product_export_share,Export share in top 5% world products,127,127,0.32830661792275967,0.46171962879640044,0.13341301087364077
+fixed_country_2018_2024,2021,top_5pct_world_product_export_share,Export share in top 5% world products,127,127,0.31242383764529436,0.4451689632545932,0.13274512560929885
+fixed_country_2018_2024,2022,top_5pct_world_product_export_share,Export share in top 5% world products,127,127,0.28530418072740904,0.41697131608548926,0.13166713535808022
+fixed_country_2018_2024,2023,top_5pct_world_product_export_share,Export share in top 5% world products,127,127,0.19511623547056617,0.38744375703037115,0.19232752155980498
+fixed_country_2018_2024,2024,top_5pct_world_product_export_share,Export share in top 5% world products,126,126,0.2522774653168355,0.396379452568429,0.1441019872515935
+fixed_country_2018_2024,2018,world_share_exposure,World-share percentile exposure,127,127,0.4288819366329209,0.4135791619797525,-0.015302774653168427
+fixed_country_2018_2024,2019,world_share_exposure,World-share percentile exposure,127,127,0.4116458098987626,0.3654445538057743,-0.04620125609298831
+fixed_country_2018_2024,2020,world_share_exposure,World-share percentile exposure,127,127,0.4222675290588676,0.390203177727784,-0.032064351331083596
+fixed_country_2018_2024,2021,world_share_exposure,World-share percentile exposure,127,127,0.3993836707911511,0.3875609298837645,-0.011822740907386609
+fixed_country_2018_2024,2022,world_share_exposure,World-share percentile exposure,127,127,0.35641638545181853,0.40554110423697026,0.04912471878515173
+fixed_country_2018_2024,2023,world_share_exposure,World-share percentile exposure,127,127,0.2823045556805399,0.3300290588676415,0.047724503187101586
+fixed_country_2018_2024,2024,world_share_exposure,World-share percentile exposure,126,126,0.3363029621297338,0.36226171728533935,0.02595875515560553

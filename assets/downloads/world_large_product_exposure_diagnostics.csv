@@ -1,0 +1,18 @@
+diagnostic,value,detail
+country_year_variant_rows,7506.0,
+countries,156.0,
+variants,2.0,"baseline,noncommodity_broad"
+year_min,2000.0,
+year_max,2024.0,
+invalid_metric_rows,7.0,
+max_missing_world_product_export_share,0.0,
+product_999999_policy,0.0,excluded upstream before product aggregation
+world_basket_policy,1.0,inclusive world_broad exports; no leave-one-out subtraction
+fixed_country_window_start,2018.0,
+fixed_country_window_end,2024.0,
+fixed_country_count,128.0,
+gdp_alignment_scatter_year,2024.0,
+gdp_alignment_scatter_countries,130.0,
+gdp_alignment_scatter_slope,0.06301899482224756,OLS slope in latest-year scatter
+gdp_alignment_scatter_r_squared,0.5292419220167813,OLS R-squared in latest-year scatter
+world_bank_control_row_coverage,0.9933386624034106,Share of final panel rows with complete GDP and population controls

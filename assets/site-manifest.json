@@ -1,6 +1,6 @@
 {
   "country_sample": "cadot_broad_156",
-  "created_at_utc": "2026-06-18T16:51:10+00:00",
+  "created_at_utc": "2026-06-19T11:15:03+00:00",
   "downloads": [
     "archived_extension_parity_report.md",
     "cadot_three_metric_manifest.json",
@@ -26,9 +26,26 @@
     "nonenergy_visualization_validation_checks.csv",
     "nonenergy_world_hs1992_product_universe.csv",
     "product_universe.csv",
+    "run_manifest_world_large_product_exposure.json",
     "sample_attrition_by_reporter_flow.csv",
     "three_metric_adversarial_review.md",
-    "validation_checks.csv"
+    "validation_checks.csv",
+    "world_large_product_exposure.md",
+    "world_large_product_exposure_adversarial_review.md",
+    "world_large_product_exposure_country_commodity_shares.csv",
+    "world_large_product_exposure_diagnostics.csv",
+    "world_large_product_exposure_fixed_country_2018_2024.csv",
+    "world_large_product_exposure_fixed_country_2018_2024_summary.csv",
+    "world_large_product_exposure_leave_one_country_out.csv",
+    "world_large_product_exposure_models.csv",
+    "world_large_product_exposure_panel.csv",
+    "world_large_product_exposure_product_mapping.csv",
+    "world_large_product_exposure_reporter_coverage.csv",
+    "world_large_product_exposure_spearman_summary.csv",
+    "world_large_product_exposure_top_change_contributors.csv",
+    "world_large_product_exposure_validation_checks.csv",
+    "world_large_product_exposure_variant_comparison.csv",
+    "world_large_product_exposure_yearly_spearman.csv"
   ],
   "figure_assets": [
     "assets/figures/ex10_actual_vs_benchmark.png",
@@ -51,6 +68,7 @@
   "pages": [
     "downloads/index.html",
     "exercises/index.html",
+    "exposure/index.html",
     "gini/exercises/exercise-01.html",
     "gini/exercises/exercise-02.html",
     "gini/exercises/exercise-03.html",
@@ -349,7 +367,7 @@
     {
       "columns": "",
       "group": "download",
-      "mtime_utc": "2026-06-18T16:50:58+00:00",
+      "mtime_utc": "2026-06-19T11:14:23+00:00",
       "name": "archived_extension_parity_report.md",
       "path": "results/samples/cadot_broad_156/three_metric_tables/archived_extension_parity_report.md",
       "row_count": null,
@@ -365,6 +383,176 @@
       "row_count": null,
       "sha256": "81c4be1b3eb538c65fad053f98543b03f6ba8ce92e7fac1c5ede92fe49482848",
       "size_bytes": 6955
+    },
+    {
+      "columns": "sample_window|variant|variant_label|outcome|outcome_label|size_variable|size_label|years|mean_spearman|median_spearman|min_spearman|max_spearman|share_positive",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_spearman_summary.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_spearman_summary.csv",
+      "row_count": 24,
+      "sha256": "aa9cc01064b867f1675c5553332107c6787609b31d9367460bf0f8585bf3ea2f",
+      "size_bytes": 6223
+    },
+    {
+      "columns": "sample_window|variant|variant_label|year|outcome|outcome_label|size_variable|size_label|spearman_size_outcome|n_countries",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_yearly_spearman.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_yearly_spearman.csv",
+      "row_count": 600,
+      "sha256": "44dfcc2a97a5d1231bdc5b9f1eb80c0367c6199ca7070e4cc041ea573ac4421f",
+      "size_bytes": 117581
+    },
+    {
+      "columns": "model_label|sample|flow|dimension|metric|outcome|term|coefficient|std_error|t_stat|p_value|ci_low|ci_high|nobs|clusters|r_squared|status|candidate_rows|dropped_rows|dropped_regressors|fixed_effects|se_method|cluster_col|p_value_reference|variant|variant_label|bh_q_value",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_models.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_models.csv",
+      "row_count": 48,
+      "sha256": "44e80ec19e28946b38a40a7e417d025f790be450aba45517e3555c4c65cd2ab5",
+      "size_bytes": 21188
+    },
+    {
+      "columns": "diagnostic|value|detail",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_diagnostics.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_diagnostics.csv",
+      "row_count": 17,
+      "sha256": "6ea1e3db91e9886282e84d47766d2383032fbb93af5e73ec5f4e0500e3ecbbf1",
+      "size_bytes": 833
+    },
+    {
+      "columns": "check|passed|value|expected|detail",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_validation_checks.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_validation_checks.csv",
+      "row_count": 15,
+      "sha256": "a7bde102ce5e20793ee680dd9070e358bfcb178cd99f2745b630b266d6dca597",
+      "size_bytes": 1462
+    },
+    {
+      "columns": "variant|variant_label|year|countries|countries_with_exposure|countries_with_alignment|median_total_exports|median_active_products",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_reporter_coverage.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_reporter_coverage.csv",
+      "row_count": 50,
+      "sha256": "415b2fa0bb08374700186916b2c944a29161e3486083760ffd09202ee4db552f",
+      "size_bytes": 4730
+    },
+    {
+      "columns": "sample_window|variant|variant_label|year|outcome|outcome_label|size_variable|size_label|spearman_size_outcome|n_countries",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_fixed_country_2018_2024.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_fixed_country_2018_2024.csv",
+      "row_count": 168,
+      "sha256": "ec0dc63f566f761e782cefc0e00b68772c7bceb469fbd33c399ae47917c07475",
+      "size_bytes": 34699
+    },
+    {
+      "columns": "sample_window|variant|variant_label|outcome|outcome_label|size_variable|size_label|years|mean_spearman|median_spearman|min_spearman|max_spearman|share_positive",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_fixed_country_2018_2024_summary.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_fixed_country_2018_2024_summary.csv",
+      "row_count": 24,
+      "sha256": "cb4cf04565a112fe157a7456523514f3591299f176d70696a816c72a9f3a1e6b",
+      "size_bytes": 6482
+    },
+    {
+      "columns": "variant|variant_label|outcome|outcome_label|excluded_reporter_code|excluded_country|excluded_iso3|years|mean_spearman|median_spearman|min_spearman|max_spearman|share_positive|min_year_countries|max_year_countries",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_leave_one_country_out.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_leave_one_country_out.csv",
+      "row_count": 624,
+      "sha256": "5c6d4bcaae66570ce2c204a53f67a5842cd4e6dc7b51ffbc451f0d804441d373",
+      "size_bytes": 136956
+    },
+    {
+      "columns": "sample_window|year|outcome|outcome_label|n_countries_baseline|n_countries_noncommodity_broad|spearman_size_outcome_baseline|spearman_size_outcome_noncommodity_broad|delta_noncommodity_minus_baseline",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_variant_comparison.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_variant_comparison.csv",
+      "row_count": 192,
+      "sha256": "cd2b3e0535b761e0354d95f321e4eea39a23ff906a896cf1b95c61742ca5b541",
+      "size_bytes": 30569
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|flow|baseline_total_exports|noncommodity_total_exports|broad_primary_exports_removed|broad_primary_share_removed|baseline_active_products|noncommodity_active_products|baseline_world_active_products|noncommodity_world_active_products|delta_world_share_exposure|delta_spearman_product_alignment",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_country_commodity_shares.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_country_commodity_shares.csv",
+      "row_count": 3753,
+      "sha256": "0aaa85e8bb0636549191907627c996757b6bc5c808cf8fca1500b3307ee30e7d",
+      "size_bytes": 591685
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|rank_abs_delta|product_id|cmd_code|product_label|primary_broad|retained_in_noncommodity|baseline_trade_value|noncommodity_trade_value|baseline_country_share|noncommodity_country_share|baseline_world_product_share|noncommodity_world_product_share|baseline_world_rank_percentile|noncommodity_world_rank_percentile|baseline_exposure_contribution|noncommodity_exposure_contribution|delta_exposure_contribution|abs_delta_exposure_contribution",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:33+00:00",
+      "name": "world_large_product_exposure_top_change_contributors.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_top_change_contributors.csv",
+      "row_count": 37492,
+      "sha256": "bcb73dc40f644bea954135e7a41160e3d9740f4ed942e44c76b04bc190a51d20",
+      "size_bytes": 9736942
+    },
+    {
+      "columns": "product_id|classification_code|cmd_code|product_label|primary_strict|primary_broad|primary_strict_rule|primary_broad_rule",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:33+00:00",
+      "name": "world_large_product_exposure_product_mapping.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_product_mapping.csv",
+      "row_count": 5037,
+      "sha256": "08f905f92ddddfda28fe10cfada0dde725fd45fd10c871fce03e7a6de12180d7",
+      "size_bytes": 661913
+    },
+    {
+      "columns": "country|iso3|reporter_code|year|flow|variant|variant_label|world_share_exposure|spearman_product_alignment|country_total_exports|world_total_exports|country_active_products|matched_world_products|missing_world_products|missing_world_product_export_share|product_alignment_n|world_active_products|metric_valid|invalid_reason|top_1pct_world_product_export_share|top_5pct_world_product_export_share|top_10pct_world_product_export_share|top_20pct_world_product_export_share|baseline_log_population_x|average_log_population_x|gdp_current_usd|population|log_population|log_gdp_current_usd|log_gdp_per_capita|baseline_log_population_y|average_log_population_y|controls_complete",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:32+00:00",
+      "name": "world_large_product_exposure_panel.csv",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure_panel.csv",
+      "row_count": 7506,
+      "sha256": "755ddd1cdbe987aacc83cf1757db9581977bc916ef5a44e0e8725f2a5cf80171",
+      "size_bytes": 3168147
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:33+00:00",
+      "name": "world_large_product_exposure.md",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/world_large_product_exposure.md",
+      "row_count": null,
+      "sha256": "a752e7cf187d89eae10ddfe4a187766b0c0fb3a223ee271d1c79ffd021b49d63",
+      "size_bytes": 57295
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:10:33+00:00",
+      "name": "run_manifest_world_large_product_exposure.json",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/run_manifest_world_large_product_exposure.json",
+      "row_count": null,
+      "sha256": "3ace8c1e76d967a93a55c48bcbd6357e2cf646af9a96197844cf7b24e85e5b3a",
+      "size_bytes": 7468
+    },
+    {
+      "columns": "",
+      "group": "download",
+      "mtime_utc": "2026-06-19T11:12:04+00:00",
+      "name": "world_large_product_exposure_adversarial_review.md",
+      "path": "results/samples/cadot_broad_156/world_large_product_exposure_tables/adversarial_review.md",
+      "row_count": null,
+      "sha256": "da3f896de6fdb3941b179524850fa461521f2f128933674c7861b59e1de48f4c",
+      "size_bytes": 11063
     }
   ]
 }

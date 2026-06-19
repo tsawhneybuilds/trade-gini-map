@@ -1,0 +1,16 @@
+check,passed,value,expected,detail
+expected_reporters,True,156,156,Unique reporters represented in the final panel.
+year_min,True,2000,2000,Minimum panel year.
+year_max,True,2024,2024,Maximum panel year.
+unique_reporter_year_variant_keys,True,0,0,Duplicate reporter-year-variant keys.
+no_country_product_999999,True,0,0,Country product input should already exclude HS6 999999 before aggregation.
+no_world_product_999999,True,0,0,World product input should already exclude HS6 999999 before aggregation.
+hs1992_labels_present,True,0,0,All harmonized products should have plain-English HS1992/H0 labels.
+exposure_in_unit_interval,True,0,0,"Exposure must stay in [0,1]."
+alignment_in_closed_interval,True,0,0,"Within-country alignment must stay in [-1,1]."
+zero_unmatched_country_share,True,0.0,0.0,Country product baskets must match the filtered world basket exactly.
+noncommodity_country_has_no_primary_broad,True,0,0,No broad-primary product should remain in the non-commodity country basket.
+noncommodity_world_has_no_primary_broad,True,0,0,No broad-primary product should remain in the non-commodity world basket.
+noncommodity_years_covered,True,2000-2024,2000-2024,Non-commodity yearly coverage window.
+fixed_country_window_nonempty,True,128,>0,Countries observed in every year from 2018 through 2024 for every requested variant.
+world_bank_control_row_coverage,True,0.9933386624034106,0.8,Share of final panel rows with complete GDP and population controls.

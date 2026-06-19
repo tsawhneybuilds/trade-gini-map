@@ -711,6 +711,66 @@
     ], Object.assign(layout('Growth decomposition components', 'Mean annualized growth', ''), { barmode: 'group' }), { ...CONFIG, displayModeBar: false });
   }
 
+  function renderCadotExposurePage() {
+    const exposureNode = byId('exposure-gdp-exposure');
+    const alignmentNode = byId('exposure-gdp-alignment');
+    if (!exposureNode || !alignmentNode) return;
+    const rows = DATA.cadotExposureYearly || [];
+
+    function tracesForOutcome(outcome) {
+      const palette = {
+        baseline: '#0f766e',
+        noncommodity_broad: '#b45309'
+      };
+      const sampleStyles = {
+        all_available: 'solid',
+        fixed_country_2018_2024: 'dot'
+      };
+      const sampleLabels = {
+        all_available: 'All available',
+        fixed_country_2018_2024: 'Fixed-country 2018-2024'
+      };
+      const traces = [];
+      ['baseline', 'noncommodity_broad'].forEach((variant) => {
+        ['all_available', 'fixed_country_2018_2024'].forEach((window) => {
+          const series = rows
+            .filter((row) => row.outcome === outcome && row.variant === variant && row.sample_window === window)
+            .sort((a, b) => Number(a.year) - Number(b.year));
+          if (!series.length) return;
+          traces.push({
+            type: 'scatter',
+            mode: 'lines+markers',
+            name: (variant === 'baseline' ? 'Baseline' : 'Non-commodity') + ' · ' + sampleLabels[window],
+            x: series.map((row) => row.year),
+            y: series.map((row) => row.spearman_size_outcome),
+            customdata: series.map((row) => [row.n_countries, sampleLabels[window]]),
+            line: { color: palette[variant], width: window === 'all_available' ? 2.6 : 2.0, dash: sampleStyles[window] },
+            marker: { size: window === 'all_available' ? 7 : 6 },
+            hovertemplate:
+              '<b>%{fullData.name}</b><br>Year: %{x}<br>Spearman: %{y:.3f}<br>N countries: %{customdata[0]}<br>Sample: %{customdata[1]}<extra></extra>'
+          });
+        });
+      });
+      return traces;
+    }
+
+    const exposureLayout = layout(
+      'GDP correlation with world-product exposure',
+      'Spearman(rank GDP, rank exposure)',
+      'Year'
+    );
+    exposureLayout.shapes = [{ type: 'line', x0: 2000, x1: 2024, y0: 0, y1: 0, line: { color: '#9ca3af', width: 1, dash: 'dot' } }];
+    Plotly.react(exposureNode, tracesForOutcome('world_share_exposure'), exposureLayout, CONFIG);
+
+    const alignmentLayout = layout(
+      'GDP correlation with within-country product alignment',
+      'Spearman(rank GDP, alignment)',
+      'Year'
+    );
+    alignmentLayout.shapes = [{ type: 'line', x0: 2000, x1: 2024, y0: 0, y1: 0, line: { color: '#9ca3af', width: 1, dash: 'dot' } }];
+    Plotly.react(alignmentNode, tracesForOutcome('spearman_product_alignment'), alignmentLayout, CONFIG);
+  }
+
   function renderTheilAppendix() {
     const node = byId('theil-appendix-chart');
     if (!node) return;
@@ -734,6 +794,7 @@
     renderExercise10();
     renderExercise11();
     renderExercise12();
+    renderCadotExposurePage();
     renderTheilAppendix();
     ['metric-overview-flow', 'metric-overview-growth-flow', 'metric-overview-growth-horizon', 'exercise2-flow', 'exercise2-horizon', 'exercise6-flow', 'exercise10-flow', 'exercise10-benchmark', 'exercise11-flow', 'exercise12-flow', 'exercise12-horizon']
       .forEach((id) => byId(id)?.addEventListener('change', () => {

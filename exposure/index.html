@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>World-Product Exposure | Trade Concentration</title>
+  <link rel="stylesheet" href="../assets/site.css?v=202606191114500000">
+</head>
+<body class="cadot-site" data-page="cadot-exposure" data-metric="">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html">Trade Concentration</a>
+      <nav aria-label="Primary navigation"><a href="../index.html">Hub</a><a class="active" href="../exposure/">Exposure</a><a href="../gini/">Gini</a><a href="../theil/">Theil</a><a href="../hhi/">HHI</a><a href="../exercises/">Exercises</a><a href="../downloads/">Downloads</a></nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="hero">
+      <div class="eyebrow">Cadot world-product exposure</div>
+      <h1>World-Product Exposure After Removing Broad Primary Commodities</h1>
+      <p>This export-only page compares the inclusive world-basket baseline with a non-commodity variant that removes broad primary products from both the country basket and the world benchmark before shares and ranks are rebuilt.</p>
+      <div class="stat-grid">
+        
+          <article class="stat-card">
+            <span>Exposure · Baseline</span>
+            <strong>0.415</strong>
+            <small>Mean yearly GDP Spearman, 2000-2024</small>
+          </article>
+                
+          <article class="stat-card">
+            <span>Exposure · Non-commodity</span>
+            <strong>0.380</strong>
+            <small>Mean yearly GDP Spearman, 2000-2024</small>
+          </article>
+                
+          <article class="stat-card">
+            <span>Alignment · Baseline</span>
+            <strong>0.736</strong>
+            <small>Mean yearly GDP Spearman, 2000-2024</small>
+          </article>
+                
+          <article class="stat-card">
+            <span>Alignment · Non-commodity</span>
+            <strong>0.726</strong>
+            <small>Mean yearly GDP Spearman, 2000-2024</small>
+          </article>
+                
+      </div>
+      <div class="inline-link-row">
+        <a href="../downloads/">Open downloads</a>
+        <a href="../gini/">Back to Gini site</a>
+        <a href="../theil/">Back to Theil site</a>
+        <a href="../hhi/">Back to HHI site</a>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Construction</h2><p>The non-commodity result is not a mechanical subtraction; the country shares are renormalized and the world product-share ranks are rebuilt after the broad-primary filter is applied.</p></div>
+      <div class="overview-band">
+        <article class="note-card">
+          <h3>Exposure</h3>
+          <p><code>E^NC_{ct} = sum_{p in NC} s^NC_{cpt} R^NC_{pt}</code></p>
+          <p class="small">Higher values mean the country's export basket leans more toward products that are globally large inside the filtered non-commodity universe.</p>
+        </article>
+        <article class="note-card">
+          <h3>Alignment</h3>
+          <p><code>A^NC_{ct} = rho_p(s^NC_{cpt}, w^NC_{pt})</code></p>
+          <p class="small">This is a within-country Spearman correlation across the country's active non-commodity export products, not a cross-country GDP regression coefficient.</p>
+        </article>
+      </div>
+      <p class="callout">Broad-primary exclusions follow the shared Cadot classifier: raw agriculture, ores and minerals, fuels and refining, forestry, precious metals, and first-stage food/basic-metal processing. HS6 <strong>999999</strong> is excluded before harmonized product aggregation.</p>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Question-Led Panels</h2><p>Solid lines use the full available Cadot sample. Dotted lines hold the country set fixed over 2018-2024.</p></div>
+      <div class="chart-grid">
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>GDP and world-product exposure</h3>
+            <p>Does the GDP-exposure relationship survive the broad-primary exclusion?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Does GDP remain positively correlated with exposure to globally large export products after broad primary commodities are removed?</dd>
+          <dt>Supports the reading if</dt><dd>The non-commodity line stays positive or moves closer to zero only in isolated years, rather than flipping sign persistently.</dd>
+          <dt>Weakens the reading if</dt><dd>Removing broad primary products makes the GDP-exposure relationship mostly vanish or turn negative through long stretches of the panel.</dd>
+          <dt>Current result</dt><dd>Across 2000-2024, the baseline mean yearly GDP correlation is 0.415 and the non-commodity mean is 0.380. In 2024, the two values are 0.342 and 0.346.</dd>
+        </dl>
+      </article>
+    
+        <div id="exposure-gdp-exposure" class="chart js-plotly-plot"></div>
+      </article>
+    
+        
+      <article class="chart-panel">
+        <div class="tool-header">
+          <div>
+            <h3>GDP and within-country alignment</h3>
+            <p>Does the GDP-alignment relationship survive the broad-primary exclusion?</p>
+          </div>
+          <div class="controls"></div>
+        </div>
+        
+      <article class="evidence-note cadot-evidence-note">
+        <dl>
+          <dt>Question this answers</dt><dd>Does GDP remain positively correlated with within-country product alignment once broad primary commodities are removed?</dd>
+          <dt>Supports the reading if</dt><dd>The non-commodity alignment series remains positive and close to the baseline path across years.</dd>
+          <dt>Weakens the reading if</dt><dd>The non-commodity alignment series collapses, changes sign, or diverges sharply from baseline for many years.</dd>
+          <dt>Current result</dt><dd>Across 2000-2024, the baseline mean yearly GDP correlation is 0.736 and the non-commodity mean is 0.726. In 2024, the two values are 0.741 and 0.757.</dd>
+        </dl>
+      </article>
+    
+        <div id="exposure-gdp-alignment" class="chart js-plotly-plot"></div>
+      </article>
+    
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Fixed-Country Robustness</h2><p>These rows use only countries present in every year from 2018 through 2024 for both variants.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Variant</th><th>Outcome</th><th>Years</th><th>Mean Spearman</th><th>Median Spearman</th><th>Share positive</th></tr></thead><tbody><tr><td>baseline</td><td>spearman_product_alignment</td><td>7</td><td>0.725</td><td>0.727</td><td>100.0%</td></tr><tr><td>baseline</td><td>world_share_exposure</td><td>7</td><td>0.377</td><td>0.399</td><td>100.0%</td></tr><tr><td>noncommodity_broad</td><td>spearman_product_alignment</td><td>7</td><td>0.732</td><td>0.726</td><td>100.0%</td></tr><tr><td>noncommodity_broad</td><td>world_share_exposure</td><td>7</td><td>0.379</td><td>0.388</td><td>100.0%</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Yearly Country Counts</h2><p>Counts reflect the number of country-years contributing to each yearly GDP correlation.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Variant</th><th>Year</th><th>Countries</th><th>Exposure N</th><th>Alignment N</th><th>Median active products</th></tr></thead><tbody><tr><td>baseline</td><td>2000</td><td>142</td><td>142</td><td>142</td><td>2,140</td></tr><tr><td>baseline</td><td>2001</td><td>146</td><td>146</td><td>146</td><td>2,024</td></tr><tr><td>baseline</td><td>2002</td><td>146</td><td>146</td><td>146</td><td>2,135</td></tr><tr><td>baseline</td><td>2003</td><td>149</td><td>149</td><td>149</td><td>2,241</td></tr><tr><td>baseline</td><td>2004</td><td>148</td><td>148</td><td>148</td><td>2,366</td></tr><tr><td>baseline</td><td>2005</td><td>150</td><td>150</td><td>150</td><td>2,436</td></tr><tr><td>baseline</td><td>2006</td><td>150</td><td>150</td><td>150</td><td>2,538</td></tr><tr><td>baseline</td><td>2007</td><td>153</td><td>153</td><td>153</td><td>2,448</td></tr><tr><td>baseline</td><td>2008</td><td>149</td><td>149</td><td>149</td><td>2,680</td></tr><tr><td>baseline</td><td>2009</td><td>150</td><td>150</td><td>150</td><td>2,643</td></tr><tr><td>baseline</td><td>2010</td><td>153</td><td>153</td><td>153</td><td>2,536</td></tr><tr><td>baseline</td><td>2011</td><td>150</td><td>150</td><td>150</td><td>2,631</td></tr><tr><td>baseline</td><td>2012</td><td>152</td><td>152</td><td>152</td><td>2,711</td></tr><tr><td>baseline</td><td>2013</td><td>154</td><td>154</td><td>154</td><td>2,767</td></tr><tr><td>baseline</td><td>2014</td><td>153</td><td>153</td><td>153</td><td>2,769</td></tr><tr><td>baseline</td><td>2015</td><td>153</td><td>153</td><td>153</td><td>2,761</td></tr><tr><td>baseline</td><td>2016</td><td>155</td><td>155</td><td>155</td><td>2,783</td></tr><tr><td>baseline</td><td>2017</td><td>156</td><td>156</td><td>156</td><td>2,814</td></tr><tr><td>baseline</td><td>2018</td><td>154</td><td>154</td><td>154</td><td>2,844</td></tr><tr><td>baseline</td><td>2019</td><td>154</td><td>154</td><td>154</td><td>2,858</td></tr><tr><td>baseline</td><td>2020</td><td>152</td><td>152</td><td>152</td><td>2,781</td></tr><tr><td>baseline</td><td>2021</td><td>153</td><td>153</td><td>153</td><td>2,798</td></tr><tr><td>baseline</td><td>2022</td><td>150</td><td>150</td><td>150</td><td>2,999</td></tr><tr><td>baseline</td><td>2023</td><td>149</td><td>149</td><td>149</td><td>3,067</td></tr><tr><td>baseline</td><td>2024</td><td>132</td><td>132</td><td>132</td><td>3,322</td></tr><tr><td>noncommodity_broad</td><td>2000</td><td>142</td><td>142</td><td>142</td><td>1,847</td></tr><tr><td>noncommodity_broad</td><td>2001</td><td>146</td><td>146</td><td>145</td><td>1,701</td></tr><tr><td>noncommodity_broad</td><td>2002</td><td>146</td><td>146</td><td>145</td><td>1,791</td></tr><tr><td>noncommodity_broad</td><td>2003</td><td>149</td><td>149</td><td>148</td><td>1,796</td></tr><tr><td>noncommodity_broad</td><td>2004</td><td>148</td><td>148</td><td>148</td><td>2,004</td></tr><tr><td>noncommodity_broad</td><td>2005</td><td>150</td><td>150</td><td>150</td><td>2,071</td></tr><tr><td>noncommodity_broad</td><td>2006</td><td>150</td><td>150</td><td>150</td><td>2,234</td></tr><tr><td>noncommodity_broad</td><td>2007</td><td>153</td><td>152</td><td>151</td><td>2,066</td></tr><tr><td>noncommodity_broad</td><td>2008</td><td>149</td><td>149</td><td>149</td><td>2,277</td></tr><tr><td>noncommodity_broad</td><td>2009</td><td>150</td><td>149</td><td>149</td><td>2,198</td></tr><tr><td>noncommodity_broad</td><td>2010</td><td>153</td><td>152</td><td>152</td><td>2,154</td></tr><tr><td>noncommodity_broad</td><td>2011</td><td>150</td><td>149</td><td>149</td><td>2,209</td></tr><tr><td>noncommodity_broad</td><td>2012</td><td>152</td><td>151</td><td>151</td><td>2,245</td></tr><tr><td>noncommodity_broad</td><td>2013</td><td>154</td><td>153</td><td>153</td><td>2,326</td></tr><tr><td>noncommodity_broad</td><td>2014</td><td>153</td><td>152</td><td>152</td><td>2,304</td></tr><tr><td>noncommodity_broad</td><td>2015</td><td>153</td><td>153</td><td>153</td><td>2,296</td></tr><tr><td>noncommodity_broad</td><td>2016</td><td>155</td><td>155</td><td>155</td><td>2,296</td></tr><tr><td>noncommodity_broad</td><td>2017</td><td>156</td><td>156</td><td>156</td><td>2,330</td></tr><tr><td>noncommodity_broad</td><td>2018</td><td>154</td><td>154</td><td>154</td><td>2,299</td></tr><tr><td>noncommodity_broad</td><td>2019</td><td>154</td><td>154</td><td>154</td><td>2,412</td></tr><tr><td>noncommodity_broad</td><td>2020</td><td>152</td><td>152</td><td>152</td><td>2,364</td></tr><tr><td>noncommodity_broad</td><td>2021</td><td>153</td><td>153</td><td>153</td><td>2,375</td></tr><tr><td>noncommodity_broad</td><td>2022</td><td>150</td><td>150</td><td>150</td><td>2,569</td></tr><tr><td>noncommodity_broad</td><td>2023</td><td>149</td><td>149</td><td>149</td><td>2,612</td></tr><tr><td>noncommodity_broad</td><td>2024</td><td>132</td><td>132</td><td>132</td><td>2,833</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Main GDP Year-FE Models</h2><p>These are the pooled descriptive panel regressions with year fixed effects and country-clustered standard errors.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Variant</th><th>Outcome</th><th>GDP coefficient</th><th>Std. error</th><th>p-value</th><th>BH q-value</th><th>Obs.</th><th>Clusters</th><th>Status</th></tr></thead><tbody><tr class="sig-row"><td>baseline</td><td>world_share_exposure</td><td><strong class="sig-coef">0.017</strong></td><td>0.003</td><td><strong class="sig-pvalue">0.000</strong></td><td><strong class="sig-qvalue">0.000</strong></td><td>3,728</td><td>155</td><td>ok</td></tr><tr class="sig-row"><td>baseline</td><td>spearman_product_alignment</td><td><strong class="sig-coef">0.064</strong></td><td>0.004</td><td><strong class="sig-pvalue">0.000</strong></td><td><strong class="sig-qvalue">0.000</strong></td><td>3,728</td><td>155</td><td>ok</td></tr><tr class="sig-row"><td>noncommodity_broad</td><td>world_share_exposure</td><td><strong class="sig-coef">0.011</strong></td><td>0.002</td><td><strong class="sig-pvalue">0.000</strong></td><td><strong class="sig-qvalue">0.000</strong></td><td>3,721</td><td>155</td><td>ok</td></tr><tr class="sig-row"><td>noncommodity_broad</td><td>spearman_product_alignment</td><td><strong class="sig-coef">0.064</strong></td><td>0.004</td><td><strong class="sig-pvalue">0.000</strong></td><td><strong class="sig-qvalue">0.000</strong></td><td>3,717</td><td>155</td><td>ok</td></tr></tbody></table></div>
+      <p class="small">The downloadable models CSV also includes the conditional GDP-per-capita and population robustness specifications.</p>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Largest Removed Shares In 2024</h2><p>Reporter-years with the highest broad-primary export share removed in the latest year.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Country</th><th>Year</th><th>Removed share</th><th>Delta exposure</th><th>Delta alignment</th></tr></thead><tbody><tr><td>Mauritania</td><td>2024</td><td>99.0%</td><td>-0.146</td><td>-0.007</td></tr><tr><td>Burkina Faso</td><td>2024</td><td>97.0%</td><td>-0.130</td><td>0.041</td></tr><tr><td>Qatar</td><td>2024</td><td>96.6%</td><td>-0.210</td><td>0.032</td></tr><tr><td>Nigeria</td><td>2024</td><td>96.3%</td><td>-0.106</td><td>0.080</td></tr><tr><td>Zimbabwe</td><td>2024</td><td>96.0%</td><td>-0.078</td><td>0.047</td></tr><tr><td>Algeria</td><td>2024</td><td>94.7%</td><td>-0.134</td><td>-0.008</td></tr><tr><td>Azerbaijan</td><td>2024</td><td>94.3%</td><td>-0.088</td><td>0.036</td></tr><tr><td>French Polynesia</td><td>2024</td><td>94.0%</td><td>0.527</td><td>0.194</td></tr><tr><td>Mozambique</td><td>2024</td><td>93.9%</td><td>-0.142</td><td>0.077</td></tr><tr><td>Niger</td><td>2024</td><td>93.0%</td><td>-0.122</td><td>-0.019</td></tr><tr><td>Montserrat</td><td>2024</td><td>91.9%</td><td>0.106</td><td>0.083</td></tr><tr><td>Bolivia (Plurinational State of)</td><td>2024</td><td>91.7%</td><td>-0.027</td><td>0.058</td></tr><tr><td>Malawi</td><td>2024</td><td>91.6%</td><td>-0.106</td><td>0.035</td></tr><tr><td>Kuwait</td><td>2024</td><td>91.6%</td><td>-0.111</td><td>0.009</td></tr><tr><td>Angola</td><td>2024</td><td>91.5%</td><td>-0.063</td><td>0.032</td></tr><tr><td>Gambia</td><td>2024</td><td>90.9%</td><td>0.037</td><td>0.039</td></tr><tr><td>Peru</td><td>2024</td><td>89.3%</td><td>-0.133</td><td>0.036</td></tr><tr><td>Côte d'Ivoire</td><td>2024</td><td>89.1%</td><td>-0.054</td><td>0.039</td></tr><tr><td>Ecuador</td><td>2024</td><td>88.1%</td><td>-0.080</td><td>0.045</td></tr><tr><td>Guyana</td><td>2024</td><td>87.7%</td><td>-0.049</td><td>0.026</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Validation</h2><p>The page reads only the validated Cadot exposure artifacts.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Check</th><th>Passed</th><th>Value</th><th>Expected</th><th>Detail</th></tr></thead><tbody><tr><td>expected_reporters</td><td>True</td><td>156</td><td>156</td><td>Unique reporters represented in the final panel.</td></tr><tr><td>year_min</td><td>True</td><td>2000</td><td>2000</td><td>Minimum panel year.</td></tr><tr><td>year_max</td><td>True</td><td>2024</td><td>2024</td><td>Maximum panel year.</td></tr><tr><td>unique_reporter_year_variant_keys</td><td>True</td><td>0</td><td>0</td><td>Duplicate reporter-year-variant keys.</td></tr><tr><td>no_country_product_999999</td><td>True</td><td>0</td><td>0</td><td>Country product input should already exclude HS6 999999 before aggregation.</td></tr><tr><td>no_world_product_999999</td><td>True</td><td>0</td><td>0</td><td>World product input should already exclude HS6 999999 before aggregation.</td></tr><tr><td>hs1992_labels_present</td><td>True</td><td>0</td><td>0</td><td>All harmonized products should have plain-English HS1992/H0 labels.</td></tr><tr><td>exposure_in_unit_interval</td><td>True</td><td>0</td><td>0</td><td>Exposure must stay in [0,1].</td></tr><tr><td>alignment_in_closed_interval</td><td>True</td><td>0</td><td>0</td><td>Within-country alignment must stay in [-1,1].</td></tr><tr><td>zero_unmatched_country_share</td><td>True</td><td>0.0</td><td>0.0</td><td>Country product baskets must match the filtered world basket exactly.</td></tr><tr><td>noncommodity_country_has_no_primary_broad</td><td>True</td><td>0</td><td>0</td><td>No broad-primary product should remain in the non-commodity country basket.</td></tr><tr><td>noncommodity_world_has_no_primary_broad</td><td>True</td><td>0</td><td>0</td><td>No broad-primary product should remain in the non-commodity world basket.</td></tr><tr><td>noncommodity_years_covered</td><td>True</td><td>2000-2024</td><td>2000-2024</td><td>Non-commodity yearly coverage window.</td></tr><tr><td>fixed_country_window_nonempty</td><td>True</td><td>128</td><td>>0</td><td>Countries observed in every year from 2018 through 2024 for every requested variant.</td></tr><tr><td>world_bank_control_row_coverage</td><td>True</td><td>0.9933386624034106</td><td>0.8</td><td>Share of final panel rows with complete GDP and population controls.</td></tr></tbody></table></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><h2>Downloads</h2><p>All published files for the Cadot non-commodity exposure run.</p></div>
+      <div class="download-grid"><a href="../assets/downloads/world_large_product_exposure_spearman_summary.csv">world_large_product_exposure_spearman_summary.csv</a><a href="../assets/downloads/world_large_product_exposure_yearly_spearman.csv">world_large_product_exposure_yearly_spearman.csv</a><a href="../assets/downloads/world_large_product_exposure_models.csv">world_large_product_exposure_models.csv</a><a href="../assets/downloads/world_large_product_exposure_diagnostics.csv">world_large_product_exposure_diagnostics.csv</a><a href="../assets/downloads/world_large_product_exposure_validation_checks.csv">world_large_product_exposure_validation_checks.csv</a><a href="../assets/downloads/world_large_product_exposure_reporter_coverage.csv">world_large_product_exposure_reporter_coverage.csv</a><a href="../assets/downloads/world_large_product_exposure_fixed_country_2018_2024.csv">world_large_product_exposure_fixed_country_2018_2024.csv</a><a href="../assets/downloads/world_large_product_exposure_fixed_country_2018_2024_summary.csv">world_large_product_exposure_fixed_country_2018_2024_summary.csv</a><a href="../assets/downloads/world_large_product_exposure_leave_one_country_out.csv">world_large_product_exposure_leave_one_country_out.csv</a><a href="../assets/downloads/world_large_product_exposure_variant_comparison.csv">world_large_product_exposure_variant_comparison.csv</a><a href="../assets/downloads/world_large_product_exposure_country_commodity_shares.csv">world_large_product_exposure_country_commodity_shares.csv</a><a href="../assets/downloads/world_large_product_exposure_top_change_contributors.csv">world_large_product_exposure_top_change_contributors.csv</a><a href="../assets/downloads/world_large_product_exposure_product_mapping.csv">world_large_product_exposure_product_mapping.csv</a><a href="../assets/downloads/world_large_product_exposure_panel.csv">world_large_product_exposure_panel.csv</a><a href="../assets/downloads/world_large_product_exposure.md">world_large_product_exposure.md</a><a href="../assets/downloads/world_large_product_exposure_adversarial_review.md">world_large_product_exposure_adversarial_review.md</a><a href="../assets/downloads/run_manifest_world_large_product_exposure.json">run_manifest_world_large_product_exposure.json</a></div>
+    </section>
+    
+  </main>
+  
+  <footer class="site-footer cadot-footer">
+    <div class="cadot-footer-copy">
+      <strong>Three linked metric sites</strong>
+      <p>Cadot-style 156 reporters, 2000-2024, LT/HGL-weighted HS1992/H0 product families. Product-dependent outputs exclude HS6 999999 before conversion; partner-only outputs exclude partner code 0.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../gini/">Gini</a>
+      <a href="../theil/">Theil</a>
+      <a href="../hhi/">HHI</a>
+      <a href="../exposure/">Exposure</a>
+      <a href="../exercises/">Exercise index</a>
+      <a href="../downloads/">Downloads</a>
+    </div>
+  </footer>
+    
+  <script src="../assets/vendor/plotly.min.js"></script>
+  <script src="../assets/site-data.js?v=202606191114500000"></script>
+  <script src="../assets/site.js?v=202606191114500000"></script>
+</body>
+</html>
